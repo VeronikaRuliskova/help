@@ -1,0 +1,20 @@
+{
+  "language-config": "languages.js",
+  "translate" : [
+    {
+      "source" : "../docs/*.md",
+      "translation" : "translated_docs/%locale%/%original_file_name%",
+      "conflict": "skip"
+    },
+    {
+      "source" : "i18n/en.json",
+      "translation" : "i18n/%locale%.json",
+      "conflict": "merge"
+    },
+    {
+      "source" : "pages/en/*.js",
+      "translation" : "pages/%locale%/%original_file_name%",
+      "conflict": "skip"
+    }
+  ]
+}

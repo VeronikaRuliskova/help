@@ -1,0 +1,15 @@
+{
+  "how-to": {
+    "How to use BulkGate": [
+      "dashboard",
+      "address-book",
+      "sms",
+      "web-page"
+    ]
+  },
+  "account": {
+    "Account management": [
+      "create-account"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "examples": "docusaurus-examples",
+    "start": "docusaurus-start",
+    "build": "docusaurus-build",
+    "publish-gh-pages": "docusaurus-publish",
+    "write-translations": "docusaurus-write-translations",
+    "version": "docusaurus-version",
+    "rename-version": "docusaurus-rename-version",
+    "generate-translates": "node generate-translates.js"
+  },
+  "devDependencies": {
+    "docusaurus": "^1.0.5"
+  },
+  "dependencies": {
+    "glob": "^7.1.2",
+    "immutable": "^3.8.2"
+  }
+}
