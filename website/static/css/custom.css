@@ -1,0 +1,153 @@
+/* your custom css */
+
+body {
+    background: none;
+}
+
+h1, h2, h3, h4, .container .wrapper h1, .container .wrapper h2, .container .wrapper h3, .container .wrapper h4 {
+    color: #1d2129;
+}
+
+/*.fixedHeaderContainer header > a {
+    flex-direction: column;
+    align-items: flex-start;
+}*/
+
+header h2 {
+    font-size: 14px;
+}
+
+.homeContainer {
+    background: #e4f0f6;
+}
+
+.mainContainer {
+    background: none;
+}
+
+.fixedHeaderContainer {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.fixedHeaderContainer header img.logo {
+    width: 100px;
+    height: auto;
+}
+
+.button:hover {
+    background: $button;
+    border-color: $button;
+}
+
+code {
+    background: $highlight40;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+blockquote {
+    background: $highlight40;
+    border-left-color: $highlight;
+}
+
+nav.toc {
+    width: auto;
+}
+
+nav.toc .toggleNav, nav.toc .toggleNav .navGroup, nav.toc .toggleNav .navGroup.navGroupActive {
+    background: none;
+}
+
+nav.toc .toggleNav .navGroup.navGroupActive h3 {
+    background: none;
+    font-size: inherit;
+    color:inherit;
+    padding: 0;
+    font-weight: bold;
+}
+
+nav.toc .toggleNav .navGroup.navGroupActive ul {
+    padding-right: 0;
+}
+
+nav.toc .toggleNav ul li a {
+    padding: 5px 5px 5px 0;
+    margin: 0;
+    display: block;
+}
+
+nav.toc .toggleNav ul li a:hover {
+    background: rgba(29, 33, 41, .04);
+}
+
+nav.toc .toggleNav ul li a.navItemActive {
+    font-weight: bold;
+    border-left: 2px solid;
+    padding-left: 5px;
+    color: #be2166;
+}
+
+input#search_input_react {
+    border-radius: 2px;
+    height: 40px;
+    background: #ffffff1f;
+}
+
+.mainContainer .wrapper a:not(.button):not([aria-hidden]) {
+    background: $secondaryColor50;
+    border-bottom: 1px solid $secondaryColor80;
+}
+
+.mainContainer .wrapper a:not(.button):not([aria-hidden]):hover {
+    background: $secondaryColor90;
+    text-decoration: none;
+    border-bottom-color: #000;
+}
+
+#footer {
+    background: none;
+    box-shadow: none;
+}
+
+#footer .sitemap a, #footer section {
+    color: #787878;
+}
+#footer .sitemap a:hover {
+    text-decoration: underline;
+}
+#footer .sitemap .logo {
+    flex:0;
+}
+
+@media only screen and (min-width: 736px) {
+    .navigationSlider {
+        height: auto;
+    }
+    .docsNavContainer {
+        margin-top: 32px;
+        overflow: initial;
+    }
+    .docsNavContainer:after {
+        background-image: linear-gradient(to right, white, rgba(0, 0, 0, .05));
+        bottom: 0;
+        content: "";
+        right: 0;
+        position: absolute;
+        top: -24px;
+        width: 4px;
+    }
+}
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1500px) {
+}
