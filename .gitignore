@@ -3,10 +3,11 @@ node_modules
 .idea
 lib/core/metadata.js
 lib/core/MetadataBlog.js
-website/translated_docs
 website/build/
 website/yarn.lock
 website/node_modules
 
+website/pages/**
+!website/pages/en/**
 website/i18n/*
 !website/i18n/en.json
