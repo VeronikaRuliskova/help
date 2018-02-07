@@ -5,39 +5,35 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-/* List of projects/orgs using your project for the users page */
-const users = [
-    {
-        caption: 'User1',
-        image: '/test-site/img/docusaurus.svg',
-        infoLink: 'https://www.facebook.com',
-        pinned: true,
-    },
-];
-
 const siteConfig = {
     title: 'Help center' /* title for your website */,
     tagline: 'A website for testing',
     url: 'http://help.bulkgate.com' /* your website url */,
     baseUrl: '/' /* base url for your project */,
     projectName: 'test-site',
+    algolia : {
+      algoliaOptions : {
+
+      }
+    },
     headerLinks: [
         {page : "index", label:"Home"},
         {doc: 'dashboard', label: 'How to use BulkGate'},
         {doc: 'create-account', label: 'Account management'},
         {page: 'help', label: 'Privacy and security'},
+        {search:true},
         {languages: true}
-        //{blog: true, label: 'Blog'},
     ],
-    users,
     /* path to images for header/footer */
-    headerIcon: 'img/docusaurus.svg',
-    footerIcon: 'img/docusaurus.svg',
-    favicon: 'img/favicon.png',
+    headerIcon: 'img/logo.svg',
+    footerIcon: 'img/logo-foot.svg',
+    favicon: 'img/favicon.ico',
     /* colors for website */
     colors: {
-        primaryColor: '#00a79d',
-        secondaryColor: '#be2166',
+        primaryColor: "#202020",//'#00a79d',
+        secondaryColor: "#be2166",
+        button : "#be2166",
+        highlight : "#ffe564"
     },
     // This copyright info is used in /core/Footer.js and blog rss/atom feeds.
     copyright:

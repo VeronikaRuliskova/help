@@ -8,14 +8,26 @@
     "create-account": "How I can create BulkGate account",
     "Create account": "Create account",
     "dashboard": "Dashboard",
-    "sms": "Sms",
+    "integrations": "Integrations",
+    "payment-buy-credit": "Buy credit",
+    "payment-data": "Payment data",
+    "payment-invoices": "Invoices",
+    "payment-transaction": "Transactions",
+    "sms-create-campaign": "Create campaign",
     "web-page": "Web page (Business page)",
     "Home": "Home",
     "How to use BulkGate": "How to use BulkGate",
     "Account management": "Account management",
-    "Privacy and security": "Privacy and security"
+    "Privacy and security": "Privacy and security",
+    "Sms": "Sms",
+    "Web page": "Web page",
+    "Payments": "Payments",
+    "Integrations": "Integrations"
   },
   "pages-strings": {
+    "Try It Out|no description given": "Try It Out",
+    "Example Link|no description given": "Example Link",
+    "Example Link 2|no description given": "Example Link 2",
     "Help Translate|recruit community translators for your project": "Help Translate",
     "Edit this Doc|recruitment message asking to edit the doc source": "Edit",
     "Translate this Doc|recruitment message asking to translate the docs": "Translate"

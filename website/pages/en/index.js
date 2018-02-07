@@ -7,6 +7,7 @@
 
 const React = require('react');
 
+const translate = require("../../server/translate.js").translate;
 const CompLibrary = require('../../core/CompLibrary.js');
 const MarkdownBlock = CompLibrary.MarkdownBlock; /* Used to read markdown */
 const Container = CompLibrary.Container;
@@ -50,16 +51,10 @@ const SplashContainer = props => (
   </div>
 );
 
-const Logo = props => (
-  <div className="projectLogo">
-    <img src={props.img_src} />
-  </div>
-);
-
 const ProjectTitle = props => (
   <h2 className="projectTitle">
-    {siteConfig.title}
-    <small>{siteConfig.tagline}</small>
+      {siteConfig.title}
+      <small>{siteConfig.tagline}</small>
   </h2>
 );
 
@@ -76,13 +71,12 @@ class HomeSplash extends React.Component {
     let language = this.props.language || '';
     return (
       <SplashContainer>
-        <Logo img_src={imgUrl('docusaurus.svg')} />
         <div className="inner">
           <ProjectTitle />
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html', language)}>Example Link</Button>
-            <Button href={docUrl('doc2.html', language)}>Example Link 2</Button>
+              <Button href="#try"><translate>Try It Out</translate></Button>
+              <Button href={docUrl('doc1.html', language)}><translate>Example Link</translate></Button>
+              <Button href={docUrl('doc2.html', language)}><translate>Example Link 2</translate></Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -97,25 +91,6 @@ const Block = props => (
     background={props.background}>
     <GridBlock align="center" contents={props.children} layout={props.layout} />
   </Container>
-);
-
-const Features = props => (
-  <Block layout="fourColumn">
-    {[
-      {
-        content: 'This is the content of my feature',
-        image: imgUrl('docusaurus.svg'),
-        imageAlign: 'top',
-        title: 'Feature One',
-      },
-      {
-        content: 'The content of my second feature',
-        image: imgUrl('docusaurus.svg'),
-        imageAlign: 'top',
-        title: 'Feature Two',
-      },
-    ]}
-  </Block>
 );
 
 class Index extends React.Component {

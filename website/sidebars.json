@@ -2,9 +2,22 @@
   "how-to": {
     "How to use BulkGate": [
       "dashboard",
-      "address-book",
-      "sms",
-      "web-page"
+      "address-book"
+    ],
+    "Sms" : [
+      "sms-create-campaign"
+    ],
+    "Web page" : [
+
+    ],
+    "Payments" : [
+      "payment-buy-credit",
+      "payment-invoices",
+      "payment-transaction",
+      "payment-data"
+    ],
+    "Integrations" : [
+
     ]
   },
   "account": {
