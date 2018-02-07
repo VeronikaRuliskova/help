@@ -1,5 +1,4 @@
 ---
-id: create-account
 title: How I can create BulkGate account
 sidebar_label: Create account
 ---

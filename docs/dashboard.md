@@ -1,5 +1,4 @@
 ---
-id: dashboard
 title: Dashboard
 ---
 
