@@ -1,6 +1,5 @@
 ---
 title: Dashboard
-sidebar_label: Dashboard x
 ---
 
 ## h2
