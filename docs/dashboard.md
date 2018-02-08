@@ -1,12 +1,10 @@
 ---
 title: Dashboard
+sidebar_label: Dashboard x
 ---
 
 ## h2
 ### h3
-#### h4
-
-This is example paragraph.
 
 This is another paragraph with link to [bulkgate](https://www.bulkgate.com) web.
 
