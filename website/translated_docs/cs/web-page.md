@@ -1,5 +1,4 @@
 ---
-id: web-page
 title: Web page (Business page)
 ---
 

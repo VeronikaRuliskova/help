@@ -1,28 +1,57 @@
 {
   "how-to": {
-    "How to use BulkGate": [
-      "dashboard",
-      "address-book"
+    "Creating account": [
+      "dashboard"
     ],
-    "Sms" : [
+    "Your dashboard" : [
       "sms-create-campaign"
+    ],
+    "Working with contacts" : [
+
+    ],
+    "Messaging" : [
+
     ],
     "Web page" : [
 
     ],
-    "Payments" : [
+    "Records" : [
+
+    ],
+    "Billing and payments" : [
       "payment-buy-credit",
       "payment-invoices",
       "payment-transaction",
       "payment-data"
     ],
-    "Integrations" : [
+    "Wallets" : [
+
+    ],
+    "Extensions and APIs" : [
+
+    ],
+    "Price list": [
+
+    ],
+    "Technical support" : [
+
+    ],
+    "BulkGate app" : [
 
     ]
   },
   "account": {
-    "Account management": [
-      "create-account"
+    "Login and passwords": [
+
+    ],
+    "Profile and settings": [
+
+    ],
+    "Notifications": [
+
+    ],
+    "Deactivating or deleting your account": [
+
     ]
   }
 }
