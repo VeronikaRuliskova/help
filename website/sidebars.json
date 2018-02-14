@@ -1,7 +1,8 @@
 {
   "how-to": {
-    "Creating account": [
-      "dashboard"
+    "Creating an account": [
+      "create-account",
+      "confirm-your-account"
     ],
     "Your dashboard" : [
       "sms-create-campaign"
