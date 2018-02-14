@@ -18,8 +18,8 @@ const siteConfig = {
     },
     headerLinks: [
         {page : "index", label:"Home"},
-        {doc: 'dashboard', label: 'How to use BulkGate'},
-        {doc: 'create-account', label: 'Account management'},
+        {doc: 'create-an-account', label: 'How to use BulkGate'},
+        //{doc: 'create-account', label: 'Account management'},
         {page: 'help', label: 'Privacy and security'},
         {search:true},
         {languages: true}
