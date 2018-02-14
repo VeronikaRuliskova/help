@@ -1,22 +1,27 @@
 ---
-title: How I can create BulkGate account
-sidebar_label: Create account
+title: Create an account
+sidebar_label: Creating an account
 ---
 
 First of all create your BulkGate account at [portal.bulkgate.com](https://portal.bulkgate.com/sign/up).
 See [personal data](#2-personal-data) section on this page.
 See [h3](dashboard.md#h3) section on dashboard page.
 
-## 1 login data
-Specify your email address for login and notification purposes.
-### Your password
-There are some restrictions due to weak password issues.
-This make it impossible to pass passwords like **adam1234** or **123456789** etc..
+## How do I create a BulkGate account?
+To create a BulkGate account:
+1.	Go to [BulkGate Portal](https://portal.bulkgate.com/sign/up)
+2.	Click on Create new account
+3.	Enter your email, password, name, mobile phone number, select your country and your time zone.
+4.	Click on Register.
+5.	To finish creating your account, you need to confirm your email.
 
-## 2 personal data
-Give us proper informations about your country, and other data which help us provide you best usability of platform as
-possible.
+## Why is BulkGate asking for my phone number?
+Adding a mobile phone number to your account:
+-	Helps keep your account secure
+-	Allows you to communicate with your customers through campaigns, receive notifications about changes in your credit balance, placed orders and others.
 
-## 3 receive verify email and activate your account
-
-Before you can login and use BulkGate portal, you have to verify your email address by click on verify link in email you received.
+## Why am I being asked to select a country and time zone during registration?
+Selecting a country enables BulkGate to:
+-	Adapt your profile to the formatting standard of the selected country (date, price, etc.)
+-	Set up your profile according to your chosen time zone. This helps you to correctly configure your campaigns so they are sent at the right time
+-	Choose the correct language for you (if available)
