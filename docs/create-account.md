@@ -4,7 +4,7 @@ sidebar_label: Create account
 ---
 
 First of all create your BulkGate account at [portal.bulkgate.com](https://portal.bulkgate.com/sign/up).
-See [personal data](#personal-data) section on this page.
+See [personal data](#2-personal-data) section on this page.
 See [h3](dashboard.md#h3) section on dashboard page.
 
 ## 1 login data
