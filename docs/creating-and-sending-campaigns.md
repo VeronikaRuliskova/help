@@ -110,7 +110,7 @@ In your campaign, you are able to set up how many SMS messages you want to send 
 One of the most common reasons is that you want to be able to handle all your customers’ needs sufficiently, but if you would send all your messages in one day, it could overwhelm your customer support.
 
 ## How to schedule my campaign and set a correct time and date?
-In your campaign, you can either send all your messages immediately after you click Send at the end a campaign, set sending restrictions (#15), or set a schedule for your campaign.
+In your campaign, you can either send all your messages immediately after you click Send at the end a campaign, [set sending restrictions](#what-are-sending-restrictions), or set a schedule for your campaign.
 
 To set a schedule for a campaign:
 1.	Reach the [second step of SMS campaign](#how-do-i-create-and-send-sms-campaign-on-bulkgate) or [third step of Smart SMS campaign](#how-do-i-create-and-send-smart-sms-campaign-on-bulkgate), respectively
