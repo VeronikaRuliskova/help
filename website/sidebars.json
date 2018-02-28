@@ -8,10 +8,13 @@
       "sms-create-campaign"
     ],
     "Working with contacts" : [
-
+      "importing-contacts",
+      "adding-contacts-groups"
     ],
     "Messaging" : [
-
+      "creating-and-sending-campaigns",
+      "two-way-communication",
+      "url-shortener"
     ],
     "Web page" : [
         
