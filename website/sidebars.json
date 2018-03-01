@@ -12,12 +12,15 @@
       "adding-contacts-groups"
     ],
     "Messaging" : [
+      "communication-channels",
       "building-and-sending-campaigns",
       "two-way-sms",
       "url-shortener"
     ],
-    "Web page" : [
-        
+    "Business page" : [
+      "business-page",
+      "offers",
+      "orders"
     ],
     "Records" : [
 
