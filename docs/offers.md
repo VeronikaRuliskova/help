@@ -3,6 +3,8 @@ title: Offers
 sidebar_label: Offers
 ---
 
+## What is an offer?
+
 ## How can I create an offer?
 
 ## How can I send an offer?
