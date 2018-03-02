@@ -32,7 +32,7 @@ To create an offer:
 
 how-do-i-create-and-send-smart-sms-campaign-on-bulkgate) 
 
-It is also possible [to adjust an offer](#27) after it has been sent to your recipients. 
+It is also possible [to adjust an offer](offers.md#can-i-change-an-offer-after-it-was-sent) after it has been sent to your recipients. 
 
 ## Can I change an offer after it was sent?
 In short, yes. You can always adjust your offer after your Smart SMS campaign has been sent out to your recipients. However, you can’t send it to other recipients. To do this – to send the same offer to new recipients – you need to create a new Smart SMS campaign.
