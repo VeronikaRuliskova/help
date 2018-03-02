@@ -27,7 +27,7 @@ Anytime a recipient of your Smart SMS campaign fills an order form, the [order l
 In the case that you’re selling a product or a service, you want to contact your customer and update the status of his or her order.
 
 In order to contact a customer and update order status:
-1.	[Follow steps 1 to 3](#where-do-i-see-orders-from-customers)
+1.	Follow steps 1 to 3 in the section of [where to see orders from customers](#where-do-i-see-orders-from-customers)
 2.	Click on a customer you wish to contact
 3.	Click Send message in order to send SMS message or call him or her directly
 4.	Change the order status in order to keep a better overview over your order list
