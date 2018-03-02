@@ -30,8 +30,6 @@ To create an offer:
 9.	Click Offer Preview so you know how your offer actually looks like
 10.	Click Next and finish [Smart SMS campaign.](https://www.bulkgate.com/en/solutions/smart-sms/)
 
-how-do-i-create-and-send-smart-sms-campaign-on-bulkgate) 
-
 It is also possible [to adjust an offer](offers.md#can-i-change-an-offer-after-it-was-sent) after it has been sent to your recipients. 
 
 ## Can I change an offer after it was sent?
