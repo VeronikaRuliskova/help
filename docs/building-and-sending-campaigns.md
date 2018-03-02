@@ -27,7 +27,7 @@ To create and send Smart SMS campaign:
 3.	Add a name to your campaign (this information is visible only to you)
 4.	[Import contacts to the campaign via Address book, CSV/Excel or vCard or via Enter number](importing-contacts.md#how-do-i-import-contacts-to-address-book)
 5.	Click Next to get to the next step of the campaign - Offer
-6.	[Create an offer](offers.md#how-can-i-create-an-offer) and go to another step of the campaign
+6.	[Create an offer](offers.md#how-can-i-create-and-send-an-offer) and go to another step of the campaign
 7.	Type and [personalize](#how-can-i-personalize-my-campaign) your message. You can also [use previous template or save this message for another use.](#how-can-i-use-message-template)
 8.	Insert an [existing short URL](url-shortener.md#how-do-i-add-existing-short-url-to-my-campaign)or [create a new short URL](url-shortener.md#how-do-i-create-a-new-short-url)
 9.	Set the desired [sender type](#what-is-a-sender-type-and-how-can-i-use-it)
