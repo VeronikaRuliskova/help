@@ -28,7 +28,7 @@ To create an offer:
 7.	Choose the correct business page for your offer. The offer is going to be placed on that specific business page 
 8.	Set up Offer options 
 9.	Click Offer Preview so you know how your offer actually looks like
-10.	Click Next and finish [Smart SMS campaign.](building-and-sending-campaigns.md
+10.	Click Next and finish [Smart SMS campaign.](building-and-sending-campaigns.md)
 
 how-do-i-create-and-send-smart-sms-campaign-on-bulkgate) 
 
