@@ -10,7 +10,7 @@ To create and send SMS campaign:
 3.	Add a name to your campaign (this information is visible only to you)
 4.	[Import contacts to the campaign via Address book, CSV/Excel or vCard or via Enter number](importing-contacts.md#how-do-i-import-contacts-to-address-book)
 5.	Click Next to get to another step of the campaign
-6.	Type and [personalize](#how-can-i-personalize-my-campaign) your message. You can also [use previous template or save this message for another use.](#how-can-i-use-message-template)
+6.	Type and [personalize](#how-can-i-personalize-my-campaign) your message. You can also [use previous template or save this message for another use.](#how-can-i-use-a-message-template)
 7.	Insert an [existing short URL](url-shortener.md#how-do-i-add-existing-short-url-to-my-campaign)or [create a new short URL](url-shortener.md#how-do-i-create-a-new-short-url)
 8.	Set the desired [sender type](#what-is-a-sender-type-and-how-can-i-use-it)
 9.	Activate [Unicode](#what-is-unicode) and/or [Flash SMS](#what-is-flash-sms) if it is suitable for your campaign
@@ -28,7 +28,7 @@ To create and send Smart SMS campaign:
 4.	[Import contacts to the campaign via Address book, CSV/Excel or vCard or via Enter number](importing-contacts.md#how-do-i-import-contacts-to-address-book)
 5.	Click Next to get to the next step of the campaign - Offer
 6.	[Create an offer](offers.md#how-can-i-create-and-send-an-offer) and go to another step of the campaign
-7.	Type and [personalize](#how-can-i-personalize-my-campaign) your message. You can also [use previous template or save this message for another use.](#how-can-i-use-message-template)
+7.	Type and [personalize](#how-can-i-personalize-my-campaign) your message. You can also [use previous template or save this message for another use.](#how-can-i-use-a-message-template)
 8.	Insert an [existing short URL](url-shortener.md#how-do-i-add-existing-short-url-to-my-campaign)or [create a new short URL](url-shortener.md#how-do-i-create-a-new-short-url)
 9.	Set the desired [sender type](#what-is-a-sender-type-and-how-can-i-use-it)
 10.	Activate [Unicode](#what-is-unicode) and/or [Flash SMS](#what-is-flash-sms) if it is suitable for your campaign
@@ -53,7 +53,7 @@ To test your campaign:
 3.	Enter your mobile number you want to receive the campaign’s message on
 4.	Click Test Campaign
 
-## How can I use message template?
+## How can I use a message template?
 You can notice the buttons `Load` and `Save` template in the typing window in the [second step of SMS campaign](#how-do-i-create-and-send-sms-campaign-on-bulkgate) or [third step of Smart SMS campaign](#how-do-i-create-and-send-smart-sms-campaign-on-bulkgate), respectively. These serve as a means of making your work easier.
 
 While typing your message you can either click Save template to save the text for your next campaigns, or click Load template in order to load your previously written text.
