@@ -1,6 +1,6 @@
 ---
-title: Two-way SMS
-sidebar_label: Two-way SMS
+title: Two-way communication
+sidebar_label: Two-way communication
 ---
 
 ## Can I communicate directly with a customer?
