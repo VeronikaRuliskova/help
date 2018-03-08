@@ -14,7 +14,7 @@
     "Messaging" : [
       "communication-channels",
       "building-and-sending-campaigns",
-      "two-way-sms",
+      "two-way-communication",
       "url-shortener"
     ],
     "Business page" : [
