@@ -5,7 +5,7 @@ sidebar_label: Building and sending campaigns
 
 ## How do I create and send SMS campaign on BulkGate?
 To create and send SMS campaign:
-1.	To create a new SMS campaign click Messaging in the left side menu and then click campaign
+1.	To create a new SMS campaign click SMS in the left side menu and then click campaign
 2.	Select SMS campaign
 3.	Add a name to your campaign (this information is visible only to you)
 4.	[Import contacts to the campaign via Address book, CSV/Excel or vCard or via Enter number](importing-contacts.md#how-do-i-import-contacts-to-address-book)
@@ -22,7 +22,7 @@ To create and send SMS campaign:
 
 ## How do I create and send Smart SMS campaign on BulkGate?
 To create and send Smart SMS campaign:
-1.	To create a new SMS campaign click Messaging in the left side menu and then click campaign
+1.	To create a new SMS campaign click SMS in the left side menu and then click campaign
 2.	Select SMS campaign
 3.	Add a name to your campaign (this information is visible only to you)
 4.	[Import contacts to the campaign via Address book, CSV/Excel or vCard or via Enter number](importing-contacts.md#how-do-i-import-contacts-to-address-book)
@@ -40,9 +40,10 @@ To create and send Smart SMS campaign:
 
 ## How do I know if recipients have received a message?
 To see statistics of a campaign:
-1.	Go to Messaging > Campaigns in the left side menu
-2.	Click on Campaign dashboard of a chosen sent campaign
-3.	See what was the total cost, how many messages were sent, delivered and many others
+1.	Click SMS in the left side menu
+2.  Click Campaigns
+3.	Click on Campaign dashboard of a chosen sent campaign
+4.	See what was the total cost, how many messages were sent, delivered and many others
 
 ## How can I test my campaign before I send it and why should I do it?
 Testing your campaign before you send it to thousands of people is essential as you may spot a tiny mistake that could harm your brand or business. 
@@ -121,7 +122,7 @@ To set a schedule for a campaign:
 
 ## Where can I see my scheduled campaign? 
 To have an overview over your [scheduled campaigns](#how-to-schedule-my-campaign-and-set-a-correct-time-and-date):
-1.	Click on Messaging in left side menu
+1.	Click on SMS in the left side menu
 2.	Click on Scheduled
 3.	Now you see all your scheduled campaigns and manage them further
 
