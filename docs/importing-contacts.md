@@ -10,10 +10,11 @@ To import contacts to the Address book:
 3.	Select your file by clicking on Choose File
 4.	Decide whether you want to add uploaded contacts into an existing group or a new group
 5.	Assign a country to your contacts. This will automatically add a prefix to all recipients’ with numbers only in national format. All internationally formatted numbers (with prefix) stay untouched
-6.	Click on Upload
-7.	Assign function to each column
-8.	Click on Save
-9.	Your contacts are now stored in your Address book
+6.	Select whether you want to skip uploading existing contacts or rewrite them
+7.	Click on Upload
+8.	Assign function to each column
+9.	Click on Save
+10.	Your contacts are now stored in your Address book
 
 [Read more](#i-have-my-contact-numbers-in-national-format-only) if you have numbers in national format only, or [both national and international format.](#i-have-my-contact-numbers-in-both-national-and-international-formats)
 
