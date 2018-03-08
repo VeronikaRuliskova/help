@@ -4,7 +4,7 @@ sidebar_label: URL Shortener
 ---
 
 ## What is URL Shortener?
-Including links in your campaigns cost a lot of precious characters that could be used for text instead. It is therefore important to shorten a link as much as possible. Our [URL shortener](https://www.bulkgate.com/en/sms-portal#url-shortener) serves great for this purpose as it can shorten any link into 16 characters. 
+Including links in your campaigns cost a lot of precious characters that could be used for text instead. It is therefore important to shorten a link as much as possible. Our [URL shortener](https://www.bulkgate.com/en/sms-portal#url-shortener) serves great for this purpose as it can shorten any link into 15 characters. 
 
 ## How do I create a new short URL? 
 To create a new short URL:
