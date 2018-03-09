@@ -3,10 +3,6 @@ title: Create an account
 sidebar_label: Creating an account
 ---
 
-First of all create your BulkGate account at [portal.bulkgate.com](https://portal.bulkgate.com/sign/up).
-See [personal data](#2-personal-data) section on this page.
-See [h3](dashboard.md#h3) section on dashboard page.
-
 ## How do I create a BulkGate account?
 To create a BulkGate account:
 1.	Go to [BulkGate Portal](https://portal.bulkgate.com/sign/up)
