@@ -59,12 +59,12 @@ You can notice the buttons `Load` and `Save` template in the typing window in th
 
 While typing your message you can either click Save template to save the text for your next campaigns, or click Load template in order to load your previously written text.
 
-> **To save a template:**
+>**To save a template:**
 1.	Click Save template
 2.	Enter a template name
 3.	Click Save
 
-> **To load a template:**
+>**To load a template:**
 1.	Click Load template
 2.	Choose a template you want to load
 
