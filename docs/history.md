@@ -35,7 +35,7 @@ The history list displays in default format:
 
 Furthermore, if you click on an individual line, you can see additional info such as:
 -	**`A message text`**
--	**`SMS ID`**: [read more about SMS ID](#40)
+-	**`SMS ID`**: [read more about SMS ID](#what-is-sms-id-and-where-can-i-find-it)
 -	**`Routes`**: your [bulk SMS campaigns](communication-channels.md#what-is-bulk-sms) are sent through promotional route, [SMS notifications](communication-channels.md#what-is-sms-notification) are sent through transactional route, respectively.
 -	**`Wallet name`**: from which wallet went funds for the message
 -	**`Sender type`**: [read more about sender type]( building-and-sending-campaigns.md#what-is-a-sender-type-and-how-can-i-use-it)
