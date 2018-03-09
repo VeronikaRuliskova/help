@@ -9,7 +9,7 @@ sidebar_label: History
 To find messaging history:
 1.	Click SMS in the left side menu in your BulkGate Portal
 2.	Click History
-3.	[See additional information about history list](#37) in order to understand history it better
+3.	[See additional information about history list](#what-information-can-i-find-in-history) in order to understand history it better
 
 Note that by default you see messaging history of the past 30 days. However, you can change this by choosing a specific date in the left-upper corner of the history window.
 
@@ -21,17 +21,17 @@ To export your history:
 2.	Click History
 3.	Select date filter in the right-upper corner
 4.	Optionally, select other filters, such as status, in the left-upper corner
-5.	Now you see your filtered messaging history. It is worth understanding [what kind of information does history list provide](#37) before you go to the next step
+5.	Now you see your filtered messaging history. It is worth understanding [what kind of information does history list provide](#what-information-can-i-find-in-history) before you go to the next step
 6.	Click Export Selected to download CSV file either for the whole list or for an individual SMS campaign
 
 ## What information can I find in history?
-[SMS history list](#38) contains numerous information about your sent [bulk SMS](https://www.bulkgate.com/en/solutions/sms/#bulk-sms) and [SMS notifications.](https://www.bulkgate.com/en/solutions/sms/#sms-notification) 
+[SMS history list](#where-can-i-see-my-messaging-history) contains numerous information about your sent [bulk SMS](https://www.bulkgate.com/en/solutions/sms/#bulk-sms) and [SMS notifications.](https://www.bulkgate.com/en/solutions/sms/#sms-notification) 
 
 The history list displays in default format:
 -	**`Product`**: shows whether you sent your text messages through [BulkGate Portal,](https://www.bulkgate.com/en/sms-portal/) [BulkGate APIs,](https://www.bulkgate.com/en/developers/sms-api/) or one of our [SMS modules;](https://www.bulkgate.com/en/sms-module/)
 -	**`Recipient`**:  shows a recipient’s number, country and operator. If you sent bulk SMS message through BulkGate Portal, it shows whether it was [SMS campaign](building-and-sending-campaigns.md#how-do-i-create-and-send-sms-campaign-on-bulkgate) or [Smart SMS campaign.](building-and-sending-campaigns.md#how-do-i-create-and-send-smart-sms-campaign-on-bulkgate) However, in this case you need to click on the line first in order to see the whole list or recipients of your campaign.
 -	 **`Status`** of your sent message.
--	**`Price`** in form of [credits.](#39)
+-	**`Price`** in form of [credits.](purchasing-credits.md#what-are-credits)
 
 Furthermore, if you click on an individual line, you can see additional info such as:
 -	**`A message text`**
@@ -40,7 +40,7 @@ Furthermore, if you click on an individual line, you can see additional info suc
 -	**`Wallet name`**: from which wallet went funds for the message
 -	**`Sender type`**: [read more about sender type]( building-and-sending-campaigns.md#what-is-a-sender-type-and-how-can-i-use-it)
 
-## What is SMS ID and where can I find it?(#40)
+## What is SMS ID and where can I find it?
 Every text message has a unique SMS ID. This can be useful if you have a problem with delivering SMS messages. By providing an SMS ID to us we can solve the problem with the carrier. However, be aware that an SMS ID cannot be older than `two days`. 
 
 To find an SMS ID:
