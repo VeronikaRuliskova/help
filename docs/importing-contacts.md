@@ -54,9 +54,8 @@ We divided this section into 3 subsections:
 ## I have my contact numbers in national format only.
 If you’re [importing your contacts to Address book](#how-do-i-import-contacts-to-address-book) or [a campaign via CSV/Excel or vCard](#how-do-i-import-contacts-to-my-campaign), you need to select a country where your contacts are situated. It is because we need to know where to send your messages to. 
 
-BulkGate automatically adds a prefix e.g. +44, according to your selected country, to all numbers in national format e.g. 01632 960850, resulting in e.g. +44 1632 960850.
+>BulkGate automatically adds a prefix e.g. +44, according to your selected country, to all numbers in national format e.g. 01632 960850, resulting in e.g. +44 1632 960850.
 
-[I have contact numbers in both national and international formats.](#i-have-my-contact-numbers-in-both-national-and-international-formats)
 
 ## I have my contact numbers in both national and international formats.
 If you’re uploading your contacts to Address book or a campaign via CSV/Excel or vCard, you need to select a country where your contacts are situated. It is because we need to know where to send your messages to. 
