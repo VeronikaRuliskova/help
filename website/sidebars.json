@@ -4,9 +4,6 @@
       "create-an-account",
       "confirm-your-account"
     ],
-    "Your dashboard" : [
-      "sms-create-campaign"
-    ],
     "Working with contacts" : [
       "importing-contacts",
       "adding-contacts-groups"
@@ -23,16 +20,18 @@
       "orders"
     ],
     "Records" : [
-
+      "history",
+      "statistics",
+      "reports"
     ],
-    "Billing and payments" : [
-      "payment-buy-credit",
-      "payment-invoices",
-      "payment-transaction",
-      "payment-data"
+    "Payments and billing" : [
+      "purchasing-credit",
+      "transactions",
+      "billing-information",
+      "invoices"
     ],
-    "Wallets" : [
-
+    "Price list" : [
+       "using-price-list"
     ],
     "Extensions and APIs" : [
 
