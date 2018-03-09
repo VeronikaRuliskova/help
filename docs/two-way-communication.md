@@ -18,4 +18,4 @@ If you selected one of the sender ID types (building-and-sending-campaigns.md#wh
 -	**Your mobile phone inbox**
     - Your customers‘ responses to your message go to your mobile phone inbox when you use: `Own number sender ID`
 
-**`Text sender ID is not supported for Two-way SMS communication.`**
+>**`Text sender ID is not supported for Two-way SMS communication.`**
