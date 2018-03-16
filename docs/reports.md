@@ -8,8 +8,8 @@ Reports give you a simple overview of your messaging activity. It shows when and
 
 ## Where can I download my SMS campaign reports?
 To download SMS campaign reports:
-1.	Click SMS in the left side menu in your BulkGate Portal
-2.	Click Reports
-3.	Select a date to filter your data
-4.	Select country to filter your data if you want. Otherwise you will get a report that may include SMS campaigns that were sent to multiple countries
-5.	Click Download
+1.	Click SMS in the left side menu in your BulkGate Portal.
+2.	Click Reports.
+3.	Select a date to filter your data.
+4.	Select country to filter your data if you want. Otherwise you will get a report that may include SMS campaigns that were sent to multiple countries.
+5.	Click Download.
