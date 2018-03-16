@@ -31,14 +31,14 @@ The history list displays in default format:
 -	**`Product:`** shows whether you sent your text messages through [BulkGate Portal,](https://www.bulkgate.com/en/sms-portal/) [BulkGate APIs,](https://www.bulkgate.com/en/developers/sms-api/) or one of our [SMS modules](https://www.bulkgate.com/en/sms-module/)
 -	**`Recipient:`**  shows a recipient’s number, country and operator. If you sent bulk SMS message through BulkGate Portal, it shows whether it was [SMS campaign](building-and-sending-campaigns.md#how-do-i-create-and-send-sms-campaign-on-bulkgate) or [Smart SMS campaign.](building-and-sending-campaigns.md#how-do-i-create-and-send-smart-sms-campaign-on-bulkgate) However, in this case you need to click on the line first in order to see the whole list or recipients of your campaign
 -	 **`Status`** of your sent message
--	**`Price`** in form of [credits](purchasing-credits.md#what-are-credits)
+-	**`Price`** in form of [credits](purchasing-credit.md#what-are-credits)
 
 Furthermore, if you click on an individual line, you can see additional info such as:
 -	**`A message text`**
 -	**`SMS ID:`** [read more about SMS ID](#what-is-sms-id-and-where-can-i-find-it)
 -	**`Routes:`** your [bulk SMS campaigns](communication-channels.md#what-is-bulk-sms) are sent through promotional route, [SMS notifications](communication-channels.md#what-is-sms-notification) are sent through transactional route, respectively
 -	**`Wallet name:`** from which wallet went funds for the message
--	**`Sender type:`** [read more about sender type]( building-and-sending-campaigns.md#what-is-a-sender-type-and-how-can-i-use-it)
+-	**`Sender type:`** [read more about sender type](building-and-sending-campaigns.md#what-is-a-sender-type-and-how-can-i-use-it)
 
 ## What is SMS ID and where can I find it?
 Every text message has a unique SMS ID. This can be useful if you have a problem with delivering SMS messages. By providing an SMS ID to us we can solve the problem with the carrier. However, be aware that an SMS ID cannot be older than `two days.` 
