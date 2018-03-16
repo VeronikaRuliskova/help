@@ -43,7 +43,7 @@ To see statistics of a campaign:
 1.	Click SMS in the left side menu.
 2.  Click Campaigns.
 3.	Click on Campaign dashboard of a chosen sent campaign.
-4.	See what the total cost was, how many messages were sent, delivered and many others.
+4.	See what the total cost was, how many messages were sent, delivered and much more.
 
 ## How can I test my campaign before I send it and why should I do it?
 Testing your campaign before you send it to thousands of people is essential as you may spot a tiny mistake that could harm your brand or business. 
