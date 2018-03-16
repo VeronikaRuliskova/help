@@ -8,7 +8,7 @@ This is up to you. If you want to access invoice data, there is a need to [fill 
 
 ## How do I fill or update billing information?
 When you need to update your billing information:
-1.	Click Payments
-2.	Click Billing information
-3.	Update billing info
-4.	Click Save
+1.	Click Payments.
+2.	Click Billing information.
+3.	Update billing info.
+4.	Click Save.
