@@ -57,6 +57,6 @@ If you’re [importing your contacts to Address book](#how-do-i-import-contacts-
 >BulkGate automatically adds a prefix e.g. +44, according to your selected country, to all numbers in national format e.g. 01632 960850, resulting in e.g. +44 1632 960850.
 
 ## I have my contact numbers in both national and international formats.
-If you’re uploading your contacts to Address book or a campaign via CSV/Excel or vCard, you need to select a country where your contacts are situated. It is because we need to know where to send your messages to. 
+If you’re [importing your contacts to Address book](#how-do-i-import-contacts-to-address-book) or [a campaign via CSV/Excel or vCard](#how-do-i-import-contacts-to-my-campaign), you need to select a country where your contacts are situated. It is because we need to know where to send your messages to. 
 
-You might have a mix of both nationally and internationally formatted numbers in your file with contacts. In this case, BulkGate will automatically add a prefix e.g. +44 to nationally formatted numbers e.g. 01632 960850 according to the selected country, and leave all internationally formatted numbers with prefix (e.g. +44 or other) in their original form.
+You might have a mix of both nationally and internationally formatted numbers in your file with contacts. In this case, BulkGate will automatically add a prefix e.g. +44 to nationally formatted numbers (e.g. 01632 960850) according to the selected country, and leave all internationally formatted numbers with prefix (e.g. +44 or other) in their original form. So don’t worry, all your SMS messages will reach their right destination.
