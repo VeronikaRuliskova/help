@@ -80,6 +80,8 @@ To personalize your campaign:
 2.	Unwrap Personalize menu under the typing window.
 3.	Use any of the available options in this menu in order to personalize your campaign. Note, however, that this menu has two sides. The upper one represents contact information you inserted to BulkGate. The lower one represents your personal information.
 
+>Please note that if you lack any data for the selected recipient variables, the recipient who you lack the data for will receive a message without the selected variable. In other words, if want to write a message “Dear <first_name>, I want to…“, and you filled the first name for only 50% of the recipients, the variable <first_name> will be empty for 50% of your recipients. Therefore half of your recipients will see the message as “Dear , I want to…“.
+
 ## What is a sender type and how can I use it?
 You, as a sender who initiates a message, have different options how to present yourself to your customers, staff and others. In other words, when a recipient opens your message, he/she will immediately see who sent the message.
 
