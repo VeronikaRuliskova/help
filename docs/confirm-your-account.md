@@ -1,5 +1,5 @@
 ---
-title: Confirm your account
+title: Confirming your account
 sidebar_label: Confirming your account
 ---
 
