@@ -1,5 +1,5 @@
 ---
-title: Create an account
+title: Creating an account
 sidebar_label: Creating an account
 ---
 
