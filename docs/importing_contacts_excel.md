@@ -2,6 +2,7 @@
 title: Importing contacts via CSV/Excel
 sidebar_label: Importing contacts CSV/Excel
 ---
+
 ## How do I import contacts via CSV/Excel? 
 To import contacts to your address book via CSV/Excel:
 1.	Go to Address book 
@@ -17,6 +18,6 @@ To import contacts to your address book via CSV/Excel:
 
 Read more if you have numbers in [national format only](assigning-country-to-contacts.md#i-have-my-contact-numbers-in-national-format-only), or [both national and international format.](assigning-country-to-contacts.md#i-have-my-contact-numbers-in-both-national-and-international-formats)
 
-**`See a video`**
+**`Watch a video`**
 
 [![Import contacts via CSV/Excel](https://img.youtube.com/vi/Ssr9bnwR8Gs/hqdefault.jpg)](https://www.youtube.com/watch?v=Ssr9bnwR8Gs)
