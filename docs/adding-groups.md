@@ -1,6 +1,6 @@
 ---
-title: Importing contacts via CSV/Excel
-sidebar_label: Importing contacts CSV/Excel
+title: Adding groups
+sidebar_label: Adding groups
 ---
 
 ## How do I add a group to Address book?
