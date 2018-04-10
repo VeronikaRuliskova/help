@@ -15,4 +15,4 @@ To import contacts to your address book via CSV/Excel:
 9.	Assign a function to any column you want
 10.	Click Save
 
-https://www.youtube.com/watch?v=Ssr9bnwR8Gs
+[![Import contacts via CSV/Excel](https://img.youtube.com/vi/Ssr9bnwR8Gs/hqdefault.jpg)](https://www.youtube.com/watch?v=Ssr9bnwR8Gs)
