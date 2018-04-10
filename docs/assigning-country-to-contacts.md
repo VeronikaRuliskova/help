@@ -6,7 +6,7 @@ sidebar_label: Assigning country to contacts
 ## I have my contact numbers in national format only.
 If you’re uploading your contacts to address book or a campaign via CSV/Excel(#5) or vCard(#5,5), you need to select a country where your contacts are situated. It is because we need to know where to send your messages to. 
 
->BulkGate automatically adds a prefix e.g. +44, according to your selected country, to all numbers in national format e.g. 01632 960850, resulting in e.g. +44 1632 960850.
+>BulkGate automatically adds a prefix e.g. +44, according to your selected country, to all numbers in national format e.g. 01632 960850, resulting in e.g. +44 1632 960850. 
 
 ## I have my contact numbers in both national and international formats.
 If you’re uploading your contacts to address book or a campaign via CSV/Excel(#5) or vCard(#5,5), you need to select a country where your contacts are situated. It is because we need to know where to send your messages to. 
