@@ -20,7 +20,7 @@ See how to [create and send an offer.](offer.md#how-can-i-create-an-offer)
 ## How can I create an offer?
 To create an offer:
 1.	You must first [create a business page](business-page.md#how-can-i-create-a-business-page)
-2.	If you have a business page, click **Create offer** on the business page, or click SMS in the menu and click **Create campaign** and choose `Smart SMS.`
+2.	If you have a business page, click **Create offer** on the business page, or click SMS in the menu and click **Create campaign** and choose `Smart SMS`
 3.	In the second step of the campaign, you will be able to create an offer
 
 It is also possible [to adjust an offer](offer.md#can-i-change-an-offer-after-it-was-sent) after it has been sent to your recipients. 
