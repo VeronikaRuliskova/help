@@ -3,16 +3,7 @@ title: Orders
 sidebar_label: Orders
 ---
 
-When [creating an offer](offers.md#how-can-i-create-and-send-an-offer) in the [Smart SMS campaign](building-and-sending-campaigns.md#how-do-i-create-and-send-smart-sms-campaign-on-bulkgate), you have an option to include an order form. Adding an order form to your offer enables your recipient to express interest in your offer, and you to collect valuable contact information from them. When somebody fills the order form, it becomes visible in your [order list.](#where-do-i-see-orders-from-customers)
-
-## How can I create an order form?
-To create an order form:
-1.	Reach the 8th step of [creating an offer](offers.md#how-can-i-create-and-send-an-offer) and activate Request order.
-2.	Scroll down and click on the edit icon in the order form.
-3.	Enter the headline title of the order form.
-4.	Select items you want your recipients to fill if they decide to order your offer, and type the correct translation.
-5.	Click Show preview and see how to form looks like.
-6.	Click Save as new and enter a name for the new form. You can use it later.
+When [creating an offer](offers.md#how-can-i-create-and-send-an-offer) in the [Smart SMS campaign](creating-smart-sms-campaign.md#how-do-i-create-smart-sms-campaign), you have an option to include an [order form.](order-form.md#what-is-an-order-form-and-how-can-i-activate-it) Adding an order form to your offer enables your recipient to express interest in your offer, and you to collect valuable contact information from them. When somebody fills the order form, it becomes visible in your [order list.](#where-do-i-see-orders-from-customers)
 
 ## Where do I see orders from customers?
 To see orders from your customers that have filled an [order form you created.](#how-can-i-create-an-order-form):
@@ -27,8 +18,8 @@ Anytime a recipient of your Smart SMS campaign fills an order form, the [order l
 In the case that you’re selling a product or a service, you want to contact your customer and update the status of his or her order.
 
 In order to contact a customer and update order status:
-1.	Follow steps 1 to 3 in the section of [where to see orders from customers.](#where-do-i-see-orders-from-customers)
-2.	Click on a customer you wish to contact.
-3.	Click Send message in order to send SMS message or call him or her directly.
-4.	Change the order status in order to keep a better overview over your order list.
-5.	Click on the button next to order status to save it.
+1.	Follow steps 1 to 3 in the section of [where to see orders from customers](#where-do-i-see-orders-from-customers)
+2.	Click on a customer you wish to contact
+3.	Click Send message in order to send SMS message or call him or her directly
+4.	Change the order status in order to keep a better overview over your order list
+5.	Click on the button next to order status to save it
