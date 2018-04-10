@@ -15,6 +15,8 @@ To import contacts to your address book via CSV/Excel:
 9.	Assign a function to any column you want
 10.	Click Save
 
+Read more if you have numbers in [national format only](assigning-country-to-contacts.md#i-have-my-contact-numbers-in-national-format-only), or [both national and international format.](assigning-country-to-contacts.md#i-have-my-contact-numbers-in-both-national-and-international-formats)
+
 **`See a video`**
 
 [![Import contacts via CSV/Excel](https://img.youtube.com/vi/Ssr9bnwR8Gs/hqdefault.jpg)](https://www.youtube.com/watch?v=Ssr9bnwR8Gs)
