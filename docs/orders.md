@@ -6,10 +6,10 @@ sidebar_label: Orders
 When [creating an offer](offers.md#how-can-i-create-and-send-an-offer) in the [Smart SMS campaign](creating-smart-sms-campaign.md#how-do-i-create-smart-sms-campaign), you have an option to include an [order form.](order-form.md#what-is-an-order-form-and-how-can-i-activate-it) Adding an order form to your offer enables your recipient to express interest in your offer, and you to collect valuable contact information from them. When somebody fills the order form, it becomes visible in your [order list.](#where-do-i-see-orders-from-customers)
 
 ## Where do I see orders from customers?
-To see orders from your customers that have filled an [order form you created.](#how-can-i-create-an-order-form):
-1.	Click Business page in the left side menu.
-2.	Click Orders.
-3.	You now see a list of customers that filled order forms for your individual [offers.]( https://www.bulkgate.com/en/solutions/smart-sms#offers) 
+To see orders from your customers that have filled an order form:
+1.	Click Business page in the left side menu 
+2.	Click Orders
+3.	You now see a list of customers that filled order forms for your individual [offers]( https://www.bulkgate.com/en/solutions/smart-sms#offers) 
 
 Take a look at how you can [manage orders.](#how-can-i-manage-orders)
 
