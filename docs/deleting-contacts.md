@@ -1,6 +1,6 @@
 ---
-title: Importing contacts via CSV/Excel
-sidebar_label: Importing contacts CSV/Excel
+title: Deleting contacts
+sidebar_label: Deleting contacts
 ---
 
 ## How can I delete contacts in Address book? 
