@@ -16,6 +16,10 @@ To create a new business page:
 5.	Upload cover photo and background photo, or choose a color
 6.	Make sure your page info is correct – person/company contact information. [You can always edit it](#how-can-i-rename-a-business-page)
 
+**`See how to create a business page`**
+
+[![Import contacts via CSV/Excel](https://img.youtube.com/vi/iDDceQaT-iQ/hqdefault.jpg)](https://www.youtube.com/edit?o=U&video_id=iDDceQaT-iQ)
+
 ## How can I delete a business page?
 To delete a business page:
 1.	Click on Business page in the left side menu on [BulkGate Portal](https://portal.bulkgate.com/)
