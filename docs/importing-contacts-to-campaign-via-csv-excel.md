@@ -14,3 +14,8 @@ To import contacts to your campaign via CSV/Excel:
 7.	Add another CSV/Excel file, otherwise click Finish selection
 
 Read more if you have numbers in [national format only](assigning-country-to-contacts.md#i-have-my-contact-numbers-in-national-format-only), or [both national and international format.](assigning-country-to-contacts.md#i-have-my-contact-numbers-in-both-national-and-international-formats)
+
+
+**`See how to import contacts to campaign via CSV/Excel`**
+
+[![Import contacts to campaign via CSV/Excel](https://img.youtube.com/vi/JKmr8OgRLaM/hqdefault.jpg)](https://www.youtube.com/watch?v=JKmr8OgRLaM)
