@@ -12,3 +12,8 @@ To import contacts to your campaign via Address book:
 5.	You can now filter the contacts further. This is optional 
 6.	Click Finish selection
 7.	Selected contacts are now embedded to your campaign
+
+
+**`See how to import contacts to campaign via Address book`**
+
+[![Import contacts to campaign via Address book](https://img.youtube.com/vi/6kfCibJgkSg/hqdefault.jpg)](https://www.youtube.com/watch?v=6kfCibJgkSg)
