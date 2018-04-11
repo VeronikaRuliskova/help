@@ -18,6 +18,7 @@ To create a new business page:
 
 
 **`See how to create a business page`**
+
 [![How to create a business page](https://img.youtube.com/vi/iDDceQaT-iQ/hqdefault.jpg)](https://www.youtube.com/watch?v=iDDceQaT-iQ)
 
 ## How can I delete a business page?
