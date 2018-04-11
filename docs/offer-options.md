@@ -31,4 +31,4 @@ You can read more about [order form here.](order-form.md#what-is-an-order-form-a
 
 **`See how to set up offer options`**
 
-[![Setting up offer options in Smart SMS campaign](https://img.youtube.com/vi/2JmQMayU8g/hqdefault.jpg)](https://www.youtube.com/watch?v=_2JmQMayU8g) 
+[![Setting up offer options in Smart SMS campaign](https://img.youtube.com/vi/_2JmQMayU8g/hqdefault.jpg)](https://www.youtube.com/watch?v=_2JmQMayU8g) 
