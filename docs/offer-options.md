@@ -3,7 +3,7 @@ title: Offer options
 sidebar_label: Offer options
 ---
 
-What are offer options and how can I set them up?
+## What are offer options and how can I set them up?
 Depending on your offer you might want to include some or all of the offer options. Offer options menu has 4 different sub options: [price,](#price) [quantity,](#quantity) [expiration,](#expiration) and [request order](#request-order)
 
 ### `Price`
@@ -27,3 +27,8 @@ If you want, you can choose to show the expiration in form of a time countdown, 
 When you activate the request order option, [order form](order-form.md#what-is-an-order-form-and-how-can-i-activate-it) pops up at the bottom of the offer window which you can edit and adjust to your needs.
 
 You can read more about [order form here.](order-form.md#what-is-an-order-form-and-how-can-i-activate-it)
+
+
+**`See how to set up offer options`**
+
+[![Setting up offer options in Smart SMS campaign](https://img.youtube.com/vi/2JmQMayU8g/hqdefault.jpg)](https://www.youtube.com/watch?v=_2JmQMayU8g)
