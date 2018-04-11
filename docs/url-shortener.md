@@ -16,6 +16,12 @@ To create a new short URL:
 6.	New shortened URL has been added to your list
 7.	To insert shortened URL to your campaign, simply click on the green URL in the list
 
+
+**`See how to use URL shortenerl`**
+
+[![How to use URL shortenerl](https://img.youtube.com/vi/YMfEJFU06XE/hqdefault.jpg)](https://youtu.be/YMfEJFU06XE)
+
+
 ## How do I add existing short URL to my campaign?
 To add existing short URL to your campaign:
 1.	Reach second step of SMS campaign or third step of Smart SMS campaign, respectively
