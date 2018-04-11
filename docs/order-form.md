@@ -18,3 +18,9 @@ To activate an order form:
 9.	Enter a name of the form and click OK
 
 After you have saved your new order form, you can use it in your next Smart SMS campaign by simply clicking on the arrows in the order form.
+
+
+**`See how to import contacts via CSV/Excel`**
+
+[![Import contacts via CSV/Excel](https://img.youtube.com/vi/pf-JBSczEfc/hqdefault.jpg)](https://www.youtube.com/watch?v=pf-JBSczEfc)
+
