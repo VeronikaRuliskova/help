@@ -7,7 +7,7 @@ sidebar_label: Importing contacts to campaign via vCard
 To import contacts to your campaign via vCard:
 1.	Select vCard method
 2.	Choose your file by clicking on Choose File
-3.	Assign a country to your contacts. This will automatically add a prefix to all recipients with numbers in national format only. All internationally formatted numbers (with prefix) stay untouched
+3.	Assign a country to your contacts. This will automatically add a prefix of the selected country to all recipients with numbers in national format only. All internationally formatted numbers (with prefix) stay untouched
 4.	Click Upload
 5.	Add another vCard file, otherwise click Finish selection
 
