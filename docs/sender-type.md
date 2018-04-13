@@ -16,4 +16,6 @@ BulkGate has 4 types of sender, however `some of them might not be available in 
 
 **`Own Number Sender ID`** allows you to use your own phone number which is subsequently displayed in the delivered SMS to your recipient. Recipient can reply to your message on this number. 
 
-Check our [price list](https://www.bulkgate.com/en/sms-price/) in order to see what sender type can be used for [two-way SMS messaging.]( https://www.bulkgate.com/en/solutions/two-way-sms/)
+See [how you can use two-way communication with your customers](inbox.md#can-i-communicate-directly-with-a-customer) and [where you can see their messages.](inbox.md#where-can-i-see-a-response-from-my-customer)
+
+Check our [price list](https://www.bulkgate.com/en/sms-price/) in order to see what sender type can be used for [two-way SMS messaging]( https://www.bulkgate.com/en/solutions/two-way-sms/) in your desired country.
