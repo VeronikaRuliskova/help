@@ -8,4 +8,4 @@ When you activate Unicode in your campaign, it allows you to use characters outs
 
 When typing a message, a warning “Activate UNICODE to display the message correctly” shows up if your characters are outside of the standard GSM character set. This message could be illegible to a recipient if you would not activate Unicode.
 
-When you activate Unicode in your campaign, 1 message is limited to 70 characters as opposed to 160 in the standard SMS.
+`When you activate Unicode in your campaign, 1 message is limited to 70 characters as opposed to 160 in the standard SMS.`
