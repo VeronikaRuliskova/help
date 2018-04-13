@@ -4,7 +4,7 @@ sidebar_label: Scheduling campaign
 ---
 
 ## How to schedule my campaign and set a correct time and date?
-In your campaign, you can either send all your messages immediately after you click Send at the end a campaign, [set sending restrictions,](sending-restrictions.md#what-are-sending-restrictions) or set a schedule for your campaign.
+In your campaign, you can either send all your messages immediately after you click Send at the end a campaign, [set sending restrictions,](sending-restrictions.md#what-are-sending-restrictions) or set a sending date and time.
 
 To set a schedule for a campaign:
 1.	Reach the second step of SMS campaign or third step of Smart SMS campaign, respectively
