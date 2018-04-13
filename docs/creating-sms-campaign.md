@@ -10,9 +10,9 @@ Bulk SMS messaging is typically used for marketing purposes, alerts, information
 
 Bulk messaging is highly effective as nearly all recipients read the delivered message. You can also increase the chance that your recipients read the message by activating [Flash SMS](flash-sms.md#what-is-flash-sms) in your SMS campaign.
  
-It is simple to create and send Bulk SMS campaign and generate revenues with low operational costs. 
+It is simple to create and send bulk SMS campaign and generate revenues with low operational costs. 
 
-You can also create and send Bulk SMS campaigns via our [SMS modules](https://www.bulkgate.com/en/sms-module/) or our [APIs.](https://www.bulkgate.com/en/developers/sms-api/)
+You can also create and send bulk SMS campaigns via our [SMS modules](https://www.bulkgate.com/en/sms-module/) or our [APIs.](https://www.bulkgate.com/en/developers/sms-api/)
 
 ## How do I create SMS campaign?
 To create SMS campaign:
