@@ -16,6 +16,6 @@ To set a schedule for a campaign:
 To have an overview over your scheduled campaigns (#16):
 1.	Click on SMS in the menu
 2.	Click on Scheduled
-3.	Now you see all your scheduled campaigns and manage them further
+3.	Now you see all your scheduled campaigns
 
 If you wish to delete a scheduled campaign, click Delete Campaign on the right side of the listed campaign. The campaign will not be initiated as planned.
