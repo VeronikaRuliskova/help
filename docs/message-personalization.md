@@ -12,7 +12,7 @@ In order to personalize your campaign, you have to have necessary information su
 To personalize your campaign:
 1.	Go to the second step of SMS campaign or third step of Smart SMS campaign, respectively
 2.	Unwrap Personalize menu under the typing window
-3.	Use any of the available options in this menu in order to personalize your campaign. The personalize menu has two parts. The upper one represents contact information of your recipients. It shows only those variables you have data for. The lower one represents your personal information. You can include both of them in your personalization
+3.	Use any of the available variables in this menu in order to personalize your campaign. The personalize menu has two parts. The upper one represents contact information of your recipients. It shows only those variables you have data for. The lower one represents your personal information. You can include both of them in your personalization
 
 `Please note that if you lack any data for the selected recipient variables, the recipient who you lack the data for will receive a message without the selected variable. In other words, if want to write a message “Dear <first_name>, I want to…“, and you filled the first name for only 50% of the recipients, the variable <first_name> will be empty for 50% of your recipients. Therefore half of your recipients will receive the message “Dear , I want to…“.`
 
