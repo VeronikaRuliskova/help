@@ -4,7 +4,7 @@ sidebar_label: Sender type
 ---
 
 ## What is a sender type and how can I use it?
-You, as a sender who initiates a message, have different options how to present yourself to your customers, staff and others. In other words, when a recipient opens your message, he/she will immediately see who sent the message.
+You, as a sender who initiates the communication, have different options how to present yourself to your customers, staff and others. In other words, when a recipient opens your message, he/she will immediately see who sent the message.
 
 BulkGate has 4 types of sender, however `some of them might not be available in your country.`
 
