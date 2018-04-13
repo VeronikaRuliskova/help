@@ -16,4 +16,4 @@ To personalize your campaign:
 
 `Please note that if you lack any data for the selected recipient variables, the recipient who you lack the data for will receive a message without the selected variable. In other words, if you want to write a message “Dear <first_name>, I want to…“, and you filled the first name for only 50% of the recipients, the variable <first_name> will be empty for 50% of your recipients. Therefore half of your recipients will receive the message “Dear , I want to…“.`
 
->-	If you lack any data for a variable you would like to use, you can hover over the variable and click "Set default variable for x% contacts." Now enter a default value for the selected variable. This default variable will be used instead of an empty space
+>-	If you lack any data for a variable you would like to use, you can hover over the variable and click "Set default variable for x% contacts." Now enter a default value for the selected variable. This default value will be used instead of an empty space.
