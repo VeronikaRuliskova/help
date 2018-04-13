@@ -27,5 +27,5 @@ To add existing short URL to your campaign:
 1.	Reach second step of SMS campaign or third step of Smart SMS campaign, respectively
 2.	Unwrap URL shortener menu under the typing window
 3.	Click on Select existing short URL
-4.	Select which existing short URL you want to insert to your campaign and click Add. See this (#11) if you want to attach a new shortened URL to your campaign
+4.	Select which existing short URL you want to insert to your campaign and click Add
 5.	To insert shortened URL to your campaign, simply click on the green URL in the list 
