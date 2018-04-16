@@ -8,8 +8,8 @@ sidebar_label: Statistics
 You can see where your campaigns are being delivered the most, what are the costs, delivery status and much more.
 
 To see all statistics of your campaigns:
-3.	Click SMS in the menu
-4.	Click Statistics
-5.	Choose one of the statistics
+1.	Click SMS in the menu
+2.	Click Statistics
+3.	Now, you can choose one of the submenus and further select what statistic you want to see
 
 You can also filter your campaign statistics according to other filters such as phone number, status of the campaign and others, by clicking Select filter in the right-upper corner.
