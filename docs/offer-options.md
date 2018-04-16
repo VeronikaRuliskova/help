@@ -4,7 +4,7 @@ sidebar_label: Offer options
 ---
 
 ## What are offer options and how can I set them up?
-Depending on your offer you might want to include some or all of the offer options. Offer options menu has 4 different sub options: [price,](#price) [quantity,](#quantity) [expiration,](#expiration) and [request order](#request-order)
+Depending on your offer you might want to include some or all of the offer options. `Offer options menu` has 4 different sub options: [price,](#price) [quantity,](#quantity) [expiration,](#expiration) and [request order](#request-order)
 
 ### `Price`
 If you activate the price option you may set up original price, new price, discount and currency by simply typing in the option window. You don’t have to write the percentage (%) symbol in the discount option. Use currency symbols or abbreviations for the currency option. 
