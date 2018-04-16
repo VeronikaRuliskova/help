@@ -42,7 +42,7 @@ To rename a business page:
 To change contact information on a business page:
 1.	Click on Business page in the left side menu on [BulkGate Portal](https://portal.bulkgate.com/)
 2.	Click on Pages
-3.	Select a page where you want to change contact information, and click on its detail
+3.	Select a page where you want to change contact information and click on its detail
 4.	Click on the icon Edit page info
 5.	Change contact information
 6.	Click Save
