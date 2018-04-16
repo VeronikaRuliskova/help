@@ -15,7 +15,7 @@ An offer has many great features that grab attention and evoke positive emotions
 -	Create an order form
 -	Use different visual templates, and others
 
-See how to [create and send an offer.](offers.md#how-can-i-create-an-offer)
+See how to [create an offer.](offers.md#how-can-i-create-an-offer)
 
 ## How can I create an offer?
 To create an offer:
