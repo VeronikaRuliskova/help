@@ -4,7 +4,7 @@ sidebar_label: Inbox
 ---
 
 ## Can I communicate directly with a customer?
-You are able to interact with your customers directly and receive their reactions through [Two-way SMS.](https://www.bulkgate.com/en/solutions/two-way-sms/)
+You are able to interact with your customers directly and receive their reactions through [two-way SMS.](https://www.bulkgate.com/en/solutions/two-way-sms/)
 
 To use two-way SMS, you must choose the correct [sender ID type](sender-type.md#what-is-a-sender-type-and-how-can-i-use-it) in the second step of SMS campaign or third step of Smart SMS campaign, respectively.
 
