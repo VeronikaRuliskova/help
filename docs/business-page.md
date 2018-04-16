@@ -27,7 +27,7 @@ To delete a business page:
 2.	Click on Pages
 3.	Select a page you want to delete and click on its detail
 4.	Click Danger Zone
-5.	Click Remove business page
+5.	Click Remove business page and confirm
 
 ## How can I rename a business page?
 To rename a business page:
