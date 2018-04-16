@@ -7,7 +7,7 @@ When [creating an offer](offers.md#how-can-i-create-and-send-an-offer) in the [S
 
 ## Where do I see orders from customers?
 To see orders from your customers that have filled an order form:
-1.	Click Business page in the left side menu 
+1.	Click Business page in the menu 
 2.	Click Orders
 3.	You now see a list of customers that filled order forms for your individual [offers]( https://www.bulkgate.com/en/solutions/smart-sms#offers) 
 
