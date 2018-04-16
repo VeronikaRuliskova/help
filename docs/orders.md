@@ -21,7 +21,7 @@ In order to contact a customer and update order status:
 1.	Click Business page in the menu 
 2.	Click Orders
 3.	You now see a list of customers that filled order forms for your individual [offers]( https://www.bulkgate.com/en/solutions/smart-sms#offers) 
-4.	Click on a customer you wish to contact
+4.	Find a customer you wish to contact and click on the Detail icon
 5.	Click Send message in order to send SMS message or call him or her directly
 6.	Change the order status in order to keep a better overview over your order list
 7.	Click on the button next to order status to save it
