@@ -4,7 +4,7 @@ sidebar_label: Inserting media
 ---
 
 ## How can I attach media to an offer?
-You can attach a picture or a video that characterizes your offer.
+You can attach a picture, or a video that characterizes your offer.
 
 To attach a picture in your offer:
 1.	Select that you want to include an image in the Media section
