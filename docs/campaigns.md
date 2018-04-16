@@ -20,4 +20,4 @@ To see statistics of a campaign:
 
 Now you see what the total cost of your campaign was, how many messages were sent, delivered and much more. 
 
-Every campaign dashboard has also its own inbox. Depending on the [sender type,](sender-type.md#what-is-a-sender-type-and-how-can-i-use-it) your recipients can reply to your message and their replies can be seen in the campaign dashboard.
+Every campaign dashboard has also its own [inbox.](inbox.md#where-can-i-see-a-response-from-my-customer) Depending on the [sender type,](sender-type.md#what-is-a-sender-type-and-how-can-i-use-it) your recipients can reply to your message and their replies can be seen in the campaign dashboard.
