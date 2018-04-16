@@ -12,7 +12,7 @@ When a campaign is unfinished you can either edit it or delete it by clicking on
 
 When a campaign is sent you can see its campaign history, campaign dashboard, and if it is Smart SMS campaign, you can even edit its campaign offer.
 
-## How do I know if recipients have received a message and other statistics of my campaign?
+## How do I know if recipients have received a message, and how can I see statistics of a campaign?
 To see statistics of a campaign:
 1.	Click SMS in the menu
 2.	Click Campaigns
