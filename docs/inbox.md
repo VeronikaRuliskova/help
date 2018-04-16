@@ -16,7 +16,7 @@ If you selected one of the [sender ID types](sender-type.md#what-is-a-sender-typ
 - **Inbox (in the menu)**
     - Your customers‘ responses to your message go to Inbox when you use one of the following sender ID type: System number or Short code
 
--	**Your mobile phone inbox**
+- **Your mobile phone inbox**
     - Your customers‘ responses to your message go to your mobile phone inbox when you use: Own number sender ID
 
 `Text sender ID is not supported for Two-way SMS communication.`
