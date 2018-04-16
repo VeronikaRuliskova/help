@@ -8,10 +8,10 @@ Order form enables you to collect contact information from people that expressed
 
 To activate an order form:
 1.	Go to the second step of Smart SMS campaign
-2.	Activate [request order](offer-options.md#request-order), the order form pops up at the end of the offer window
+2.	Activate [Request order](offer-options.md#request-order), the order form pops up at the end of the offer window
 3.	Click Edit
 4.	Change the form headline
-5.	Select items you want to include in your order form and translate them accordingly
+5.	Select items you want to include in your order form and label/translate them accordingly
 6.	Select whether an item is required to be filled
 7.	Click Show preview to make sure your order form is correct
 8.	Click Save as new
