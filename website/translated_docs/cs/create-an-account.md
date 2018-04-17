@@ -3,23 +3,26 @@ title: Creating an account
 sidebar_label: Creating an account
 ---
 
-## How do I create a BulkGate account?
-To create a BulkGate account:
-1.	Go to https://portal.bulkgate.com
-2.	Click on Create new account
-3.	Enter your email, password, name, mobile phone number, select your country and your time zone
-4.	Click Next
-5.	Read and agree to terms and conditions
-6.	Click on Register
-7.	To finish creating your account, you need to confirm your email
+## Jak vytvořit BulkGate účet?
+Pro vytvoření účtu na BulkGate:
+1.	Jděte na https://portal.bulkgate.com 
+2.	Klikněte na Zaregistrovat
+3.	Vyplňte váš email, heslo, jméno, mobilní telefon, vyberte vaši zemi a časovou zónu
+4.	Klikněte Další
+5.	Přečtěte si a souhlaste s pravidly a podmínky
+6.	Klikněte Registrovat
+7.	Pro dokončení registrace je třeba, abyste potvrdili váš email
 
-## Why is BulkGate asking for my phone number?
-Adding a mobile phone number to your account:
--	Helps keep your account secure
--	Allows you to communicate with your customers through campaigns, receive notifications about changes in your credit balance, placed orders and others
 
-## Why am I being asked to select a country and time zone during registration?
-Selecting a country enables BulkGate to:
--	Adapt your profile to the formatting standard of the selected country (date, price, etc.)
--	Set up your profile according to your chosen time zone. This helps you to correctly configure your campaigns so they are sent at the right time
--	Choose the correct language for you (if available)
+## Proč se mě BulkGate ptá na mé telefonní číslo?
+Přidání mobilního čísla do vašeho účtu:
+-	Pomáhá zabezpečovat váš účet
+-	Umožňuje vám komunikovat s vašimi zákazníky skrz kampaně, obdržet notifikace ohledně změn vašeho stavu kreditů, objednávkách a dalších
+
+
+## Proč mám vybrat zemi a časovou zónu v průběhu registrace?
+Vybráním země dáváte BulkGate možnost:
+-	Přizpůsobit váš profil normám pro formátování vybrané země (datum, cena, atd.)
+-	Nastavit váš účet podle vybrané časové zóny. Toto pomáhá správně nakonfigurovat vaše kampaně, aby byly odeslány ve správný čas
+-	Zvolit jazyk (pokud je k dispozici)
+
