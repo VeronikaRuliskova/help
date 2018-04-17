@@ -1,13 +1,13 @@
 ---
-title: Selecting business page
-sidebar_label: Selecting business page
+title: Výběr business stránky 
+sidebar_label: Výběr business stránky 
 ---
 
-## How can I assign a business page to an offer?
-Every offer is placed on a business page. If you have more than one business page you need to select where your offer will be placed. So it is important to assign the right business page for your offer.
+## Jak mohu přiřadit business stránku k nabídce?
+Každá nabídka je umístěna na business stránku. Jestli máte více, než jednu business stránku, musíte vybrat, kam vaši nabídku umístíte. Takže je důležité, abyste přiřadili správnou business stránku k vaší nabídce. 
 
-To assign a business page to an offer:
-1.	Go to the second step of Smart SMS campaign
-2.	Assign a business page to your offer in the Business page menu
+Pro přiřazení business stránky k nabídce:
+1.	Jděte do druhého kroku Smart SMS kampaně
+2.	Přiřaďte business stránku k vaší nabídce v menu Business stránka
 
-`Note, however, that you cannot change assigned business page after it has been sent out.`
+`Buďte si ovšem vědomi toho, že nemůžete změnit přiřazenou business stránku.`
