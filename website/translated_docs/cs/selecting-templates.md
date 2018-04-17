@@ -1,7 +1,7 @@
 ---
-title: Selecting templates
-sidebar_label: Selecting templates
+title: Výběr šablon 
+sidebar_label: Výběr šablon 
 ---
 
-## How can I select a template for an offer?
-You can choose 1 of 3 templates for your offer. You can click Preview in order to see the distribution of individual parts. At the bottom of the offer window you can click Offer preview in order to see how your offer will be actually displayed.
+## Jak mohu vybrat šablonu pro nabídku?
+Pro vaši nabídku můžete vybrat 1 ze 3 šablon. Můžete kliknout Náhled pro zobrazení rozmístění jednotlivých částí nabídky. Na spodní části nabídkového okna můžete kliknout Náhled nabídky, abyste viděli, jak vaše nabídka bude ve skutečnosti vypadat.
