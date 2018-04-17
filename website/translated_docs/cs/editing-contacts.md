@@ -1,11 +1,11 @@
 ---
-title: Editing contacts
-sidebar_label: Editing contacts
+title: Úprava kontaktů
+sidebar_label: Úprava kontaktů
 ---
 
-## How do I edit a contact in Address book? 
-To edit a contact in address book:
-1.	Go to Address book
-2.	Find a contact you want to edit
-3.	Click on the edit icon
-4.	When you are done editing click Save
+## Jak upravím kontakt v Adresáři?
+Pro úpravu kontaktu v adresáři:
+1.	Jděte do Adresáře
+2.	Najděte kontakt, který chcete upravit
+3.	Klikněte na ikonku Upravit
+4.	Jakmile jste hotoví s úpravou, klikněte Uložit
