@@ -1,14 +1,15 @@
 ---
-title: Testing your campaign
-sidebar_label: Testing your campaign
+title: Testování kampaně 
+sidebar_label: Testování kampaně 
 ---
 
-## How can I test my campaign before I send it and why should I do it?
-Testing your campaign before you send it to thousands of people is essential as you may spot a tiny mistake that could harm your brand or business. 
+## Jak můžu otestovat moji kampaň předtím, než ji odešlu, a proč bych to měl/a udělat?
+Testování vaší kampaně předtím, než ji odešlete tisícům lidí je nezbytným krokem, jelikož se může stát, že si všimnete nějaké chyby, která by mohla poškodit vaši značku nebo byznys.
 
-To test your campaign:
-1.	Reach the Review step
-2.	Click Test Campaign to test your campaign
-3.	Enter a mobile phone number you want to receive the campaign’s message on
-4.	Click Test Campaign 
-5.	Click Yes
+Pro testování kampaně:
+1.	Dojděte do posledního kroku kampaně – Přehled
+2.	Klikněte na Poslat testovací kampaň
+3.	Vložte telefonní číslo, na které chcete doručit zprávu kampaně
+4.	Klikněte Poslat testovací SMS
+5.	Klikněte Ano
+
