@@ -1,15 +1,15 @@
 ---
-title: Statistics 
-sidebar_label: Statistics 
+title: Statistiky 
+sidebar_label: Statistiky 
 ---
 
-## Where can I see statistics?
-[BulkGate Portal](https://www.bulkgate.com/en/sms-portal/) gives you a great number of statistics you can look at that can help you see what impact your messaging campaigns have. 
-You can see where your campaigns are being delivered the most, what are the costs, delivery status and much more.
+## Kde mohu vidět všechny statistiky?
+[BulkGate Portál](https://www.bulkgate.com/cs/sms-portal-cs/) vám dává řadu statistik, na které se můžete podívat a které vám pomůžou ukázat, jaký dopad mají vaše kampaně.
+Můžete se podívat, kam jsou vaše kampaně doručovány nejvíce, jaké jsou náklady, stav doručení a mnoho dalších.
 
-To see all statistics of your campaigns:
-1.	Click SMS in the menu
-2.	Click Statistics
-3.	Now, you can choose one of the submenus and further select what statistic you want to see
+Chcete-li vidět všechny statistiky vašich kampaní:
+1.	Klikněte na SMS v menu
+2.	Klikněte na Statistiky
+3.	Nyní můžete zvolit jednu ze záložek a dále vybírat, jaké statistiky si přejete zobrazit
 
-You can also filter your campaign statistics according to other filters such as phone number, status of the campaign and others, by clicking Select filter in the right-upper corner.
+Můžete také filtrovat statistiky vašich kampaní podle dalších filtrů, jako jsou telefonní číslo, stav kampaně a další, kliknutím na Vyberte filtr v pravém horním rohu.
