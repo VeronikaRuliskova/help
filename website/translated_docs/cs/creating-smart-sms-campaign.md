@@ -1,5 +1,5 @@
 ---
-title: Creating Vytváření Smart SMS kampaně
+title: Vytváření Smart SMS kampaně
 sidebar_label: Vytváření Smart SMS kampaně
 ---
 
