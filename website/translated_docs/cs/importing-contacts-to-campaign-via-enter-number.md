@@ -3,11 +3,11 @@ title: Importing contacts to campaign via Enter number
 sidebar_label: Importing contacts to campaign via Enter number
 ---
 
-## How do I import contacts to my campaign via Enter number?
-To import contacts to your campaign manually:
-1.	Click on Enter number
-2.	Choose a country or enter a national prefix manually
-3.	Enter a phone number
-4.	If you want to personalize your message enter a recipient’s first and last name
-5.	Click Save
-6.	Enter another number or click Finish Selection to embed the contact to your campaign
+## Jak mohu importovat kontakty do kampaně přes Zadat číslo?
+Pro importování kontaktů do kampaně přes Zadat číslo:
+1.	Vyberte metodu Zadat číslo
+2.	Vyberte zemi, nebo napište číslo s předčíslím manuálně
+3.	Vložte telefonní číslo
+4.	Jestli chcete personalizovat vaši zprávu, vložte příjemcovo křestní jméno a příjmení
+5.	Klikněte Uložit
+6.	Vložte další číslo nebo klikněte Dokončit výběr pro vložení kontaktů do vaší kampaně
