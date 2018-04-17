@@ -18,6 +18,6 @@ Pro importování kontaktů do adresáře pomocí CSV/Excel:
 
 Přečtěte si více, pokud máte čísla pouze v [mezinárodním formátu,](assigning-country-to-contacts.md#mám-čísla-mých-kontaktů-pouze-v-národním-formátu) nebo[jak v národním, tak v mezinárodním formátu.](assigning-country-to-contacts.md#mám-čísla-mých-kontaktů-jak-v-národním-tak-v-mezinárodním-formátu)
 
-**`See how to import contacts via CSV/Excel`**
+**`Podívejte se, jak importovat kontakty přes CSV/Excel`**
 
 [![Import kontaktů přes CSV/Excel](https://img.youtube.com/vi/Ssr9bnwR8Gs/hqdefault.jpg)](https://www.youtube.com/watch?v=Ssr9bnwR8Gs)
