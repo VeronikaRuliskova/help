@@ -4,9 +4,6 @@ title: Dashboard
 
 ## h2
 ### h3
-#### h4
-
-This is example paragraph.
 
 This is another paragraph with link to [bulkgate](https://www.bulkgate.com) web.
 
@@ -30,12 +27,12 @@ This is paragraph with `highlighted` content inside.
     - Sub item C
     
     
-1. Item 1
-1. Item 2
-1. Item 3
-    1. Item 3A
-    1. Item 3B
-    1. Item 3C
+    1. Item 1
+    1. Item 2
+    1. Item 3
+         1. Item 3A
+        1. Item 3B
+         1. Item 3C
     
     
 *Italic text*, _Italic text too_
