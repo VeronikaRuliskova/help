@@ -20,7 +20,7 @@ Podívejte se, jak [vytvořit nabídku](offers.md#jak-vytvořit-nabídku)
 
 ## Jak vytvořit nabídku?
 Pro vytvoření nabídky:
-1.	První si musíte vytvořit [business stránku](#26)
+1.	První si musíte vytvořit [business stránku](business-page.md#jak-mohu-vytvořit-business-stránku)
 2.	Jestliže máte business stránku, klikněte na dané business stránce **Vytvořit nabídku**, nebo klikněte SMS v menu a poté **Vytvořit kampaň** a zvolte `Smart SMS.`
 3.	Ve druhém kroku kampaně budete moci vytvořit nabídku
 
