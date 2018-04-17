@@ -1,19 +1,19 @@
 ---
-title: Message personalization
-sidebar_label: Message personalization
+title: Personalizace zprávy
+sidebar_label: Personalizace zprávy
 ---
 
-## How can I personalize my campaign?
-You are able to personalize your campaign while typing a message in the second step of SMS campaign or third step of Smart SMS campaign, respectively.
-**Message personalization is a powerful tool** that creates a higher positive attitude towards the message from the side of the recipient. This can therefore lead to a higher conversion rate of the campaign. 
+## Jak mohu personalizovat kampaň?
+Kampaň můžete personalizovat při psaní zprávy ve druhém kroku SMS kampaně nebo třetím kroku Smart SMS kampaně, respektive.
+**Personalizace zprávy** je velmi mocný nástroj, který zvyšuje positivní postoj ze strany příjemce vůči zprávě. To může vést k vyšší míře konverze kampaně.
 
-In order to personalize your campaign, you have to have necessary information such as name, email or other contact information you want to use for the personalization.
+K tomu, abyste mohli personalizovat vaši kampaň, je třeba, abyste měl nezbytně nutné informace od příjemce zprávy jako je jméno, email nebo další kontaktní informace, které chcete použít pro personalizaci
 
-To personalize your campaign:
-1.	Go to the second step of SMS campaign or third step of Smart SMS campaign, respectively
-2.	Unwrap Personalize menu under the typing window
-3.	Use any of the available variables in this menu in order to personalize your campaign. The personalize menu has two parts. The upper one represents contact information of your recipients. It shows only those variables you have data for. The lower one represents your personal information. You can include both of them in your personalization
+Pro personalizování vaší kampaně:
+1.	Jděte do druhého kroku SMS kampaně nebo třetího kroku Smart SMS kampaně, respektive
+2.	Rozbalte menu Personalizovat zprávu pod oknem pro psaní
+3.	Použijte jakoukoliv z  dostupných proměnných k personalizaci vaší kampaně. Menu personalizace má dvě části. Horní část představuje kontaktní informace příjemců vaší zprávy. Spodní část představuje vaše osobní informace. Pro personalizaci zprávy můžete použít obě části
 
-`Please note that if you lack any data for the selected recipient variables, the recipient who you lack the data for will receive a message without the selected variable. In other words, if you want to write a message “Dear <first_name>, I want to…“, and you filled the first name for only 50% of the recipients, the variable <first_name> will be empty for 50% of your recipients. Therefore half of your recipients will receive the message “Dear , I want to…“.`
+Všimněte si, že pokud máte nedostatek dat pro danou proměnnou hodnotu, příjemce, pro kterého postrádáte daná data, obdrží zprávu bez vybrané proměnné. Jinými slovy, pokud chcete napsat zprávu “Dobrý den (křestní jméno), chci vám…“ a vy jste vyplnili křestní jméno pouze pro 50% příjemců, proměnná (křestní jméno) bude prázdná pro 50% vašich příjemců. Polovina vašich příjemců tedy obdrží zprávu “Dobrý den , chci vám…“.
 
->-	If you lack any data for a variable you would like to use, you can hover over the variable and click "Set default variable for x% contacts." Now enter a default value for the selected variable. This default value will be used instead of an empty space.
+-	Jestli postrádáte nějaká data pro proměnné, které chcete použít, můžete najet myší na danou proměnnou a klikněte “Zadat výchozí proměnnou pro x%“. Nyní zadejte výchozí hodnotu pro vybranou proměnnou. Tato výchozí hodnota bude použita místo prázdného místa.
