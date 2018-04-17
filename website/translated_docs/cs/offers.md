@@ -24,7 +24,7 @@ Pro vytvoření nabídky:
 2.	Jestliže máte business stránku, klikněte na dané business stránce **Vytvořit nabídku**, nebo klikněte SMS v menu a poté **Vytvořit kampaň** a zvolte `Smart SMS.`
 3.	Ve druhém kroku kampaně budete moci vytvořit nabídku
 
-Je také možné [upravit nabídku](offers.md#can-i-change-an-offer-after-it-was-sent) poté, co byla odeslána vašim příjemcům. 
+Je také možné [upravit nabídku](offers.md#mohu-upravit-nabídku-poté-co-byla-odeslána) poté, co byla odeslána vašim příjemcům. 
 
 ## Mohu upravit nabídku poté, co byla odeslána?
 Ve zkratce, ano. Nabídku můžete upravit kdykoliv poté, co vaše Smart SMS kampaň byl odeslána vaším příjemcům. Nicméně nemůžete poslat tuto nabídku dalším příjemcům. Proto, abyste ji mohli poslat novým příjemcům, musíte vytvořit novou Smart SMS kampaň.
