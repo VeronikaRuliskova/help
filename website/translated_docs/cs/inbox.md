@@ -3,7 +3,7 @@ title: Inbox
 sidebar_label: Inbox
 ---
 
-## Mohu komunikovat přímo se zákazníkem?(#41)
+## Mohu komunikovat přímo se zákazníkem?
 S vašimi zákazníky můžete komunikovat přímo a obdržet jejich reakci prostřednictvím [obousměrné SMS.](https://www.bulkgate.com/cs/reseni/obousmerna-sms/)
 
 Pro použití obousměrné SMS musíte použít správný [typ odesílatele](#12) ve druhém kroku SMS kampaně nebo třetím kroku Smart SMS kampaně, respektive.
@@ -11,7 +11,7 @@ Pro použití obousměrné SMS musíte použít správný [typ odesílatele](#12
 Nicméně si musíte být vědomi, že obousměrná SMS nemusí být podporovaná v některých zemích a/nebo určitým typem odesílatele. [Podívejte se na náš ceník](https://www.bulkgate.com/cs/cena-sms/) a přesvědčte se, jestli ve vaší určené zemi a/nebo daný typ odesílatele podporuje obousměrnou komunikaci.
 
 
-## Kde můžu vidět reakce od mých zákazníků? (#21)
+## Kde můžu vidět reakce od mých zákazníků?
 Pokud jste vybrali jeden z [typů odesílatele,](#12) který podporuje obousměrnou SMS komunikaci s vašimi zákazníky v dané zemi ([podívejte se na náš ceník a přesvědčte se](https://www.bulkgate.com/cs/cena-sms/)), tak poté můžete vidět jejich reakce v:
 
  - **Inboxu (v menu)**
