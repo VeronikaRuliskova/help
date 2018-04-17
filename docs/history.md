@@ -20,7 +20,7 @@ To export your history:
 1.	Click SMS in the menu
 2.	Click History
 3.	Click on the date filter in the left-upper corner and select a date
-4.	Optionally, select other filters, such as status, in the left-upper corner
+4.	Optionally, select other filters, such as status, in the right-upper corner
 5.	Now you see your filtered messaging history. It is worth understanding [what kind of information history list provides](#what-information-can-i-find-in-history) before you go to the next step
 6.	Click Export Selected to download CSV file either for the whole list or for an individual SMS campaign
 
