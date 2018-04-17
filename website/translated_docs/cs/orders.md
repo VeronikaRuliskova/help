@@ -1,28 +1,29 @@
 ---
-title: Orders 
-sidebar_label: Orders
+title: Objednávky 
+sidebar_label: Objednávky
 ---
 
-When [creating an offer](offers.md#how-can-i-create-and-send-an-offer) in the [Smart SMS campaign](creating-smart-sms-campaign.md#how-do-i-create-smart-sms-campaign), you have an option to include an [order form.](order-form.md#what-is-an-order-form-and-how-can-i-activate-it) Adding an order form to your offer enables your recipient to express interest in your offer, and you to collect valuable contact information from them. When somebody fills the order form, it becomes visible in your [order list.](#where-do-i-see-orders-from-customers)
+Když [vytváříte nabídku](#19) v [Smart SMS kampani](#20), tak máte možnost aktivovat [objednávkový formulář.](#36) Objednávkový formulář vám umožňuje sbírat kontaktní informace od lidí, kteří vyjádřili zájem o vaši nabídku. Když někdo vyplní objednávkový formulář, ukáže se vám to ve vašich [objednávkách.](#29)
 
-## Where do I see orders from customers?
-To see orders from your customers that have filled an order form:
-1.	Click Business page in the menu 
-2.	Click Orders
-3.	You now see a list of customers that filled order forms for your individual [offers]( https://www.bulkgate.com/en/solutions/smart-sms#offers) 
+## Kde uvidím objednávky od zákazníků?
+Abyste mohli vidět objednávky od vašich zákazníků, kteří vyplnili objednávkový formulář:
+1.	Klikněte na Business stránka v menu
+2.	Klikněte na Objednávky
+3.	Nyní vidíte list zákazníků, kteří vyplnili objednávkové formuláře na vaše jednotlivé [nabídky](https://www.bulkgate.com/cs/reseni/smart-sms#nabidky)
 
-Take a look at how you can [manage orders.](#how-can-i-manage-orders)
+Podívejte se, jak můžete [spravovat objednávky.](#30)
 
-## How can I manage orders?
-Anytime a recipient of your Smart SMS campaign fills an order form, the [order list](#where-do-i-see-orders-from-customers) is updated. However, depending on what kind of an offer you sent out, your job doesn’t end here. 
-In the case that you’re selling a product or a service, you want to contact your customer and update the status of his or her order.
 
-In order to contact a customer and update order status:
-1.	Click Business page in the menu 
-2.	Click Orders
-3.	You now see a list of customers that filled order forms for your individual [offers]( https://www.bulkgate.com/en/solutions/smart-sms#offers) 
-4.	Find a customer you wish to contact and click on the Detail icon
-5.	Click Send message in order to send SMS message, or call him or her directly
-6.	Change the order status in order to keep a better overview over your order list
-7.	Click on the button next to order status to save it
+## Jak mohu spravovat objednávky?
+Pokaždé, když příjemce vaší Smart SMS kampaně vyplní objednávkový formulář, tak se aktualizuje [list s objednávkami. ](#29) Nicméně zde, záleží na typu nabídky, vaše práce nekončí.
+V případě, že prodáváte produkt nebo službu, tak budete chtít kontaktovat vašeho zákazníka a aktualizovat stav jeho nebo její objednávky. 
+
+Pro kontaktování zákazníka a aktualizovat stav objednávky:
+1.	Klikněte na Business stránka v menu
+2.	Klikněte na Objednávky
+3.	Nyní vidíte list zákazníků, kteří vyplnili objednávkové formuláře na vaše jednotlivé [nabídky](https://www.bulkgate.com/cs/reseni/smart-sms#nabidky)
+4.	Najděte zákazníka, kterého si přejete kontaktovat a klikněte na ikonu Detail
+5.	Klikněte na Odeslat zprávu, abyste mohli napsat zprávu, nebo zákazníkovi zavolejte 
+6.	Změňte stav objednávky, abyste měl/a lepší přehled o vašich objednávkách
+7.	Klikněte na tlačítko vedle stavu objednávky, aby došlo k uložení
 
