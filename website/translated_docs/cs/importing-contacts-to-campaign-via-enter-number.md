@@ -1,6 +1,6 @@
 ---
-title: Importing contacts to campaign via Enter number
-sidebar_label: Importing contacts to campaign via Enter number
+title: Importování kontaktů do kampaně přes Zadat číslo
+sidebar_label: Importování kontaktů do kampaně přes Zadat číslo
 ---
 
 ## Jak mohu importovat kontakty do kampaně přes Zadat číslo?
