@@ -22,5 +22,5 @@ After you have saved your new order form, you can use it in your next Smart SMS 
 
 **`See how to activate and edit an order form`**
 
-[![How to create an rder form](https://img.youtube.com/vi/pf-JBSczEfc/hqdefault.jpg)](https://www.youtube.com/watch?v=pf-JBSczEfc)
+[![How to create an order form](https://img.youtube.com/vi/pf-JBSczEfc/hqdefault.jpg)](https://www.youtube.com/watch?v=pf-JBSczEfc)
 
