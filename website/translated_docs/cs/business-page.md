@@ -1,48 +1,51 @@
 ---
-title: Business page 
-sidebar_label: Business page 
+title: Business stránka  
+sidebar_label: Business stránka  
 ---
 
-## What is a business page?
-[BulkGate business page](https://www.bulkgate.com/en/solutions/smart-sms#business-page) helps you promote your products and events better. Business page represents a new environment for your business. It is simple to create one, manage it, and it is completely for free. 
-On your business page, you can create special [offers](offers.md#how-can-i-create-an-offer) that are sent to your customers via [Smart SMS campaigns.](creating-smart-sms-campaign.md#how-do-i-create-smart-sms-campaign) 
-
-## How can I create a business page?
-To create a new business page:
-1.	Click on Business page in the left side menu on [BulkGate Portal](https://portal.bulkgate.com/)
-2.	Click on New page
-3.	Enter a business page name [(the name can be changed)](#how-can-i-rename-a-business-page)
-4.	Upload your logo
-5.	Upload cover photo and background photo, or choose a color
-6.	Make sure your page info is correct – person/company contact information. [You can always edit it](#how-can-i-rename-a-business-page)
+## Co je business stránka?
+[Bulkgate business stránka](https://www.bulkgate.com/cs/reseni/smart-sms#business-stranka) vám pomáhá propagovat vaše produkty a události ještě lépe. Business stránka představuje nové prostředí pro váš byznys. Je lehké ji vytvořit, spravovat ji a je zcela zdarma.
+Na vaší business stránce můžete vytvořit speciální [nabídky,]( #19) které jsou odeslány vašim zákazníkům prostřednictvím [Smart SMS kampaní. ](#20)
 
 
-**`See how to create a business page`**
+## Jak mohu vytvořit business stránku?
+Pro vytvoření nové business stránky:
+1.	Klikněte na Business stránka v levém menu na [BulkGate Portále](https://portal.bulkgate.com/)
+2.	Klikněte na Nová stránka
+3.	Zadejte název business stránky [(název může být změněn)](#23)
+4.	Nahrajte vaše logo
+5.	Nahrajte úvodní fotku a fotku pro pozadí, nebo si vyberte barvu
+6.	Přesvědčte se, že jsou informace o stránce správně zobrazeny – kontaktní údaje osoby/společnosti. [Tyto informace můžete vždy upravit](#23)
 
-[![How to create a business page](https://img.youtube.com/vi/iDDceQaT-iQ/hqdefault.jpg)](https://www.youtube.com/watch?v=iDDceQaT-iQ)
 
-## How can I delete a business page?
-To delete a business page:
-1.	Click on Business page in the left side menu on [BulkGate Portal](https://portal.bulkgate.com/)
-2.	Click on Pages
-3.	Select a page you want to delete and click on its detail
-4.	Click Danger Zone
-5.	Click Remove business page and confirm
+**`Podívejte se, jak vytvořit business stránku`**
 
-## How can I rename a business page?
-To rename a business page:
-1.	Click on Business page in the left side menu on [BulkGate Portal](https://portal.bulkgate.com/)
-2.	Click on Pages
-3.	Select a page you want to rename and click on its detail
-4.	Click on the icon Edit page info
-5.	Change your business page name
-6.	Click Save
+[![Jak vytvořit business stránku](https://img.youtube.com/vi/iDDceQaT-iQ/hqdefault.jpg)](https://www.youtube.com/watch?v=iDDceQaT-iQ)
 
-## How can I change my contact information on a business page?
-To change contact information on a business page:
-1.	Click on Business page in the left side menu on [BulkGate Portal](https://portal.bulkgate.com/)
-2.	Click on Pages
-3.	Select a page where you want to change contact information and click on its detail
-4.	Click on the icon Edit page info
-5.	Change contact information
-6.	Click Save
+## Jak mohu smazat business stránku?
+Pro smazání business stránky:
+1.	Klikněte na Business stránka v levém menu na [BulkGate Portále](https://portal.bulkgate.com/)
+2.	Klikněte na Stránky
+3.	Vyberte stránku, kterou chcete smazat a klikněte na její detail
+4.	Klikněte na Nebezpečná zóna
+5.	Klikněte Odstranit business stránku a potvrďte
+
+
+## Jak mohu přejmenovat business stránku?
+Pro přejmenování business stránky:
+1.	Klikněte na Business stránka v levém menu na [BulkGate Portále](https://portal.bulkgate.com/)
+2.	Klikněte na Stránky
+3.	Vyberte stránku, kterou chcete přejmenovat a klikněte na její detail
+4.	Klikněte na ikonku Upravit
+5.	Změňte název vaší business stránky
+6.	Klikněte uložit
+
+
+## Jak mohu změnit kontaktní informace na business stránce?
+Pro změnu kontaktních informací na business stránce:
+1.	Klikněte na Business stránka v levém menu na [BulkGate Portále](https://portal.bulkgate.com/)
+2.	Klikněte na Stránky
+3.	Vyberte stránku, kde chcete změnit kontaktní údaje a klikněte na její detail
+4.	Klikněte na ikonku Upravit
+5.	Změňte kontaktní informace
+6.	Klikněte Uložit
