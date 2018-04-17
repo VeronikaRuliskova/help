@@ -9,7 +9,7 @@ sidebar_label: Historie
 Chcete-li najít historii zpráv:
 1.	Klikněte SMS v menu
 2.	Klikněte Historie
-3.	[Podívejte se na další informace o historii,](#37) abyste jí porozuměli lépe
+3.	[Podívejte se na další informace o historii,](history.md#jaké-informace-mohu-najít-v-historii) abyste jí porozuměli lépe
 
 Ve výchozím nastavení se zobrazí historie zpráv za posledních 30 dní. Můžete to však změnit zvolením konkrétního data v levém horním rohu okna historie.
 
@@ -22,7 +22,7 @@ Pro exportování vaší historie:
 2.	Klikněte Historie
 3.	V levém horním rohu klikněte na filtr data a vyberte datum
 4.	V pravém horním rohu můžete vybrat další filtry jako stav kampaně, pokud chcete
-5.	Nyní vidíte vyfiltrovaný seznam historie zpráv. Je dobré vědět, jaké informace [seznam historie poskytuje](#37) předtím, než přejdete na další krok
+5.	Nyní vidíte vyfiltrovaný seznam historie zpráv. Je dobré vědět, jaké informace [seznam historie poskytuje](history.md#jaké-informace-mohu-najít-v-historii) předtím, než přejdete na další krok
 6.	Pro stáhnutí CSV souboru buďto pro celý seznam historie, nebo pro jednotlivé SMS kampaně klikněte Exportovat vybrané
 
 
