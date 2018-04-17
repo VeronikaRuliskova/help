@@ -1,15 +1,15 @@
 ---
-title: Reports 
-sidebar_label: Reports 
+title: Reporty
+sidebar_label: Reporty 
 ---
 
-## What are reports?
-Reports give you a simple overview of your messaging activity. It shows when and where your messages were sent, through which operator, for what price and others.
+## Co jsou reporty?
+Reporty vám poskytují jednoduchý přehled o činnosti zasílání zpráv. Ukazuje, kdy a kde byly vaše zprávy odeslány, přes kterého operátora, za jakou cenu a další.
 
-## Where can I download my campaign reports?
-To download campaign reports:
-1.	Click SMS in the menu
-2.	Click Reports
-3.	Select a date to filter your data
-4.	Select a filter if you want to filter your data according to the country where your messages were sent, or according to the status of the messages
-5.	Click Download report
+## Kde mohu stáhnout reporty mých kampaní?
+Pro stáhnutí reportů kampaní:
+1.	Klikněte SMS v menu
+2.	Klikněte Reporty
+3.	Vyberte datum pro filtrování vašich dat
+4.	Vyberte filtr, pokud chcete data dále filtrovat podle země, kde kampaně byly odeslány, nebo podle stavu zpráv
+5.	Klikněte Stáhnout report
