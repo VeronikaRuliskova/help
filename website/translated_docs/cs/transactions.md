@@ -1,9 +1,9 @@
 ---
-title: Transactions
-sidebar_label: Transactions 
+title: Transakce
+sidebar_label: Transakce 
 ---
 
-## What are transactions?
-Transactions give you an overview over your account. You can see the flow of credits on your account, balance, type of transaction and others.
+## Co jsou to transakce?
+Transakce vám poskytují přehled nad vaším účtem. Můžete vidět tok kreditů na vašem účtu, zůstatek, typ transakce a další.
 
-You can also filter transactions according to different criteria by selecting filter options in the upper part of the window.
+Transakce také můžete filtrovat podle různých kritérií výběrem filtru v horní části okna.
