@@ -11,7 +11,7 @@ Pro použití obousměrné SMS musíte použít správný [typ odesílatele](#12
 Nicméně si musíte být vědomi, že obousměrná SMS nemusí být podporovaná v některých zemích a/nebo určitým typem odesílatele. [Podívejte se na náš ceník](https://www.bulkgate.com/cs/cena-sms/) a přesvědčte se, jestli ve vaší určené zemi a/nebo daný typ odesílatele podporuje obousměrnou komunikaci.
 
 
-## Kde můžu vidět reakce od mých zákazníků?
+## Kde mohu vidět reakce od mých zákazníků?
 Pokud jste vybrali jeden z [typů odesílatele,](#12) který podporuje obousměrnou SMS komunikaci s vašimi zákazníky v dané zemi ([podívejte se na náš ceník a přesvědčte se](https://www.bulkgate.com/cs/cena-sms/)), tak poté můžete vidět jejich reakce v:
 
  - **Inboxu (v menu)**
