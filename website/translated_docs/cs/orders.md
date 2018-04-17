@@ -11,7 +11,7 @@ Abyste mohli vidět objednávky od vašich zákazníků, kteří vyplnili objedn
 2.	Klikněte na Objednávky
 3.	Nyní vidíte list zákazníků, kteří vyplnili objednávkové formuláře na vaše jednotlivé [nabídky](https://www.bulkgate.com/cs/reseni/smart-sms#nabidky)
 
-Podívejte se, jak můžete [spravovat objednávky.](#30)
+Podívejte se, jak můžete [spravovat objednávky.](orders.md#jak-mohu-spravovat-objednávky)
 
 
 ## Jak mohu spravovat objednávky?
