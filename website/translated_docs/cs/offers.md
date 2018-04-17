@@ -15,7 +15,7 @@ Nabídka má mnoho skvělých vlastností, které získají pozornost a evokují
 -	Vytvořit objednávací formulář
 -	Použít různé visuální šablony, a další
 
-Podívejte se, jak [vytvořit nabídku](#19)
+Podívejte se, jak [vytvořit nabídku](offers.md#jak-vytvořit-nabídku)
 
 
 ## Jak vytvořit nabídku?
