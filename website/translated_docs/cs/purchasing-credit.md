@@ -1,15 +1,17 @@
 ---
-title: Purchasing credit 
-sidebar_label: Purchasing credit 
+title: Kupování kreditu 
+sidebar_label: Kupování kreditu 
 ---
 
-## What are credits?
-Credits are a virtual currency at [BulkGate Portal.](https://www.bulkgate.com/en/sms-portal/) If you want to create SMS campaign for example, you must have a sufficient balance of credits on your account first. See [how to buy credits.](#how-can-i-buy-credits) Also, before you buy credits, check the [price list](using-price-list.md#how-to-use-price-list) and calculate your next campaign cost. 
+## Co jsou kredity?
+Kredity jsou virtuální měnou na [BulkGate Portálu,](https://www.bulkgate.com/cs/sms-portal-cs/) [SMS modulech](https://www.bulkgate.com/cs/sms-modul/) a [BulkGate API.](https://www.bulkgate.com/cs/vyvojari/sms-api/) Pokud chcete například vytvořit SMS kampaň, tak nejprve musíte na vašem účtu mít dostatečný počet kreditů. [Podívejte se, jak nakoupit kredity.](#31) Předtím, než koupíte kredity, podívejte se na [ceník](#22) a spočítejte si náklady na vaši další kampaň.
 
-## How can I buy credits?
-To buy credits:
-1.	Fill in your billing information first if you want us to generate invoices for you.
-2.	See the [price list](using-price-list.md#how-to-use-price-list) first in the left side menu and calculate how much money  your campaign will cost.
-3.	Click Buy credit in the price list. You can also find the Buy credit option in Payments in the left side menu in your BulkGate Portal, or when you hover over your credit balance in the top-right corner.
-4.	Choose a payment method and send money.
-5.	After we receive your payment your credit balance will be topped up. This depends on the selected payment option.
+
+## Jak mohu koupit kredity?
+Pro koupi kreditů:
+1.	Vyplňte vše fakturační údaje, pokud chcete, abychom vám poskytovali faktury
+2.	Podívejte se v menu na [ceník](#22) a spočítejte si, kolik bude stát vaše kampaň
+3.	Klikněte v ceníku na Koupit. Položku Koupit můžete také najít v menu pod možností Platby, nebo když myší najedete na stav kreditů v pravém horním rohu
+4.	Zvolte platební metodu a odešlete peníze
+5.	Poté, co obdržíme platbu, bude váš kreditní zůstatek navýšen. Toto závisí na zvolené platební metodě
+
