@@ -1,21 +1,22 @@
 ---
-title: Importing contacts to campaign via CSV/Excel
-sidebar_label: Importing contacts to campaign via CSV/Excel
+title: Importování kontaktů do kampaně přes CSV/Excel
+sidebar_label: Importování kontaktů do kampaně přes CSV/Excel
 ---
 
-## How do I import contacts to campaign via CSV/Excel?
-To import contacts to your campaign via CSV/Excel:
-1.	Select CSV/Excel method
-2.	Choose your file by clicking on Choose File
-3.	Assign a country to your contacts. This will automatically add a prefix of the selected country to all recipients with numbers in national format only. All internationally formatted numbers (with prefix) stay untouched
-4.	Click Upload
-5.	Assign a function to any column you want
-6.	Click Save
-7.	Add another CSV/Excel file, otherwise click Finish selection
+## Jak mohu importovat kontakty do kampaně přes CSV/Excel?
+Pro importování kontaktů do kampaně přes CSV/Excel:
+1.	Vyberte metodu CSV/Excel
+2.	Vyberte váš soubor s kontakty
+3.	Přiřaďte zemi vaším kontaktům. Tímto automaticky přidáte předčíslí zvolené země všem vašim příjemcům, kteří mají číslo pouze v národním formátu. Všechna čísla, která máte v mezinárodním formátu, zůstanou nezměněna
+4.	Klikněte Nahrát
+5.	Přiřaďte funkci jakémukoliv sloupci, který chcete. Data ze sloupců, kterým přiřadíte funkci, budou moci být použita pro [personalizaci zprávy](message-personalization.md#jak-mohu-personalizovat-kampaň) 
+6.	Klikněte uložit
+7.	Přidejte další CSV/Excel soubor, jinak klikněte Dokončit výběr
 
-Read more if you have numbers in [national format only](assigning-country-to-contacts.md#i-have-my-contact-numbers-in-national-format-only), or [both national and international format.](assigning-country-to-contacts.md#i-have-my-contact-numbers-in-both-national-and-international-formats)
+Přečtěte si více, pokud máte čísla pouze v [mezinárodním formátu,](assigning-country-to-contacts.md#mám-čísla-mých-kontaktů-pouze-v-národním-formátu) nebo[jak v národním, tak v mezinárodním formátu.](assigning-country-to-contacts.md#mám-čísla-mých-kontaktů-jak-v-národním-tak-v-mezinárodním-formátu)
 
 
-**`See how to import contacts to campaign via CSV/Excel`**
+**`Podívejte se, jak importovat kontakty do kampaně přes CSV/Excel`**
 
-[![Import contacts to campaign via CSV/Excel](https://img.youtube.com/vi/JKmr8OgRLaM/hqdefault.jpg)](https://www.youtube.com/watch?v=JKmr8OgRLaM)
+[![Importování kontaktů do kampaně přes CSV/Excel](https://img.youtube.com/vi/6kfCibJgkSg/hqdefault.jpg)](https://www.youtube.com/watch?v=6kfCibJgkSg)
+
