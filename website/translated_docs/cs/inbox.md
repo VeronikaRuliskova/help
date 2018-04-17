@@ -3,20 +3,20 @@ title: Inbox
 sidebar_label: Inbox
 ---
 
-## Can I communicate directly with a customer?
-You are able to interact with your customers directly and receive their reactions through [two-way SMS.](https://www.bulkgate.com/en/solutions/two-way-sms/)
+## Mohu komunikovat přímo se zákazníkem?(#41)
+S vašimi zákazníky můžete komunikovat přímo a obdržet jejich reakci prostřednictvím [obousměrné SMS.](https://www.bulkgate.com/cs/reseni/obousmerna-sms/)
 
-To use two-way SMS, you must choose the correct [sender ID type](sender-type.md#what-is-a-sender-type-and-how-can-i-use-it) in the second step of SMS campaign or third step of Smart SMS campaign, respectively.
+Pro použití obousměrné SMS musíte použít správný [typ odesílatele](#12) ve druhém kroku SMS kampaně nebo třetím kroku Smart SMS kampaně, respektive.
 
-However, be aware that two-way SMS may not be supported in some countries and/or by a specific sender ID type. To see whether your designated country and/or sender ID type supports two-way communication, [see our pricelist.](https://www.bulkgate.com/en/sms-price/)
+Nicméně si musíte být vědomi, že obousměrná SMS nemusí být podporovaná v některých zemích a/nebo určitým typem odesílatele. [Podívejte se na náš ceník](https://www.bulkgate.com/cs/cena-sms/) a přesvědčte se, jestli ve vaší určené zemi a/nebo daný typ odesílatele podporuje obousměrnou komunikaci.
 
-## Where can I see a response from my customer?
-If you selected one of the [sender ID types](sender-type.md#what-is-a-sender-type-and-how-can-i-use-it) that supports two-way SMS communication with your customers in your designated country ([see the pricelist to make sure it is the case](https://www.bulkgate.com/en/sms-price/)), you can see their responses in: 
 
-- **Inbox (in the menu)**
-    - Your customers‘ responses to your message go to Inbox when you use one of the following sender ID type: System number or Short code
+## Kde můžu vidět reakce od mých zákazníků? (#21)
+Pokud jste vybrali jeden z [typů odesílatele,](#12) který podporuje obousměrnou SMS komunikaci s vašimi zákazníky v dané zemi ([podívejte se na náš ceník a přesvědčte se](https://www.bulkgate.com/cs/cena-sms/)), tak poté můžete vidět jejich reakce v:
 
-- **Your mobile phone inbox**
-    - Your customers‘ responses to your message go to your mobile phone inbox when you use: Own number sender ID
+ - **Inboxu (v menu)**
+    - Odpovědi vašich zákazníku na zprávy jdou do Inboxu, když použijete jeden z následujících typů odesílatele: Systémové číslo nebo Short code
+- **V doručených zprávách na vašem telefonu**
+    - Odpovědi vašich zákazníku na zprávy jdou do doručených zpráv na vašem telefonu, když použijete: Vlastní číslo jako typ odesílatele
 
-`Text sender ID is not supported for Two-way SMS communication.`
+`Textový odesílatel nepodporuje obousměrnou SMS komunikaci.`
