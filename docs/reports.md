@@ -7,7 +7,7 @@ sidebar_label: Reports
 Reports give you a simple overview of your messaging activity. It shows when and where your messages were sent, through which operator, for what price and others.
 
 ## Where can I download my campaign reports?
-To download SMS campaign reports:
+To download campaign reports:
 1.	Click SMS in the menu
 2.	Click Reports
 3.	Select a date to filter your data
