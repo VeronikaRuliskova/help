@@ -1,23 +1,24 @@
 ---
-title: Creating SMS campaign
-sidebar_label: Creating SMS campaign
+title: Vytváření SMS kampaně
+sidebar_label: Vytváření SMS kampaně
 ---
 
-## What is bulk SMS campaign?
+## Co je hromadná SMS kampaň?
+[Hromadná SMS](https://www.bulkgate.com/cs/reseni/sms#hromadna-sms), také známá jako hromadná textová zpráva nebo hromadné zasílání zpráv, vám umožňuje šířit personalizované SMS zprávy tisícovkám příjemců, které se snažíte oslovit.
+Hromadné SMS zprávy jsou většinou používány pro marketingové účely, upozornění, posílání informací a komunikace s vašimi zákazníky a zaměstnanci.
 
-[Bulk SMS](https://www.bulkgate.com/en/solutions/sms#bulk-sms), also known as bulk messaging or bulk text messaging, enables you to disseminate personalized SMS messages to thousands of people you are trying to reach. 
-Bulk SMS messaging is typically used for marketing purposes, alerts, information and communication with both your customers and staff.  
+Hromadné zprávy jsou vysoce efektivní, téměř všichni příjemci so přečtou doručenou SMS zprávu. Můžete také ještě zvýšit šanci, že si vaši příjemci zprávu přečtou aktivováním [Flash SMS](flash-sms.md#co-je-to-flash-sms) ve vaší SMS kampani.
 
-Bulk messaging is highly effective as nearly all recipients read the delivered message. You can also increase the chance that your recipients read the message by activating [Flash SMS](flash-sms.md#what-is-flash-sms) in your SMS campaign.
- 
-It is simple to create and send bulk SMS campaign and generate revenues with low operational costs. 
+Je jednoduché vytvořit a odeslat hromadnou SMS kampaň a generovat příjem s malými operačními náklady. 
 
-You can also create and send bulk SMS campaigns via our [SMS modules](https://www.bulkgate.com/en/sms-module/) or our [APIs.](https://www.bulkgate.com/en/developers/sms-api/)
+Vytvořit a odeslat hromadnou SMS kampaň přes naše [SMS moduly](https://www.bulkgate.com/cs/sms-modul/) nebo naše [API.](https://www.bulkgate.com/cs/vyvojari/sms-api/)
 
-## How do I create SMS campaign?
-To create SMS campaign:
-1.	Click SMS in the menu
-2.	Click Create campaign
-3.	Select SMS – Bulk SMS campaign
-4.	Enter a name for your campaign
-5.	Click Create campaign
+
+## Jak vytvořím SMS kampaň?
+Abyste mohli vytvořit SMS kampaň:
+1.	Klikněte SMS v menu
+2.	Klikněte Vytvořit Kampaň
+3.	Vyberte SMS – Hromadná SMS kampaň
+4.	Zadejte název vaší kampaně
+5.	Klikněte Vytvořit kampaň
+
