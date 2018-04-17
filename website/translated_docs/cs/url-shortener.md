@@ -1,31 +1,32 @@
 ---
-title: URL Shortener
-sidebar_label: URL Shortener
+title: Zkracovač URL
+sidebar_label: Zkracovač URL
 ---
 
-## What is URL Shortener?
-Including links in your campaigns cost a lot of precious characters that could be used for your text message instead. It is therefore important to shorten a link as much as possible. Our [URL shortener](https://www.bulkgate.com/en/sms-portal#url-shortener) serves great for this purpose as it can shorten any longer link substantially. 
+## Co je zkracovač URL?
+Vkládání odkazů do vašich kampaní vás může stát spoustu drahocenných charakterů, které by mohly být na místo toho použity pro samotný text zprávy. Je tedy důležité zkrátit odkaz, co nejvíc to jde. Náš [zkracovač URL](https://www.bulkgate.com/cs/sms-portal-cs#zkracovac-url) slouží skvělé pro tyto účely, protože dokáže značně zkrátit jakkoliv dlouhý odkaz.
+ 
 
-## How do I create a new short URL? 
-To create a new short URL:
-1.	Reach second step of SMS campaign or third step of Smart SMS campaign, respectively.
-2.	Unwrap the URL shortener menu under the typing window
-3.	Paste URL you want to shorten
-4.	Select short domain
-5.	Click Create
-6.	New shortened URL has been added to your list
-7.	To insert shortened URL to your campaign, simply click on the green URL in the list
-
-
-**`See how to use URL shortenerl`**
-
-[![How to use URL shortenerl](https://img.youtube.com/vi/YMfEJFU06XE/hqdefault.jpg)](https://youtu.be/YMfEJFU06XE)
+## Jak můžu vytvořit nový krátký URL?
+Pro vytvoření nového krátkého URL:
+1.	Jděte do druhého kroku SMS kampaně nebo třetího kroku Smart SMS kampaně, respektive
+2.	Rozbalte menu Zkracovač URL pod oknem pro psaní zprávy
+3.	Vložte URL, které chcete zkrátit
+4.	Vyberte krátkou doménu
+5.	Klikněte Vytvořit
+6.	Nové krátké URL bylo přidáno do vašeho seznamu
+7.	Pro vložení krátkého URL do vaší kampaně, jednoduše klikněte na zelené URL v listu
 
 
-## How do I add existing short URL to my campaign?
-To add existing short URL to your campaign:
-1.	Reach second step of SMS campaign or third step of Smart SMS campaign, respectively
-2.	Unwrap URL shortener menu under the typing window
-3.	Click on Select existing short URL
-4.	Select which existing short URL you want to insert to your campaign and click Add
-5.	To insert shortened URL to your campaign, simply click on the green URL in the list 
+**`Podívejte se, jak použí zkracovač URL`**
+
+[![Jak použít zkracovač URL](https://img.youtube.com/vi/YMfEJFU06XE/hqdefault.jpg)](https://youtu.be/YMfEJFU06XE)
+
+
+## Jak můžu přidat existující krátké URL do mé kampaně?
+Pro přidání existujícího krátkého URL do vaší kampaně:
+1.	Jděte do druhého kroku SMS kampaně nebo třetího kroku Smart SMS kampaně, respektive
+2.	Rozbalte menu Zkracovač URL pod oknem pro psaní zprávy
+3.	Klikněte na Vyberte existující krátké URL
+4.	Vyberte, které existující krátké URL chcete vložit do vaší kampaně a klikněte Přidat
+5.	Pro vložení krátkého URL do vaší kampaně, jednoduše klikněte na zelené URL v listu
