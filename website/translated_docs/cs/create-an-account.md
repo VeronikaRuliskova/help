@@ -1,6 +1,6 @@
 ---
-title: Creating an account
-sidebar_label: Creating an account
+title: Vytváření účtu
+sidebar_label: Vytváření účtu
 ---
 
 ## Jak vytvořit BulkGate účet?
