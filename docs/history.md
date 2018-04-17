@@ -30,7 +30,7 @@ To export your history:
 
 The history list displays in default format:
 -	**`Product:`** shows whether you sent your text messages through [BulkGate Portal,](https://www.bulkgate.com/en/sms-portal/) [BulkGate APIs,](https://www.bulkgate.com/en/developers/sms-api/) or one of our [SMS modules](https://www.bulkgate.com/en/sms-module/)
--	**`Recipient:`**  shows a recipient’s number, country and operator. If you sent bulk SMS message through BulkGate Portal, it shows whether it was [SMS campaign](creating-sms-campaign.md#what-is-bulk-sms-campaign) or [Smart SMS campaign.](creating-smart-sms-campaign.md#what-is-smart-sms) However, in this case you need to click on the line first in order to see the whole list or recipients of your campaign
+-	**`Recipient:`**  shows a recipient’s number, country and operator. If you sent bulk SMS message through BulkGate Portal, or SMS module, it shows whether it was [SMS campaign,](creating-sms-campaign.md#what-is-bulk-sms-campaign) or [Smart SMS campaign.](creating-smart-sms-campaign.md#what-is-smart-sms) However, in this case you need to click on the line first in order to see the whole list or recipients of your campaign
 -	**`Status`** of your sent message
 -	**`Price`** in form of [credits](purchasing-credit.md#what-are-credits)
 
