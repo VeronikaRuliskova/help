@@ -3,21 +3,23 @@ title: Campaigns
 sidebar_label: Campaigns
 ---
 
-## Where can I see sent and unfinished campaigns?
-To see all your campaigns:
-1.	Click SMS in the menu
-2.	Click Campaigns
+## Kde mohu vidět všechny odeslané a nedokončené kampaně?
+Chcete-li zobrazit všechny vaše kampaně:
+1.	Klikněte na SMS v menu
+2.	Klikněte na Kampaně
 
-When a campaign is unfinished you can either edit it or delete it by clicking on the appropriate icon.
+Když je kampaň nedokončená, tak ji můžete buď upravit, nebo smazat kliknutím na příslušnou ikonu.
 
-When a campaign is sent you can see its campaign history, campaign dashboard, and if it is Smart SMS campaign, you can even edit its campaign offer.
+Když je kampaň odeslaná, tak můžete vidět historii kampaně, nástěnku kampaně, a pokud je to Smart SMS kampaň, tak můžete dokonce upravit nabídku kampaně.
 
-## How do I know if recipients have received a message, and how can I see statistics of a campaign?
-To see statistics of a campaign:
-1.	Click SMS in the menu
-2.	Click Campaigns
-3.	Click on the campaign dashboard icon of a chosen campaign that has been sent
 
-Now you see what the total cost of your campaign was, how many messages were sent, delivered and much more. 
+## Jak zjistím, jestli příjemci obdrželi zprávu, a jak se podívám na statistiky kampaně?
+Chcete-li vidět statistiky kampaně:
+1.	Klikněte na SMS v menu
+2.	Klikněte na Kampaně
+3.	Klikněte na ikonku nástěnky kampaně, která byla odeslána
 
-Every campaign dashboard has also its own [inbox.](inbox.md#where-can-i-see-a-response-from-my-customer) Depending on the [sender type,](sender-type.md#what-is-a-sender-type-and-how-can-i-use-it) your recipients can reply to your message and their replies can be seen in the campaign dashboard.
+Nyní můžete vidět celkové náklady vaší kampaně, kolik zpráv bylo odesláno, doporučeno a mnoho dalších statistik.
+
+Každá nástěnka kampaně má také svůj vlastní [Inbox.](inbox.md#kde-mohu-vidět-reakce-od-mých-zákazníků) Vaši zákazníci můžou odpovědět na vaši zprávu, záleží na [typu odesílatel,](sender-type.md#co-je-typ-odesílatele-a-jak-ho-můžu-použít) a jejich reakce můžete vidět na nástěnce kampaně. 
+
