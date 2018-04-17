@@ -4,11 +4,11 @@ sidebar_label: Objednávkový formulář
 ---
 
 ## Co je objednávkový formulář a jak ho může aktivovat?
-Objednávkový formulář vám umožňuje sbírat kontaktní informace od lidí, kteří vyjádřili zájem o vaši nabídku. Když někdo vyplní objednávkový formulář, ukáže se vám to ve vašich [objednávkách.](#29)
+Objednávkový formulář vám umožňuje sbírat kontaktní informace od lidí, kteří vyjádřili zájem o vaši nabídku. Když někdo vyplní objednávkový formulář, ukáže se vám to ve vašich [objednávkách.](orders.md#kde-uvidím-objednávky-od-zákazníků)
 
 Pro aktivaci objednávkového formuláře:
 1.	Jděte do druhého kroku Smart SMS kampaně
-2.	Aktivujte [Vyžadovat objednávku,](#37] objednávkový formulář vyskočí na spodní části nabídkového okna
+2.	Aktivujte [Vyžadovat objednávku,](offer-options.md#vyžadovat-objednávku] objednávkový formulář vyskočí na spodní části nabídkového okna
 3.	Klikněte Upravit
 4.	Změňte Nadpis objednávkového formuláře
 5.	Vyberte položky, které chcete zahrnout ve vašem objednávkovém formuláři a pojmenujte/přeložte je
