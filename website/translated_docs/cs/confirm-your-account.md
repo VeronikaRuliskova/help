@@ -3,12 +3,12 @@ title: Confirming your account
 sidebar_label: Confirming your account
 ---
 
-## How do I finish creating my BulkGate account and confirm my email?
-To finish creating an account, you need to confirm that you own the email that you used to create the account:
--	To confirm your email, click on the activation link in the email you received from BulkGate. [Learn what to do if you can't find the email](#i-cant-find-my-bulkgate-registration-confirmation-email)
+## Jak dokončím vytvoření BulkGate účtu a potvrdím můj email?
+Pro dokončení tvorby účtu potřebujete potvrdit, že jste vlastníkem emailu, který jste použili pro vytvoření účtu:
+-	Pro potvrzení vašeho emailu klikněte na aktivační odkaz ve vašem emailu, který jste obdrželi od BulkGate. Přečtěte si, co dělat, když nemůžete najít email (#1)
 
-## I can't find my BulkGate registration confirmation email.
-If you created a BulkGate account, we sent an activation link to the email you used during the registration. If you can't find your confirmation email:
--	Check your spam or junk mail folder
--	Try to search any email from the email address noreply (at) bulkgate.com to find the confirmation email
--	If you still don't see the email, please contact us on **support (at) topefekt.com**
+## Nemůžu najít potvrzující email o mé registraci.
+Pokud jste si vytvořili BulkGate účet, odeslali jsme vám aktivační odkaz na email, který jste při registraci použili. Jestliže nemůžete potvrzující email najít:
+-	Zkontrolujte spam nebo koš
+-	Zkuste najít potvrzovací email vyhledáním pošty od noreply (zavináč) bulkgate.com
+-	Jestliže stále nemůžete najít potvrzovací email, prosím, kontaktujte nás na **support (zavináč) topefekt.com**
