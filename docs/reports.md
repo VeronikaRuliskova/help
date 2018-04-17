@@ -11,5 +11,5 @@ To download campaign reports:
 1.	Click SMS in the menu
 2.	Click Reports
 3.	Select a date to filter your data
-4.	Select country to filter your data if you want. Otherwise you will get a report that may include SMS campaigns that were sent to multiple countries
+4.	Select a filter if you want to filter your data according to the country where your messages were sent, or according to the status of the messages
 5.	Click Download
