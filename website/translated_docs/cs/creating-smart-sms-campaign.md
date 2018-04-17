@@ -1,19 +1,21 @@
 ---
-title: Creating Smart SMS campaign
-sidebar_label: Creating Smart SMS campaign
+title: Creating Vytváření Smart SMS kampaně
+sidebar_label: Vytváření Smart SMS kampaně
 ---
 
-## What is Smart SMS?
-[Smart SMS](https://www.bulkgate.com/en/solutions/smart-sms/) helps you promote your products and events better. Smart SMS is a combination of a [bulk SMS](https://www.bulkgate.com/en/solutions/sms#bulk-sms) message and your [BulkGate business page.](business-page.md#what-is-a-business-page) 
+## Co je Smart SMS kampaň?
+[Smart SMS](https://www.bulkgate.com/cs/reseni/smart-sms/) vám pomáhá propagovat vaše produkty a události ještě lépe. Smart SMS je kombinací [hromadné SMS zprávy](https://www.bulkgate.com/cs/reseni/sms#hromadna-sms) a vaší [BulkGate business stránky.](#24)
 
-When you are building a Smart SMS campaign, you are actually creating an [offer.](https://www.bulkgate.com/en/solutions/smart-sms#offers) This offer is embedded into your SMS message in form of a link, and subsequently placed on your [business page.](business-page.md#what-is-a-business-page4) 
+Když vytváříte Smart SMS kampaň, vytváříte ve skutečnosti [nabídku.](https://www.bulkgate.com/cs/reseni/smart-sms#nabidky) Tato nabídka je vložena do vaší SMS zprávy ve formě odkazu a je následně umístěna na vaší [business stránce.](#24)
 
-Read more about [offers](offers.md#what-is-an-offer) so you see all the benefits Smart SMS offers.
+Přečtěte si více o [nabídkách,](offers.md#co-je-to-nabídka) abyste viděli všechny výhody Smart SMS nabídek.
 
-## How do I create Smart SMS campaign?
-To create Smart SMS campaign:
-1.	Click SMS in the menu
-2.	Click Create campaign
-3.	Select Smart SMS – Bulk SMS campaign + Business page
-4.	Enter a name for your campaign
-5.	Click Create campaign
+
+## Jak vytvořím Smart SMS kampaň?
+Pro vytvoření Smart SMS kampaně:
+1.	Klikněte na SMS v menu
+2.	Klikněte Vytvořit kampaň
+3.	Vyberte Smart SMS – Hromadná SMS kampaň + Business stránka
+4.	Zadejte jméno vaší kampaně
+5.	Klikněte Vytvořit kampaň
+
