@@ -12,4 +12,4 @@ To download campaign reports:
 2.	Click Reports
 3.	Select a date to filter your data
 4.	Select a filter if you want to filter your data according to the country where your messages were sent, or according to the status of the messages
-5.	Click Download
+5.	Click Download report
