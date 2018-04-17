@@ -4,7 +4,7 @@ sidebar_label: Možnosti nabídky
 ---
 
 ## Co jsou možnosti nabídky a jak je mohu nastavit?
-V závislosti na vaší nabídce můžete zahrnout některé nebo všechny možnosti nabídky. Menu `možnosti nabídky` má 4 podnabídky: [cena,](#cena) [množství,](#množství) [platnost nabídky](#platnost-nabídky) a [vyžadovat objednávku.](#vyžadovat-objednávku)
+Podle druhu vaší nabídky můžete zahrnout některé nebo všechny možnosti nabídky. Menu `možnosti nabídky` má 4 podnabídky: [cena,](#cena) [množství,](#množství) [platnost nabídky](#platnost-nabídky) a [vyžadovat objednávku.](#vyžadovat-objednávku)
 
 ### `Cena`
 Pokud aktivujete tuto podnabídku, můžete jednoduše vepsáním hodnoty nastavit původní cenu, novou cenu, slevu a měnu. V položce sleva nemusíte uvádět procenta (%). Použijte symbol měny, nebo zkratku měny v položce měna.
