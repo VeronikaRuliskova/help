@@ -1,11 +1,10 @@
 ---
-title: Color scheme
-sidebar_label: Color scheme
+title: Barevné schéma 
+sidebar_label: Barevné schéma 
 ---
 
-## How can I change a color scheme of an offer?
-To change the color scheme of your offer:
-1.	Go to the second step of Smart SMS campaign
-2.	At the bottom of the offer window, you can choose 1 of 7 color schemes
-3.	Click Offer preview to see the differences
-
+## Jak mohu změnit barevné schéma nabídky?
+Pro změnu barevného schématu vaší nabídky:
+1.	Jděte do druhého kroku Smart SMS kampaně
+2.	Ve spodní části nabídkového okna si můžete vybrat 1 ze 7 barevných schémat
+3.	Klikněte Náhled nabídky, abyste viděli rozdíly
