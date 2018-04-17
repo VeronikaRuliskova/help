@@ -1,6 +1,6 @@
 ---
-title: Offer options
-sidebar_label: Offer options
+title: Možnosti nabídky 
+sidebar_label: Možnosti nabídky 
 ---
 
 ## Co jsou možnosti nabídky a jak je mohu nastavit?
