@@ -1,21 +1,21 @@
 ---
-title: Importing contacts via vCard
-sidebar_label: Importing contacts vCard
+title: Import kontaktů přes vCard
+sidebar_label: Import kontaktů přes vCard
 ---
 
-## How do I import contacts to Address book via vCard?
-To import contacts to your address book via vCard:
-1.	Go to Address book
-2.	Click Import contacts
-3.	Select vCard method
-4.	Choose your file by clicking on Choose File
-5.	Choose if you want to add the contacts to an existing group or add to a new group. You can leave those options blank
-6.	Assign a function to any column you want. Data from these columns can be used in [message personalization](message-personalization.md#how-can-i-personalize-my-campaign) or [offer personalization](offer-personalization.md#how-can-i-personalize-an-offer) 
-7.	Select if you want to skip or rewrite existing contacts
-8.	Click Upload
+## Jak mohu importovat kontakty do Adresáře přes vCard?
+Pro importování kontaktů do adresáře pomocí vCard:
+1.	Jděte do Adresáře
+2.	Klikněte Importovat kontakty
+3.	Vyberte vCard metodu
+4.	Vyberte váš soubor s kontakty
+5.	Vyberte, jestli chcete přidat kontakty do existující skupiny nebo do nové. Můžete tyto dvě položky nechat nezaškrtnuté
+6.	Přiřaďte zemi vaším kontaktům. Tímto automaticky přidáte předčíslí zvolené země všem vašim příjemcům, kteří mají číslo pouze v národním formátu. Všechna čísla, která máte v mezinárodním formátu, zůstanou nezměněna
+7.	Zvolte, jestli chcete kontakt přepsat, nebo přeskočit pokud existuje
+8.	Klikněte Nahrát
 
-Read more if you have numbers in [national format only](assigning-country-to-contacts.md#i-have-my-contact-numbers-in-national-format-only), or [both national and international format.](assigning-country-to-contacts.md#i-have-my-contact-numbers-in-both-national-and-international-formats)
+Přečtěte si více, pokud máte čísla pouze v [mezinárodním formátu,](assigning-country-to-contacts.md#mám-čísla-mých-kontaktů-pouze-v-národním-formátu) nebo[jak v národním, tak v mezinárodním formátu.](assigning-country-to-contacts.md#mám-čísla-mých-kontaktů-jak-v-národním-tak-v-mezinárodním-formátu)
 
-**`Watch a video`**
+**`Podívejte se, jak importovat kontakty přes vCard`**
 
-[![Import contacts via CSV/Excel](https://img.youtube.com/vi/SSCQ-YFatLs/hqdefault.jpg)](https://www.youtube.com/watch?v=SSCQ-YFatLs)
+[![Import kontaktů přes vCard](https://img.youtube.com/vi/Ssr9bnwR8Gs/hqdefault.jpg)](https://www.youtube.com/watch?v=Ssr9bnwR8Gs)
