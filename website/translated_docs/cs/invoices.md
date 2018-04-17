@@ -1,12 +1,12 @@
 ---
-title: Invoices 
-sidebar_label: Invoices
+title: Faktury 
+sidebar_label: Faktury
 ---
 
-## Where can I download invoices?
-To download invoices:
-1.	You first have to fill in your [billing information](billing-information.md#how-do-i-fill-or-update-billing-information)
-2.	Click Payments
-3.	Click Invoices
-4.	Select an invoice you wish to download
-5.	Click on the invoice number to download
+## Kde mohu stáhnout faktury?
+Pro stáhnutí faktur:
+1.	První musíte mít vyplněné vaše [fakturační údaje](billing-information.md#jak-vyplním-nebo-aktualizuju-fakturační-údaje)
+2.	Klikněte Platby
+3.	Klikněte Faktury
+4.	Vyberte fakturu, kterou chcete stáhnout
+5.	Klikněte na číslo faktury pro zahájení stahování
