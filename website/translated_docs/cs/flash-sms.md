@@ -3,7 +3,8 @@ title: Flash SMS
 sidebar_label: Flash SMS
 ---
 
-## What is Flash SMS?
-A Flash SMS is a message that pops-up directly on the recipient’s main screen without the recipient’s need to go to the mobile phone inbox to read the message. Flash SMS is useful when you need to catch the recipient’s attention immediately. Common examples of Flash SMS usage can be emergency alerts, traffic alerts and others.
+## Co je to Flash SMS?
+Flash SMS je zpráva, která vyskočí přímo na displeji příjemce, bez toho aniž by musel příjemce jít do doručené pošty na mobilním telefonu. Flash SMS je užitečná v případě, kdy potřebujete získat okamžitou pozornost příjemce. Běžné příklady použití Flash SMS mohou být nouzové situace, dopravní varování a další.
 
-Unlike a normal text message, a Flash SMS is not routed to the recipient’s message inbox where is stored. After being dismissed by the recipient it is usually gone.
+Na rozdíl od klasické zprávy, Flash SMS není přesměrována do doručené pošty, kde by byla uložená. Poté, co je Flash SMS zavřená uživatelem většinou zmizí.
+
