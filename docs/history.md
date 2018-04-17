@@ -41,7 +41,7 @@ Furthermore, if you click on an individual line, you can see additional info suc
 -	**`Sender type:`** [read more about sender type](sender-type.md#what-is-a-sender-type-and-how-can-i-use-it)
 
 ## What is SMS ID and where can I find it?
-Every text message has a unique SMS ID. This can be useful if you have a problem with delivering SMS messages. By providing an SMS ID to us we can solve the problem with the carrier. However, be aware that an SMS ID cannot be older than `two days.` 
+Every text message has a unique SMS ID. This identification can be useful if you have a problem with delivering SMS messages. By providing an SMS ID to us we can solve the problem with the carrier. However, be aware that an SMS ID cannot be older than `two days.` 
 
 To find an SMS ID:
 1.	Click SMS in the menu
