@@ -1,18 +1,19 @@
 ---
-title: Importing contacts to campaign via Address book
-sidebar_label: Importing contacts to campaign via Address book
+title: Importování kontaktů do kampaně přes adresář
+sidebar_label: Importování kontaktů do kampaně přes adresář
 ---
 
-## How do I import contacts to campaign via Address book?
-To import contacts to your campaign via Address book:
-1.	Select Address book method
-2.	Select whether you want to import all your contacts from the address book, select a particular group or groups, or import individual contacts
-3.	Click Confirm
-4.	You can now filter the contacts further. This is optional 
-5.	Click Finish selection
-6.	Selected contacts are now embedded to your campaign
+## Jak mohu importovat kontakty do kampaně přes Adresář?
+Pro importování kontaktů do vaší kampaně přes Adresář:
+1.	Vyberte metodu Adresář
+2.	Vyberte, jestli chcete importovat všechny vaše kontakty z adresáře, vyberte jednotlivou skupinu nebo skupin, nebo importujte individuální kontakty
+3.	Klikněte Potvrdit
+4.	Nyní můžete vaše kontakty dále filtrovat. Toto je volitelné
+5.	Klikněte dokončit výběr
+6.	Vybrané kontakty jsou nyní připojené k vaší kampani
 
 
-**`See how to import contacts to campaign via Address book`**
 
-[![Import contacts to campaign via Address book](https://img.youtube.com/vi/6kfCibJgkSg/hqdefault.jpg)](https://www.youtube.com/watch?v=6kfCibJgkSg)
+**`Podívejte se, jak importovat kontakty do kampaně přes adresář`**
+
+[![Importování kontaktů do kampaně přes adresář](https://img.youtube.com/vi/6kfCibJgkSg/hqdefault.jpg)](https://www.youtube.com/watch?v=6kfCibJgkSg)
