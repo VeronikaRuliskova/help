@@ -5,7 +5,7 @@ sidebar_label: Business stránka
 
 ## Co je business stránka?
 [Bulkgate business stránka](https://www.bulkgate.com/cs/reseni/smart-sms#business-stranka) vám pomáhá propagovat vaše produkty a události ještě lépe. Business stránka představuje nové prostředí pro váš byznys. Je lehké ji vytvořit, spravovat ji a je zcela zdarma.
-Na vaší business stránce můžete vytvořit speciální [nabídky,]( #19) které jsou odeslány vašim zákazníkům prostřednictvím [Smart SMS kampaní. ](#20)
+Na vaší business stránce můžete vytvořit speciální [nabídky,](offers.md#jak-vytvořit-nabídku) které jsou odeslány vašim zákazníkům prostřednictvím [Smart SMS kampaní.](creating-smart-sms-campaign.md#jak-vytvořím-smart-sms-kampaň)
 
 
 ## Jak mohu vytvořit business stránku?
