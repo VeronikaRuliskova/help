@@ -18,7 +18,7 @@ Nabídka má mnoho skvělých vlastností, které získají pozornost a evokují
 Podívejte se, jak [vytvořit nabídku](#19)
 
 
-## Jak vytvořit nabídku? (#19)
+## Jak vytvořit nabídku?
 Pro vytvoření nabídky:
 1.	První si musíte vytvořit [business stránku](#26)
 2.	Jestliže máte business stránku, klikněte na dané business stránce **Vytvořit nabídku**, nebo klikněte SMS v menu a poté **Vytvořit kampaň** a zvolte `Smart SMS.`
