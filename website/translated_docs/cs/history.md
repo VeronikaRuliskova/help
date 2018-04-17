@@ -1,52 +1,54 @@
 ---
-title: History 
-sidebar_label: History 
+title: Historie
+sidebar_label: Historie 
 ---
 
-## Where can I see my messaging history?
-[BulkGate Portal](https://www.bulkgate.com/en/sms-portal/) keeps track of your [SMS messaging](https://www.bulkgate.com/en/solutions/sms/) activity and provides you with a messaging history list for you convenience. 
+## Kde mohu vidět historii mých kampaní?
+[BulkGate Portál](https://www.bulkgate.com/cs/sms-portal-cs/) zaznamenává aktivitu odesílání [SMS zpráv](https://www.bulkgate.com/cs/reseni/sms/) a pro vaše pohodlí vám poskytuje seznam historie.
 
-To find messaging history:
-1.	Click SMS in the menu
-2.	Click History
-3.	[See additional information about history list](#what-information-can-i-find-in-history) in order to understand it better
+Chcete-li najít historii zpráv:
+1.	Klikněte SMS v menu
+2.	Klikněte Historie
+3.	[Podívejte se na další informace o historii,](#37) abyste jí porozuměli lépe
 
-Note that by default you see messaging history of the past 30 days. However, you can change this by choosing a specific date in the left-upper corner of the history window.
+Ve výchozím nastavení se zobrazí historie zpráv za posledních 30 dní. Můžete to však změnit zvolením konkrétního data v levém horním rohu okna historie.
 
-You can also filter your messaging history according to other filters such as phone number, status of the campaign and others, by clicking Select filter in the right-upper corner.
-
-## How can I export my messaging history?
-To export your history:
-1.	Click SMS in the menu
-2.	Click History
-3.	Click on the date filter in the left-upper corner and select a date
-4.	Optionally, select other filters, such as status, in the right-upper corner
-5.	Now you see your filtered messaging history. It is worth understanding [what kind of information history list provides](#what-information-can-i-find-in-history) before you go to the next step
-6.	Click Export Selected to download CSV file either for the whole list or for an individual SMS campaign
+Můžete také filtrovat historii zpráv podle filtrů, například telefonního čísla, stavu kampaně a dalších, klepnutím na položku Vyberte filtr v pravém horním rohu.
 
 
-## What information can I find in history?
-[SMS history list](#where-can-i-see-my-messaging-history) contains numerous information about your sent [bulk SMS](https://www.bulkgate.com/en/solutions/sms/#bulk-sms) and [SMS notifications.](https://www.bulkgate.com/en/solutions/sms/#sms-notification) 
+## Jak mohu exportovat historii zpráv?
+Pro exportování vaší historie:
+1.	Klikněte SMS v menu
+2.	Klikněte Historie
+3.	V levém horním rohu klikněte na filtr data a vyberte datum
+4.	V pravém horním rohu můžete vybrat další filtry jako stav kampaně, pokud chcete
+5.	Nyní vidíte vyfiltrovaný seznam historie zpráv. Je dobré vědět, jaké informace [seznam historie poskytuje](#37) předtím, než přejdete na další krok
+6.	Pro stáhnutí CSV souboru buďto pro celý seznam historie, nebo pro jednotlivé SMS kampaně klikněte Exportovat vybrané
 
-The history list displays in default format:
--	**`Product:`** shows whether you sent your text messages through [BulkGate Portal,](https://www.bulkgate.com/en/sms-portal/) [BulkGate APIs,](https://www.bulkgate.com/en/developers/sms-api/) or one of our [SMS modules](https://www.bulkgate.com/en/sms-module/)
--	**`Recipient:`**  shows a recipient’s number, country and operator. If you sent bulk SMS message through BulkGate Portal, or SMS module, it shows whether it was [SMS campaign,](creating-sms-campaign.md#what-is-bulk-sms-campaign) or [Smart SMS campaign.](creating-smart-sms-campaign.md#what-is-smart-sms) However, in this case you need to click on the line first in order to see the whole list or recipients of your campaign
--	**`Status`** of your sent message
--	**`Price`** in form of [credits](purchasing-credit.md#what-are-credits)
 
-Furthermore, if you click on an individual line, you can see additional info such as:
--	**`A message text`**
--	**`SMS ID:`** [read more about SMS ID](#what-is-sms-id-and-where-can-i-find-it)
--	**`Routes:`** your bulk SMS campaigns are sent through promotional route, SMS notifications are sent through transactional route, respectively
--	**`Sender type:`** [read more about sender type](sender-type.md#what-is-a-sender-type-and-how-can-i-use-it)
+## Jaké informace mohu najít v historii?
+[SMS historie](#38) obsahuje množství informací ohledně odeslaných [hromadných SMS](https://www.bulkgate.com/cs/reseni/sms#hromadna-sms) a [informačních SMS.](https://www.bulkgate.com/cs/reseni/sms#informacni-sms)
 
-## What is SMS ID and where can I find it?
-Every text message has a unique SMS ID. This identification can be useful if you have a problem with delivering SMS messages. By providing an SMS ID to us we can solve the problem with the carrier. However, be aware that an SMS ID must not be older than `two days.` 
+Seznam historie zobrazuje ve standardním formátu:
+-	**`Produkt`**: ukazuje, jestli byla zpráva odeslána přes [BulkGate Portál,](https://www.bulkgate.com/cs/sms-portal-cs/) jeden z našich [SMS modulů,](https://www.bulkgate.com/cs/sms-modul/) nebo [BulkGate API](https://www.bulkgate.com/cs/vyvojari/sms-api/)
+-	**`Příjemce`**: ukazuje číslo příjemce, zemi a operátora. Jestliže jste odeslali hromadnou SMS zprávu přes BulkGate Portál, nebo SMS modul, tak zobrazuje, jestli to byla [SMS kampaň,](#6) nebo [Smart SMS kampaň.](#7) Nicméně v takovém případě musíte kliknout na řádek, abyste mohli vidět celý seznam příjemců kampaně
+-	**`Stav`** vaší odeslané zprávy.
+-	**`Cenu`**: ve formě [kreditů](#39)
 
-To find an SMS ID:
-1.	Click SMS in the menu
-2.	Click History
-3.	Click on a line with a message you have issues with 
-4.	Copy SMS ID
-5.	Go to `Technical support`
-6.	Paste the SMS ID to the message window and contact our support
+Dále, pokud kliknete na jednotlivé řádky, zobrazí se další informace, jako například:
+-	**`Text zprávy`**
+-	**`SMS ID`**: [více informací o SMS ID](# 40)
+-	**`Kanály`**: vaše hromadné SMS kampaně jsou odeslány přes marketingový kanál, informační SMS přes transakční kanál, respektive
+-	**`Název peněženky`**: ze které peněženky odešla hotovost na zprávu. [Více informací o peněženkách](#)
+-	**`Typ odesílatele`**: [přečtěte si více o typu odesílatele](# 12)
+
+## Co je SMS ID a kde ho mohu najít?
+Každá textová zpráva má své unikátní SMS ID. Tato identifikace může být užitečná, pokud máte problém s doručením SMS zprávy. Když nám poskytnete SMS ID, můžeme tento problém vyřešit s doručovatelem. Mějte však na paměti, že SMS ID nesmí být starší, než `dva dny.`
+
+Chcete-li nalézt SMS ID:
+1.	Klikněte SMS v menu
+2.	Klikněte Historie
+3.	Klikněte na řádek zprávy, se kterou máte problém
+4.	Zkopírujte SMS ID
+5.	Jděte do `Technická podpora`
+6.	Vložte SMS ID do zprávy a kontaktujte naší technickou podporu
