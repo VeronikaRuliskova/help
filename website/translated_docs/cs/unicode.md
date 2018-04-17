@@ -3,9 +3,10 @@ title: Unicode
 sidebar_label: Unicode
 ---
 
-## What is Unicode?
-When you activate Unicode in your campaign, it allows you to use characters outside of the [standard GSM character set](https://en.wikipedia.org/wiki/GSM_03.38) that is most commonly used in mobile communications. Unicode can therefore use the standard GSM character set and character sets that are common in Arabic, Chinese and other languages altogether. 
+## Co je to Unicode?
+Když ve vaší kampani aktivujete Unicode, umožní vám to použít znaky mimo standardní sadu znaků GSM, která je nejčastěji používána v mobilní komunikaci. Unicode tedy může použít znakovou sadu GSM a znakové sady, které jsou běžné v českém, arabském, čínském, a jiném jazyce. Jinými slovy, po aktivaci Unicode budete moci ve vaší kampani použít diakritiku.
 
-When typing a message, a warning “Activate UNICODE to display the message correctly” shows up if your characters are outside of the standard GSM character set. This message could be illegible to a recipient if you would not activate Unicode.
+Když píšete zprávu, tak se vám může zobrazit varování “Pro zobrazení SMS zprávy s diakritikou aktivujte Unicode“ za případu, že používáte znaky mimo standardní sadu znaků GSM. Tato zpráva by mohla být nečitelná pro příjemce, kdybyste neaktivovali Unicode.
 
-`When you activate Unicode in your campaign, 1 message is limited to 70 characters as opposed to 160 in the standard SMS.`
+`Když aktivujete Unicode ve vaší kampani, 1 zpráva je limitována na 70 znaků na rozdíl 160 znaků u běžné SMS.`
+
