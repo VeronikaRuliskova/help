@@ -1,15 +1,16 @@
 ---
-title: Billing information 
-sidebar_label: Billing information 
+title: Fakturační údaje
+sidebar_label: Fakturační údaje 
 ---
 
-## Do I have to fill billing information?
-This is up to you. If you want to access invoice data, there is a need to [fill your billing information,](#35) otherwise it is not mandatory.
+## Musím vyplnit fakturační údaje?
+Tato volba je na vás. Chcete-li získat přístup k fakturačním datům, musíte [vyplnit vaše fakturační údaje,](#35) jinak je to nepovinné.
 
-## How do I fill or update billing information?
-When you need to update your billing information:
-1.	Click Payments
-2.	Click Billing information
-3.	Update billing info
-4.	Click Save
+
+## Jak vyplním nebo aktualizuju fakturační údaje?
+Pokud potřebujete aktualizovat vaše fakturační údaje:
+1.	Klikněte Platby
+2.	Klikněte Fakturační údaje
+3.	Aktualizujte fakturační údaje
+4.	Klikněte Uložit
 
