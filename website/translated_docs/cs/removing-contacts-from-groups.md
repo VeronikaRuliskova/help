@@ -1,11 +1,12 @@
 ---
-title: Removing contacts from groups
-sidebar_label: Removing contacts from groups
+title: Odstraňování kontaktů ze skupin
+sidebar_label: Odstraňování kontaktů ze skupin
 ---
 
-## How can I remove contacts from a group?
-To remove contacts from a group:
-1.	Click Select group in the Address book
-2.	Select a group you want to remove contact/s from
-3.	Check which contact you want to remove by checking the checkbox of a contact
-4.	Click Delete from group and confirm
+## Jak můžu odstranit kontakty ze skupin?
+Pro odstranění kontaktů ze skupiny:
+1.	Klikněte na Vyberte skupinu
+2.	Vyberte skupinu, ze které chcete odstranit kontakty
+3.	Vyberte, které kontakty chcete smazat zaškrtnutím rámečku kontaktu
+4.	Klikněte Smazat ze skupiny a potvrďte
+
