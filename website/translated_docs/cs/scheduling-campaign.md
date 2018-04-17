@@ -1,6 +1,6 @@
 ---
-title: Scheduling campaign
-sidebar_label: Scheduling campaign
+title: Plánování kampaně
+sidebar_label: Plánování kampaně
 ---
 
 ## Jak naplánovat kampaň a nastavit správně čas a datum?
