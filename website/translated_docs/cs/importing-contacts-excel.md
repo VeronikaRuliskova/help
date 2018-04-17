@@ -1,23 +1,23 @@
 ---
-title: Importing contacts via CSV/Excel
-sidebar_label: Importing contacts CSV/Excel
+title: Import kontaktů přes CSV/Excel
+sidebar_label: Import kontaktů přes CSV/Excel
 ---
 
-## How do I import contacts to Address book via CSV/Excel?
-To import contacts to your address book via CSV/Excel:
-1.	Go to Address book 
-2.	Click Import contacts
-3.	Select CSV/Excel method
-4.	Choose your file by clicking on Choose File
-5.	Choose if you want to add the contacts to an existing group or add to a new group. You can leave those options blank
-6.	Assign a country to your contacts. This will automatically add a prefix of the selected country to all recipients with numbers in national format only. All internationally formatted numbers (with prefix) stay untouched
-7.	Select if you want to skip or rewrite existing contacts
-8.	Click Upload
-9.	Assign a function to any column you want. Data from these columns can be used in [message personalization](message-personalization.md#how-can-i-personalize-my-campaign) or [offer personalization](offer-personalization.md#how-can-i-personalize-an-offer) 
-10.	Click Save
+## Jak mohu importovat kontakty do Adresáře přes CSV/Excel?
+Pro importování kontaktů do adresáře pomocí CSV/Excel:
+1.	Jděte do Adresáře
+2.	Klikněte Importovat kontakty
+3.	Vyberte CSV/Excel metodu
+4.	Vyberte váš soubor s kontakty
+5.	Vyberte, jestli chcete přidat kontakty do existující skupiny nebo do nové. Můžete tyto dvě položky nechat nezaškrtnuté
+6.	Přiřaďte zemi vaším kontaktům. Tímto automaticky přidáte předčíslí zvolené země všem vašim příjemcům, kteří mají číslo pouze v národním formátu. Všechna čísla, která máte v mezinárodním formátu, zůstanou nezměněna
+7.	Zvolte, jestli chcete kontakt přepsat, nebo přeskočit pokud existuje
+8.	Klikněte Nahrát
+9.	Přiřaďte funkci jakémukoliv sloupci, který chcete. Data ze sloupců, kterým přiřadíte funkci, budou moci být použita pro [personalizaci zpráv](message-personalization.md#jak-mohu-personalizovat-kampaň) a [personalizaci nabídek](offer-personalization.md#jak-mohu-personalizovat-nabídku) 
+10.	Klikněte uložit
 
-Read more if you have numbers in [national format only](assigning-country-to-contacts.md#i-have-my-contact-numbers-in-national-format-only), or [both national and international format.](assigning-country-to-contacts.md#i-have-my-contact-numbers-in-both-national-and-international-formats)
+Přečtěte si více, pokud máte čísla pouze v [mezinárodním formátu,](assigning-country-to-contacts.md#mám-čísla-mých-kontaktů-pouze-v-národním-formátu) nebo[jak v národním, tak v mezinárodním formátu.](assigning-country-to-contacts.md#mám-čísla-mých-kontaktů-jak-v-národním-tak-v-mezinárodním-formátu)
 
 **`See how to import contacts via CSV/Excel`**
 
-[![Import contacts via CSV/Excel](https://img.youtube.com/vi/Ssr9bnwR8Gs/hqdefault.jpg)](https://www.youtube.com/watch?v=Ssr9bnwR8Gs)
+[![Import kontaktů přes CSV/Excel](https://img.youtube.com/vi/Ssr9bnwR8Gs/hqdefault.jpg)](https://www.youtube.com/watch?v=Ssr9bnwR8Gs)
