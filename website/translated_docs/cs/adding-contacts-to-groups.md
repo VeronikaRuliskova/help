@@ -1,12 +1,12 @@
 ---
-title: Adding contacts to groups
-sidebar_label: Adding contacts to groups
+title: Přidávání kontaktů do skupin
+sidebar_label: Přidávání kontaktů do skupin
 ---
 
-## How do I add contacts to a group?
-To add contacts to a group:
-1.	Select contacts that have already been imported to your address book by checking the checkbox of a contact
-2.	Click Add to group
-3.	Select which group/s you want to add your contacts to or create a new one
-4.	Click Save
-5.	Your contacts have been inserted to selected groups
+## Jak přidám kontakty do skupiny?
+Pro přidání kontaktů do skupiny:
+1.	Vyberte kontakty, které již byly importovány do adresáře, zaškrtnutím rámečku u kontaktu
+2.	Klikněte Přidat do skupiny
+3.	Vyberte, do které skupiny nebo skupin chcete kontakty přidat, nebo vytvořte novou skupinu
+4.	Klikněte Uložit
+5.	Kontakty byly nahrány do vybraných skupin
