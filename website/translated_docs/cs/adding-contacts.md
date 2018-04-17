@@ -1,12 +1,12 @@
 ---
-title: Adding contacts
-sidebar_label: Adding contacts
+title: Přidávání kontaktů
+sidebar_label: Přidávání kontaktů
 ---
 
-## How do I add a contact to Address book? 
-To add a contact to address book:
-1.	Go to Address book
-2.	Click Add contact
-3.	Enter necessary contact information such as mobile phone and other valuable data
-4.	Click Create
-5.	Your contact has been inserted to your address book
+## Jak přidám kontakt do Adresáře?
+Pro přidání kontaktu do Adresáře:
+1.	Jděte do Adresáře
+2.	Klikněte na Přidat kontakt
+3.	Vložte nezbytné kontaktní informace jako mobilní telefon a jiná cenná data
+4.	Klikněte Vytvořit
+5.	Kontakt byl vložen do Adresáře
