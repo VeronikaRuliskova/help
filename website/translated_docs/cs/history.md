@@ -27,20 +27,19 @@ Pro exportování vaší historie:
 
 
 ## Jaké informace mohu najít v historii?
-[SMS historie](#38) obsahuje množství informací ohledně odeslaných [hromadných SMS](https://www.bulkgate.com/cs/reseni/sms#hromadna-sms) a [informačních SMS.](https://www.bulkgate.com/cs/reseni/sms#informacni-sms)
+[SMS historie](#kde-mohu-vidět-historii-mých-kampaní) obsahuje množství informací ohledně odeslaných [hromadných SMS](https://www.bulkgate.com/cs/reseni/sms#hromadna-sms) a [informačních SMS.](https://www.bulkgate.com/cs/reseni/sms#informacni-sms)
 
 Seznam historie zobrazuje ve standardním formátu:
 -	**`Produkt`**: ukazuje, jestli byla zpráva odeslána přes [BulkGate Portál,](https://www.bulkgate.com/cs/sms-portal-cs/) jeden z našich [SMS modulů,](https://www.bulkgate.com/cs/sms-modul/) nebo [BulkGate API](https://www.bulkgate.com/cs/vyvojari/sms-api/)
--	**`Příjemce`**: ukazuje číslo příjemce, zemi a operátora. Jestliže jste odeslali hromadnou SMS zprávu přes BulkGate Portál, nebo SMS modul, tak zobrazuje, jestli to byla [SMS kampaň,](#6) nebo [Smart SMS kampaň.](#7) Nicméně v takovém případě musíte kliknout na řádek, abyste mohli vidět celý seznam příjemců kampaně
+-	**`Příjemce`**: ukazuje číslo příjemce, zemi a operátora. Jestliže jste odeslali hromadnou SMS zprávu přes BulkGate Portál, nebo SMS modul, tak zobrazuje, jestli to byla [SMS kampaň,](creating-sms-campaign.md#co-je-hromadná-sms-kampaň) nebo [Smart SMS kampaň.](creating-smart-sms-campaign.md#co-je-smart-sms-kampaň) Nicméně v takovém případě musíte kliknout na řádek, abyste mohli vidět celý seznam příjemců kampaně
 -	**`Stav`** vaší odeslané zprávy.
--	**`Cenu`**: ve formě [kreditů](#39)
+-	**`Cenu`**: ve formě [kreditů](purchasing-credit.md#co-jsou-kredity)
 
 Dále, pokud kliknete na jednotlivé řádky, zobrazí se další informace, jako například:
 -	**`Text zprávy`**
--	**`SMS ID`**: [více informací o SMS ID](# 40)
+-	**`SMS ID`**: [více informací o SMS ID](#co-je-sms-id-a-kde-ho-mohu-najít)
 -	**`Kanály`**: vaše hromadné SMS kampaně jsou odeslány přes marketingový kanál, informační SMS přes transakční kanál, respektive
--	**`Název peněženky`**: ze které peněženky odešla hotovost na zprávu. [Více informací o peněženkách](#)
--	**`Typ odesílatele`**: [přečtěte si více o typu odesílatele](# 12)
+-	**`Typ odesílatele`**: [přečtěte si více o typu odesílatele](sender-type.md#co-je-typ-odesílatele-a-jak-ho-můžu-použít)
 
 ## Co je SMS ID a kde ho mohu najít?
 Každá textová zpráva má své unikátní SMS ID. Tato identifikace může být užitečná, pokud máte problém s doručením SMS zprávy. Když nám poskytnete SMS ID, můžeme tento problém vyřešit s doručovatelem. Mějte však na paměti, že SMS ID nesmí být starší, než `dva dny.`
