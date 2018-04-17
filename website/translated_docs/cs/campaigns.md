@@ -1,6 +1,6 @@
 ---
-title: Campaigns
-sidebar_label: Campaigns
+title: Kampaně
+sidebar_label: Kampaně
 ---
 
 ## Kde mohu vidět všechny odeslané a nedokončené kampaně?
