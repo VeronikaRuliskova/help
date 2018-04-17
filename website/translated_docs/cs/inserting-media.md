@@ -1,18 +1,19 @@
 ---
-title: Inserting media
-sidebar_label: Inserting media
+title: Vkládání médií 
+sidebar_label: Vkládání médií 
 ---
 
-## How can I attach media to an offer?
-You can attach a picture, or a video that characterizes your offer.
+## Jak mohu připojit média k nabídce?
+K vaší nabídce můžete připojit obrázek, nebo video-
 
-To attach a picture in your offer:
-1.	Select that you want to attach an image in the Media section
-2.	Click to upload an image
-3.	Select an image
+Pro připojení obrázku k nabídce:
+1.	Vyberte, že chcete připojit obrázek v sekci Média
+2.	Klikněte pro nahrání obrázku
+3.	Vyberte obrázek
 
-To attach a video link in your offer:
-1.	Select that you want to attach a video in the Media section
-2.	Click to add a video link
-3.	Paste a link with your video
-4.	Click Ok
+Pro připojení video odkazu ve vaší nabídce:
+1.	Vyberte, že chcete připojit obrázek v sekci Média
+2.	Klikněte pro přidání videa
+3.	Vložte odkaz s videem
+4.	Klikněte Ok
+
