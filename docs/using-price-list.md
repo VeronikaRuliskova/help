@@ -15,7 +15,7 @@ Price calculator can also suggest bonus offers based on different top-up amount 
 
 To use the price calculator:
 1.	Choose [sender type](sender-type.md#what-is-a-sender-type-and-how-can-i-use-it)
-2.	Either enter the number of SMS messages you want to send, or the amount you want to spend
+2.	Either enter the amount you want to invest, or the number of SMS messages you want to send 
 3.	Now, you can see how much money you need to pay for desired amount of SMS messages, or how many messages you can send for the entered price amount
 4.	Depending on the top-up amount level, the calculator will display bonus offers you can reach if you pay a little extra
 5.	Click on All operators to see SMS prices for all operators
