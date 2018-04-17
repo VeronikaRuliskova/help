@@ -26,7 +26,7 @@ Pokud chcete, můžete ukázat vypršení platnosti ve formě časového odpočt
 ### `Vyžadovat objednávku`
 Když aktivujete podnabídku vyžadovat objednávku, tak na spodní části nabídkového okna vyskočí [objednávkový formulář,](order-form.md#co-je-objednávkový-formulář-a-jak-ho-může-aktivovat) který můžete upravit dle vašich potřeb.
 
-Přečtěte si více o [objednávkovém formuláři tady.](order-form.md#co-je-objednávkový-formulář-a-jak-ho-může-aktivovat)
+Přečtěte si více o [objednávkovém formuláři.](order-form.md#co-je-objednávkový-formulář-a-jak-ho-může-aktivovat)
 
 
 **`Podívejte se, jak nastavit možnosti nabídky`**
