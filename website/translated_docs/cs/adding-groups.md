@@ -1,11 +1,11 @@
 ---
-title: Adding groups
-sidebar_label: Adding groups
+title: Přidávání skupin
+sidebar_label: Přidávání skupin
 ---
 
-## How do I add a group to Address book?
-To create a new group:
-1.	Go to Address book
-2.	Click Add group
-3.	Enter a name
-4.	Click Ok
+## Jak přidám novou skupinu do Adresáře?
+Pro vytvoření nové skupiny:
+1.	Jděte do Adresáře
+2.	Klikněte Přidat skupinu
+3.	Vložte jméno
+4.	Klikněte Ok
