@@ -12,10 +12,10 @@ Na vaší business stránce můžete vytvořit speciální [nabídky,](offers.md
 Pro vytvoření nové business stránky:
 1.	Klikněte na Business stránka v levém menu na [BulkGate Portále](https://portal.bulkgate.com/)
 2.	Klikněte na Nová stránka
-3.	Zadejte název business stránky [(název může být změněn)](#23)
+3.	Zadejte název business stránky [(název může být změněn)](business-page.md#jak-mohu-přejmenovat-business-stránku)
 4.	Nahrajte vaše logo
 5.	Nahrajte úvodní fotku a fotku pro pozadí, nebo si vyberte barvu
-6.	Přesvědčte se, že jsou informace o stránce správně zobrazeny – kontaktní údaje osoby/společnosti. [Tyto informace můžete vždy upravit](#23)
+6.	Přesvědčte se, že jsou informace o stránce správně zobrazeny – kontaktní údaje osoby/společnosti. [Tyto informace můžete vždy upravit](business-page.md#jak-mohu-přejmenovat-business-stránku)
 
 
 **`Podívejte se, jak vytvořit business stránku`**
