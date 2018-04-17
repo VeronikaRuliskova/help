@@ -1,21 +1,23 @@
 ---
-title: Using price list 
-sidebar_label: Using price list 
+title: Používání ceníku 
+sidebar_label: Používání ceníku  
 ---
 
-## How to use price list?
-It is always good to know SMS price in a country where you want to send SMS campaign to. [BulkGate price list](https://www.bulkgate.com/en/sms-price/) gives you a total overview of how much SMS cost for every [sender ID type](sender-type.md#what-is-a-sender-type-and-how-can-i-use-it) and operator in every country we operate. Additionally, you can see whether the specific sender ID type allows you to have [two-way communication](https://www.bulkgate.com/en/solutions/two-way-sms/) with your customers, whether you need to register a specific sender type first and what the costs are.
+## Jak mohu používat ceník?
+Je vždy dobré znát cenu SMS v zemi, kam chcete poslat SMS kampaň. [Náš ceník](https://www.bulkgate.com/cs/cena-sms) vám dává celkový přehled o tom, kolik jaká je cena SMS pro každý [typ odesílatele](sender-type.md#co-je-typ-odesílatele-a-jak-ho-můžu-použít) a operátora v každé zemi, ve které se vyskytujeme. Dále můžete vidět, jestli vám daný typ odesílatele umožňuje mít [obousměrnou komunikaci](https://www.bulkgate.com/cs/reseni/obousmerna-sms/) s vašimi zákazníky, jestli je třeba si zaregistrovat daný typ odesílatele a jaké jsou jeho náklady.
 
-It also lets you [calculate](#how-to-use-price-calculator) how much you will pay for your upcoming SMS campaign and SMS notifications, and shows you bonus offers that you can reach.
+Také vám umožňuje vypočítat, kolik budete platit za vaše nadcházející SMS kampaně a informační SMS zprávy, a ukáže vám bonusové nabídky, kterých můžete dosáhnout. 
 
 
-## How to use price calculator?
-Price calculator helps you see how many SMS messages you will be able to send after you enter the amount you want to invest, or how much you need to invest after you enter how many SMS messages you want to send. 
-Price calculator can also suggest bonus offers based on different top-up amount levels, so you spend less money on your campaigns.
+## Jak mohu použít kalkulátor ceny?
+Kalkulátor ceny vám pomůže zjistit, kolik SMS zpráv budete moci poslat po zadání částky, kterou chcete investovat, nebo kolik potřebujete investovat poté, co zadáte počet SMS zpráv, které chcete odeslat.
 
-To use the price calculator:
-1.	Choose [sender type](sender-type.md#what-is-a-sender-type-and-how-can-i-use-it)
-2.	Either enter the amount you want to invest, or the number of SMS messages you want to send 
-3.	Now, you can see how many messages you can send for the entered amount, or how much money you need to invest for the desired amount of SMS messages
-4.	Depending on the top-up amount level, the calculator will display bonus offers you can reach if you pay a little extra
-5.	Click on All operators to see SMS prices for all operators
+Kalkulátor ceny vám také může nabídnout bonusové nabídky, které se odráží od míry dobytí částky. Díky tomu utratíte méně peněž za vaše zprávy.
+
+Pro použití kalkulátoru ceny:
+1.	Zvolte [typ odesílatele](sender-type.md#co-je-typ-odesílatele-a-jak-ho-můžu-použít)
+2.	Buď zadejte částku, kterou chcete investovat, nebo počet zpráv SMS, které chcete odeslat
+3.	Nyní můžete vidět, kolik zpráv můžete odeslat za danou částku, nebo kolik peněz je třeba investovat, abyste mohli poslat požadované množství SMS zpráv
+4.	Podle výše dobyté částky bude kalkulátor zobrazovat bonusové nabídky, kterých můžete dosáhnout, pokud zaplatíte něco málo navíc
+5.	Klikněte na Všichni operátoři, abyste viděli cenu SMS pro všechny operátory
+
