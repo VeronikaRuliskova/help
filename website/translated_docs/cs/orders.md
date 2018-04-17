@@ -3,7 +3,7 @@ title: Objednávky
 sidebar_label: Objednávky
 ---
 
-Když [vytváříte nabídku](#19) v [Smart SMS kampani](#20), tak máte možnost aktivovat [objednávkový formulář.](#36) Objednávkový formulář vám umožňuje sbírat kontaktní informace od lidí, kteří vyjádřili zájem o vaši nabídku. Když někdo vyplní objednávkový formulář, ukáže se vám to ve vašich [objednávkách.](#29)
+Když [vytváříte nabídku](offers.md#jak-vytvořit-nabídku) v [Smart SMS kampani](creating-smart-sms-campaign.md#jak-vytvořím-smart-sms-kampaň), tak máte možnost aktivovat [objednávkový formulář.](order-form.md#co-je-objednávkový-formulář-a-jak-ho-může-aktivovat) Objednávkový formulář vám umožňuje sbírat kontaktní informace od lidí, kteří vyjádřili zájem o vaši nabídku. Když někdo vyplní objednávkový formulář, ukáže se vám to ve vašich [objednávkách.](orders.md#kde-uvidím-objednávky-od-zákazníků)
 
 ## Kde uvidím objednávky od zákazníků?
 Abyste mohli vidět objednávky od vašich zákazníků, kteří vyplnili objednávkový formulář:
@@ -15,7 +15,7 @@ Podívejte se, jak můžete [spravovat objednávky.](orders.md#jak-mohu-spravova
 
 
 ## Jak mohu spravovat objednávky?
-Pokaždé, když příjemce vaší Smart SMS kampaně vyplní objednávkový formulář, tak se aktualizuje [list s objednávkami. ](#29) Nicméně zde, záleží na typu nabídky, vaše práce nekončí.
+Pokaždé, když příjemce vaší Smart SMS kampaně vyplní objednávkový formulář, tak se aktualizuje [list s objednávkami. ](orders.md#kde-uvidím-objednávky-od-zákazníků) Nicméně zde, záleží na typu nabídky, vaše práce nekončí.
 V případě, že prodáváte produkt nebo službu, tak budete chtít kontaktovat vašeho zákazníka a aktualizovat stav jeho nebo její objednávky. 
 
 Pro kontaktování zákazníka a aktualizovat stav objednávky:
