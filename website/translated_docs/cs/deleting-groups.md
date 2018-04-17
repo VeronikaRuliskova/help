@@ -1,10 +1,11 @@
 ---
-title: Deleting groups
-sidebar_label: Deleting groups
+title: Mazání skupin
+sidebar_label: Mazání skupin
 ---
 
-## How can I delete a group?
-To delete a group in your Address book:
-1.	Select a group by clicking Select group in the Address book
-2.	Select a group you want to delete
-3.	Click Delete and confirm
+## Jak můžu smazat skupinu?
+Pro smazání skupiny z Adresáře:
+1.	Klikněte Vyberte skupinu v Adresáři
+2.	Vyberte skupinu, kterou chcete smazat
+3.	Klikněte Smazat a potvrďte
+
