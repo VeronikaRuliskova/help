@@ -31,4 +31,4 @@ Přečtěte si více o [objednávkovém formuláři.](order-form.md#co-je-objedn
 
 **`Podívejte se, jak nastavit možnosti nabídky`**
 
-[![Nastavování možností nabídek ve Smart SMS kampani](https://img.youtube.com/vi/_2JmQMayU8g/hqdefault.jpg)](https://www.youtube.com/watch?v=_2JmQMayU8g) 
+[![Nastavování možností nabídek ve Smart SMS kampani](https://img.youtube.com/vi/bfkA2xH3cAI/hqdefault.jpg)](https://youtu.be/bfkA2xH3cAI) 
