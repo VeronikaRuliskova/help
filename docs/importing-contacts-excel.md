@@ -1,6 +1,6 @@
 ---
 title: Importing contacts via CSV/Excel
-sidebar_label: Importing contacts CSV/Excel
+sidebar_label: Importing contacts via CSV/Excel
 ---
 
 ## How do I import contacts to Address book via CSV/Excel?
