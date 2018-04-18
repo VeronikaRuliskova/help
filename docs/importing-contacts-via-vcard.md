@@ -1,6 +1,6 @@
 ---
 title: Importing contacts via vCard
-sidebar_label: Importing contacts vCard
+sidebar_label: Importing contacts via vCard
 ---
 
 ## How do I import contacts to Address book via vCard?
@@ -16,6 +16,6 @@ To import contacts to your address book via vCard:
 
 Read more if you have numbers in [national format only](assigning-country-to-contacts.md#i-have-my-contact-numbers-in-national-format-only), or [both national and international format.](assigning-country-to-contacts.md#i-have-my-contact-numbers-in-both-national-and-international-formats)
 
-**`Watch a video`**
+**`See how to import contacts via vCard`**
 
-[![Import contacts via CSV/Excel](https://img.youtube.com/vi/SSCQ-YFatLs/hqdefault.jpg)](https://www.youtube.com/watch?v=SSCQ-YFatLs)
+[![Import contacts via vCard](https://img.youtube.com/vi/SSCQ-YFatLs/hqdefault.jpg)](https://www.youtube.com/watch?v=SSCQ-YFatLs)
