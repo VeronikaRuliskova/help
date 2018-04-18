@@ -3,7 +3,7 @@ title: Import kontaktů přes CSV/Excel
 sidebar_label: Import kontaktů přes CSV/Excel
 ---
 
-## Jak mohu importovat kontakty do Adresáře přes CSV/Excel?
+## Jak mohu importovat kontakty do adresáře přes CSV/Excel?
 Pro importování kontaktů do adresáře pomocí CSV/Excel:
 1.	Jděte do Adresáře
 2.	Klikněte Importovat kontakty
@@ -20,4 +20,4 @@ Přečtěte si více, pokud máte čísla pouze v [mezinárodním formátu,](ass
 
 **`Podívejte se, jak importovat kontakty přes CSV/Excel`**
 
-[![Import kontaktů přes CSV/Excel](https://img.youtube.com/vi/Ssr9bnwR8Gs/hqdefault.jpg)](https://www.youtube.com/watch?v=Ssr9bnwR8Gs)
+[![Import kontaktů přes CSV/Excel](https://img.youtube.com/vi/XDWVzPsRfFM/hqdefault.jpg)](https://youtu.be/XDWVzPsRfFM)
