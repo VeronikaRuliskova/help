@@ -18,4 +18,4 @@ Přečtěte si více, pokud máte čísla pouze v [mezinárodním formátu,](ass
 
 **`Podívejte se, jak importovat kontakty přes vCard`**
 
-[![Import kontaktů přes vCard](https://img.youtube.com/vi/Ssr9bnwR8Gs/hqdefault.jpg)](https://www.youtube.com/watch?v=Ssr9bnwR8Gs)
+[![Import kontaktů přes vCard](https://img.youtube.com/vi/wD6Ynw1lJz4/hqdefault.jpg)](https://youtu.be/wD6Ynw1lJz4)
