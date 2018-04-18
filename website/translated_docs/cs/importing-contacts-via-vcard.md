@@ -3,7 +3,7 @@ title: Import kontaktů přes vCard
 sidebar_label: Import kontaktů přes vCard
 ---
 
-## Jak mohu importovat kontakty do Adresáře přes vCard?
+## Jak mohu importovat kontakty do adresáře přes vCard?
 Pro importování kontaktů do adresáře pomocí vCard:
 1.	Jděte do Adresáře
 2.	Klikněte Importovat kontakty
