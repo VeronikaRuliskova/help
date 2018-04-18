@@ -18,9 +18,9 @@ Pro vytvoření nového krátkého URL:
 7.	Pro vložení krátkého URL do vaší kampaně, jednoduše klikněte na zelené URL v listu
 
 
-**`Podívejte se, jak použí zkracovač URL`**
+**`Podívejte se, jak použít zkracovač URL`**
 
-[![Jak použít zkracovač URL](https://img.youtube.com/vi/YMfEJFU06XE/hqdefault.jpg)](https://youtu.be/YMfEJFU06XE)
+[![Jak použít zkracovač URL](https://img.youtube.com/vi/Bt5QK6kywkM/hqdefault.jpg)](https://youtu.be/Bt5QK6kywkM)
 
 
 ## Jak můžu přidat existující krátké URL do mé kampaně?
