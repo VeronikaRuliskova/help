@@ -20,7 +20,7 @@ Pro vytvoření nové business stránky:
 
 **`Podívejte se, jak vytvořit business stránku`**
 
-[![Jak vytvořit business stránku](https://img.youtube.com/vi/iDDceQaT-iQ/hqdefault.jpg)](https://www.youtube.com/watch?v=iDDceQaT-iQ)
+[![Jak vytvořit business stránku](https://img.youtube.com/vi/IBr0q3Lo3Og/hqdefault.jpg)](https://youtu.be/IBr0q3Lo3Og)
 
 ## Jak mohu smazat business stránku?
 Pro smazání business stránky:
