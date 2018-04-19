@@ -1,60 +1,116 @@
 {
-  "how-to": {
-    "Creating an account": [
-      "create-an-account",
-      "confirm-your-account"
+  "address-book-cat": {
+    "Importing contacts": [
+      "importing-contacts-via-excel",
+      "importing-contacts-via-vcard",
+      "assigning-country-to-contacts"
     ],
     "Working with contacts" : [
-      "importing-contacts",
-      "adding-contacts-groups"
+      "adding-contacts",
+      "deleting-contacts",
+      "editing-contacts"
     ],
-    "Messaging" : [
-      "communication-channels",
-      "building-and-sending-campaigns",
-      "two-way-communication",
-      "url-shortener"
+    "Working with groups" : [
+      "adding-groups",
+      "adding-contacts-to-groups",
+      "removing-contacts-from-groups",
+      "deleting-groups"
+    ]
+  },
+
+  "sms-campaign-cat": {
+    "Creating SMS campaign (step zero)": [
+      "creating-sms-campaign",
+      "inbox"
     ],
-    "Business page" : [
+    " Contacts (first step)" : [
+      "importing-contacts-to-campaign-via-address-book",
+      "importing-contacts-to-campaign-via-csv-excel",
+      "importing-contacts-to-campaign-via-vcard",
+      "importing-contacts-to-campaign-via-enter-number",
+      "importing-contacts-to-campaign-via-store"
+    ],
+    " Message (second step)" : [
+      "message-personalization",
+      "message-template",
+      "url-shortener",
+      "sender-type",
+      "unicode",
+      "flash-sms",
+      "sending-restrictions",
+      "scheduling-campaign"
+    ],
+    "Review (third step)" : [
+      "testing-your-campaign"
+    ]
+  },
+
+  "smart-sms-campaign-cat": {
+    "Creating Smart SMS campaign (step zero)": [
+      "creating-sms-campaign",
+      "inbox"
+    ],
+    "Contacts (first step)" : [
+      "importing-contacts-to-campaign-via-address-book",
+      "importing-contacts-to-campaign-via-csv-excel",
+      "importing-contacts-to-campaign-via-vcard",
+      "importing-contacts-to-campaign-via-enter-number"
+    ],
+    "Offer (second step)" : [
+      "offers",
+      "offer-description",
+      "offer-personalization",
+      "inserting-media",
+      "selecting-business-page",
+      "offer-options",
+      "selecting-templates",
+      "color-scheme",
+      "order-form"
+    ],
+    "Message (third step)" : [
+      "message-personalization",
+      "message-template",
+      "url-shortener",
+      "sender-type",
+      "unicode",
+      "flash-sms",
+      "sending-restrictions",
+      "scheduling-campaign"
+    ],
+    "Review (fourth step)" : [
+      "testing-your-campaign"
+    ]
+  },
+
+  "business-page-cat" : {
+    "Business Page" : [
       "business-page",
       "offers",
       "orders"
-    ],
-    "Records" : [
-      "history",
+    ]
+  },
+
+  "records-cat" : {
+    "Records": [
+      "campaigns",
       "statistics",
+      "history",
       "reports"
-    ],
+    ]
+  },
+
+  "payments-and-billing-cat" : {
     "Payments and billing" : [
       "purchasing-credit",
       "transactions",
       "billing-information",
       "invoices"
-    ],
-    "Price list" : [
-       "using-price-list"
-    ],
-    "Applications" : [
-
-    ],
-    "Wallets" : [
-
-    ],
-    "BulkGate app" : [
-
     ]
   },
-  "account": {
-    "Login and passwords": [
 
-    ],
-    "Profile and settings": [
-
-    ],
-    "Notifications": [
-
-    ],
-    "Deactivating or deleting your account": [
-
+  "price-list-cat" : {
+    "Price list" : [
+      "using-price-list"
     ]
   }
 }
