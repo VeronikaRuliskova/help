@@ -8,13 +8,13 @@ Vy, jako odesílatel, který iniciuje komunikaci, máte na výběr z různých m
 
 BulkGate poskytuje 4 typy odesílatele, nicméně `některé z nich nemusí být podporovány ve vaší zemi.`
 
-**`Systémové číslo`** je telefonní číslo, které odesílatel nemůže ovlivnit. Váš příjemce tedy obdrží vaši zprávu z telefonního čísla vygenerovaného BulkGatem.
+**`Systémové číslo`** je telefonní číslo, které nemáte možnost ovlivnit. Příjemce může obdržet zprávu z dlouhého telefonního čísla, zkráceného čísla (short code) i textového čísla.
 
-**`Short code`** je krátké telefonní číslo, které vy jako odesílatel nemůžete ovlivnit a váš příjemce tedy obdrží vaši zprávu z krátkého čísla generovaného BulkGatem (např. 2576).
+**`Short code`** je krátké telefonní číslo, které nemůžete ovlivnit. Váš příjemce tedy obdrží zprávu z krátkého čísla generovaného BulkGatem (např. 2576).
 
 **`Textový odesílatel`** vám umožňuje použít unikátní text, například název společnosti, který se zobrazí namísto telefonního čísla (např. Myshop.cz, Amazon.com). Maximální počet znaků je 11.
 
-**`Vlastní číslo`** vám umožňuje použít vaše telefonní číslo, které je následně zobrazeno v doručené SMS vašeho příjemce. Příjemce vám na tuto zprávu může odpovědět.
+**`Vlastní číslo`** vám umožňuje použít vaše telefonní číslo, které je následně zobrazeno příjemci v doručené SMS. Příjemce vás může přímo kontaktovat na toto číslo.
 
 Podívejte se, [jak můžete obousměrně komunikovat s vašimi zákazníky](inbox.md#mohu-komunikovat-přímo-se-zákazníkem) a [kde uvidíte jejich zprávy.](inbox.md#kde-mohu-vidět-reakce-od-mých-zákazníků)
 
