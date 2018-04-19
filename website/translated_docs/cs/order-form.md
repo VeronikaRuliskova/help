@@ -23,5 +23,5 @@ Objednávkový formulář nyní můžete použít pro vaši následující Smart
 
 **`Podívejte se, jak aktivovat a upravit objednávkový formulář`**
 
-[![Jak vytvořit objednávkový formulář](https://img.youtube.com/vi/pf-JBSczEfc/hqdefault.jpg)](https://www.youtube.com/watch?v=pf-JBSczEfc)
+[![Jak vytvořit objednávkový formulář](https://img.youtube.com/vi/La64WBFIYSw/hqdefault.jpg)](https://youtu.be/La64WBFIYSw)
 

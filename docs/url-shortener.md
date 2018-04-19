@@ -19,7 +19,7 @@ To create a new short URL:
 
 **`See how to use URL shortenerl`**
 
-[![How to use URL shortenerl](https://img.youtube.com/vi/YMfEJFU06XE/hqdefault.jpg)](https://youtu.be/YMfEJFU06XE)
+[![How to use URL shortener](https://img.youtube.com/vi/YMfEJFU06XE/hqdefault.jpg)](https://youtu.be/YMfEJFU06XE)
 
 
 ## How do I add existing short URL to my campaign?

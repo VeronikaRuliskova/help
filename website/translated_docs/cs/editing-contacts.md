@@ -3,7 +3,7 @@ title: Úprava kontaktů
 sidebar_label: Úprava kontaktů
 ---
 
-## Jak upravím kontakt v Adresáři?
+## Jak upravím kontakt v adresáři?
 Pro úpravu kontaktu v adresáři:
 1.	Jděte do Adresáře
 2.	Najděte kontakt, který chcete upravit

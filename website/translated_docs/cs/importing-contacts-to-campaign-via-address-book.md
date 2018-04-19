@@ -3,8 +3,8 @@ title: Importování kontaktů do kampaně přes adresář
 sidebar_label: Importování kontaktů do kampaně přes adresář
 ---
 
-## Jak mohu importovat kontakty do kampaně přes Adresář?
-Pro importování kontaktů do vaší kampaně přes Adresář:
+## Jak mohu importovat kontakty do kampaně přes adresář?
+Pro importování kontaktů do vaší kampaně přes adresář:
 1.	Vyberte metodu Adresář
 2.	Vyberte, jestli chcete importovat všechny vaše kontakty z adresáře, vyberte jednotlivou skupinu nebo skupin, nebo importujte individuální kontakty
 3.	Klikněte Potvrdit
@@ -16,4 +16,4 @@ Pro importování kontaktů do vaší kampaně přes Adresář:
 
 **`Podívejte se, jak importovat kontakty do kampaně přes adresář`**
 
-[![Importování kontaktů do kampaně přes adresář](https://img.youtube.com/vi/6kfCibJgkSg/hqdefault.jpg)](https://www.youtube.com/watch?v=6kfCibJgkSg)
+[![Importování kontaktů do kampaně přes adresář](https://img.youtube.com/vi/9yhHs7WUFfA/hqdefault.jpg)](https://youtu.be/9yhHs7WUFfA)

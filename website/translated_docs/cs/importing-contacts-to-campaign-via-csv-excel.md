@@ -18,5 +18,5 @@ Přečtěte si více, pokud máte čísla pouze v [mezinárodním formátu,](ass
 
 **`Podívejte se, jak importovat kontakty do kampaně přes CSV/Excel`**
 
-[![Importování kontaktů do kampaně přes CSV/Excel](https://img.youtube.com/vi/6kfCibJgkSg/hqdefault.jpg)](https://www.youtube.com/watch?v=6kfCibJgkSg)
+[![Importování kontaktů do kampaně přes CSV/Excel](https://img.youtube.com/vi/Eh83VLLozds/hqdefault.jpg)](https://youtu.be/Eh83VLLozds)
 

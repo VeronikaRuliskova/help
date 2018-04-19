@@ -3,7 +3,8 @@ title: Importování kontaktů do kampaně přes vCard
 sidebar_label: Importování kontaktů do kampaně přes vCard
 ---
 
-## Pro importování kontaktů do kampaně přes vCard:
+## Jak mohu importovat kontakty do kampaně přes vCard?
+Pro importování kontaktů do kampaně přes vCard:
 1.	Vyberte metodu vCard
 2.	Vyberte váš soubor s kontakty
 3.	Přiřaďte zemi vaším kontaktům. Tímto automaticky přidáte předčíslí zvolené země všem vašim příjemcům, kteří mají číslo pouze v národním formátu. Všechna čísla, která máte v mezinárodním formátu, zůstanou nezměněna
@@ -14,4 +15,4 @@ Přečtěte si více, pokud máte čísla pouze v [mezinárodním formátu,](ass
 
 **`Podívejte se, jak importovat kontakty do kampaně přes vCard`**
 
-[![Importování kontaktů do kampaně přes vCard](https://img.youtube.com/vi/6kfCibJgkSg/hqdefault.jpg)](https://www.youtube.com/watch?v=6kfCibJgkSg)
+[![Importování kontaktů do kampaně přes vCard](https://img.youtube.com/vi/VyATC30WupE/hqdefault.jpg)](https://youtu.be/VyATC30WupE)
