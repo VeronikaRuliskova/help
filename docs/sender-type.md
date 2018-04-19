@@ -14,7 +14,7 @@ BulkGate has 4 types of sender, however `some of them might not be available in 
 
 **`Text sender ID`** allows you to use a unique text for example a company name that appears instead of a phone number (e.g. MyShop.com, Amazon.com). The maximum number of characters is 11.
 
-**`Own Number Sender ID`** allows you to use your own phone number which is subsequently displayed in the delivered SMS. Recipient can directly contact you on this number.
+**`Own Number Sender ID`** allows you to use your own phone number which is subsequently displayed in the delivered SMS. Recipient can text you or call you directly on this number.
 
 See [how you can use two-way communication with your customers](inbox.md#can-i-communicate-directly-with-a-customer) and [where you can see their messages.](inbox.md#where-can-i-see-a-response-from-my-customer)
 
