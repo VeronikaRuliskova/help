@@ -1,6 +1,5 @@
 ---
-title: Používání ceníku 
-sidebar_label: Používání ceníku  
+title: Using price list  
 ---
 
 ## Jak mohu používat ceník?

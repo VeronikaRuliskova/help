@@ -1,6 +1,5 @@
 ---
-title: Importování kontaktů do kampaně přes CSV/Excel
-sidebar_label: Importování kontaktů do kampaně přes CSV/Excel
+title: Importing contacts to campaign via CSV/Excel
 ---
 
 ## Jak mohu importovat kontakty do kampaně přes CSV/Excel?

@@ -1,6 +1,5 @@
 ---
-title: Nabídky
-sidebar_label: Nabídky
+title: Offers
 ---
 
 ## Co je to nabídka?

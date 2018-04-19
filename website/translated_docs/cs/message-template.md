@@ -1,6 +1,5 @@
 ---
-title: Šablona zprávy
-sidebar_label: Šablona zprávy
+title: Message template
 ---
 
 ## Jak mohu použít šablonu pro zprávu?

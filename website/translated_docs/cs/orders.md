@@ -1,6 +1,5 @@
 ---
-title: Objednávky 
-sidebar_label: Objednávky
+title: Orders
 ---
 
 Když [vytváříte nabídku](offers.md#jak-vytvořit-nabídku) v [Smart SMS kampani](creating-smart-sms-campaign.md#jak-vytvořím-smart-sms-kampaň), tak máte možnost aktivovat [objednávkový formulář.](order-form.md#co-je-objednávkový-formulář-a-jak-ho-může-aktivovat) Objednávkový formulář vám umožňuje sbírat kontaktní informace od lidí, kteří vyjádřili zájem o vaši nabídku. Když někdo vyplní objednávkový formulář, ukáže se vám to ve vašich [objednávkách.](orders.md#kde-uvidím-objednávky-od-zákazníků)

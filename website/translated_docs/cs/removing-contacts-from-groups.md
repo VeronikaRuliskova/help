@@ -1,6 +1,5 @@
 ---
-title: Odstraňování kontaktů ze skupin
-sidebar_label: Odstraňování kontaktů ze skupin
+title: Removing contacts from groups
 ---
 
 ## Jak můžu odstranit kontakty ze skupin?

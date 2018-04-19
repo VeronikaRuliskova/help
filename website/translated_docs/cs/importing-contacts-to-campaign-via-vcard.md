@@ -1,6 +1,5 @@
 ---
-title: Importování kontaktů do kampaně přes vCard
-sidebar_label: Importování kontaktů do kampaně přes vCard
+title: Importing contacts to campaign via vCard
 ---
 
 ## Jak mohu importovat kontakty do kampaně přes vCard?

@@ -1,6 +1,5 @@
 ---
-title: Mazání kontaktů
-sidebar_label: Mazání kontaktů
+title: Deleting contacts
 ---
 
 ## Jak můžu vymazat kontakt v adresáři?

@@ -1,6 +1,5 @@
 ---
 title: Inbox
-sidebar_label: Inbox
 ---
 
 ## Mohu komunikovat přímo se zákazníkem?

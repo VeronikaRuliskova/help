@@ -1,6 +1,5 @@
 ---
-title: Vytváření Smart SMS kampaně
-sidebar_label: Vytváření Smart SMS kampaně
+title: Creating Smart SMS campaign
 ---
 
 ## Co je Smart SMS kampaň?

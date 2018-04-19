@@ -1,6 +1,5 @@
 ---
-title: Typ odesílatele
-sidebar_label: Typ odesílatele
+title: Sender type
 ---
 
 ## Co je typ odesílatele a jak ho můžu použít?

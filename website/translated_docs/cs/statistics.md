@@ -1,6 +1,5 @@
 ---
-title: Statistiky 
-sidebar_label: Statistiky 
+title: Statistics 
 ---
 
 ## Kde mohu vidět všechny statistiky?

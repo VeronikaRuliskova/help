@@ -1,6 +1,5 @@
 ---
-title: Přidávání skupin
-sidebar_label: Přidávání skupin
+title: Adding groups
 ---
 
 ## Jak přidám novou skupinu do adresáře?

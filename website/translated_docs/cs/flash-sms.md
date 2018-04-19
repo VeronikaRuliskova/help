@@ -1,6 +1,5 @@
 ---
 title: Flash SMS
-sidebar_label: Flash SMS
 ---
 
 ## Co je to Flash SMS?

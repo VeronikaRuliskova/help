@@ -1,6 +1,5 @@
 ---
-title: Přiřazení země kontaktů 
-sidebar_label: Přiřazení země kontaktů
+title: Assigning country to contacts
 ---
 
 ## Mám čísla mých kontaktů pouze v národním formátu.

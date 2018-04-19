@@ -1,6 +1,5 @@
 ---
-title: Zkracovač URL
-sidebar_label: Zkracovač URL
+title: URL Shortener
 ---
 
 ## Co je zkracovač URL?

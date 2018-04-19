@@ -1,6 +1,5 @@
 ---
-title: Výběr šablon 
-sidebar_label: Výběr šablon 
+title: Selecting templates 
 ---
 
 ## Jak mohu vybrat šablonu pro nabídku?

@@ -1,6 +1,5 @@
 ---
-title: Výběr business stránky 
-sidebar_label: Výběr business stránky 
+title: Selecting business page 
 ---
 
 ## Jak mohu přiřadit business stránku k nabídce?

@@ -1,6 +1,5 @@
 ---
-title: Fakturační údaje
-sidebar_label: Fakturační údaje 
+title: Billing information 
 ---
 
 ## Musím vyplnit fakturační údaje?

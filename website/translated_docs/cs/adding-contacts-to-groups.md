@@ -1,6 +1,5 @@
 ---
-title: Přidávání kontaktů do skupin
-sidebar_label: Přidávání kontaktů do skupin
+title: Adding contacts to groups
 ---
 
 ## Jak přidám kontakty do skupiny?

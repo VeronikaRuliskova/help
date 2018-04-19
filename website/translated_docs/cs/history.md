@@ -1,6 +1,5 @@
 ---
-title: Historie
-sidebar_label: Historie 
+title: History 
 ---
 
 ## Kde mohu vidět historii mých kampaní?

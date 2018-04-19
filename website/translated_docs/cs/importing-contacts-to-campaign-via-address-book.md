@@ -1,6 +1,5 @@
 ---
-title: Importování kontaktů do kampaně přes adresář
-sidebar_label: Importování kontaktů do kampaně přes adresář
+title: Importing contacts to campaign via Address book
 ---
 
 ## Jak mohu importovat kontakty do kampaně přes adresář?

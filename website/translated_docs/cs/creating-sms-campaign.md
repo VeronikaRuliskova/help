@@ -1,6 +1,5 @@
 ---
-title: Vytváření SMS kampaně
-sidebar_label: Vytváření SMS kampaně
+title: Creating SMS campaign
 ---
 
 ## Co je hromadná SMS kampaň?

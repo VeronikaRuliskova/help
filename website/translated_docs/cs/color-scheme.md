@@ -1,6 +1,5 @@
 ---
-title: Barevné schéma 
-sidebar_label: Barevné schéma 
+title: Color scheme 
 ---
 
 ## Jak mohu změnit barevné schéma nabídky?

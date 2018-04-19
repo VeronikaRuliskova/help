@@ -1,6 +1,5 @@
 ---
-title: Personalizace zprávy
-sidebar_label: Personalizace zprávy
+title: Message personalization
 ---
 
 ## Jak mohu personalizovat kampaň?

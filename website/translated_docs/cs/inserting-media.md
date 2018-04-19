@@ -1,6 +1,5 @@
 ---
-title: Vkládání médií 
-sidebar_label: Vkládání médií 
+title: Inserting media 
 ---
 
 ## Jak mohu připojit média k nabídce?

@@ -1,6 +1,5 @@
 ---
-title: Transakce
-sidebar_label: Transakce 
+title: Transactions 
 ---
 
 ## Co jsou to transakce?

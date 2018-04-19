@@ -1,6 +1,5 @@
 ---
-title: Omezení odesílání SMS
-sidebar_label: Omezení odesílání SMS
+title: Sending restrictions
 ---
 
 ## Co jsou omezení odesílání SMS?

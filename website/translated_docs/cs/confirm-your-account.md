@@ -1,6 +1,5 @@
 ---
-title: Potvrzení účtu
-sidebar_label: Potvrzení účtu
+title: Confirming your account
 ---
 
 ## Jak dokončím vytvoření BulkGate účtu a potvrdím můj email?

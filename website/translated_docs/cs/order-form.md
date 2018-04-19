@@ -1,6 +1,5 @@
 ---
-title: Objednávkový formulář
-sidebar_label: Objednávkový formulář
+title: Order form
 ---
 
 ## Co je objednávkový formulář a jak ho může aktivovat?

@@ -1,6 +1,5 @@
 ---
-title: Reporty
-sidebar_label: Reporty 
+title: Reports 
 ---
 
 ## Co jsou reporty?

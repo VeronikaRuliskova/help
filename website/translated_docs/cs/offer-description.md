@@ -1,6 +1,5 @@
 ---
-title: Popis nabídky 
-sidebar_label: Popis nabídky 
+title: Offer description 
 ---
 
 ## Co je popis nabídky?

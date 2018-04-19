@@ -1,6 +1,5 @@
 ---
-title: Přidávání kontaktů
-sidebar_label: Přidávání kontaktů
+title: Adding contacts
 ---
 
 ## Jak přidám kontakt do adresáře?

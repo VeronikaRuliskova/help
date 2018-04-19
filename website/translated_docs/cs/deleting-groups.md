@@ -1,6 +1,5 @@
 ---
-title: Mazání skupin
-sidebar_label: Mazání skupin
+title: Deleting groups
 ---
 
 ## Jak můžu smazat skupinu?

@@ -1,6 +1,5 @@
 ---
-title: Business stránka  
-sidebar_label: Business stránka  
+title: Business page  
 ---
 
 ## Co je business stránka?

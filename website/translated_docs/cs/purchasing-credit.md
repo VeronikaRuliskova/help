@@ -1,6 +1,5 @@
 ---
-title: Kupování kreditu 
-sidebar_label: Kupování kreditu 
+title: Purchasing credit 
 ---
 
 ## Co jsou kredity?

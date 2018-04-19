@@ -1,6 +1,5 @@
 ---
-title: Import kontaktů přes CSV/Excel
-sidebar_label: Import kontaktů přes CSV/Excel
+title: Importing contacts via CSV/Excel
 ---
 
 ## Jak mohu importovat kontakty do adresáře přes CSV/Excel?

@@ -1,6 +1,5 @@
 ---
-title: Faktury 
-sidebar_label: Faktury
+title: Invoices
 ---
 
 ## Kde mohu stáhnout faktury?

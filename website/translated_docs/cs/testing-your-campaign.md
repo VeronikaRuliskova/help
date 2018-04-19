@@ -1,6 +1,5 @@
 ---
-title: Testování kampaně 
-sidebar_label: Testování kampaně 
+title: Testing your campaign 
 ---
 
 ## Jak můžu otestovat moji kampaň předtím, než ji odešlu, a proč bych to měl/a udělat?

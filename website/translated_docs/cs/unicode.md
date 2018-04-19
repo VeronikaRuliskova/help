@@ -1,6 +1,5 @@
 ---
 title: Unicode
-sidebar_label: Unicode
 ---
 
 ## Co je to Unicode?

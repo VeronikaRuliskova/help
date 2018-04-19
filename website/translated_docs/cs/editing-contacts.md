@@ -1,6 +1,5 @@
 ---
-title: Úprava kontaktů
-sidebar_label: Úprava kontaktů
+title: Editing contacts
 ---
 
 ## Jak upravím kontakt v adresáři?

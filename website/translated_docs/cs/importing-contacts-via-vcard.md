@@ -1,6 +1,5 @@
 ---
-title: Import kontaktů přes vCard
-sidebar_label: Import kontaktů přes vCard
+title: Importing contacts via vCard
 ---
 
 ## Jak mohu importovat kontakty do adresáře přes vCard?

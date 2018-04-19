@@ -1,6 +1,5 @@
 ---
-title: Personalizování nabídky
-sidebar_label: Personalizování nabídky
+title: Offer personalization
 ---
 
 ## Jak mohu personalizovat nabídku?
