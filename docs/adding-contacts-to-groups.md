@@ -1,6 +1,5 @@
 ---
 title: Adding contacts to groups
-sidebar_label: Adding contacts to groups
 ---
 
 ## How do I add contacts to a group?

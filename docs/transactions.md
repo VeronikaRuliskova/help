@@ -1,6 +1,5 @@
 ---
 title: Transactions
-sidebar_label: Transactions 
 ---
 
 ## What are transactions?

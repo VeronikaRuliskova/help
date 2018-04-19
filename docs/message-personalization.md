@@ -1,6 +1,5 @@
 ---
 title: Message personalization
-sidebar_label: Message personalization
 ---
 
 ## How can I personalize my campaign?

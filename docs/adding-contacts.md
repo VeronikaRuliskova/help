@@ -1,6 +1,5 @@
 ---
 title: Adding contacts
-sidebar_label: Adding contacts
 ---
 
 ## How do I add a contact to Address book? 

@@ -1,6 +1,5 @@
 ---
 title: Color scheme
-sidebar_label: Color scheme
 ---
 
 ## How can I change a color scheme of an offer?

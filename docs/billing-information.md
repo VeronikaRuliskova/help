@@ -1,6 +1,5 @@
 ---
 title: Billing information 
-sidebar_label: Billing information 
 ---
 
 ## Do I have to fill billing information?

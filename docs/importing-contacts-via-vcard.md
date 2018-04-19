@@ -1,6 +1,5 @@
 ---
 title: Importing contacts via vCard
-sidebar_label: Importing contacts via vCard
 ---
 
 ## How do I import contacts to Address book via vCard?

@@ -1,6 +1,5 @@
 ---
 title: Confirming your account
-sidebar_label: Confirming your account
 ---
 
 ## How do I finish creating my BulkGate account and confirm my email?

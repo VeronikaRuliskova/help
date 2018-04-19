@@ -1,6 +1,5 @@
 ---
 title: Removing contacts from groups
-sidebar_label: Removing contacts from groups
 ---
 
 ## How can I remove contacts from a group?

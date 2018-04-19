@@ -1,6 +1,5 @@
 ---
 title: Reports 
-sidebar_label: Reports 
 ---
 
 ## What are reports?

@@ -1,6 +1,5 @@
 ---
 title: Selecting business page
-sidebar_label: Selecting business page
 ---
 
 ## How can I assign a business page to an offer?

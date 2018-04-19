@@ -1,6 +1,5 @@
 ---
 title: Deleting contacts
-sidebar_label: Deleting contacts
 ---
 
 ## How can I delete contacts in Address book? 

@@ -1,6 +1,5 @@
 ---
 title: Purchasing credit 
-sidebar_label: Purchasing credit 
 ---
 
 ## What are credits?

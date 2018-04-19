@@ -1,6 +1,5 @@
 ---
 title: Two-way communication
-sidebar_label: Two-way communication
 ---
 
 ## Can I communicate directly with a customer?

@@ -1,6 +1,5 @@
 ---
 title: Creating an account
-sidebar_label: Creating an account
 ---
 
 ## How do I create a BulkGate account?

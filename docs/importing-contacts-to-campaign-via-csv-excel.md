@@ -1,6 +1,5 @@
 ---
 title: Importing contacts to campaign via CSV/Excel
-sidebar_label: Importing contacts to campaign via CSV/Excel
 ---
 
 ## How do I import contacts to campaign via CSV/Excel?

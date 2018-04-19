@@ -1,6 +1,5 @@
 ---
 title: Assigning country to contacts 
-sidebar_label: Assigning country to contacts
 ---
 
 ## I have my contact numbers in national format only.

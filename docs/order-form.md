@@ -1,6 +1,5 @@
 ---
 title: Order form
-sidebar_label: Order form
 ---
 
 ## What is an order form and how can I activate it?

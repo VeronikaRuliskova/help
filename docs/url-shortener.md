@@ -1,6 +1,5 @@
 ---
 title: URL Shortener
-sidebar_label: URL Shortener
 ---
 
 ## What is URL Shortener?

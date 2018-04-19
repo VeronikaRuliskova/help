@@ -1,6 +1,5 @@
 ---
 title: Deleting groups
-sidebar_label: Deleting groups
 ---
 
 ## How can I delete a group?

@@ -1,6 +1,5 @@
 ---
 title: Scheduling campaign
-sidebar_label: Scheduling campaign
 ---
 
 ## How to schedule my campaign and set a correct time and date?

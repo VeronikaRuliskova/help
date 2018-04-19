@@ -1,6 +1,5 @@
 ---
 title: Editing contacts
-sidebar_label: Editing contacts
 ---
 
 ## How do I edit a contact in Address book? 

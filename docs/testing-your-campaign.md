@@ -1,6 +1,5 @@
 ---
 title: Testing your campaign
-sidebar_label: Testing your campaign
 ---
 
 ## How can I test my campaign before I send it and why should I do it?

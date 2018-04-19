@@ -1,6 +1,5 @@
 ---
 title: Message template
-sidebar_label: Message template
 ---
 
 ## How can I use a message text template?

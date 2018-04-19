@@ -1,6 +1,5 @@
 ---
 title: Sending restrictions
-sidebar_label: Sending restrictions
 ---
 
 ## What are sending restrictions?

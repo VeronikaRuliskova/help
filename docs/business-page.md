@@ -1,6 +1,5 @@
 ---
 title: Business page 
-sidebar_label: Business page 
 ---
 
 ## What is a business page?

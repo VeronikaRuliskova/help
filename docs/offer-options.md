@@ -1,6 +1,5 @@
 ---
 title: Offer options
-sidebar_label: Offer options
 ---
 
 ## What are offer options and how can I set them up?

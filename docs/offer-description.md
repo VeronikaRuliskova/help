@@ -1,6 +1,5 @@
 ---
 title: Offer description
-sidebar_label: Offer description
 ---
 
 ## What is offer description?

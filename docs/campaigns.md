@@ -1,6 +1,5 @@
 ---
 title: Campaigns
-sidebar_label: Campaigns
 ---
 
 ## Where can I see sent and unfinished campaigns?

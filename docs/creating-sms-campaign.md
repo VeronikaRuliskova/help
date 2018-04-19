@@ -1,6 +1,5 @@
 ---
 title: Creating SMS campaign
-sidebar_label: Creating SMS campaign
 ---
 
 ## What is bulk SMS campaign?

@@ -1,6 +1,5 @@
 ---
 title: Importing contacts to campaign via Enter number
-sidebar_label: Importing contacts to campaign via Enter number
 ---
 
 ## How do I import contacts to my campaign via Enter number?

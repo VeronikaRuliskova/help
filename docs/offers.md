@@ -1,6 +1,5 @@
 ---
 title: Offers
-sidebar_label: Offers
 ---
 
 ## What is an offer?

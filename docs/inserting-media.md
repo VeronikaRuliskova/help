@@ -1,6 +1,5 @@
 ---
 title: Inserting media
-sidebar_label: Inserting media
 ---
 
 ## How can I attach media to an offer?

@@ -1,6 +1,5 @@
 ---
 title: History 
-sidebar_label: History 
 ---
 
 ## Where can I see my messaging history?

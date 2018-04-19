@@ -1,6 +1,5 @@
 ---
 title: Selecting templates
-sidebar_label: Selecting templates
 ---
 
 ## How can I select a template for an offer?

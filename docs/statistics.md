@@ -1,6 +1,5 @@
 ---
 title: Statistics 
-sidebar_label: Statistics 
 ---
 
 ## Where can I see statistics?

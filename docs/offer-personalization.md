@@ -1,6 +1,5 @@
 ---
 title: Offer personalization
-sidebar_label: Offer personalization
 ---
 
 ## How can I personalize an offer?

@@ -1,6 +1,5 @@
 ---
 title: Adding groups
-sidebar_label: Adding groups
 ---
 
 ## How do I add a group to Address book?

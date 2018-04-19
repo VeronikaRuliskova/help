@@ -1,6 +1,5 @@
 ---
 title: Invoices 
-sidebar_label: Invoices
 ---
 
 ## Where can I download invoices?

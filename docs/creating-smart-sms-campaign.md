@@ -1,6 +1,5 @@
 ---
 title: Creating Smart SMS campaign
-sidebar_label: Creating Smart SMS campaign
 ---
 
 ## What is Smart SMS?

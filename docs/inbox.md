@@ -1,6 +1,5 @@
 ---
 title: Inbox
-sidebar_label: Inbox
 ---
 
 ## Can I communicate directly with a customer?

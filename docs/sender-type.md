@@ -1,6 +1,5 @@
 ---
 title: Sender type
-sidebar_label: Sender type
 ---
 
 ## What is a sender type and how can I use it?
