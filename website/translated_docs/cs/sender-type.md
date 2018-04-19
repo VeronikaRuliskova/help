@@ -14,7 +14,7 @@ BulkGate poskytuje 4 typy odesílatele, nicméně `některé z nich nemusí být
 
 **`Textový odesílatel`** vám umožňuje použít unikátní text, například název společnosti, který se zobrazí namísto telefonního čísla (např. Myshop.cz, Amazon.com). Maximální počet znaků je 11.
 
-**`Vlastní číslo`** vám umožňuje použít vaše telefonní číslo, které je následně zobrazeno příjemci v doručené SMS. Příjemce vás může přímo kontaktovat na toto číslo.
+**`Vlastní číslo`** vám umožňuje použít vaše telefonní číslo, které je následně zobrazeno příjemci v doručené SMS. Příjemce vám může napsat nebo zavolat přímo na toto číslo.
 
 Podívejte se, [jak můžete obousměrně komunikovat s vašimi zákazníky](inbox.md#mohu-komunikovat-přímo-se-zákazníkem) a [kde uvidíte jejich zprávy.](inbox.md#kde-mohu-vidět-reakce-od-mých-zákazníků)
 
