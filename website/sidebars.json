@@ -19,18 +19,17 @@
   },
 
   "sms-campaign-cat": {
-    "Creating SMS campaign (step zero)": [
+    "Creating SMS campaign": [
       "creating-sms-campaign",
       "inbox"
     ],
-    " Contacts (first step)" : [
+    "Contacts" : [
       "importing-contacts-to-campaign-via-address-book",
       "importing-contacts-to-campaign-via-csv-excel",
       "importing-contacts-to-campaign-via-vcard",
-      "importing-contacts-to-campaign-via-enter-number",
-      "importing-contacts-to-campaign-via-store"
+      "importing-contacts-to-campaign-via-enter-number"
     ],
-    " Message (second step)" : [
+    "Message" : [
       "message-personalization",
       "message-template",
       "url-shortener",
@@ -40,24 +39,7 @@
       "sending-restrictions",
       "scheduling-campaign"
     ],
-    "Review (third step)" : [
-      "testing-your-campaign"
-    ]
-  },
-
-  "smart-sms-campaign-cat": {
-    "Creating Smart SMS campaign (step zero)": [
-      "creating-sms-campaign",
-      "inbox"
-    ],
-    "Contacts (first step)" : [
-      "importing-contacts-to-campaign-via-address-book",
-      "importing-contacts-to-campaign-via-csv-excel",
-      "importing-contacts-to-campaign-via-vcard",
-      "importing-contacts-to-campaign-via-enter-number"
-    ],
-    "Offer (second step)" : [
-      "offers",
+    "Offer" : [
       "offer-description",
       "offer-personalization",
       "inserting-media",
@@ -67,17 +49,7 @@
       "color-scheme",
       "order-form"
     ],
-    "Message (third step)" : [
-      "message-personalization",
-      "message-template",
-      "url-shortener",
-      "sender-type",
-      "unicode",
-      "flash-sms",
-      "sending-restrictions",
-      "scheduling-campaign"
-    ],
-    "Review (fourth step)" : [
+    "Review (third step)" : [
       "testing-your-campaign"
     ]
   },
@@ -85,7 +57,7 @@
   "business-page-cat" : {
     "Business Page" : [
       "business-page",
-      "offers",
+      "offers-doc",
       "orders"
     ]
   },
