@@ -29,11 +29,11 @@
 
   "sms-campaign-cat": {
     "Creating SMS campaign": [
-      "creating-sms-campaign"
+      "creating-sms-campaign",
+      "inbox"
       ],
     "Creating Smart SMS campaign": [
-      "creating-smart-sms-campaign",
-      "inbox"
+      "creating-smart-sms-campaign"
       ],
     "Contacts" : [
       "importing-contacts-to-campaign-via-address-book",
