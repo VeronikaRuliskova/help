@@ -1,5 +1,5 @@
 ---
-title: Importing contacts to campaign via Address book
+title: Importing contacts via Address book
 ---
 
 ## How do I import contacts to campaign via Address book?
