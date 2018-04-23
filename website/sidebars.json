@@ -29,7 +29,10 @@
 
   "sms-campaign-cat": {
     "Creating SMS campaign": [
-      "creating-sms-campaign",
+      "creating-sms-campaign"
+      ],
+    "Creating Smart SMS campaign": [
+      "creating-smart-sms-campaign",
       "inbox"
       ],
     "Contacts" : [
