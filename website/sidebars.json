@@ -1,9 +1,13 @@
 {
-  "account": {
-    "User account": [
-        "create-an-account"
-    ]
-  },
+   "create-account-cat": {
+    "Creating an account": [
+      "create-an-account"
+     ],
+     "Confirming an account": [
+      "confirm-your-account"
+     ]
+   },    
+  
   "address-book-cat": {
     "Importing contacts": [
       "importing-contacts-via-excel",
