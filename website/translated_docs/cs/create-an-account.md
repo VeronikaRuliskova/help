@@ -1,5 +1,5 @@
 ---
-title: Creating an account
+title: Vytváření účtu
 ---
 
 ## Jak vytvořit BulkGate účet?
