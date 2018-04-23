@@ -1,4 +1,9 @@
 {
+  "account": {
+    "User account": [
+        "create-an-account"
+    ]
+  },
   "address-book-cat": {
     "Importing contacts": [
       "importing-contacts-via-excel",
