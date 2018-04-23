@@ -1,5 +1,5 @@
 ---
-title: Importing contacts to campaign via vCard
+title: Importing contacts via vCard
 ---
 
 ## How do I import contacts to campaign via vCard?
