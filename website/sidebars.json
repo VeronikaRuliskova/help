@@ -29,7 +29,8 @@
 
   "sms-campaign-cat": {
     "Creating SMS campaign": [
-      "creating-sms-campaign"
+      "creating-sms-campaign",
+      "inbox"
       ],
     "Contacts" : [
       "importing-contacts-to-campaign-via-address-book",
