@@ -37,7 +37,7 @@ class Footer extends React.Component {
                         </a>
                     </div>
                     <div>
-                        TopEfekt s.r.o. <br/> &copy; {currentYear}
+                        TOPefekt s.r.o. <br/> &copy; {currentYear}
                     </div>
                     <div>
                         <a href="https://www.bulkgate.com/en/contact">
