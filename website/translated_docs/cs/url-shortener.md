@@ -6,7 +6,7 @@ title: URL Shortener
 Vkládání odkazů do vašich kampaní vás může stát spoustu drahocenných charakterů, které by mohly být na místo toho použity pro samotný text zprávy. Je tedy důležité zkrátit odkaz, co nejvíc to jde. Náš [zkracovač URL](https://www.bulkgate.com/cs/sms-portal-cs#zkracovac-url) slouží skvělé pro tyto účely, protože dokáže značně zkrátit jakkoliv dlouhý odkaz.
  
 
-## Jak můžu vytvořit nový krátký URL?
+## Jak můžu vytvořit nové krátké URL?
 Pro vytvoření nového krátkého URL:
 1.	Jděte do druhého kroku SMS kampaně nebo třetího kroku Smart SMS kampaně, respektive
 2.	Rozbalte menu Zkracovač URL pod oknem pro psaní zprávy
