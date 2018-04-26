@@ -12,7 +12,7 @@ To set a schedule for a campaign:
 4.	Select a time zone according to which is the previous step directed
 
 ## Where can I see my scheduled campaign? 
-To have an overview over your scheduled campaigns (#16):
+To have an overview of your scheduled campaigns:
 1.	Click on SMS in the menu
 2.	Click on Scheduled
 3.	Now you see all your scheduled campaigns
