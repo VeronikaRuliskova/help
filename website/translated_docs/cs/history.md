@@ -32,7 +32,7 @@ Seznam historie zobrazuje ve standardním formátu:
 -	**`Produkt`**: ukazuje, jestli byla zpráva odeslána přes [BulkGate Portál,](https://www.bulkgate.com/cs/sms-portal-cs/) jeden z našich [SMS modulů,](https://www.bulkgate.com/cs/sms-modul/) nebo [BulkGate API](https://www.bulkgate.com/cs/vyvojari/sms-api/)
 -	**`Příjemce`**: ukazuje číslo příjemce, zemi a operátora. Jestliže jste odeslali hromadnou SMS zprávu přes BulkGate Portál, nebo SMS modul, tak zobrazuje, jestli to byla [SMS kampaň,](creating-sms-campaign.md#co-je-hromadná-sms-kampaň) nebo [Smart SMS kampaň.](creating-smart-sms-campaign.md#co-je-smart-sms-kampaň) Nicméně v takovém případě musíte kliknout na řádek, abyste mohli vidět celý seznam příjemců kampaně
 -	**`Stav`** vaší odeslané zprávy.
--	**`Cenu`**: ve formě [kreditů](purchasing-credit.md#co-jsou-kredity)
+-	**`Cenu`**: ve formě [kreditů](purchasing-credit.md#co-jsou-kredity-mají-datum-vypršení-platnosti)
 
 Dále, pokud kliknete na jednotlivé řádky, zobrazí se další informace, jako například:
 -	**`Text zprávy`**
