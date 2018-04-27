@@ -6,8 +6,8 @@
  */
 
 const siteConfig = {
-    title: 'Help center' /* title for your website */,
-    tagline: 'A website for testing',
+    title: 'BulkGate' /* title for your website */,
+    tagline: 'Help center of the best messaging platform',
     url: 'http://help.bulkgate.com' /* your website url */,
     baseUrl: '/' /* base url for your project */,
     projectName: 'test-site',
@@ -18,9 +18,9 @@ const siteConfig = {
     },
     headerLinks: [
         {page : "index", label:"Home"},
-        {doc: 'create-an-account', label: 'How to use BulkGate'},
+        //{doc: 'create-an-account', label: 'How to use BulkGate'},
         //{doc: 'create-account', label: 'Account management'},
-        {page: 'help', label: 'Privacy and security'},
+        //{page: 'help', label: 'Privacy and security'},
         {search:true},
         {languages: true}
     ],
