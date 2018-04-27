@@ -9,103 +9,172 @@ const React = require('react');
 
 const translate = require("../../server/translate.js").translate;
 const CompLibrary = require('../../core/CompLibrary.js');
-const MarkdownBlock = CompLibrary.MarkdownBlock; /* Used to read markdown */
-const Container = CompLibrary.Container;
-const GridBlock = CompLibrary.GridBlock;
-
+const TopicCategory = require(process.cwd() + "/core/components/TopicCategory.js");
+const Grid = require(process.cwd() + "/core/components/grid");
+const {Col, Row} = Grid.default;
+const {Flex} = require(process.cwd() + "/core/components/flex");
 const siteConfig = require(process.cwd() + '/siteConfig.js');
 
 function imgUrl(img) {
-  return siteConfig.baseUrl + 'img/' + img;
+    return siteConfig.baseUrl + 'img/' + img;
 }
 
 function docUrl(doc, language) {
-  return siteConfig.baseUrl + 'docs/' + (language ? language + '/' : '') + doc;
+    return siteConfig.baseUrl + 'docs/' + (language ? language + '/' : '') + doc;
 }
 
 function pageUrl(page, language) {
-  return siteConfig.baseUrl + (language ? language + '/' : '') + page;
+    return siteConfig.baseUrl + (language ? language + '/' : '') + page;
 }
 
 class Button extends React.Component {
-  render() {
-    return (
-      <div className="pluginWrapper buttonWrapper">
-        <a className="button" href={this.props.href} target={this.props.target}>
-          {this.props.children}
-        </a>
-      </div>
-    );
-  }
+    render() {
+        return (
+            <div className="pluginWrapper buttonWrapper">
+                <a className="button" href={this.props.href} target={this.props.target}>
+                    {this.props.children}
+                </a>
+            </div>
+        );
+    }
 }
 
 Button.defaultProps = {
-  target: '_self',
+    target: '_self',
 };
 
-const SplashContainer = props => (
-  <div className="homeContainer">
-    <div className="homeSplashFade">
-      <div className="wrapper homeWrapper">{props.children}</div>
+const HomeContainer = props => (
+    <div id={props.id} className="homeContainer">
+        <div className="wrapper homeWrapper">{props.children}</div>
     </div>
-  </div>
 );
 
 const ProjectTitle = props => (
-  <h2 className="projectTitle">
-      {siteConfig.title}
-      <small>{siteConfig.tagline}</small>
-  </h2>
+    <h1 className="projectTitle">
+        {siteConfig.title}
+        <small>{siteConfig.tagline}</small>
+    </h1>
 );
 
 const PromoSection = props => (
-  <div className="section promoSection">
-    <div className="promoRow">
-      <div className="pluginRowBlock">{props.children}</div>
+    <div className="section promoSection">
+        <div className="promoRow">
+            <div className="pluginRowBlock">{props.children}</div>
+        </div>
     </div>
-  </div>
 );
 
 class HomeSplash extends React.Component {
-  render() {
-    let language = this.props.language || '';
-    return (
-      <SplashContainer>
-        <div className="inner">
-          <ProjectTitle />
-          <PromoSection>
-              <Button href="#try"><translate>Try It Out</translate></Button>
-              <Button href={docUrl('create-an-account.html', language)}><translate>Create an account</translate></Button>
-              <Button href={docUrl('doc2.html', language)}><translate>Example Link 2</translate></Button>
-          </PromoSection>
-        </div>
-      </SplashContainer>
-    );
-  }
+    render() {
+        let language = this.props.language || '';
+        return (
+            <div>
+                <HomeContainer id="head">
+                    <ProjectTitle/>
+                    <PromoSection>
+                        <Button href="https://portal.bulkgate.com">
+                            <translate>Try It Out</translate>
+                        </Button>
+                        <Button href="https://www.youtube.com/channel/UCGD7ndC4z2NfuWUrS-DGELg">
+                            <translate>Videos</translate>
+                        </Button>
+                        <Button href={docUrl('doc2.html', language)}>
+                            <translate>Example Link 2</translate>
+                        </Button>
+                    </PromoSection>
+                </HomeContainer>
+                <HomeContainer id="topics">
+                    <h2>
+                        <translate>Favorite topics</translate>
+                    </h2>
+                    <Row>
+                        <Flex wrap>
+                            <Col s12 m3>
+                                <TopicCategory
+                                    name={<translate>Address book</translate>}
+                                    url={docUrl("importing-contacts-via-excel.html", language)}
+                                    ico="address_book"
+                                    text="Read how you can work with your contacts."
+                                />
+                            </Col>
+                            <Col s12 m3>
+                                <TopicCategory
+                                    name={<translate>Creating SMS campaigns</translate>}
+                                    url={docUrl("creating-sms-campaign.html", language)}
+                                    ico="campaigns"
+                                    text="Read how you can create classic and smart SMS campaigns."
+                                />
+                            </Col>
+                            <Col s12 m3>
+                                <TopicCategory
+                                    name={<translate>Business page</translate>}
+                                    url={docUrl("business-page.html", language)}
+                                    ico="business_page"
+                                    text="Read how you can work with your business page."
+                                />
+                            </Col>
+                            <Col s12 m3>
+                                <TopicCategory
+                                    name={<translate>Records</translate>}
+                                    url={docUrl("campaigns.html", language)}
+                                    ico="records"
+                                    text="Read how you can work records in BulkGate."
+                                />
+                            </Col>
+                            <Col s12 m3>
+                                <TopicCategory
+                                    name={<translate>Payments and billing</translate>}
+                                    url={docUrl("purchasing-credit.html", language)}
+                                    ico="payment"
+                                    text="Read how you can pay and manage your billing data."
+                                />
+                            </Col>
+                            <Col s12 m3>
+                                <TopicCategory
+                                    name={<translate>Price list</translate>}
+                                    url={docUrl("using-price-list.html", language)}
+                                    ico="price_list"
+                                    text="Read how you can work with price list and it's SMS price calculator."
+                                />
+                            </Col>
+                        </Flex>
+                    </Row>
+                </HomeContainer>
+                <HomeContainer id="questions">
+                    <h2>
+                        <translate>What you are asking for?</translate>
+                    </h2>
+                    <ul>
+                        <li><a href={docUrl("url-shortener.html", language)}><translate>How do I create a new short URL?</translate></a></li>
+                        <li><a href={docUrl("inbox.html", language)}><translate>Can I have a two-way communication with a customer?</translate></a></li>
+                        <li><a href={docUrl("creating-sms-campaign.html", language)}><translate>How do I create SMS campaign?</translate></a></li>
+                        <li><a href={docUrl("business-page.html", language)}><translate>How can I create a business page?</translate></a></li>
+                        <li><a href={docUrl("offers-doc.html", language)}><translate>How can I create an offer?</translate></a></li>
+                        <li><a href={docUrl("importing-contacts-to-campaign-via-address-book.html", language)}><translate>How can I import contacts to my campaign?</translate></a></li>
+                        <li><a href={docUrl("sender-type.html", language)}><translate>Can I send a message under my company's name?</translate></a></li>
+                        <li><a href={docUrl("purchasing-credit.html", language)}><translate>What are credits? Do they have an expiration date?</translate></a></li>
+                        <li><a href={docUrl("using-price-list.html", language)}><translate>How to use price calculator?</translate></a></li>
+                        <li><a href={docUrl("campaigns.html", language)}><translate>How can I get an overview of my campaigns?</translate></a></li>
+                    </ul>
+                </HomeContainer>
+            </div>
+        );
+    }
 }
 
-const Block = props => (
-  <Container
-    padding={['bottom', 'top']}
-    id={props.id}
-    background={props.background}>
-    <GridBlock align="center" contents={props.children} layout={props.layout} />
-  </Container>
-);
-
 class Index extends React.Component {
-  render() {
-    let language = this.props.language || '';
+    render() {
+        let language = this.props.language || '';
 
-    return (
-      <div>
-        <HomeSplash language={language} />
-        <div className="mainContainer">
+        return (
+            <div>
+                <HomeSplash language={language}/>
+                <div className="mainContainer">
 
-        </div>
-      </div>
-    );
-  }
+                </div>
+            </div>
+        );
+    }
 }
 
 module.exports = Index;
