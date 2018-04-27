@@ -94,7 +94,7 @@ class HomeSplash extends React.Component {
                                     name={<translate>Address book</translate>}
                                     url={docUrl("importing-contacts-via-excel.html", language)}
                                     ico="address_book"
-                                    text="Read how you can work with your contacts."
+                                    text={<translate>Read how you can work with your contacts.</translate>}
                                 />
                             </Col>
                             <Col s12 m3>
@@ -102,7 +102,7 @@ class HomeSplash extends React.Component {
                                     name={<translate>Creating SMS campaigns</translate>}
                                     url={docUrl("creating-sms-campaign.html", language)}
                                     ico="campaigns"
-                                    text="Read how you can create classic and smart SMS campaigns."
+                                    text={<translate>Read how you can create classic and smart SMS campaigns.</translate>}
                                 />
                             </Col>
                             <Col s12 m3>
@@ -110,7 +110,7 @@ class HomeSplash extends React.Component {
                                     name={<translate>Business page</translate>}
                                     url={docUrl("business-page.html", language)}
                                     ico="business_page"
-                                    text="Read how you can work with your business page."
+                                    text={<translate>Read how you can work with your business page.</translate>}
                                 />
                             </Col>
                             <Col s12 m3>
@@ -118,7 +118,7 @@ class HomeSplash extends React.Component {
                                     name={<translate>Records</translate>}
                                     url={docUrl("campaigns.html", language)}
                                     ico="records"
-                                    text="Read how you can work records in BulkGate."
+                                    text={<translate>Read how you can work records in BulkGate.</translate>}
                                 />
                             </Col>
                             <Col s12 m3>
@@ -126,7 +126,7 @@ class HomeSplash extends React.Component {
                                     name={<translate>Payments and billing</translate>}
                                     url={docUrl("purchasing-credit.html", language)}
                                     ico="payment"
-                                    text="Read how you can pay and manage your billing data."
+                                    text={<translate>Read how you can pay and manage your billing data.</translate>}
                                 />
                             </Col>
                             <Col s12 m3>
@@ -134,7 +134,7 @@ class HomeSplash extends React.Component {
                                     name={<translate>Price list</translate>}
                                     url={docUrl("using-price-list.html", language)}
                                     ico="price_list"
-                                    text="Read how you can work with price list and it's SMS price calculator."
+                                    text={<translate>Read how you can work with price list and it's SMS price calculator.</translate>}
                                 />
                             </Col>
                         </Flex>

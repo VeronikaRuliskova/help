@@ -75,6 +75,7 @@
         "Working with groups": "Práce se skupinami"
     },
     "pages-strings": {
+        "Read how you can work with your business page.|no description given": "Read how you can work with your business page.",
         "Creating SMS campaigns|no description given": "Creating SMS campaigns",
         "Price list|no description given": "Price list",
         "Address book|no description given": "Address book",
@@ -87,8 +88,11 @@
         "Favorite topics|no description given": "Favorite topics",
         "Help Translate|recruit community translators for your project": "Help Translate",
         "What you are asking for?|no description given": "What you are asking for?",
+        "Read how you can work with your contacts.|no description given": "Read how you can work with your contacts.",
+        "Read how you can work with price list and it's SMS price calculator.|no description given": "Read how you can work with price list and it's SMS price calculator.",
         "Example Link 2|no description given": "Example Link 2",
         "Records|no description given": "Records",
+        "Read how you can pay and manage your billing data.|no description given": "Read how you can pay and manage your billing data.",
         "How do I create SMS campaign?|no description given": "How do I create SMS campaign?",
         "Payments and billing|no description given": "Payments and billing",
         "Try It Out|no description given": "Try It Out",
@@ -97,6 +101,8 @@
         "Translate this Doc|recruitment message asking to translate the docs": "Translate",
         "How do I create a new short URL?|no description given": "How do I create a new short URL?",
         "Can I send a message under my company's name?|no description given": "Can I send a message under my company's name?",
+        "Read how you can create classic and smart SMS campaigns.|no description given": "Read how you can create classic and smart SMS campaigns.",
+        "Read how you can work records in BulkGate.|no description given": "Read how you can work records in BulkGate.",
         "How to use price calculator?|no description given": "How to use price calculator?",
         "Videos|no description given": "Videos",
         "How can I import contacts to my campaign?|no description given": "How can I import contacts to my campaign?"
