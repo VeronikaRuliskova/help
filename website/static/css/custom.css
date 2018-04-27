@@ -17,8 +17,10 @@ header h2 {
     font-size: 14px;
 }
 
-.homeContainer {
-    background: #e4f0f6;
+.homeContainer h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1em;
+    line-height: normal;
 }
 
 .mainContainer {
@@ -102,6 +104,71 @@ input#search_input_react {
     background: $secondaryColor90;
     text-decoration: none;
     border-bottom-color: #000;
+}
+
+#head {
+    background: url(https://www.bulkgate.com/wp-content/themes/bulkgate.com/images/bg/topfooter.svg) -100px bottom repeat-x #111111;
+}
+#head .button:not(:hover){
+    color: $button;
+    border-color: $button;
+}
+#head h1 {
+    font-weight: 700;
+    color: #38ab9c;
+}
+#head h1 small {
+    color: #fff;
+}
+
+#questions {
+    text-align: left;
+    background: #f6fafc;
+}
+#topics {
+    text-align: left;
+}
+#questions a {
+    padding: 8px;
+    background: #38ab9c;
+    border-radius: 20px;
+    color: #fff;
+    margin-bottom: 15px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+#topics .col {
+    padding: 0;
+}
+#topics .cat {
+    display: block;
+    border: 1px solid #eee;
+    padding: 10px;
+    height: 100%;
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+#topics .cat:hover {
+    background:rgba(29, 33, 41, .04);
+}
+#topics .cat .header {
+    border-radius: 50%;
+    background: #f6fafc;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 20px;
+}
+#topics .cat .header img {
+    width: 70px;
+}
+#topics .cat h3 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+#topics .cat .text {
+    font-size: .9rem;
+    color: #ccc;
 }
 
 #footer {
