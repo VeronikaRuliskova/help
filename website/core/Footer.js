@@ -22,7 +22,7 @@ const links = {
 };
 
 class Footer extends React.Component {
-    
+
     webPageUrl(slug)
     {
         let lang = this.props.language;

@@ -78,11 +78,14 @@ class HomeSplash extends React.Component {
                         <Button href="https://www.youtube.com/channel/UCGD7ndC4z2NfuWUrS-DGELg" rel="nofollow">
                             <translate>Videos</translate>
                         </Button>
+                        <Button href="https://www.bulkgate.com">
+                            <translate>Web</translate>
+                        </Button>
                     </PromoSection>
                 </HomeContainer>
                 <HomeContainer id="topics">
                     <h2>
-                        <translate>Favorite topics</translate>
+                        <translate>Favorite Topics</translate>
                     </h2>
                     <Row>
                         <Flex wrap>
@@ -145,7 +148,7 @@ class HomeSplash extends React.Component {
                 </HomeContainer>
                 <HomeContainer id="questions">
                     <h2>
-                        <translate>What you are asking for?</translate>
+                        <translate>What You Are Asking For?</translate>
                     </h2>
                     <div className="box-list">
                         <ul>

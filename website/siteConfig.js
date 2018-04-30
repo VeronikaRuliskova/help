@@ -19,12 +19,8 @@ const siteConfig = {
       }
     },
     headerLinks: [
-        //{page : "index", label:"Home"},
-        //{doc: 'create-an-account', label: 'How to use BulkGate'},
-        //{doc: 'create-account', label: 'Account management'},
-        //{page: 'help', label: 'Privacy and security'},
+        {languages: true},
         {search:true},
-        {languages: true}
     ],
     /* path to images for header/footer */
     headerIcon: 'img/logo.svg',
