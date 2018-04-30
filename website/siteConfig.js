@@ -7,17 +7,19 @@
 
 const siteConfig = {
     title: 'BulkGate' /* title for your website */,
-    tagline: 'Help center of the best messaging platform',
-    url: 'http://help.bulkgate.com' /* your website url */,
+    tagline: 'BulkGate messaging platform',
+    url: 'https://help.bulkgate.com' /* your website url */,
     baseUrl: '/' /* base url for your project */,
     projectName: 'test-site',
+    disableHeaderTitle : true,
+    onPageNav: "separate",
     algolia : {
       algoliaOptions : {
 
       }
     },
     headerLinks: [
-        {page : "index", label:"Home"},
+        //{page : "index", label:"Home"},
         //{doc: 'create-an-account', label: 'How to use BulkGate'},
         //{doc: 'create-account', label: 'Account management'},
         //{page: 'help', label: 'Privacy and security'},
@@ -40,8 +42,6 @@ const siteConfig = {
     'Copyright © ' +
     new Date().getFullYear() +
     ' Your Name or Your Company Name',
-    // organizationName: 'deltice', // or set an env variable ORGANIZATION_NAME
-    // projectName: 'test-site', // or set an env variable PROJECT_NAME
     highlight: {
         // Highlight.js theme to use for syntax highlighting in code blocks
         theme: 'default',
