@@ -5,7 +5,7 @@ class TopicCategory extends React.Component
 {
     render()
     {
-        let {name, text, ico, url} = this.props;
+        let {name, text, btnText, ico, url} = this.props;
 
         return (
             <a className="cat" href={url}>
@@ -15,6 +15,9 @@ class TopicCategory extends React.Component
                 <h3>{name}</h3>
                 <div className="text">
                     {text}
+                </div>
+                <div className="button">
+                    {btnText}
                 </div>
             </a>
         );

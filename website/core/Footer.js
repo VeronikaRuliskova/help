@@ -6,16 +6,36 @@
  */
 
 const React = require('react');
+const links = {
+    contact : {
+        en : ["contact-us", "Contact"],
+        cs : ["kontakt", "Kontakt"],
+    },
+    privacy : {
+        en : ["privacy", "Privacy"],
+        cs : ["ochrana-soukromi", "Ochrana soukromí"]
+    },
+    terms : {
+        en : ["terms", "Terms"],
+        cs : ["podminky-pouziti", "Podmínky použití"]
+    }
+};
 
 class Footer extends React.Component {
-    docUrl(doc, language) {
-        const baseUrl = this.props.config.baseUrl;
-        return baseUrl + 'docs/' + (language ? language + '/' : '') + doc;
+    
+    webPageUrl(slug)
+    {
+        let lang = this.props.language;
+        slug = links[slug][lang][0];
+
+        return `https://www.bulkgate.com/${lang}/${slug}/`;
     }
 
-    pageUrl(doc, language) {
-        const baseUrl = this.props.config.baseUrl;
-        return baseUrl + (language ? language + '/' : '') + doc;
+    webPageName(slug)
+    {
+        let lang = this.props.language;
+
+        return links[slug][lang][1];
     }
 
     render() {
@@ -40,28 +60,36 @@ class Footer extends React.Component {
                         TOPefekt s.r.o. <br/> &copy; {currentYear}
                     </div>
                     <div>
-                        <a href="https://www.bulkgate.com/en/contact">
-                            Contact
+                        <a href={this.webPageUrl("contact")}>
+                            {this.webPageName("contact")}
                         </a>
-                        <a href="https://www.bulkgate.com/en/privacy/">
-                            Privacy
+                        <a href={this.webPageUrl("privacy")}>
+                            {this.webPageName("privacy")}
                         </a>
-                        <a href="https://www.bulkgate.com/en/terms/">
-                            Terms
+                        <a href={this.webPageUrl("terms")}>
+                            {this.webPageName("terms")}
                         </a>
                     </div>
                     <div>
                         <a
-                            href="https://www.youtube.com/channel/UCaeI-Xo88dj6cIDjSi8XAxw"
-                            target="_blank">
+                            href="https://www.youtube.com/channel/UCGD7ndC4z2NfuWUrS-DGELg"
+                            rel="nofollow"
+                            target="_blank"
+                        >
                             YouTube
                         </a>
                         <a
                             href="https://www.facebook.com/topefekt/"
-                            target="_blank">
+                            rel="nofollow"
+                            target="_blank"
+                        >
                             Facebook
                         </a>
-                        <a href="https://www.linkedin.com/company/topefekt-s-r-o-/" target="_blank">
+                        <a
+                            href="https://www.linkedin.com/company/topefekt-s-r-o-/"
+                            rel="nofollow"
+                            target="_blank"
+                        >
                             LinkedIn
                         </a>
                     </div>
