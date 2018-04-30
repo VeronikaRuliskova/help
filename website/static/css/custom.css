@@ -8,10 +8,9 @@ h1, h2, h3, h4, .container .wrapper h1, .container .wrapper h2, .container .wrap
     color: #1d2129;
 }
 
-/*.fixedHeaderContainer header > a {
-    flex-direction: column;
-    align-items: flex-start;
-}*/
+.post h1, .post h2, .post h3, .post h4 {
+    font-weight:500!important;
+}
 
 header h2 {
     font-size: 14px;
@@ -32,7 +31,6 @@ header h2 {
 }
 
 .fixedHeaderContainer header img.logo {
-    width: 100px;
     height: auto;
 }
 
@@ -98,6 +96,7 @@ input#search_input_react {
 .mainContainer .wrapper a:not(.button):not([aria-hidden]) {
     background: $secondaryColor50;
     border-bottom: 1px solid $secondaryColor80;
+    padding: 0 2px;
 }
 
 .mainContainer .wrapper a:not(.button):not([aria-hidden]):hover {
@@ -108,6 +107,10 @@ input#search_input_react {
 
 #head {
     background: url(https://www.bulkgate.com/wp-content/themes/bulkgate.com/images/bg/topfooter.svg) -100px bottom repeat-x #111111;
+    padding: 30px 0;
+}
+#head .button {
+    min-width: 100px;
 }
 #head .button:not(:hover){
     color: $button;
@@ -115,39 +118,51 @@ input#search_input_react {
 }
 #head h1 {
     font-weight: 700;
-    color: #38ab9c;
+    color: #fff;
 }
 #head h1 small {
     color: #fff;
 }
 
 #questions {
-    text-align: left;
     background: #f6fafc;
 }
 #topics {
+
+}
+#questions .box-list {
+    background: #fff;
+    box-shadow: 0px 0px 8px 0px #ccc;
     text-align: left;
 }
+#questions li {
+    border-bottom: 1px solid #eee;
+    background-image: url(/img/questions/question.svg);
+    background-position: center left 11px;
+    background-repeat: no-repeat;
+}
+#questions li:hover {
+    background-color: #dcf5f2;
+}
 #questions a {
-    padding: 8px;
-    background: #38ab9c;
-    border-radius: 20px;
-    color: #fff;
-    margin-bottom: 15px;
-    display: inline-block;
-    font-weight: 500;
+    padding: 25px 15px 25px 45px;
+    display: block;
+    font-size: 1.2rem;
 }
 
 #topics .col {
-    padding: 0;
+    margin-bottom: 15px;
 }
 #topics .cat {
     display: block;
     border: 1px solid #eee;
-    padding: 10px;
+    padding: 30px 10px;
     height: 100%;
     box-sizing: border-box;
     border-collapse: collapse;
+    border-radius: 5px;
+    border-top: 2px solid #be2166;
+    box-shadow: 0px 0px 8px 0px #ccc;
 }
 #topics .cat:hover {
     background:rgba(29, 33, 41, .04);
@@ -155,12 +170,12 @@ input#search_input_react {
 #topics .cat .header {
     border-radius: 50%;
     background: #f6fafc;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     margin: 0 auto 20px;
 }
 #topics .cat .header img {
-    width: 70px;
+    width: 50%;
 }
 #topics .cat h3 {
     font-size: 1rem;
@@ -168,7 +183,16 @@ input#search_input_react {
 }
 #topics .cat .text {
     font-size: .9rem;
-    color: #ccc;
+    color: #90949c;
+}
+#topics .cat .button {
+    margin-top: 30px;
+    color: $button;
+    border-color: $button;
+}
+#topics .cat:hover .button {
+    color: #fff;
+    background: $button;
 }
 
 #footer {
