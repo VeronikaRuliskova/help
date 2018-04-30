@@ -3,7 +3,7 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "Help center of the best messaging platform",
+    "tagline": "BulkGate messaging platform",
     "adding-contacts-to-groups": "Adding contacts to groups",
     "adding-contacts": "Adding contacts",
     "adding-groups": "Adding groups",
@@ -54,7 +54,6 @@
     "unicode": "Unicode",
     "url-shortener": "URL Shortener",
     "using-price-list": "Using price list",
-    "Home": "Home",
     "Creating an account": "Creating an account",
     "Confirming an account": "Confirming an account",
     "Importing contacts": "Importing contacts",
@@ -72,12 +71,13 @@
     "Price list": "Price list"
   },
   "pages-strings": {
+    "Help Center|no description given": "Help Center",
     "Try It Out|no description given": "Try It Out",
     "Videos|no description given": "Videos",
-    "Example Link 2|no description given": "Example Link 2",
     "Favorite topics|no description given": "Favorite topics",
     "Address book|no description given": "Address book",
     "Read how you can work with your contacts.|no description given": "Read how you can work with your contacts.",
+    "View topic|no description given": "View topic",
     "Creating SMS campaigns|no description given": "Creating SMS campaigns",
     "Read how you can create classic and smart SMS campaigns.|no description given": "Read how you can create classic and smart SMS campaigns.",
     "Business page|no description given": "Business page",
