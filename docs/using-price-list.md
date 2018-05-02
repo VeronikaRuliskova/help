@@ -3,7 +3,7 @@ title: Using price list
 ---
 
 ## How to use price list?
-It is always good to know SMS price in a country where you want to send SMS campaign to. [BulkGate price list](https://www.bulkgate.com/en/sms-price/) gives you a total overview of how much SMS cost for every [sender ID type](sender-type.md#what-is-a-sender-type-and-how-can-i-use-it) and operator in every country we operate. Additionally, you can see whether the specific sender ID type allows you to have [two-way communication](https://www.bulkgate.com/en/solutions/two-way-sms/) with your customers, whether you need to register a specific sender type first and what the costs are.
+It is always good to know SMS price in a country where you want to send SMS campaign to. BulkGate [SMS pricing](https://www.bulkgate.com/en/sms-price/) gives you a total overview of how much SMS cost for every [sender ID type](sender-type.md#what-is-a-sender-type-and-how-can-i-use-it) and operator in every country we operate. Additionally, you can see whether the specific sender ID type allows you to have [two-way communication](https://www.bulkgate.com/en/solutions/two-way-sms/) with your customers, whether you need to register a specific sender type first and what the costs are.
 
 It also lets you [calculate](#how-to-use-price-calculator) how much you will pay for your upcoming SMS campaign and SMS notifications, and shows you bonus offers that you can reach.
 
