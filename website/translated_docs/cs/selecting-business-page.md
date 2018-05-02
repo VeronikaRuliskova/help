@@ -9,4 +9,4 @@ Pro přiřazení business stránky k nabídce:
 1.	Jděte do druhého kroku Smart SMS kampaně
 2.	Přiřaďte business stránku k vaší nabídce v menu Business stránka
 
-`Buďte si ovšem vědomi toho, že nemůžete změnit přiřazenou business stránku.`
+`Buďte si vědomi toho, že nemůžete změnit přiřazenou business stránku.`
