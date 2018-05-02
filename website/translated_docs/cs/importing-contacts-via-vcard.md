@@ -15,6 +15,6 @@ Pro importování kontaktů do adresáře pomocí vCard:
 
 Přečtěte si více, pokud máte čísla pouze v [mezinárodním formátu,](assigning-country-to-contacts.md#mám-čísla-mých-kontaktů-pouze-v-národním-formátu) nebo[jak v národním, tak v mezinárodním formátu.](assigning-country-to-contacts.md#mám-čísla-mých-kontaktů-jak-v-národním-tak-v-mezinárodním-formátu)
 
-**`Podívejte se, jak importovat kontakty přes vCard`**
+**`Podívejte se na video,` [jak importovat kontakty přes vCard](https://www.youtube.com/watch?v=wD6Ynw1lJz4&index=1&list=PL3m8jKRwlM0t2fjpTTQTZLq8qCyOEPP7N)**
 
-[![Import kontaktů přes vCard](https://img.youtube.com/vi/wD6Ynw1lJz4/hqdefault.jpg)](https://youtu.be/wD6Ynw1lJz4)
+<iframe width="854" height="480" src="https://www.youtube.com/embed/wD6Ynw1lJz4?list=PL3m8jKRwlM0t2fjpTTQTZLq8qCyOEPP7N" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
