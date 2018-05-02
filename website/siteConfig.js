@@ -17,9 +17,7 @@ const siteConfig = {
         apiKey : "ff197e73cf40ebd0dc2af631fa0ba3e8",
         indexName : "bulkgate",
         algoliaOptions : {
-            //facetFilters : ["tags:LANGUAGE"],
-            //searchableAttributes : ["title"],
-            //restrictSearchableAttributes : ["title"]
+            facetFilters : ["language:LANGUAGE"],
         }
     },
     headerLinks: [
