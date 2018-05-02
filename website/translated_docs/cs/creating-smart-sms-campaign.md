@@ -3,9 +3,9 @@ title: Creating Smart SMS campaign
 ---
 
 ## Co je Smart SMS kampaň?
-[Smart SMS](https://www.bulkgate.com/cs/reseni/smart-sms/) vám pomáhá propagovat vaše produkty a události ještě lépe. Smart SMS je kombinací [hromadné SMS zprávy](https://www.bulkgate.com/cs/reseni/sms#hromadna-sms) a vaší [BulkGate business stránky.](business-page.md#co-je-business-stránka)
+[Smart SMS](https://www.bulkgate.com/cs/reseni/smart-sms/) vám pomáhá propagovat vaše produkty a události ještě lépe. Smart SMS je kombinací [hromadné SMS ](https://www.bulkgate.com/cs/reseni/sms#hromadna-sms) a vaší BulkGate [business stránky.](https://www.bulkgate.com/cs/reseni/smart-sms#business-stranka)
 
-Když vytváříte Smart SMS kampaň, vytváříte ve skutečnosti [nabídku.](https://www.bulkgate.com/cs/reseni/smart-sms#nabidky) Tato nabídka je vložena do vaší SMS zprávy ve formě odkazu a je následně umístěna na vaší [business stránce.](business-page.md#co-je-business-stránka)
+Když vytváříte Smart SMS kampaň, vytváříte ve skutečnosti [nabídku.](https://www.bulkgate.com/cs/reseni/smart-sms#nabidky) Tato nabídka je vložena do vaší SMS zprávy ve formě odkazu a je následně umístěna na vaší business stránce. Podívejte se, co je to [business stránka](business-page.md#co-je-business-stránka)
 
 Přečtěte si více o [nabídkách,](offers.md#co-je-to-nabídka) abyste viděli všechny výhody Smart SMS nabídek.
 
