@@ -12,3 +12,8 @@ Chcete-li vidět všechny statistiky vašich kampaní:
 3.	Nyní můžete zvolit jednu ze záložek a dále vybírat, jaké statistiky si přejete zobrazit
 
 Můžete také filtrovat statistiky vašich kampaní podle dalších filtrů, jako jsou telefonní číslo, stav kampaně a další, kliknutím na Vyberte filtr v pravém horním rohu.
+
+**`Podívejte se na práci se statistikami`**
+
+[![Statistiky na BulkGate portálu](https://img.youtube.com/vi/VeoJW1HmABM/hqdefault.jpg)](https://youtu.be/VeoJW1HmABM)
+

@@ -15,6 +15,11 @@ Ve výchozím nastavení se zobrazí historie zpráv za posledních 30 dní. Mů
 Můžete také filtrovat historii zpráv podle filtrů, například telefonního čísla, stavu kampaně a dalších, klepnutím na položku Vyberte filtr v pravém horním rohu.
 
 
+**`Podívejte se, jak pracovat s historií`**
+
+[![Práce s historií](https://img.youtube.com/vi/nVcfnVkR_2I/hqdefault.jpg)](https://youtu.be/nVcfnVkR_2I)
+
+
 ## Jak mohu exportovat historii zpráv?
 Pro exportování vaší historie:
 1.	Klikněte SMS v menu

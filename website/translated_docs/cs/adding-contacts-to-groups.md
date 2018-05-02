@@ -9,3 +9,7 @@ Pro přidání kontaktů do skupiny:
 3.	Vyberte, do které skupiny nebo skupin chcete kontakty přidat, nebo vytvořte novou skupinu
 4.	Klikněte Uložit
 5.	Kontakty byly nahrány do vybraných skupin
+
+**`Podívejte se, jak přidat kontakty do skupiny v adresáři`**
+
+[![Jak přidat kontakty do skupinyl](https://img.youtube.com/vi/vSwVIPL0dRU/hqdefault.jpg)](https://youtu.be/vSwVIPL0dRU)

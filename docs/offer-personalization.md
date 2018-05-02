@@ -10,4 +10,10 @@ To personalize your offer:
 
 `Please note that if you lack any data for the selected recipient variables, the recipient who you lack the data for will see an offer without the selected variable. In other words, if want to write a headline or a description “Perfect shoes for you, <first_name>“, and you filled the first name for only 50% of the recipients, the variable <first_name> will be empty for 50% of your recipients. Half of your recipients will therefore see the offer like this “Perfect shoes for you, “.`
 
->-	If you miss any data for a variable you would like to use, you can hover over the variable and click "Set default variable for x% contacts." Now enter a default value for the selected variable. This default variable will be used instead of an empty space
+>-	If you miss any data for a variable you would like to use, you can hover over the variable and click "Set default variable for x% contacts." Now enter a default value for the selected variable. This default variable will be used instead of an empty space.
+
+
+**`See how to personalize an offer`**
+
+[![Offer personalization](https://img.youtube.com/vi/gkYdkh-8nLc/hqdefault.jpg)](https://youtu.be/gkYdkh-8nLc)
+
