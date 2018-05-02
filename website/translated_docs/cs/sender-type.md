@@ -15,6 +15,6 @@ BulkGate poskytuje 4 typy odesílatele, nicméně `některé z nich nemusí být
 
 **`Vlastní číslo`** vám umožňuje použít vaše telefonní číslo, které je následně zobrazeno příjemci v doručené SMS. Příjemce vám může napsat nebo zavolat přímo na toto číslo.
 
-Podívejte se, [jak můžete obousměrně komunikovat s vašimi zákazníky](inbox.md#mohu-komunikovat-přímo-se-zákazníkem) a [kde uvidíte jejich zprávy.](inbox.md#kde-mohu-vidět-reakce-od-mých-zákazníků)
+Podívejte se, jak můžete [obousměrně komunikovat](inbox.md#mohu-komunikovat-přímo-se-zákazníkem) s vašimi zákazníky a kde uvidíte jejich [zpětné reakce.](inbox.md#kde-mohu-vidět-reakce-od-mých-zákazníků)
 
-Podívejte se na náš ceník(https://www.bulkgate.com/cs/cena-sms), abyste věděli, který typ odesílatele může být použit pro [obousměrnou SMS komunikaci](https://www.bulkgate.com/cs/reseni/obousmerna-sms/) ve vaší cílené zemi.
+Podívejte se na náš [SMS ceník](https://www.bulkgate.com/cs/cena-sms), abyste věděli, který typ odesílatele může být použit pro [obousměrnou SMS komunikaci](https://www.bulkgate.com/cs/reseni/obousmerna-sms/) ve vaší cílené zemi.
