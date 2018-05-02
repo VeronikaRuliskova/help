@@ -12,4 +12,4 @@ Pro přidání kontaktů do skupiny:
 
 **`Podívejte se, jak přidat kontakty do skupiny v adresáři`**
 
-[![Jak přidat kontakty do skupinyl](https://img.youtube.com/vi/Eh83VLLozds/vSwVIPL0dRU.jpg)](https://youtu.be/vSwVIPL0dRU)
+[![Jak přidat kontakty do skupinyl](https://img.youtube.com/vi/vSwVIPL0dRU/hqdefault.jpg)](https://youtu.be/vSwVIPL0dRU)
