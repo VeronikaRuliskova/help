@@ -118,7 +118,7 @@ class HomeSplash extends React.Component {
                             </Col>
                             <Col s12 m4>
                                 <TopicCategory
-                                    name={<translate>Records</translate>}
+                                    name={<translate>Records & statistics</translate>}
                                     url={docUrl("campaigns.html", language)}
                                     ico="records"
                                     text={<translate>Read how you can work records in BulkGate.</translate>}
