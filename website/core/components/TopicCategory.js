@@ -5,10 +5,10 @@ class TopicCategory extends React.Component
 {
     render()
     {
-        let {name, text, btnText, ico, url} = this.props;
+        let {name, text, btnText, watchBtnText, ico, url, videoUrl} = this.props;
 
         return (
-            <a className="cat" href={url}>
+            <div className="cat">
                 <Flex css="header" horizontalItems="center">
                     <img src={`/img/topics/${ico}.svg`} />
                 </Flex>
@@ -16,10 +16,15 @@ class TopicCategory extends React.Component
                 <div className="text">
                     {text}
                 </div>
-                <div className="button">
+                <a className="button" href={url}>
                     {btnText}
-                </div>
-            </a>
+                </a>
+                {videoUrl &&
+                <a className="button watch" href={videoUrl}>
+                    {watchBtnText}
+                </a>
+                }
+            </div>
         );
     }
 }

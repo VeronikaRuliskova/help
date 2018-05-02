@@ -33,7 +33,8 @@ const siteConfig = {
         primaryColor: "#202020",//'#00a79d',
         secondaryColor: "#be2166",
         button : "#be2166",
-        highlight : "#ffe564"
+        highlight : "#ffe564",
+        teal : "#37ab9c",
     },
     // This copyright info is used in /core/Footer.js and blog rss/atom feeds.
     copyright:

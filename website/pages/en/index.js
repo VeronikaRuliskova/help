@@ -14,6 +14,22 @@ const Grid = require(process.cwd() + "/core/components/grid");
 const {Col, Row} = Grid.default;
 const {Flex} = require(process.cwd() + "/core/components/flex");
 const siteConfig = require(process.cwd() + '/siteConfig.js');
+const videosUrl = {
+    cs : {
+        all : "https://www.youtube.com/playlist?list=PL3m8jKRwlM0sX8WP906N7I6Ggc4T0Eo2P&disable_polymer=true",
+        address_book : "https://www.youtube.com/playlist?list=PL3m8jKRwlM0t2fjpTTQTZLq8qCyOEPP7N&disable_polymer=true",
+        sms_campaign : "https://www.youtube.com/playlist?list=PL3m8jKRwlM0sXKJPOldIENxGAUwBhsmvm&disable_polymer=true",
+        business_page : "https://www.youtube.com/playlist?list=PL3m8jKRwlM0sBQBzufy3AIATr4YzVRnu3&disable_polymer=true",
+        records : "https://www.youtube.com/playlist?list=PL3m8jKRwlM0tQpYeIqKONXSrdIqvkbPem&disable_polymer=true",
+    },
+    en : {
+        all : "https://www.youtube.com/playlist?list=PL3m8jKRwlM0sJ_dUF9eRJh0F0lGjkH-7p&disable_polymer=true",
+        address_book : "https://www.youtube.com/playlist?list=PL3m8jKRwlM0txr-UZh7G0Ul4MTD3Wh2Q7&disable_polymer=true",
+        sms_campaign : "https://www.youtube.com/playlist?list=PL3m8jKRwlM0ugQ0LwprF68wLmVzdDLASZ&disable_polymer=true",
+        business_page : "https://www.youtube.com/playlist?list=PL3m8jKRwlM0tnJNejvh-yoUnl5E084pNB&disable_polymer=true",
+        records : "https://www.youtube.com/playlist?list=PL3m8jKRwlM0sQlppoGhclVv5VeLRiFaQH&disable_polymer=true",
+    }
+};
 
 function imgUrl(img) {
     return siteConfig.baseUrl + 'img/' + img;
@@ -75,10 +91,10 @@ class HomeSplash extends React.Component {
                         <Button href="https://portal.bulkgate.com" rel="nofollow">
                             <translate>Try It Out</translate>
                         </Button>
-                        <Button href="https://www.youtube.com/channel/UCGD7ndC4z2NfuWUrS-DGELg" rel="nofollow">
+                        <Button href={videosUrl[language].all} rel="nofollow">
                             <translate>Videos</translate>
                         </Button>
-                        <Button href="https://www.bulkgate.com">
+                        <Button href={`https://www.bulkgate.com/${language}/`}>
                             <translate>Web</translate>
                         </Button>
                     </PromoSection>
@@ -93,36 +109,44 @@ class HomeSplash extends React.Component {
                                 <TopicCategory
                                     name={<translate>Address book</translate>}
                                     url={docUrl("importing-contacts-via-excel.html", language)}
+                                    videoUrl={videosUrl[language].address_book}
                                     ico="address_book"
                                     text={<translate>Read how you can work with your contacts.</translate>}
-                                    btnText={<translate>View topic</translate>}
+                                    btnText={<translate>Read topic</translate>}
+                                    watchBtnText={<translate>Videos</translate>}
                                 />
                             </Col>
                             <Col s12 m4>
                                 <TopicCategory
                                     name={<translate>Creating SMS campaigns</translate>}
                                     url={docUrl("creating-sms-campaign.html", language)}
+                                    videoUrl={videosUrl[language].sms_campaign}
                                     ico="campaigns"
                                     text={<translate>Read how you can create classic and smart SMS campaigns.</translate>}
-                                    btnText={<translate>View topic</translate>}
+                                    btnText={<translate>Read topic</translate>}
+                                    watchBtnText={<translate>Videos</translate>}
                                 />
                             </Col>
                             <Col s12 m4>
                                 <TopicCategory
                                     name={<translate>Business page</translate>}
                                     url={docUrl("business-page.html", language)}
+                                    videoUrl={videosUrl[language].business_page}
                                     ico="business_page"
                                     text={<translate>Read how you can work with your business page.</translate>}
-                                    btnText={<translate>View topic</translate>}
+                                    btnText={<translate>Read topic</translate>}
+                                    watchBtnText={<translate>Videos</translate>}
                                 />
                             </Col>
                             <Col s12 m4>
                                 <TopicCategory
                                     name={<translate>Records & statistics</translate>}
                                     url={docUrl("campaigns.html", language)}
+                                    videoUrl={videosUrl[language].records}
                                     ico="records"
                                     text={<translate>Read how you can work records in BulkGate.</translate>}
-                                    btnText={<translate>View topic</translate>}
+                                    btnText={<translate>Read topic</translate>}
+                                    watchBtnText={<translate>Videos</translate>}
                                 />
                             </Col>
                             <Col s12 m4>
@@ -148,7 +172,7 @@ class HomeSplash extends React.Component {
                 </HomeContainer>
                 <HomeContainer id="questions">
                     <h2>
-                        <translate>What You Are Asking For?</translate>
+                        <translate>FAQ</translate>
                     </h2>
                     <div className="box-list">
                         <ul>

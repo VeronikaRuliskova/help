@@ -203,10 +203,19 @@ input#search_input_react {
     margin-top: 30px;
     color: $button;
     border-color: $button;
+    min-width: 100px;
+}
+#topics .cat .button.watch {
+    color: $teal;
+    border-color: $teal;
 }
 #topics .cat:hover .button {
     color: #fff;
     background: $button;
+}
+#topics .cat:hover .button.watch {
+    color: #fff;
+    background: $teal;
 }
 
 #footer {
