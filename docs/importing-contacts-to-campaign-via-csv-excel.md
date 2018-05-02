@@ -15,6 +15,6 @@ To import contacts to your campaign via CSV/Excel:
 Read more if you have numbers in [national format only](assigning-country-to-contacts.md#i-have-my-contact-numbers-in-national-format-only), or [both national and international format.](assigning-country-to-contacts.md#i-have-my-contact-numbers-in-both-national-and-international-formats)
 
 
-**`See how to` [import contacts to SMS campaign via CSV/Excel](https://www.youtube.com/watch?v=JKmr8OgRLaM&list=PL3m8jKRwlM0ugQ0LwprF68wLmVzdDLASZ&index=1)**
+**`Watch video on how to` [import contacts to SMS campaign via CSV/Excel](https://www.youtube.com/watch?v=JKmr8OgRLaM&list=PL3m8jKRwlM0ugQ0LwprF68wLmVzdDLASZ&index=1)**
 
 <iframe width="854" height="480" src="https://www.youtube.com/embed/JKmr8OgRLaM?list=PL3m8jKRwlM0ugQ0LwprF68wLmVzdDLASZ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
