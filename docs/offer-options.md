@@ -25,9 +25,9 @@ If you want, you can choose to show the expiration in form of a time countdown, 
 ### `Request order`
 When you activate the request order option, [order form](order-form.md#what-is-an-order-form-and-how-can-i-activate-it) pops up at the bottom of the offer window which you can edit and adjust to your needs.
 
-You can read more about [order form here.](order-form.md#what-is-an-order-form-and-how-can-i-activate-it)
+Read more about [order form.](order-form.md#what-is-an-order-form-and-how-can-i-activate-it)
 
 
-**`See how to set up offer options`**
+**`Watch video on how to set up` [offer options](https://www.youtube.com/watch?v=_2JmQMayU8g&index=2&list=PL3m8jKRwlM0tnJNejvh-yoUnl5E084pNB)**
 
-[![Setting up offer options in Smart SMS campaign](https://img.youtube.com/vi/_2JmQMayU8g/hqdefault.jpg)](https://www.youtube.com/watch?v=_2JmQMayU8g) 
+<iframe width="854" height="480" src="https://www.youtube.com/embed/_2JmQMayU8g?list=PL3m8jKRwlM0tnJNejvh-yoUnl5E084pNB" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
