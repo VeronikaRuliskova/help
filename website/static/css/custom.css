@@ -53,6 +53,10 @@ blockquote {
     border-left-color: $highlight;
 }
 
+iframe {
+    margin-top: 20px;
+}
+
 nav.toc {
     width: auto;
 }
@@ -115,6 +119,8 @@ input#search_input_react {
 }
 #head .button {
     min-width: 100px;
+    background: linear-gradient(80deg, #ff0076, #be2166);
+    color: #fff!important;
 }
 #head .button:not(:hover){
     color: $button;
@@ -138,12 +144,16 @@ input#search_input_react {
     background: #fff;
     box-shadow: 0px 0px 8px 0px #ccc;
     text-align: left;
+    padding: 20px;
 }
 #questions li {
     border-bottom: 1px solid #eee;
     background-image: url(/img/questions/question.svg);
     background-position: center left 11px;
     background-repeat: no-repeat;
+}
+#questions li:last-of-type {
+    border-bottom: 0;
 }
 #questions li:hover {
     background-color: #dcf5f2;
