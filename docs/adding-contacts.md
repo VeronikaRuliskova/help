@@ -9,3 +9,9 @@ To add a contact to address book:
 3.	Enter necessary contact information such as mobile phone, name and other valuable data. These can be used for message personalization
 4.	Click Create
 5.	Your contact has been inserted to your address book
+
+
+
+**`See how to add a contact to address book`**
+
+[![Adding contacts to address book](https://img.youtube.com/vi/eZiZoj-fGzE/hqdefault.jpg)](https://youtu.be/eZiZoj-fGzE)
