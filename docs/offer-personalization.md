@@ -13,7 +13,6 @@ To personalize your offer:
 >-	If you miss any data for a variable you would like to use, you can hover over the variable and click "Set default variable for x% contacts." Now enter a default value for the selected variable. This default variable will be used instead of an empty space.
 
 
-**`See how to personalize an offer`**
+**`See how to` [personalize an offer](https://www.youtube.com/watch?v=gkYdkh-8nLc&list=PL3m8jKRwlM0tnJNejvh-yoUnl5E084pNB&index=1)**
 
-[![Offer personalization](https://img.youtube.com/vi/gkYdkh-8nLc/hqdefault.jpg)](https://youtu.be/gkYdkh-8nLc)
-
+<iframe width="854" height="480" src="https://www.youtube.com/embed/gkYdkh-8nLc?list=PL3m8jKRwlM0tnJNejvh-yoUnl5E084pNB" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
