@@ -10,7 +10,7 @@ Hromadné zprávy jsou vysoce efektivní, téměř všichni příjemci si přeč
 
 Je jednoduché vytvořit a odeslat hromadnou SMS kampaň a generovat příjem s malými operačními náklady. 
 
-Vytvořit a odeslat hromadnou SMS kampaň můžete také přes naše [SMS moduly](https://www.bulkgate.com/cs/sms-modul/) nebo naše [API.](https://www.bulkgate.com/cs/vyvojari/sms-api/)
+Vytvořit a odeslat hromadnou SMS kampaň můžete také přes naše [SMS moduly](https://www.bulkgate.com/cs/sms-modul/) nebo naše [SMS API.](https://www.bulkgate.com/cs/vyvojari/sms-api/)
 
 
 ## Jak vytvořím SMS kampaň?
