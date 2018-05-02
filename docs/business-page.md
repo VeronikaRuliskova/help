@@ -16,9 +16,9 @@ To create a new business page:
 6.	Make sure your page info is correct – person/company contact information. [You can always edit it](#how-can-i-rename-a-business-page)
 
 
-**`See how to create a business page`**
+**`See how to create a ` [business page](https://www.youtube.com/watch?v=iDDceQaT-iQ&list=PL3m8jKRwlM0sJ_dUF9eRJh0F0lGjkH-7p&index=2)**
 
-[![How to create a business page](https://img.youtube.com/vi/iDDceQaT-iQ/hqdefault.jpg)](https://www.youtube.com/watch?v=iDDceQaT-iQ)
+<iframe width="854" height="480" src="https://www.youtube.com/embed/pf-JBSczEfc?list=PL3m8jKRwlM0sJ_dUF9eRJh0F0lGjkH-7p" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## How can I delete a business page?
 To delete a business page:
