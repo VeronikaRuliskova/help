@@ -22,3 +22,7 @@ Nyní můžete vidět celkové náklady vaší kampaně, kolik zpráv bylo odesl
 
 Každá nástěnka kampaně má také svůj vlastní [Inbox.](inbox.md#kde-mohu-vidět-reakce-od-mých-zákazníků) Vaši zákazníci můžou odpovědět na vaši zprávu, záleží na [typu odesílatel,](sender-type.md#co-je-typ-odesílatele-a-jak-ho-můžu-použít) a jejich reakce můžete vidět na nástěnce kampaně. 
 
+**`Podívejte se, jak pracovat s kampaněmi`**
+
+[![Práce s kampaněmi](https://img.youtube.com/vi/h34-uAnw0SQ/hqdefault.jpg)](https://youtu.be/h34-uAnw0SQ)
+
