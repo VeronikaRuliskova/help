@@ -16,3 +16,7 @@ Pro personalizování vaší kampaně:
 `Všimněte si, že pokud máte nedostatek dat pro danou proměnnou hodnotu, příjemce, pro kterého postrádáte daná data, obdrží zprávu bez vybrané proměnné. Jinými slovy, pokud chcete napsat zprávu “Dobrý den (křestní jméno), chci vám…“ a vy jste vyplnili křestní jméno pouze pro 50% příjemců, proměnná (křestní jméno) bude prázdná pro 50% vašich příjemců. Polovina vašich příjemců tedy obdrží zprávu “Dobrý den , chci vám…“.`
 
 >-	Jestli postrádáte nějaká data pro proměnné, které chcete použít, můžete najet myší na danou proměnnou a klikněte “Zadat výchozí proměnnou pro x%“. Nyní zadejte výchozí hodnotu pro vybranou proměnnou. Tato výchozí hodnota bude použita místo prázdného místa.
+
+**`Podívejte se, jak se dělá` [personalizace kampaně](https://www.youtube.com/watch?v=TZxUGpal5cY&index=4&list=PL3m8jKRwlM0sXKJPOldIENxGAUwBhsmvm&t=0s)**
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/TZxUGpal5cY?list=PL3m8jKRwlM0sXKJPOldIENxGAUwBhsmvm" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
