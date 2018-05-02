@@ -8,7 +8,7 @@ Pro importování kontaktů do kampaně přes CSV/Excel:
 2.	Vyberte váš soubor s kontakty
 3.	Přiřaďte zemi vaším kontaktům. Tímto automaticky přidáte předčíslí zvolené země všem vašim příjemcům, kteří mají číslo pouze v národním formátu. Všechna čísla, která máte v mezinárodním formátu, zůstanou nezměněna
 4.	Klikněte Nahrát
-5.	Přiřaďte funkci jakémukoliv sloupci, který chcete. Data ze sloupců, kterým přiřadíte funkci, budou moci být použita pro [personalizaci zprávy](message-personalization.md#jak-mohu-personalizovat-kampaň) 
+5.	Přiřaďte funkci jakémukoliv sloupci, který chcete. Data ze sloupců, kterým přiřadíte funkci, budou moci být použita pro [personalizaci zpráv](message-personalization.md#jak-mohu-personalizovat-kampaň) a [personalizaci nabídek](offer-personalization.md#jak-mohu-personalizovat-nabídku) 
 6.	Klikněte uložit
 7.	Přidejte další CSV/Excel soubor, jinak klikněte Dokončit výběr
 
