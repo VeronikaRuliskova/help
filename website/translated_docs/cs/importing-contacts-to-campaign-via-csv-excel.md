@@ -15,7 +15,6 @@ Pro importování kontaktů do kampaně přes CSV/Excel:
 Přečtěte si více, pokud máte čísla pouze v [mezinárodním formátu,](assigning-country-to-contacts.md#mám-čísla-mých-kontaktů-pouze-v-národním-formátu) nebo[jak v národním, tak v mezinárodním formátu.](assigning-country-to-contacts.md#mám-čísla-mých-kontaktů-jak-v-národním-tak-v-mezinárodním-formátu)
 
 
-**`Podívejte se, jak importovat kontakty do kampaně přes CSV/Excel`**
+**`Podívejte se,` [jak importovat kontakty do SMS kampaně přes CSV/Excel](https://www.youtube.com/watch?v=Eh83VLLozds&list=PL3m8jKRwlM0sXKJPOldIENxGAUwBhsmvm&index=1)**
 
-[![Importování kontaktů do kampaně přes CSV/Excel](https://img.youtube.com/vi/Eh83VLLozds/hqdefault.jpg)](https://youtu.be/Eh83VLLozds)
-
+<iframe width="854" height="480" src="https://www.youtube.com/embed/Eh83VLLozds?list=PL3m8jKRwlM0sXKJPOldIENxGAUwBhsmvm" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
