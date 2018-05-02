@@ -14,6 +14,12 @@ Note that by default you see messaging history of the past 30 days. However, you
 
 You can also filter your messaging history according to other filters such as phone number, status of the campaign and others, by clicking Select filter in the right-upper corner.
 
+
+**`See how to work with history`**
+
+[![Working with history](https://img.youtube.com/vi/pgbYu3OxLVY/hqdefault.jpg)](https://youtu.be/pgbYu3OxLVY)
+
+
 ## How can I export my messaging history?
 To export your history:
 1.	Click SMS in the menu
