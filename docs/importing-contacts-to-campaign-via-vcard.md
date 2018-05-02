@@ -12,6 +12,6 @@ To import contacts to your campaign via vCard:
 
 Read more if you have numbers in [national format only](assigning-country-to-contacts.md#i-have-my-contact-numbers-in-national-format-only), or [both national and international format.](assigning-country-to-contacts.md#i-have-my-contact-numbers-in-both-national-and-international-formats)
 
-**`See how to import contacts to campaign via vCard`**
+**`Watch a video how to` [import contacts to campaign via vCard](https://www.youtube.com/watch?v=TXrwcUeJMWs&index=2&list=PL3m8jKRwlM0ugQ0LwprF68wLmVzdDLASZ)**
 
-[![Import contacts to campaign via vCard](https://img.youtube.com/vi/TXrwcUeJMWs/hqdefault.jpg)](https://www.youtube.com/watch?v=TXrwcUeJMWs)
+<iframe width="854" height="480" src="https://www.youtube.com/embed/TXrwcUeJMWs?list=PL3m8jKRwlM0ugQ0LwprF68wLmVzdDLASZ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

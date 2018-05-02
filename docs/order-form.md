@@ -19,7 +19,6 @@ To activate an order form:
 After you have saved your new order form, you can use it in your next Smart SMS campaign by simply clicking on the arrows in the order form.
 
 
-**`See how to activate and edit an order form`**
+**`Watch video on` [how to create an order form](https://www.youtube.com/watch?v=pf-JBSczEfc&list=PL3m8jKRwlM0tnJNejvh-yoUnl5E084pNB&index=3)**
 
-[![How to create an order form](https://img.youtube.com/vi/pf-JBSczEfc/hqdefault.jpg)](https://www.youtube.com/watch?v=pf-JBSczEfc)
-
+<iframe width="854" height="480" src="https://www.youtube.com/embed/pf-JBSczEfc?list=PL3m8jKRwlM0tnJNejvh-yoUnl5E084pNB" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

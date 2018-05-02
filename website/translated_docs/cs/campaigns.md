@@ -20,9 +20,8 @@ Chcete-li vidět statistiky kampaně:
 
 Nyní můžete vidět celkové náklady vaší kampaně, kolik zpráv bylo odesláno, doporučeno a mnoho dalších statistik.
 
-Každá nástěnka kampaně má také svůj vlastní [Inbox.](inbox.md#kde-mohu-vidět-reakce-od-mých-zákazníků) Vaši zákazníci můžou odpovědět na vaši zprávu, záleží na [typu odesílatel,](sender-type.md#co-je-typ-odesílatele-a-jak-ho-můžu-použít) a jejich reakce můžete vidět na nástěnce kampaně. 
+Každá nástěnka kampaně má také svůj vlastní [inbox.](inbox.md#kde-mohu-vidět-reakce-od-mých-zákazníků) Vaši zákazníci můžou odpovědět na vaši zprávu, záleží jaký použijete [typ odesílatel,](sender-type.md#co-je-typ-odesílatele-a-jak-ho-můžu-použít) a jejich reakce můžete vidět na nástěnce kampaně. 
 
-**`Podívejte se, jak pracovat s kampaněmi`**
+**`Podívejte se na video, jak` [pracovat s kampaněmi](https://www.youtube.com/watch?v=h34-uAnw0SQ&t=0s&index=2&list=PL3m8jKRwlM0tQpYeIqKONXSrdIqvkbPem)**
 
-[![Práce s kampaněmi](https://img.youtube.com/vi/h34-uAnw0SQ/hqdefault.jpg)](https://youtu.be/h34-uAnw0SQ)
-
+<iframe width="854" height="480" src="https://www.youtube.com/embed/h34-uAnw0SQ?list=PL3m8jKRwlM0tQpYeIqKONXSrdIqvkbPem" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

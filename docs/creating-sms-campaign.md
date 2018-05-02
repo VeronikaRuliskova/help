@@ -11,7 +11,7 @@ Bulk messaging is highly effective as nearly all recipients read the delivered m
  
 It is simple to create and send bulk SMS campaign and generate revenues with low operational costs. 
 
-You can also create and send bulk SMS campaigns via our [SMS modules](https://www.bulkgate.com/en/sms-module/) or our [APIs.](https://www.bulkgate.com/en/developers/sms-api/)
+You can also create and send bulk SMS campaigns via our [SMS modules](https://www.bulkgate.com/en/sms-module/) or our [SMS APIs.](https://www.bulkgate.com/en/developers/sms-api/)
 
 ## How do I create SMS campaign?
 To create SMS campaign:

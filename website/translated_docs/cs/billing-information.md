@@ -3,7 +3,7 @@ title: Billing information
 ---
 
 ## Musím vyplnit fakturační údaje?
-Tato volba je na vás. Chcete-li získat přístup k fakturačním datům, musíte [vyplnit vaše fakturační údaje,](#jak-vyplním-nebo-aktualizuju-fakturační-údaje) jinak je to nepovinné.
+Tato volba je na vás. Chcete-li získat přístup k fakturačním datům, musíte vyplnit vaše [fakturační údaje,](#jak-vyplním-nebo-aktualizuju-fakturační-údaje) jinak je to nepovinné.
 
 
 ## Jak vyplním nebo aktualizuju fakturační údaje?

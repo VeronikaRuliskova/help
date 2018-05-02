@@ -22,7 +22,7 @@ To create an offer:
 2.	If you have a business page, click **Create offer** on the business page, or click SMS in the menu and click **Create campaign** and choose `Smart SMS`
 3.	In the second step of the campaign, you will be able to create an offer
 
-It is also possible [to adjust an offer](offers.md#can-i-change-an-offer-after-it-was-sent) after it has been sent to your recipients. 
+It is also possible to [adjust an offer](offers.md#can-i-change-an-offer-after-it-was-sent) after it has been sent to your recipients. 
 
 ## Can I change an offer after it was sent?
 In short, yes. You can always adjust your offer after your Smart SMS campaign has been sent out to your recipients. However, you can’t send it to other recipients. To do this – to send the same offer to new recipients – you need to create a new Smart SMS campaign.

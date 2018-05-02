@@ -28,6 +28,6 @@ Když aktivujete podnabídku vyžadovat objednávku, tak na spodní části nab�
 Přečtěte si více o [objednávkovém formuláři.](order-form.md#co-je-objednávkový-formulář-a-jak-ho-může-aktivovat)
 
 
-**`Podívejte se, jak nastavit možnosti nabídky`**
+**`Podívejte se na video, jak nastavit` [možnosti nabídky](https://www.youtube.com/watch?v=bfkA2xH3cAI&list=PL3m8jKRwlM0sBQBzufy3AIATr4YzVRnu3&index=2)**
 
-[![Nastavování možností nabídek ve Smart SMS kampani](https://img.youtube.com/vi/bfkA2xH3cAI/hqdefault.jpg)](https://youtu.be/bfkA2xH3cAI) 
+<iframe width="854" height="480" src="https://www.youtube.com/embed/bfkA2xH3cAI?list=PL3m8jKRwlM0sBQBzufy3AIATr4YzVRnu3" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

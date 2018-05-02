@@ -12,6 +12,6 @@ Pro importování kontaktů do kampaně přes vCard:
 
 Přečtěte si více, pokud máte čísla pouze v [mezinárodním formátu,](assigning-country-to-contacts.md#mám-čísla-mých-kontaktů-pouze-v-národním-formátu) nebo[jak v národním, tak v mezinárodním formátu.](assigning-country-to-contacts.md#mám-čísla-mých-kontaktů-jak-v-národním-tak-v-mezinárodním-formátu)
 
-**`Podívejte se, jak importovat kontakty do kampaně přes vCard`**
+**`Podívejte se na video,` jak [importovat kontakty do kampaně přes vCard](https://www.youtube.com/watch?v=VyATC30WupE&list=PL3m8jKRwlM0sXKJPOldIENxGAUwBhsmvm&index=2)**
 
-[![Importování kontaktů do kampaně přes vCard](https://img.youtube.com/vi/VyATC30WupE/hqdefault.jpg)](https://youtu.be/VyATC30WupE)
+<iframe width="854" height="480" src="https://www.youtube.com/embed/VyATC30WupE?list=PL3m8jKRwlM0sXKJPOldIENxGAUwBhsmvm" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

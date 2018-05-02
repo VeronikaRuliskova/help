@@ -17,7 +17,7 @@ Pro vytvoření nové business stránky:
 6.	Přesvědčte se, že jsou informace o stránce správně zobrazeny – kontaktní údaje osoby/společnosti. [Business stránku můžete přejmenovat](business-page.md#jak-mohu-přejmenovat-business-stránku)
 
 
-**`Podívejte se, jak se vytváří` [business stránka](https://www.youtube.com/watch?v=IBr0q3Lo3Og&index=1&t=0s&list=PL3m8jKRwlM0sBQBzufy3AIATr4YzVRnu3)**
+**`Podívejte se na video, jak se vytváří` [business stránka](https://www.youtube.com/watch?v=IBr0q3Lo3Og&index=1&t=0s&list=PL3m8jKRwlM0sBQBzufy3AIATr4YzVRnu3)**
 
 <iframe width="854" height="480" src="https://www.youtube.com/embed/IBr0q3Lo3Og?list=PL3m8jKRwlM0sBQBzufy3AIATr4YzVRnu3" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 

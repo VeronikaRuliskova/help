@@ -22,7 +22,6 @@ Now you see what the total cost of your campaign was, how many messages were sen
 Every campaign dashboard has also its own [inbox.](inbox.md#where-can-i-see-a-response-from-my-customer) Depending on the [sender type,](sender-type.md#what-is-a-sender-type-and-how-can-i-use-it) your recipients can reply to your message and their replies can be seen in the campaign dashboard.
 
 
-**`See how to work with campaigns`**
+**`Watch video on how to` [work with campaigns](https://www.youtube.com/watch?v=X2-t5F1lz3A&list=PL3m8jKRwlM0sQlppoGhclVv5VeLRiFaQH&index=1&t=0s)**
 
-[![Working with campaigns](https://img.youtube.com/vi/X2-t5F1lz3A/hqdefault.jpg)](https://youtu.be/X2-t5F1lz3A)
-
+<iframe width="854" height="480" src="https://www.youtube.com/embed/X2-t5F1lz3A?list=PL3m8jKRwlM0sQlppoGhclVv5VeLRiFaQH" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

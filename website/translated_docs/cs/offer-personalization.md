@@ -12,6 +12,6 @@ Pro personalizování nabídky:
 
 >- Jestli postrádáte nějaká data pro proměnné, které chcete použít, můžete najet myší na danou proměnnou a klikněte “Zadat výchozí proměnnou pro x%“. Nyní zadejte výchozí hodnotu pro vybranou proměnnou. Tato výchozí hodnota bude použita místo prázdného místa.
 
-**`Podívejte se, jak se dělá` [personalizace nabídky](https://www.youtube.com/watch?v=DSDHSmaFZ44&list=PL3m8jKRwlM0sBQBzufy3AIATr4YzVRnu3&index=1)**
+**`Podívejte se na video, jak se dělá` [personalizace nabídky](https://www.youtube.com/watch?v=DSDHSmaFZ44&index=1&list=PL3m8jKRwlM0sBQBzufy3AIATr4YzVRnu3)**
 
 <iframe width="854" height="480" src="https://www.youtube.com/embed/DSDHSmaFZ44?list=PL3m8jKRwlM0sBQBzufy3AIATr4YzVRnu3" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

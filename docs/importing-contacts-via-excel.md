@@ -17,6 +17,6 @@ To import contacts to your address book via CSV/Excel:
 
 Read more if you have numbers in [national format only](assigning-country-to-contacts.md#i-have-my-contact-numbers-in-national-format-only), or [both national and international format.](assigning-country-to-contacts.md#i-have-my-contact-numbers-in-both-national-and-international-formats)
 
-**`See how to import contacts via CSV/Excel`**
+**`Watch video on` [how to import contacts via CSV/Excel](https://www.youtube.com/watch?v=Ssr9bnwR8Gs&t=0s&list=PL3m8jKRwlM0txr-UZh7G0Ul4MTD3Wh2Q7&index=1)**
 
-[![Import contacts via CSV/Excel](https://img.youtube.com/vi/Ssr9bnwR8Gs/hqdefault.jpg)](https://www.youtube.com/watch?v=Ssr9bnwR8Gs)
+<iframe width="854" height="480" src="https://www.youtube.com/embed/Ssr9bnwR8Gs?list=PL3m8jKRwlM0txr-UZh7G0Ul4MTD3Wh2Q7" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

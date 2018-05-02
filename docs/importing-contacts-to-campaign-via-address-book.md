@@ -12,6 +12,6 @@ To import contacts to your campaign via Address book:
 6.	Selected contacts are now embedded to your campaign
 
 
-**`See how to import contacts to campaign via Address book`**
+**`Watch video on how to` [import contacts to SMS campaign via Address book](https://www.youtube.com/watch?v=6kfCibJgkSg&index=1&list=PL3m8jKRwlM0ugQ0LwprF68wLmVzdDLASZ&t=0s)**
 
-[![Import contacts to campaign via Address book](https://img.youtube.com/vi/6kfCibJgkSg/hqdefault.jpg)](https://www.youtube.com/watch?v=6kfCibJgkSg)
+<iframe width="854" height="480" src="https://www.youtube.com/embed/6kfCibJgkSg?list=PL3m8jKRwlM0ugQ0LwprF68wLmVzdDLASZ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

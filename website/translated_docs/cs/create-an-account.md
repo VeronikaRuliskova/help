@@ -4,7 +4,7 @@ title: Creating an account
 
 ## Jak vytvořit BulkGate účet?
 Pro vytvoření účtu na BulkGate:
-1.	Jděte na https://portal.bulkgate.com 
+1.	Jděte na BulkGate [SMS Portál](https://portal.bulkgate.com)
 2.	Klikněte na Zaregistrovat
 3.	Vyplňte váš email, heslo, jméno, mobilní telefon, vyberte vaši zemi a časovou zónu
 4.	Klikněte Další

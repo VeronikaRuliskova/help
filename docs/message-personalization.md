@@ -18,6 +18,6 @@ To personalize your campaign:
 >-	If you lack any data for a variable you would like to use, you can hover over the variable and click "Set default variable for x% contacts." Now enter a default value for the selected variable. This default value will be used instead of an empty space.
 
 
-**`See how to personalize your campaign`**
+**`Watch video on how to` [personalize campaign](https://www.youtube.com/watch?v=2Kxs2E9iv_4&index=4&list=PL3m8jKRwlM0ugQ0LwprF68wLmVzdDLASZ&t=0s)**
 
-[![Message personalization](https://img.youtube.com/vi/2Kxs2E9iv_4/hqdefault.jpg)](https://youtu.be/2Kxs2E9iv_4)
+<iframe width="854" height="480" src="https://www.youtube.com/embed/2Kxs2E9iv_4?list=PL3m8jKRwlM0ugQ0LwprF68wLmVzdDLASZ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

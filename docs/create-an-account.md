@@ -4,7 +4,7 @@ title: Creating an account
 
 ## How do I create a BulkGate account?
 To create a BulkGate account:
-1.	Go to https://portal.bulkgate.com
+1.	Go to BulkGate [SMS Portal](https://portal.bulkgate.com)
 2.	Click on Create new account
 3.	Enter your email, password, name, mobile phone number, select your country and your time zone
 4.	Click Next

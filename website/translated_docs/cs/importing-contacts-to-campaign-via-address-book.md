@@ -12,7 +12,6 @@ Pro importování kontaktů do vaší kampaně přes adresář:
 6.	Vybrané kontakty jsou nyní připojené k vaší kampani
 
 
+**`Podívejte se na video, jak` [importovat kontakty do SMS kampaně přes adresář](https://www.youtube.com/watch?v=9yhHs7WUFfA&index=1&t=0s&list=PL3m8jKRwlM0sXKJPOldIENxGAUwBhsmvm)**
 
-**`Podívejte se, jak importovat kontakty do kampaně přes adresář`**
-
-[![Importování kontaktů do kampaně přes adresář](https://img.youtube.com/vi/9yhHs7WUFfA/hqdefault.jpg)](https://youtu.be/9yhHs7WUFfA)
+<iframe width="854" height="480" src="https://www.youtube.com/embed/9yhHs7WUFfA?list=PL3m8jKRwlM0sXKJPOldIENxGAUwBhsmvm" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

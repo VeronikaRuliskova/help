@@ -16,9 +16,9 @@ To create a new short URL:
 7.	To insert shortened URL to your campaign, simply click on the green URL in the list
 
 
-**`See how to use URL shortenerl`**
+**`Watch video on` [how to use URL shortenerl](https://www.youtube.com/watch?v=YMfEJFU06XE&index=5&list=PL3m8jKRwlM0ugQ0LwprF68wLmVzdDLASZ&t=0s)**
 
-[![How to use URL shortener](https://img.youtube.com/vi/YMfEJFU06XE/hqdefault.jpg)](https://youtu.be/YMfEJFU06XE)
+<iframe width="854" height="480" src="https://www.youtube.com/embed/YMfEJFU06XE?list=PL3m8jKRwlM0ugQ0LwprF68wLmVzdDLASZ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 ## How do I add existing short URL to my campaign?
