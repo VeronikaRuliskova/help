@@ -3,21 +3,21 @@ title: History
 ---
 
 ## Where can I see my messaging history?
-[BulkGate Portal](https://www.bulkgate.com/en/sms-portal/) keeps track of your [SMS messaging](https://www.bulkgate.com/en/solutions/sms/) activity and provides you with a messaging history list for you convenience. 
+BulkGate [SMS Portal](https://www.bulkgate.com/en/sms-portal/) keeps track of your [SMS messaging](https://www.bulkgate.com/en/solutions/sms/) activity and provides you with a messaging history list for you convenience. 
 
 To find messaging history:
 1.	Click SMS in the menu
 2.	Click History
-3.	[See additional information about history list](#what-information-can-i-find-in-history) in order to understand it better
+3.	See additional [information about history](#what-information-can-i-find-in-history) in order to understand it better
 
 Note that by default you see messaging history of the past 30 days. However, you can change this by choosing a specific date in the left-upper corner of the history window.
 
 You can also filter your messaging history according to other filters such as phone number, status of the campaign and others, by clicking Select filter in the right-upper corner.
 
 
-**`See how to work with history`**
+**`See how to` [work with history](https://www.youtube.com/watch?v=pgbYu3OxLVY&list=PL3m8jKRwlM0sQlppoGhclVv5VeLRiFaQH&index=1)**
 
-[![Working with history](https://img.youtube.com/vi/pgbYu3OxLVY/hqdefault.jpg)](https://youtu.be/pgbYu3OxLVY)
+<iframe width="854" height="480" src="https://www.youtube.com/embed/pgbYu3OxLVY?list=PL3m8jKRwlM0sQlppoGhclVv5VeLRiFaQH" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 ## How can I export my messaging history?
@@ -26,7 +26,7 @@ To export your history:
 2.	Click History
 3.	Click on the date filter in the left-upper corner and select a date
 4.	Optionally, select other filters, such as status, in the right-upper corner
-5.	Now you see your filtered messaging history. It is worth understanding [what kind of information history list provides](#what-information-can-i-find-in-history) before you go to the next step
+5.	Now you see your filtered messaging history. It is worth understanding [what information history list provides](#what-information-can-i-find-in-history) before you go to the next step
 6.	Click Export Selected to download CSV file either for the whole list or for an individual SMS campaign
 
 
@@ -43,7 +43,7 @@ Furthermore, if you click on an individual line, you can see additional info suc
 -	**`A message text`**
 -	**`SMS ID:`** [read more about SMS ID](#what-is-sms-id-and-where-can-i-find-it)
 -	**`Routes:`** your bulk SMS campaigns are sent through promotional route, SMS notifications are sent through transactional route, respectively
--	**`Sender type:`** [read more about sender type](sender-type.md#what-is-a-sender-type-and-how-can-i-use-it)
+-	**`Sender type:`** read more about [sender type](sender-type.md#what-is-a-sender-type-and-how-can-i-use-it)
 
 ## What is SMS ID and where can I find it?
 Every text message has a unique SMS ID. This identification can be useful if you have a problem with delivering SMS messages. By providing an SMS ID to us we can solve the problem with the carrier. However, be aware that an SMS ID must not be older than `two days.` 
