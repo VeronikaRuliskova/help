@@ -155,7 +155,7 @@ class HomeSplash extends React.Component {
                                     url={docUrl("purchasing-credit.html", language)}
                                     ico="payment"
                                     text={<translate>Read how you can pay and manage your billing data.</translate>}
-                                    btnText={<translate>View topic</translate>}
+                                    btnText={<translate>Read topic</translate>}
                                 />
                             </Col>
                             <Col s12 m4>
@@ -164,7 +164,7 @@ class HomeSplash extends React.Component {
                                     url={docUrl("using-price-list.html", language)}
                                     ico="price_list"
                                     text={<translate>Read how you can work with price list and it's SMS price calculator.</translate>}
-                                    btnText={<translate>View topic</translate>}
+                                    btnText={<translate>Read topic</translate>}
                                 />
                             </Col>
                         </Flex>
