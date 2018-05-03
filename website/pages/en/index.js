@@ -67,7 +67,7 @@ const HomeContainer = props => (
 
 const ProjectTitle = props => (
     <h1 className="projectTitle">
-        <translate>Help Center</translate>
+        <translate>Helpdesk</translate>
         <small>{siteConfig.tagline}</small>
     </h1>
 );
@@ -89,7 +89,7 @@ class HomeSplash extends React.Component {
                     <ProjectTitle/>
                     <PromoSection>
                         <Button href="https://portal.bulkgate.com" rel="nofollow">
-                            <translate>Try It Out</translate>
+                            <translate>Try Out SMS Portal</translate>
                         </Button>
                         <Button href={videosUrl[language].all} rel="nofollow">
                             <translate>Videos</translate>
@@ -122,7 +122,7 @@ class HomeSplash extends React.Component {
                                     url={docUrl("creating-sms-campaign.html", language)}
                                     videoUrl={videosUrl[language].sms_campaign}
                                     ico="campaigns"
-                                    text={<translate>Read how you can create classic and smart SMS campaigns.</translate>}
+                                    text={<translate>Read how you can create standard and smart SMS campaigns.</translate>}
                                     btnText={<translate>Read topic</translate>}
                                     watchBtnText={<translate>Videos</translate>}
                                 />
@@ -163,7 +163,7 @@ class HomeSplash extends React.Component {
                                     name={<translate>Price list</translate>}
                                     url={docUrl("using-price-list.html", language)}
                                     ico="price_list"
-                                    text={<translate>Read how you can work with price list and it's SMS price calculator.</translate>}
+                                    text={<translate>Read how you can work with price list and its SMS price calculator.</translate>}
                                     btnText={<translate>Read topic</translate>}
                                 />
                             </Col>
