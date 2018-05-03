@@ -19,6 +19,6 @@ Pro aktivaci objednávkového formuláře:
 Objednávkový formulář nyní můžete použít pro vaši následující Smart SMS kampaň. Jednoduše klikněte na šipku v objednávkovém formuláři. 
 
 
-**`Podívejte se,` [jak vytvořit objednávkový formulář](https://www.youtube.com/watch?v=La64WBFIYSw&list=PL3m8jKRwlM0sBQBzufy3AIATr4YzVRnu3&index=3)**
+**`Podívejte se na video,` [jak vytvořit objednávkový formulář](https://www.youtube.com/watch?v=La64WBFIYSw&list=PL3m8jKRwlM0sBQBzufy3AIATr4YzVRnu3&index=3)**
 
 <iframe width="854" height="480" src="https://www.youtube.com/embed/La64WBFIYSw?list=PL3m8jKRwlM0sBQBzufy3AIATr4YzVRnu3" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
