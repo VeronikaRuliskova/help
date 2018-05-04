@@ -19,7 +19,7 @@ Pro vytvoření nového krátkého URL:
 
 **`Podívejte se na video,` [jak použít zkracovač URL](https://www.youtube.com/watch?v=Bt5QK6kywkM&list=PL3m8jKRwlM0sXKJPOldIENxGAUwBhsmvm&t=0s&index=5)**
 
-[![Jak použít zkracovač URL](https://img.youtube.com/vi/Bt5QK6kywkM/hqdefault.jpg)](https://youtu.be/Bt5QK6kywkM)
+<iframe width="854" height="480" src="https://www.youtube.com/embed/Bt5QK6kywkM?list=PL3m8jKRwlM0sXKJPOldIENxGAUwBhsmvm" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 ## Jak můžu přidat existující krátké URL do mé kampaně?
