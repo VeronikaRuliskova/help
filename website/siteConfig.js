@@ -7,7 +7,7 @@
 
 const siteConfig = {
     title: 'BulkGate' /* title for your website */,
-    tagline: 'Help center of bulk sms gateway',
+    tagline: 'Bulk SMS gateway help center',
     url: 'https://help.bulkgate.com' /* your website url */,
     baseUrl: '/' /* base url for your project */,
     projectName: 'test-site',
