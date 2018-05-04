@@ -27,7 +27,7 @@
         "offer-options": "Možnosti nabídky",
         "testing-your-campaign": "Testování kampaně",
         "importing-contacts-via-excel": "Import kontaktů přes CSV/Excel",
-        "tagline": "A website for testing",
+        "tagline": "Nápověda SMS brána ",
         "Business Page": "Business Stránka",
         "color-scheme": "Barevné schéma",
         "importing-contacts-to-campaign-via-enter-number": "Import kontaktů přes Zadat číslo",
@@ -89,7 +89,7 @@
         "Business page|no description given": "Business stránka",
         "Try Out SMS Portal|no description given": "Vyzkoušejte SMS Portál",
         "Edit this Doc|recruitment message asking to edit the doc source": "Edit",
-        "How can I create an offer?|no description given": "Jak mohu vytvořit nabídku??",
+        "How can I create an offer?|no description given": "Jak mohu vytvořit nabídku?",
         "Favorite Topics|no description given": "Oblíbená Témata",
         "Favorite topics|no description given": "Oblíbená témata",
         "Help Translate|recruit community translators for your project": "Help Translate",
@@ -115,8 +115,8 @@
         "Read how you can create classic and smart SMS campaigns.|no description given": "Přečtěte si, jak vytvořit standardní a Smart SMS kampaň.",
         "Read how you can work with price list and its SMS price calculator.|no description given": "Přečtěte si, jak můžete pracovat s ceníkem a jeho kalkukátorem.",
         "Read how you can work records in BulkGate.|no description given": "Přečtěte si, jak v BulkGate pracovat se záznamy.",
-        "How to use price calculator?|no description given": "Jak mohu použít kalkulátor ceny??",
+        "How to use price calculator?|no description given": "Jak mohu použít kalkulátor ceny?",
         "Videos|no description given": "Videa",
-        "How can I import contacts to my campaign?|no description given": "Jak mohu importovat kontakty do mé kampaně??"
+        "How can I import contacts to my campaign?|no description given": "Jak mohu importovat kontakty do mé kampaně?"
     }
 }
