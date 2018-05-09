@@ -20,3 +20,8 @@ To create SMS campaign:
 3.	Select SMS – Bulk SMS campaign
 4.	Enter a name for your campaign
 5.	Click Create campaign
+
+
+**`Watch videos on` [how to create bulk SMS campaign](https://www.youtube.com/watch?v=6kfCibJgkSg&t=0s&list=PL3m8jKRwlM0ugQ0LwprF68wLmVzdDLASZ&index=1)**
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/6kfCibJgkSg?list=PL3m8jKRwlM0ugQ0LwprF68wLmVzdDLASZ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
