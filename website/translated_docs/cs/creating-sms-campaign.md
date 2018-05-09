@@ -21,3 +21,6 @@ Abyste mohli vytvořit SMS kampaň:
 4.	Zadejte název vaší kampaně
 5.	Klikněte Vytvořit kampaň
 
+**`Podívejte se na videa,` [jak vytvořit hromadnou SMS kampaň](https://www.youtube.com/watch?v=9yhHs7WUFfA&list=PL3m8jKRwlM0sXKJPOldIENxGAUwBhsmvm&index=1&t=0s)**
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/9yhHs7WUFfA?list=PL3m8jKRwlM0sXKJPOldIENxGAUwBhsmvm" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
