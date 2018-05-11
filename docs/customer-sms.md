@@ -8,7 +8,7 @@ To activate and adjust Customer SMS message template:
 2.	Select which template you want to activate and click on it
 3.	Adjust the message template. Use variables from the Personalize message menu. You can instantly see how the message template will look like in action and what the length of the message is
 4.	Choose appropriate [sender type](sender-type.md#what-is-a-sender-type-and-how-can-i-use-it)
-5.	Activate [Unicode](unicode.md#what-is-unicode) or [Flash SMS](flash-sms.md#what-is-flash-sms) if you want
+5.	Activate [Unicode](unicode.md#what-is-unicode) and [Flash SMS](flash-sms.md#what-is-flash-sms) if you want
 6.	Activate the template in the right-upper corner
 7.	Click Save
 
