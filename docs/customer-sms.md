@@ -2,7 +2,7 @@
 title: Customer SMS
 ---
 
-## How can I activate and adjust Customer SMS message template?
+## How can I activate or adjust Customer SMS message template?
 To activate and adjust Customer SMS message template:
 1.	Go to Customer SMS
 2.	Select which template you want to activate and click on it
