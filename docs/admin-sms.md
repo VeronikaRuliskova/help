@@ -2,14 +2,14 @@
 title: Admin SMS
 ---
 
-## How can I activate and adjust Admin SMS message template?
+## How can I activate or adjust Admin SMS message template?
 To activate and adjust Admin SMS message template:
 1.	Go to Admin SMS
 2.	Select which template you want to activate and click on it
 3.	Adjust the message template. Use variables from the Personalize message menu. You can instantly see how the message template will look like in action and what the length of the message is
 4.	Choose appropriate [sender type](sender-type.md#what-is-a-sender-type-and-how-can-i-use-it)
-5.	Activate [Unicode](unicode.md#what-is-unicode) or [Flash SMS](flash-sms.md#what-is-flash-sms) if you want
-6.	[Select admin](#how-can-i-add-or-activate-a-new-admin-for-a-message-template) or admins will be receiving the message when the template is activated
+5.	Activate [Unicode](unicode.md#what-is-unicode) and [Flash SMS](flash-sms.md#what-is-flash-sms) if you want
+6.	[Select admin](#how-can-i-add-or-activate-a-new-admin-for-a-message-template) or admins who will be receiving the message when the template is activated
 7.	Activate the template in the right-upper corner
 8.	Click Save
 
