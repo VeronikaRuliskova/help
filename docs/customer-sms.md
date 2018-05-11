@@ -12,4 +12,4 @@ To activate and adjust Customer SMS message template:
 6.	Activate the template in the right-upper corner
 7.	Click Save
 
-`Please note that if you lack any data for the selected variables, the customer will receive the customer SMS without the selected variable. In other words, if your New order message template for Customer SMS has a text “<shop_name>: Thank you for your order, <customer_firstname>. Your order…“, and you lack the customer’s first name, the variable <customer_firstname> will be empty. Your customer will therefore receive message “YourGuitars: Thank you for your order, . Your order….“`
+`Please note that if you lack any data for the selected variables, the customer will receive the customer SMS without the selected variable. In other words, if your New order message template for Customer SMS has a text “<shop_name>: Thank you for your order, <customer_firstname>. Your order…“, and you lack the customer’s first name, the variable <customer_firstname> will be empty. Your customer will therefore receive message “YourGuitars: Thank you for your order, . Your order…“`
