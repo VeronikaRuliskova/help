@@ -18,7 +18,7 @@ To activate and adjust Admin SMS message template:
 ## How can I add or activate a new admin for a message template?
 To add or activate a new admin for a message template:
 1.	Go to Admin SMS
-2.	Select which template you want to activate or add a new admin to and click on it
+2.	Select for which template you want to activate or add a new admin to and click on it
 3.	Click Admin manager in the left-bottom corner
 4.	Click Add administrator
 5.	Fill the form
