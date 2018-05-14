@@ -1,5 +1,5 @@
 ---
-title: Send SMS command 1
+title: SMS command 1
 ---
 
 ## Send SMS command – promotional/marketing SMS
