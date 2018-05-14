@@ -159,3 +159,95 @@ Response to this command may be:
   - Where `3` is status (see table 2)
   - 10 is error reason (see table 3)
 
+
+## 3.4 	Check credit command
+It allows to check customer credit via HTTP request. See table 4 for parameters.
+
+
+**TABLE 4 - CHECK CREDIT COMMAND PARAMETERS**
+
+|Parameter name	|Value	|Mandatory|
+|:--- |:--- |:--- |
+|“action”	| “info” |	Yes|
+|“username”	|User login name|	Yes|
+|“password”|	User password	|Yes|
+|“show_json”|	“1” for response in json format|	No|
+
+
+Response to this command may be:
+- In case of success:
+  - `<stat>1</stat><info>5430.620</info>`
+  - Where `1` is status OK
+  - **5430.620** is customer credit
+ 
+
+- In case of error:
+  - `<stat>3</stat><info>error</info>`
+  - Where `3` is error status
+
+## 3.5 	Pricelist command
+It allows to check price for each country and operator via HTTP request. See table 5.
+
+
+**TABLE 5 - PRICELIST COMMAND PARAMETERS**
+
+Parameter name	Value	Mandatory
+|:--- |:--- |:--- |
+|“action”|	“dost”|	Yes|
+|“username”|	User login name|	Yes|
+|“password”|	User password	|Yes|
+|“area”	|Prefix of country (e.g. “44” for UK)|	Yes|
+|“show_json”|	“1” for response in json format|	No|
+
+
+Response to this command may be:
+- In case of success:
+  - `<stat>1</stat><info>0|BT|0.75|3|39;2|BT|0.85|1|39;0|C&W Guernsey|0.75|3|39;2|C&W Guernsey|0.85|1|39;0|Hutchison 3G|0.75|3|39;2|Hutchison 3G|0.85|1|39;0|Jersey Airtel|0.75|3|39;2|Jersey Airtel|0.85|1|39;0|Jersey Telecom|0.75|3|39;2|Jersey Telecom|0.85|1|39;0|Lycamobile|0.75|3|39;2|Lycamobile|0.85|1|39;0|Manx Telecom|0.75|3|39;2|ManxTelecom|0.85|1|39;0|O2|0.75|3|39;2|O2|0.85|1|39;0|Orange|0.75|3|39;2|Orange|0.85|1|39;0|T-mobile|0.75|3|39;2|T-mobile|0.85|1|39;0|Vodafone|0.75|3|39;2|Vodafone|0.85|1|39_5-10:0.04;11-799:0.0372;800-1999:0.0330%1.21</info>`
+  - Where _ is the separator of 2 parts. First part defines available SMS gateways, second part defines VAT and credit price in EUR depending on payment amount. Let's explain more first part. If we use semicolon as separator we will get various SMS  gateways and operators. 
+  - e.g.:  0|Vodafone|0.75|3|39
+  - Where `0` is SMS gateway (see parameter “isms” table 1a)
+  - **Vodafone** is name of network
+  - **0.75** is credit cost per SMS
+  - **3** is sender ID support (see table 6 and parameter “sender” table 1a) 
+  - **39** is unicode supported (0 is unicode not supported, see parameter “unicode” table 1a)
+
+- In case of error:
+  - `<stat>3</stat><info>error</info>`
+  - Where `3` is error status
+
+
+**TABLE 6 – SENDER ID SUPPORT**
+
+|Value|	Description|
+|:--- |:--- |
+|1	|Full alphanumeric senderID support (number in international format or text max. 11 characters)|
+|3	|SenderID not supported,  parameter “sender” in table 1a will be replaced by system number|
+|4	|Alpha senderID supported (text max. 11 characters, e.g. “eshop.com”)|
+|5	|Numeric senderID support (number in international format)|
+
+# 4 	Delivery confirmations and incoming SMS (answers)
+To receive dlr reports, please contact us with your DELIVERY_URL address of your script or DELIVERY_EMAIL address. Delivery reports are sent to DELIVERY_URL via HTTP method GET, see table 7. See also “AppID” table 1a.
+
+**TABLE 7 - DELIVERY CONFIRMATION PARAMETERS**
+
+|Parameter name	|Value	Mandatory|
+|:--- |:--- |:--- |
+|“status”	|See table 8|	Yes|
+|“smsID”	|Unique smsID of message	|No|
+|“price”|	Price of SMS in credits	|No|
+|“from”	|Only if status=10, SenderID of incoming SMS in international format|	No|
+|“message”|	Only if status=10, Text of incoming SMS in UTF-8 enconding|	No|
+
+
+
+
+**TABLE 8 - DELIVERY CONFIRMATION STATUS**
+
+|Status|	Description|
+|:--- |:--- |
+|1|	SMS successfully delivered|
+|2|	SMS buffered on SMSC. SMS will be delivered later. Recipient is unavailable.|
+|3	|SMS not delivered. Unknown/unavailable recipient.|
+|6	|SMS accepted by provider (this status is not enabled by default, contact us for subscribe)|
+|8	|SMS message expired|
+|10	|Incoming SMS or SMS answer (contact us for more details)|
