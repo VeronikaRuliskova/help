@@ -225,7 +225,7 @@ Response to this command may be:
 |4	|Alpha senderID supported (text max. 11 characters, e.g. “eshop.com”)|
 |5	|Numeric senderID support (number in international format)|
 
-# 4 	Delivery confirmations and incoming SMS (answers)
+# `4 	Delivery confirmations and incoming SMS (answers)`
 To receive dlr reports, please contact us with your DELIVERY_URL address of your script or DELIVERY_EMAIL address. Delivery reports are sent to DELIVERY_URL via HTTP method GET, see table 7. See also “AppID” table 1a.
 
 **TABLE 7 - DELIVERY CONFIRMATION PARAMETERS**
