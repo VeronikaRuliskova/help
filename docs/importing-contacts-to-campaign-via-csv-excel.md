@@ -8,7 +8,7 @@ To import contacts to your campaign via CSV/Excel:
 2.	Choose your file by clicking on Choose File
 3.	Assign a country to your contacts. This will automatically add a prefix of the selected country to all recipients with numbers in national format only. All internationally formatted numbers (with prefix) stay untouched
 4.	Click Upload
-5.	Assign a function to any column you want. Data from these columns can be used in [message personalization](message-personalization.md#how-can-i-personalize-my-campaign) or [offer personalization](offer-personalization.md#how-can-i-personalize-an-offer) 
+5.	Assign a function to any column you want. Data from these columns can be used in [message personalization](message-personalization.md#how-can-i-personalize-my-campaign) or [offer personalization.](offer-personalization.md#how-can-i-personalize-an-offer) It is mandatory to select which of the column contains mobile phone numbers  
 6.	Click Save
 7.	Add another CSV/Excel file, otherwise click Finish selection
 
