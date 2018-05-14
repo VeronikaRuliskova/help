@@ -22,13 +22,14 @@ https://portal.bulkgate.com/api/1.0/simple/transaction
 |country|You can specify country for number and country prefix added (777123456 + cz = 420777123456), ([ISO_3166-1_alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2))|No|null|
 
 **Sender ID type table `sender_id`** 
+
 |Parameter name	| Default value|
 |:--- |:---|
-|gSystem|System number| 
-|gShort|Short Code| 
-|gText|Text sender| 
-|gOwn|Own Number (number verification required)| 
-|<int>|BulkGate Profile ID| 
+|gSystem |System number| 
+|gShort |Short Code| 
+|gText |Text sender| 
+|gOwn |Own Number (number verification required)| 
+| <integer> |BulkGate Profile ID| 
 
 
 **Example request:**
