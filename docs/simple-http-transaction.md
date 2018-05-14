@@ -33,15 +33,15 @@ https://portal.bulkgate.com/api/1.0/simple/transaction
 
 
 **Example request:**
-```
+``` url
 https://portal.bulkgate.com/api/1.0/simple/transaction
-?application_id=<APPLICATION_ID>
-&application_token=<APPLICATION_TOKEN>
-&number=420777777777
-&text=test_sms
-&unicode=yes
-&sender_id=gText
-&sender_value=BulkGate
+    ?application_id=<APPLICATION_ID>
+    &application_token=<APPLICATION_TOKEN>
+    &number=420777777777
+    &text=test_sms
+    &unicode=yes
+    &sender_id=gText
+    &sender_value=BulkGate
 ```
 
 Response to this command may be:
