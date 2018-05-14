@@ -38,6 +38,6 @@ Response to this command may be:
 |Value|	Description|
 |:--- |:--- |
 |1	|Full alphanumeric senderID support (number in international format or text max. 11 characters)|
-|3	|SenderID not supported,  parameter “sender” in table 1a will be replaced by system number|
+|3	|SenderID not supported,  parameter “sender” in [table 1a](send-sms-command-1.md#table-1a---send-sms-command-parameters) will be replaced by system number|
 |4	|Alpha senderID supported (text max. 11 characters, e.g. “eshop.com”)|
 |5	|Numeric senderID support (number in international format)|
