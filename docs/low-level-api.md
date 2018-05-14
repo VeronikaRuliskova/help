@@ -230,15 +230,13 @@ To receive dlr reports, please contact us with your DELIVERY_URL address of your
 
 **TABLE 7 - DELIVERY CONFIRMATION PARAMETERS**
 
-|Parameter name	|Value	Mandatory|
+|Parameter name	|Value|	Mandatory|
 |:--- |:--- |:--- |
 |“status”	|See table 8|	Yes|
 |“smsID”	|Unique smsID of message	|No|
 |“price”|	Price of SMS in credits	|No|
 |“from”	|Only if status=10, SenderID of incoming SMS in international format|	No|
 |“message”|	Only if status=10, Text of incoming SMS in UTF-8 enconding|	No|
-
-
 
 
 **TABLE 8 - DELIVERY CONFIRMATION STATUS**
