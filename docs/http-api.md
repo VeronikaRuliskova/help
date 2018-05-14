@@ -112,9 +112,9 @@ It allows to send a short text message with different texts to one or more telep
 |“sortkey”	|Text key for sorting SMS history and SMS replies	|No	|No|
 
 **Example request:**
-action=sendsmsall2&username=testuser&password=test123&number=420606123456;420607123456&data0=Hello1&data1=Hello2
+`action=sendsmsall2&username=testuser&password=test123&number=420606123456;420607123456&data0=Hello1&data1=Hello2`
 
-`Response to this command is same as 3.1.`
+Response to this command is same as 3.1.
 
 ## 3.3 	Send SMS 3 command – transactional SMS
 It allows to send a text short message to one telephone number recipients. This command has the list of parameters shown in table 1c. 
@@ -133,7 +133,7 @@ It allows to send a text short message to one telephone number recipients. This 
 |“flash”	|“1” for flash SMS|	No|	No|
 |“sender”|	Sender of SMS (number in international format, no leading zeros or a “+” sign, e.g. 447971796595 or text max. 11 characters, e.g. “eshop.com”)	|No	|No|
 |“isms”	|SMS gateway (default 0, value 0 – 4) – login to the BulkGate Portal and see this parameter in the pricelist	No	No
-|“AppID”	e.g.: 123123, it allows to use one account for more applications, to receive delivery confirmations to different  DELIVERY_URL or DELIVERY_EMAIL addresses|	No	|No|
+|“AppID”|	e.g.: 123123, it allows to use one account for more applications, to receive delivery confirmations to different  DELIVERY_URL or DELIVERY_EMAIL addresses|	No	|No|
 |“show_json”	|“1” |for response in json format|	No|	No|
 |“coding”|	If “data” is not in UTF-8, e.g.: ISO-8859-1|	No|	No|
 |“sortkey”|	Text key for sorting SMS history and SMS replies|	No|	No|
