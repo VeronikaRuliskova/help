@@ -191,7 +191,7 @@ It allows to check price for each country and operator via HTTP request. See tab
 
 **TABLE 5 - PRICELIST COMMAND PARAMETERS**
 
-Parameter name	Value	Mandatory
+|Parameter name	|Value|	Mandatory|
 |:--- |:--- |:--- |
 |“action”|	“dost”|	Yes|
 |“username”|	User login name|	Yes|
