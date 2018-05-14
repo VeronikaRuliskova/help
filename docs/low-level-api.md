@@ -27,6 +27,7 @@ Commands available in the HTTP API are detailed in the following sections. For e
 ## 3.1 	Send SMS command – promotional/marketing SMS
 It allows to send a short text message with the same text to one or more telephone number recipients. This command has the list of parameters shown in table 1a. To send the message to several recipients, assign the value of parameter ”number” with telephone numbers separated with semicolon. The maximum number of recipients of each request is unlimited, however, in order to minimize the effects of a potential error in the HTTP protocol, limiting the value around 100 recipients is recommended.
 
+
 **TABLE 1a - SEND SMS COMMAND PARAMETERS**
 
 | Parameter name | Value | Mandatory | Multiple (separated by semicolon) |
@@ -47,6 +48,7 @@ It allows to send a short text message with the same text to one or more telepho
 | “coding”	| If “data” is not in UTF-8, e.g.: ISO-8859-1	| No |	No |
 | “sortkey”	| Text key for sorting SMS history and SMS replies	| No |	No |
 
+
 **Example request:**
 `action=sendsmsall&username=testuser&password=test123&number=420606123456;420607123456&data=Hello`
 
@@ -66,6 +68,7 @@ Response to this command may be:
 
 e.g.: `<stat>1</stat><info>6b1d01231231231</info>QQQ___QQQ<stat>3</stat><info>9</info>QQQ___QQQ<stat>1</stat><info>36b1d01231231231eSAa</info>`
 
+
 **TABLE 2 - SEND SMS COMMAND RESPONSE STATUS**
 
 | Status	| Description |
@@ -75,6 +78,7 @@ e.g.: `<stat>1</stat><info>6b1d01231231231</info>QQQ___QQQ<stat>3</stat><info>9<
 | 111	| SMS was saved, SMS will be sent in scheduled time of delivery, set by parameter “datelater” |
 | 3	| Error, see table 3 for error reasons |
 | 4	| Login error |
+
 
 **TABLE 3 - SEND SMS COMMAND ERROR REASONS**
 
@@ -87,8 +91,10 @@ e.g.: `<stat>1</stat><info>6b1d01231231231</info>QQQ___QQQ<stat>3</stat><info>9<
 | “23”	| Message duplicity |
 | “error”	| Other error – username, password, SMS text or recipient number is not present |
 
+
 ## 3.2 	Send SMS 2 command – promotional/marketing SMS
 It allows to send a short text message with different texts to one or more telephone number recipients. 
+
 
 **TABLE 1b - SEND SMS 2 COMMAND PARAMETERS**
 
@@ -115,6 +121,7 @@ It allows to send a short text message with different texts to one or more telep
 
 Response to this command is same as 3.1.
 
+
 ## 3.3 	Send SMS 3 command – transactional SMS
 It allows to send a text short message to one telephone number recipients. This command has the list of parameters shown in table 1c. 
 
@@ -136,6 +143,7 @@ It allows to send a text short message to one telephone number recipients. This 
 |“show_json”	|“1” |for response in json format|	No|	No|
 |“coding”|	If “data” is not in UTF-8, e.g.: ISO-8859-1|	No|	No|
 |“sortkey”|	Text key for sorting SMS history and SMS replies|	No|	No|
+
 
 **Example request:**
 `action=sendsms&username=testuser&password=test123&number=420606123456&data=Hello`
