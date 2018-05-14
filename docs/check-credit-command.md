@@ -5,6 +5,9 @@ title: Check credit command
 ## Check credit command
 It allows to check customer credit via HTTP request. See table 4 for parameters.
 
+## Request URL address
+The URL used to send the HTTP requests:
+https://api.bulkgate.com/http/
 
 ### TABLE 4 - CHECK CREDIT COMMAND PARAMETERS
 
