@@ -29,5 +29,5 @@ It allows to send a short text message with different texts to one or more telep
 **Example request:**
 `action=sendsmsall2&username=testuser&password=test123&number=420606123456;420607123456&data0=Hello1&data1=Hello2`
 
-Response to this command is same as in [SMS command 1]()
+Response to this command is same as in [SMS command 1](send-sms-command-1.md#send-sms-command-1--promotionalmarketing-sms)
 
