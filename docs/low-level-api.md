@@ -1,11 +1,11 @@
 ---
-title: HTTP API
+title: Low Level API
 ---
 
-## 1 	`HTTP API Specification scope`
+# 1 	`HTTP API Specification scope`
 The aim of this document is to describe the API that is available for short messages sending over the bulkgate.com interface via HTTP requests.
 
-## 2 	`HTTP API Description`
+# 2 	`HTTP API Description`
 API supports HTTP methods GET and POST, where POST is the preferred method because of the limitations of the GET method (max. length of URL address is limited)
 
 ## 2.1 	HTTP request
@@ -21,7 +21,7 @@ The parameters that are sent in the body of the HTTP GET/POST request must be co
 ## 2.4 	Request response
 Each HTTP request is associated with a response from the HTTP server, which varies depending on the sent command (action). In the following sections the response for each command is detailed. At any case, before analyzing the response, it is needed to check that the status code returned by the HTTP server is 200, otherwise, rest of the response will not be adjusted to the expected patterns. As a preventive mechanism, it is recommended to establish a maximum timeout, so if response is not received before expiring it, the HTTP connection is closed, and the request is reattempted again. The response to each HTTP request is encoded in charset “UTF-8.”
 
-## `3 	Request API commands`
+# `3 	Request API commands`
 Commands available in the HTTP API are detailed in the following sections. For every command (action), a table is presented with parameters that compose the command. Each parameter can be mandatory or optional, and in some cases can be assigned with multiple values separated by semicolon.
 
 ## 3.1 	Send SMS command – promotional/marketing SMS
@@ -51,19 +51,18 @@ It allows to send a short text message with the same text to one or more telepho
 `action=sendsmsall&username=testuser&password=test123&number=420606123456;420607123456&data=Hello`
 
 Response to this command may be:
-
-– In case of success:
-`<stat>1</stat><info>2556b1d0-5ced-11e3-8a4f-00000a0a0211</info>`
-Where `1` is status (see table 2)
-**2556b1d0-5ced-11e3-8a4f-00000a0a0211** is unique smsID of message
+- In case of success:
+  - `<stat>1</stat><info>2556b1d0-5ced-11e3-8a4f-00000a0a0211</info>`
+  - Where `1` is status (see table 2)
+  - **2556b1d0-5ced-11e3-8a4f-00000a0a0211** is unique smsID of message
  
-– In case of error:
-`<stat>3</stat><info>10</info>`
-Where `3` is status (see table 2)
-10 is error reason (see table 3)
+- In case of error:
+  - `<stat>3</stat><info>10</info>`
+  - Where `3` is status (see table 2)
+  - 10 is error reason (see table 3)
 
-If a message was sent to several recipients, each message response is separated by:
-**QQQ___QQQ**
+- If a message was sent to several recipients, each message response is separated by:
+  - **QQQ___QQQ**
 
 e.g.: `<stat>1</stat><info>6b1d01231231231</info>QQQ___QQQ<stat>3</stat><info>9</info>QQQ___QQQ<stat>1</stat><info>36b1d01231231231eSAa</info>`
 
@@ -142,14 +141,13 @@ It allows to send a text short message to one telephone number recipients. This 
 `action=sendsms&username=testuser&password=test123&number=420606123456&data=Hello`
 
 Response to this command may be:
-
-– In case of success:
-`<stat>1</stat><info>2556b1d0-5ced-11e3-8a4f-00000a0a0211</info`
-Where `1` is status (see table 2)
-**2556b1d0-5ced-11e3-8a4f-00000a0a0211** is unique smsID of message
+- In case of success:
+  - `<stat>1</stat><info>2556b1d0-5ced-11e3-8a4f-00000a0a0211</info`
+  - Where `1` is status (see table 2)
+  - **2556b1d0-5ced-11e3-8a4f-00000a0a0211** is unique smsID of message
  
-– In case of error:
-`<stat>3</stat><info>10</info>`
-Where `3` is status (see table 2)
-10 is error reason (see table 3)
+- In case of error:
+  - `<stat>3</stat><info>10</info>`
+  - Where `3` is status (see table 2)
+  - 10 is error reason (see table 3)
 
