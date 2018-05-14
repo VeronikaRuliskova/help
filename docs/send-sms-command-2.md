@@ -1,10 +1,13 @@
 ---
-title: send SMS command 2
+title: Send SMS command 2 - different text
 ---
 
-## send SMS command 2 – promotional/marketing SMS
+## send SMS command 2 – different text to one or more numbers
 It allows to send a short text message with different texts to one or more telephone number recipients. 
 
+## Request URL address
+The URL used to send the HTTP requests:
+https://api.bulkgate.com/http/
 
 ### TABLE 1b - SEND SMS 2 COMMAND PARAMETERS
 
@@ -29,5 +32,5 @@ It allows to send a short text message with different texts to one or more telep
 **Example request:**
 `action=sendsmsall2&username=testuser&password=test123&number=420606123456;420607123456&data0=Hello1&data1=Hello2`
 
-Response to this command is same as in [SMS command 1](send-sms-command-1.md#send-sms-command-1--promotionalmarketing-sms)
+Response to this command is same as in [SMS command 1](send-sms-command-1.md#send-sms-command-1--same-text-to-one-or-more-numbers)
 
