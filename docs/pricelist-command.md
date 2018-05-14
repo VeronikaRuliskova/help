@@ -5,6 +5,9 @@ title: Pricelist command
 ## Pricelist command
 It allows to check price for each country and operator via HTTP request. See table 5.
 
+## Request URL address
+The URL used to send the HTTP requests:
+https://api.bulkgate.com/http/
 
 ### TABLE 5 - PRICELIST COMMAND PARAMETERS
 
