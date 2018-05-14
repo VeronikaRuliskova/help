@@ -2,7 +2,7 @@
 title: Send SMS command 2 - different text
 ---
 
-## send SMS command 2 – different text to one or more numbers
+## Send SMS command 2 – different text to one or more numbers
 It allows to send a short text message with different texts to one or more telephone number recipients. 
 
 ## Request URL address
