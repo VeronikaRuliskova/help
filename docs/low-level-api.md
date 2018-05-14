@@ -104,8 +104,8 @@ It allows to send a short text message with different texts to one or more telep
 |“username”|	Wallet username (see wallet credentials after login)|	Yes|	No|
 |“password”|	Wallet password (see wallet credentials after login)|	Yes|	No|
 |“number”	|Recipient number in international format, no leading zeros or a “+” sign, e.g. 447971796595 (For multiple recipients use semicolon as separator)|	Yes	|Yes|
-|“data0 - dataN”|	Text of SMS message (max. 612 characters, or 268 characters if unicode is used), UTF-8 enconding|	Yes|	No|
-|“unicode”	|“1” for unicode SMS|	No|	No|
+|“data0 - dataN”|	Text of SMS message (max. 612 characters, or 268 characters if Unicode is used), UTF-8 enconding|	Yes|	No|
+|“unicode”	|“1” for Unicode SMS|	No|	No|
 |“flash”	|“1” for flash SMS	|No|	No|
 |“sender”	|Sender of SMS (number in international format, no leading zeros or a “+” sign, e.g. 447971796595 or text max. 11 characters, e.g. “eshop.com”)|	No|	Yes|
 |“isms”	|SMS gateway (default 0, value 0 – 4) – login to the BulkGate Portal and see this parameter in the pricelist|	No|	Yes|
@@ -134,8 +134,8 @@ It allows to send a text short message to one telephone number recipients. This 
 |“username”|	Wallet username (see wallet credentials after login)|	Yes|	No|
 |“password”	|Wallet password (see wallet credentials after login)	|Yes|	No|
 |“number”	|Recipient number in international format, no leading zeros or a “+” sign, e.g. 447971796595 	|Yes|	No|
-|“data”	|Text of SMS message (max. 612 characters, or 268 characters if unicode is used), UTF-8 enconding	|Yes|	No|
-|“unicode”	|“1” for unicode SMS	|No|	No|
+|“data”	|Text of SMS message (max. 612 characters, or 268 characters if Unicode is used), UTF-8 enconding	|Yes|	No|
+|“unicode”	|“1” for Unicode SMS	|No|	No|
 |“flash”	|“1” for flash SMS|	No|	No|
 |“sender”|	Sender of SMS (number in international format, no leading zeros or a “+” sign, e.g. 447971796595 or text max. 11 characters, e.g. “eshop.com”)	|No	|No|
 |“isms”	|SMS gateway (default 0, value 0 – 4) – login to the BulkGate Portal and see this parameter in the pricelist	|No	|No|
@@ -209,7 +209,7 @@ Response to this command may be:
   - **Vodafone** is name of network
   - **0.75** is credit cost per SMS
   - **3** is sender ID support (see table 6 and parameter “sender” table 1a) 
-  - **39** is unicode supported (0 is unicode not supported, see parameter “unicode” table 1a)
+  - **39** is Unicode supported (0 is Unicode not supported, see parameter “unicode” table 1a)
 
 - In case of error:
   - `<stat>3</stat><info>error</info>`
