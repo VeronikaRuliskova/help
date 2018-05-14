@@ -96,5 +96,30 @@
     "Price list" : [
       "using-price-list"
     ]
-  }
+   },
+   
+   "low-level-api-cat" : {
+    "Low level API - general": [
+      "low-level-api-description"
+      ],
+    "Promotional SMS": [
+      "send-sms-command-1",
+      "send-sms-command-2"
+      ],
+    "Transactional SMS" : [
+      "send-sms-command-3"
+      ],
+    "Check credit" : [
+      "check-credit-command"
+      ],  
+    "Check credit" : [
+      "check-credit-command"
+      ],  
+    "Price command" : [
+      "pricelist-command"
+      ],  
+    "Delivery confirmations and incoming SMS" : [
+      "delivery-confirmations-and-incoming-sms"
+      ]
+    }
 }
