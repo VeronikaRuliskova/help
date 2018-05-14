@@ -1,8 +1,8 @@
 ---
-title: SMS command 2
+title: send SMS command 2
 ---
 
-## SMS 2 command – promotional/marketing SMS
+## send SMS command 2 – promotional/marketing SMS
 It allows to send a short text message with different texts to one or more telephone number recipients. 
 
 
