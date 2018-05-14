@@ -29,7 +29,7 @@ https://portal.bulkgate.com/api/1.0/simple/transaction
 |gShort |Short Code| 
 |gText |Text sender| 
 |gOwn |Own Number (number verification required)| 
-| <integer> |BulkGate Profile ID| 
+| (int) |BulkGate Profile ID| 
 
 
 **Example request:**
