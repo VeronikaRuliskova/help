@@ -31,10 +31,10 @@ It allows to send a text short message to one telephone number recipients. This 
 Response to this command may be:
 - In case of success:
   - `<stat>1</stat><info>2556b1d0-5ced-11e3-8a4f-00000a0a0211</info`
-  - Where `1` is status (see table 2)
+  - Where `1` is status (see [table 2](send-sms-command-1.md#table-2---send-sms-command-response-status))
   - **2556b1d0-5ced-11e3-8a4f-00000a0a0211** is unique smsID of message
  
 - In case of error:
   - `<stat>3</stat><info>10</info>`
-  - Where `3` is status (see table 2)
-  - 10 is error reason (see table 3)
+  - Where `3` is status (see [table 2](send-sms-command-1.md#table-2---send-sms-command-response-status))
+  - 10 is error reason (see [table 3](send-sms-command-1.md#table-3---send-sms-command-error-reasons))
