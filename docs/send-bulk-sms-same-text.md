@@ -5,13 +5,13 @@ title: Send Bulk SMS - same text
 ## “sendsmsall” action
 It allows to send a short text message with the same text to one or more recipients. 
 
-The list of parameters for this command is shown in [table 1a.](#table-1a---send-bulk-sms-with-same-text-parameters) To send the message to several recipients, assign the value of parameter ”number” with telephone numbers separated with semicolon. The maximum number of recipients of each request is unlimited, however, in order to minimize the potential error in the HTTP protocol, limiting the value around 100 recipients is recommended.
+Check the [table of parameters](#send-bulk-sms-with-same-text-parameters) for this command. To send the message to several recipients, assign the value of parameter ”number” with telephone numbers separated with semicolon. The maximum number of recipients of each request is unlimited, however, in order to minimize the potential error in the HTTP protocol, limiting the value around 100 recipients is recommended.
 
 ## Request URL address
 The URL used to send the HTTP requests:
 https://api.bulkgate.com/http/
 
-### Table 1a - Send Bulk SMS with Same Text: Parameters
+### Send Bulk SMS with Same Text: Parameters
 
 | PARAMETER NAME | VALUE | MANDATORY | MULTIPLE (separated by semicolon) |
 |:--- |:--- |:--- |:--- |
@@ -41,15 +41,15 @@ Response to this command may be:
 ```url
 <stat>1</stat><info>2556b1d0-5ced-11e3-8a4f-00000a0a0211</info>
 ```
- - Where `1` is status (see [table 2](#table-2---send-bulk-sms-with-same-text-response-status))
+ - Where `1` is status (see the [table with response status](#send-bulk-sms-with-same-text-response-status))
  - **2556b1d0-5ced-11e3-8a4f-00000a0a0211** is unique smsID of message
  
 **In case of error:**
 ``` url
 <stat>3</stat><info>10</info>
 ```
- - Where `3` is status (see [table 2](#table-2---send-bulk-sms-with-same-text-response-status))
- - 10 is error reason (see [table 3](#table-3---send-bulk-sms-with-same-text-error-reasons))
+ - Where `3` is status (see the [table with response status](#send-bulk-sms-with-same-text-response-status))
+ - 10 is error reason (see the table with [error reasons](#table-3---send-bulk-sms-with-same-text-error-reasons))
 
 If a message was sent to several recipients, each message response is separated by:
  - **QQQ___QQQ**
@@ -60,18 +60,18 @@ If a message was sent to several recipients, each message response is separated 
 ```
 
 
-### Table 2 - Send Bulk SMS with Same Text: Response Status
+### Send Bulk SMS with Same Text: Response Status
 
 | STATUS	| DESCRIPTION |
 |:--- |:--- |
 | 1 |	SMS was sent |
 | 11 |	SMS saved to SMS server outbox, possible connection problems between SMS server and SMS operator, the message will be sent again in one minute |
 | 111	| SMS was saved, SMS will be sent in scheduled time of delivery, set by parameter “datelater” |
-| 3	| Error, see [table 3](#table-3---send-bulk-sms-with-same-text-error-reasons) for error reasons |
+| 3	| Error, see the table with [error reasons](#table-3---send-bulk-sms-with-same-text-error-reasons) |
 | 4	| Login error |
 
 
-### Table 3 - Send Bulk SMS with Same Text: Error Reasons
+### Send Bulk SMS with Same Text: Error Reasons
 
 | ERROR	| DESCRIPTION |
 |:--- |:--- |
