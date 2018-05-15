@@ -5,7 +5,7 @@ title: Delivery confirmations and incoming SMS
 ## Delivery confirmations and incoming SMS (answers)
 To receive dlr reports, please contact us with your DELIVERY_URL address of your script or DELIVERY_EMAIL address. Delivery reports are sent to DELIVERY_URL via HTTP method GET. See table 7. See also “AppID” table 1a.
 
-### TABLE 7 - DELIVERY CONFIRMATION PARAMETERS
+### Table 7 - Delivery confirmation: Parameters
 
 |Parameter name	|Value|	Mandatory|
 |:--- |:--- |:--- |
@@ -16,7 +16,7 @@ To receive dlr reports, please contact us with your DELIVERY_URL address of your
 |“message”|	Only if status=10, Text of incoming SMS in UTF-8 enconding|	No|
 
 
-### TABLE 8 - DELIVERY CONFIRMATION STATUS
+### Table 8 - Delivery confirmation: Status
 
 |Status|	Description|
 |:--- |:--- |
