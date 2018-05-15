@@ -49,7 +49,7 @@ Response to this command may be:
 <stat>3</stat><info>10</info>
 ```
  - Where `3` is status (see the [table with response status](#send-bulk-sms-with-same-text-response-status))
- - 10 is error reason (see the table with [error reasons](#table-3---send-bulk-sms-with-same-text-error-reasons))
+ - 10 is error reason (see the table with [error reasons](#send-bulk-sms-with-same-text-error-reasons))
 
 If a message was sent to several recipients, each message response is separated by:
  - **QQQ___QQQ**
@@ -67,7 +67,7 @@ If a message was sent to several recipients, each message response is separated 
 | 1 |	SMS was sent |
 | 11 |	SMS saved to SMS server outbox, possible connection problems between SMS server and SMS operator, the message will be sent again in one minute |
 | 111	| SMS was saved, SMS will be sent in scheduled time of delivery, set by parameter “datelater” |
-| 3	| Error, see the table with [error reasons](#table-3---send-bulk-sms-with-same-text-error-reasons) |
+| 3	| Error, see the table with [error reasons](#send-bulk-sms-with-same-text-error-reasons) |
 | 4	| Login error |
 
 
