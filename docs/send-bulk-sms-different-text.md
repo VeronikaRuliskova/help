@@ -1,5 +1,5 @@
 ---
-title: Send Bulk SMS (promotional) - different text
+title: Send Bulk SMS - different text
 ---
 
 ## “sendsmsall2” action
@@ -11,7 +11,7 @@ https://api.bulkgate.com/http/
 
 ### Table 1b - Send Bulk SMS with Different Text: Parameters
 
-| Parameter name	| Value |	Mandatory	| Multiple (separated by semicolon) |
+| PARAMETER NAME | VALUE | MANDATORY | MULTIPLE (separated by semicolon) |
 |:--- |:--- |:--- |:--- |
 |“action”|	“sendsmsall2”|	Yes|	No|
 |“username”|	Wallet username (see wallet credentials after login)|	Yes|	No|
