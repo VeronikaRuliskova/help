@@ -1,5 +1,5 @@
 ---
-title: Transaction SMS
+title: Transactional SMS
 ---
 
 
@@ -18,7 +18,7 @@ https://portal.bulkgate.com/api/1.0/simple/transactional
 |unicode	|yes/true/1 for Unicode SMS, no/false/0 for 7bit SMS|No|false|
 |flash| yes/true/1 for flash SMS|No|false|
 |sender_id|Sender ID viz table|No|gSystem|
-|sender_id_value|sender value of gOwn or gText|No|gSystem|
+|sender_id_value|sender value of gOwn or gText|No|null|
 |country|You can specify country for number and country prefix added (777123456 + cz = 420777123456), ([ISO_3166-1_alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)) In case null, timezone used from user profile.|No|null|
 
 **Sender ID type table `sender_id`** 
