@@ -7,6 +7,8 @@ It allows to send a text short message to one recipients.
 
 This command has the list of parameters shown in [table 1c.](#table-1c---send-sms-notification-parameters)
 
+> It is strictly prohibited to exploit SMS notification for promotional uses.
+
 ## Request URL address
 The URL used to send the HTTP requests:
 https://api.bulkgate.com/http/
