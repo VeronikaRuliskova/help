@@ -9,7 +9,7 @@ It allows to send a short text message with different texts to one or more recip
 The URL used to send the HTTP requests:
 https://api.bulkgate.com/http/
 
-### Table 1b - Send Bulk SMS with Different Text: Parameters
+### Send Bulk SMS with Different Text: Parameters
 
 | PARAMETER NAME | VALUE | MANDATORY | MULTIPLE (separated by semicolon) |
 |:--- |:--- |:--- |:--- |
