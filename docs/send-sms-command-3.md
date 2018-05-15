@@ -3,7 +3,7 @@ title: Send SMS command 3
 ---
 
 ## Send SMS command 3 – transactional SMS
-It allows to send a text short message to one telephone number recipients. This command has the list of parameters shown in table 1c. 
+It allows to send a text short message to one recipients. This command has the list of parameters shown in table 1c. 
 
 ## Request URL address
 The URL used to send the HTTP requests:
