@@ -41,7 +41,7 @@ https://portal.bulkgate.com/api/1.0/simple/transactional
     &text=test_sms
     &unicode=yes
     &sender_id=gText
-    &sender_value=BulkGate
+    &sender_id_value=BulkGate
 ```
 
 Response to this command may be:
