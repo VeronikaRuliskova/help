@@ -1,9 +1,11 @@
 ---
-title: Pricelist command
+title: Check SMS price
 ---
 
-## Pricelist command
-It allows to check price for each country and operator via HTTP request. See table 5.
+## “dost” action
+It allows to check price for each country and operator via HTTP request. 
+
+See table 5.
 
 ## Request URL address
 The URL used to send the HTTP requests:
