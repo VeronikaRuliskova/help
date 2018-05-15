@@ -99,15 +99,15 @@
    },
    
    "low-level-api-cat" : {
-    "Low level API - general": [
+    "Low level API": [
       "low-level-api-description"
       ],
-    "Promotional SMS": [
-      "send-sms-command-1",
-      "send-sms-command-2"
-      ],
     "Transactional SMS" : [
-      "send-sms-command-3"
+      "send-sms-notification"
+      ],
+       "Promotional SMS": [
+      "send-bulk-sms-same-text",
+      "send-bulk-sms-different-text"
       ],
     "Check credit" : [
       "check-credit-command"
@@ -115,11 +115,13 @@
     "Check credit" : [
       "check-credit-command"
       ],  
-    "Price command" : [
-      "pricelist-command"
+    "Check SMS price" : [
+      "check-sms-price"
       ],  
     "Delivery confirmations and incoming SMS" : [
       "delivery-confirmations-and-incoming-sms"
-      ]
+      ],
+    "HTTP Request Info" : [
+      "http-request-info"
     }
 }
