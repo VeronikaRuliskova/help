@@ -3,7 +3,7 @@ title: Send SMS notification
 ---
 
 ## “sendsms” action
-It allows to send a text short message to one recipients. 
+It allows to send a text short message to one recipient. 
 
 This command has the list of parameters shown in [table 1c.](#table-1c---send-sms-notification-parameters)
 
