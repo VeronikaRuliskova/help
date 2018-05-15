@@ -9,7 +9,7 @@ It allows to send a short text message with different texts to one or more recip
 The URL used to send the HTTP requests:
 https://api.bulkgate.com/http/
 
-### TABLE 1b - SEND SMS 2 COMMAND PARAMETERS
+### TABLE 1b - SEND SMS COMMAND 2 PARAMETERS
 
 | Parameter name	| Value |	Mandatory	| Multiple (separated by semicolon) |
 |:--- |:--- |:--- |:--- |
@@ -25,7 +25,7 @@ https://api.bulkgate.com/http/
 |“datelater”	|Scheduled SMS – number of seconds since January 1 1970 00:00:00 GMT	|No	|No|
 |“AppID”|	e.g.: 123123, it allows to use one account for more applications, to receive delivery confirmations to different DELIVERY_URL or DELIVERY_EMAIL addresses	|No|	No|
 |“show_json”|	“1” for response in json format|	No|	No|
-|“campainID”	|Campain ID for SMS sorting in reports and SMS history|	No|	No|
+|“campainID”	|Campaing ID for SMS sorting in reports and SMS history|	No|	No|
 |“coding”|	If “data” is not in UTF-8, e.g.: ISO-8859-1|	No|	No|
 |“sortkey”	|Text key for sorting SMS history and SMS replies	|No	|No|
 
