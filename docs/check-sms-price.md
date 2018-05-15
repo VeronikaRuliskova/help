@@ -5,13 +5,13 @@ title: Check SMS price
 ## “dost” action
 It allows to check price for each country and operator via HTTP request. 
 
-See table 5.
+See [table 5.](#table-5---pricelist-command-parameters)
 
 ## Request URL address
 The URL used to send the HTTP requests:
 https://api.bulkgate.com/http/
 
-### TABLE 5 - PRICELIST COMMAND PARAMETERS
+### Table 5 - Check SMS Price: Parameters
 
 |Parameter name	|Value|	Mandatory|
 |:--- |:--- |:--- |
@@ -38,7 +38,7 @@ Response to this command may be:
   - Where `3` is error status
 
 
-### TABLE 6 – SENDER ID SUPPORT
+### Table 6 – Sender ID support
 
 |Value|	Description|
 |:--- |:--- |
