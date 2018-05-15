@@ -5,7 +5,7 @@ title: Send Bulk SMS - same text
 ## “sendsmsall” action
 It allows to send a short text message with the same text to one or more recipients. 
 
-The list of parameters for this command is shown in table 1a. To send the message to several recipients, assign the value of parameter ”number” with telephone numbers separated with semicolon. The maximum number of recipients of each request is unlimited, however, in order to minimize the potential error in the HTTP protocol, limiting the value around 100 recipients is recommended.
+The list of parameters for this command is shown in [table 1a.](#table-1a---send-bulk-sms-with-same-text-parameters) To send the message to several recipients, assign the value of parameter ”number” with telephone numbers separated with semicolon. The maximum number of recipients of each request is unlimited, however, in order to minimize the potential error in the HTTP protocol, limiting the value around 100 recipients is recommended.
 
 ## Request URL address
 The URL used to send the HTTP requests:
@@ -38,13 +38,13 @@ https://api.bulkgate.com/http/
 Response to this command may be:
 - In case of success:
   - `<stat>1</stat><info>2556b1d0-5ced-11e3-8a4f-00000a0a0211</info>`
-  - Where `1` is status (see table 2)
+  - Where `1` is status (see [table 2](#table-2---send-bulk-sms-with-same-text-response-status))
   - **2556b1d0-5ced-11e3-8a4f-00000a0a0211** is unique smsID of message
  
 - In case of error:
   - `<stat>3</stat><info>10</info>`
-  - Where `3` is status (see table 2)
-  - 10 is error reason (see table 3)
+  - Where `3` is status (see [table 2](#table-2---send-bulk-sms-with-same-text-response-status))
+  - 10 is error reason (see [table 3](#table-3---send-bulk-sms-with-same-text-error-reasons))
 
 - If a message was sent to several recipients, each message response is separated by:
   - **QQQ___QQQ**
@@ -59,7 +59,7 @@ e.g.: `<stat>1</stat><info>6b1d01231231231</info>QQQ___QQQ<stat>3</stat><info>9<
 | 1 |	SMS was sent |
 | 11 |	SMS saved to SMS server outbox, possible connection problems between SMS server and SMS operator, the message will be sent again in one minute |
 | 111	| SMS was saved, SMS will be sent in scheduled time of delivery, set by parameter “datelater” |
-| 3	| Error, see table 3 for error reasons |
+| 3	| Error, see [table 3](#table-3---send-bulk-sms-with-same-text-error-reasons) for error reasons |
 | 4	| Login error |
 
 
