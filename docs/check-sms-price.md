@@ -13,7 +13,7 @@ https://api.bulkgate.com/http/
 
 ### Table 5 - Check SMS Price: Parameters
 
-|Parameter name	|Value|	Mandatory|
+| PARAMETER NAME | VALUE | MANDATORY |
 |:--- |:--- |:--- |
 |“action”|	“dost”|	Yes|
 |“username”|	User login name|	Yes|
@@ -40,7 +40,7 @@ Response to this command may be:
 
 ### Table 6 – Sender ID support
 
-|Value|	Description|
+|VALUE|	DESCRIPTION|
 |:--- |:--- |
 |1	|Full alphanumeric senderID support (number in international format or text max. 11 characters)|
 |3	|SenderID not supported,  parameter “sender” in [table 1a](send-sms-command-1.md#table-1a---send-sms-command-parameters) will be replaced by system number|
