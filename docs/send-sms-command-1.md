@@ -1,15 +1,17 @@
 ---
-title: Send SMS command 1 - same text
+title: Send Bulk SMS - same text
 ---
 
-## Send SMS command 1 – same text to one or more numbers
-It allows to send a short text message with the same text to one or more recipients. The list of parameters for this command is shown in table 1a. To send the message to several recipients, assign the value of parameter ”number” with telephone numbers separated with semicolon. The maximum number of recipients of each request is unlimited, however, in order to minimize the potential error in the HTTP protocol, limiting the value around 100 recipients is recommended.
+## “sendsmsall” action
+It allows to send a short text message with the same text to one or more recipients. 
+
+The list of parameters for this command is shown in table 1a. To send the message to several recipients, assign the value of parameter ”number” with telephone numbers separated with semicolon. The maximum number of recipients of each request is unlimited, however, in order to minimize the potential error in the HTTP protocol, limiting the value around 100 recipients is recommended.
 
 ## Request URL address
 The URL used to send the HTTP requests:
 https://api.bulkgate.com/http/
 
-### TABLE 1a - SEND SMS COMMAND PARAMETERS
+### Table 1a - Send Bulk SMS with Same Text: Parameters
 
 | Parameter name | Value | Mandatory | Multiple (separated by semicolon) |
 |:--- |:--- |:--- |:--- |
@@ -50,7 +52,7 @@ Response to this command may be:
 e.g.: `<stat>1</stat><info>6b1d01231231231</info>QQQ___QQQ<stat>3</stat><info>9</info>QQQ___QQQ<stat>1</stat><info>36b1d01231231231eSAa</info>`
 
 
-### TABLE 2 - SEND SMS COMMAND RESPONSE STATUS
+### Table 2 - Send Bulk SMS with Same Text: Response Status
 
 | Status	| Description |
 |:--- |:--- |
@@ -61,7 +63,7 @@ e.g.: `<stat>1</stat><info>6b1d01231231231</info>QQQ___QQQ<stat>3</stat><info>9<
 | 4	| Login error |
 
 
-### TABLE 3 - SEND SMS COMMAND ERROR REASONS
+### Table 3 - Send Bulk SMS with Same Text: Error Reasons
 
 | Error	| Description |
 |:--- |:--- |
