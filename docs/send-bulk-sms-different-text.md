@@ -30,7 +30,9 @@ https://api.bulkgate.com/http/
 |“sortkey”	|Text key for sorting SMS history and SMS replies	|No	|No|
 
 **Example request:**
-`action=sendsmsall2&username=testuser&password=test123&number=420606123456;420607123456&data0=Hello1&data1=Hello2`
+``` url
+action=sendsmsall2&username=testuser&password=test123&number=420606123456;420607123456&data0=Hello1&data1=Hello2
+```
 
 Response to this command is the same as in [“sendsmsall” action] for Bulk SMS with same text (send-bulk-sms-same-text.md#sendsmsall-action)
 
