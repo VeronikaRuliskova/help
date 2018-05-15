@@ -10,7 +10,7 @@ The URL used to send the HTTP requests: https://api.bulkgate.com/http/
 
 ### Table 7 - Delivery confirmation: Parameters
 
-|Parameter name	|Value|	Mandatory|
+| PARAMETER NAME | VALUE | MANDATORY |
 |:--- |:--- |:--- |
 |“status”	|See [table 8](#table-8---delivery-confirmation-status)|	Yes|
 |“smsID”	|Unique smsID of message	|No|
@@ -21,7 +21,7 @@ The URL used to send the HTTP requests: https://api.bulkgate.com/http/
 
 ### Table 8 - Delivery confirmation: Status
 
-|Status|	Description|
+|STATUS|	DESCRIPTION|
 |:--- |:--- |
 |1|	SMS successfully delivered|
 |2|	SMS buffered on SMSC. SMS will be delivered later. Recipient is unavailable.|
