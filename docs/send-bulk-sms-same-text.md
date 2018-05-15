@@ -13,7 +13,7 @@ https://api.bulkgate.com/http/
 
 ### Table 1a - Send Bulk SMS with Same Text: Parameters
 
-| PARAMETER NAME | VALUE | MANDATORZ | MULTIPLE (separated by semicolon) |
+| PARAMETER NAME | VALUE | MANDATORY | MULTIPLE (separated by semicolon) |
 |:--- |:--- |:--- |:--- |
 | "action" | "sendsmsall" |	Yes |	No |
 | “username” |	Wallet username (see wallet credentials after login) |	Yes	| No |
@@ -36,20 +36,21 @@ https://api.bulkgate.com/http/
 `action=sendsmsall&username=testuser&password=test123&number=420606123456;420607123456&data=Hello`
 
 Response to this command may be:
-- In case of success:
-  - `<stat>1</stat><info>2556b1d0-5ced-11e3-8a4f-00000a0a0211</info>`
-  - Where `1` is status (see [table 2](#table-2---send-bulk-sms-with-same-text-response-status))
-  - **2556b1d0-5ced-11e3-8a4f-00000a0a0211** is unique smsID of message
+**In case of success:**
+`<stat>1</stat><info>2556b1d0-5ced-11e3-8a4f-00000a0a0211</info>`
+ - Where `1` is status (see [table 2](#table-2---send-bulk-sms-with-same-text-response-status))
+ - **2556b1d0-5ced-11e3-8a4f-00000a0a0211** is unique smsID of message
  
-- In case of error:
-  - `<stat>3</stat><info>10</info>`
-  - Where `3` is status (see [table 2](#table-2---send-bulk-sms-with-same-text-response-status))
-  - 10 is error reason (see [table 3](#table-3---send-bulk-sms-with-same-text-error-reasons))
+**In case of error:**
+`<stat>3</stat><info>10</info>`
+ - Where `3` is status (see [table 2](#table-2---send-bulk-sms-with-same-text-response-status))
+ - 10 is error reason (see [table 3](#table-3---send-bulk-sms-with-same-text-error-reasons))
 
-- If a message was sent to several recipients, each message response is separated by:
-  - **QQQ___QQQ**
+If a message was sent to several recipients, each message response is separated by:
+ - **QQQ___QQQ**
 
-e.g.: `<stat>1</stat><info>6b1d01231231231</info>QQQ___QQQ<stat>3</stat><info>9</info>QQQ___QQQ<stat>1</stat><info>36b1d01231231231eSAa</info>`
+**Example:**
+`<stat>1</stat><info>6b1d01231231231</info>QQQ___QQQ<stat>3</stat><info>9</info>QQQ___QQQ<stat>1</stat><info>36b1d01231231231eSAa</info>`
 
 
 ### Table 2 - Send Bulk SMS with Same Text: Response Status
