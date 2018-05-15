@@ -55,30 +55,31 @@ Response to this command may be:
     "total": {
       "price": 0.0522,
       "status": {
-        "1": 0,
-        "3": 1,
-        "11": 0,
-        "111": 2
+        "sent": 0,
+        "accepted": 0,
+        "scheduled": 2,
+        "error": 1
       }
     },
     "response": [
       {
-        "status": 111,
-        "sms_id": "tmpde1e44f0e2a",
+        "status": "scheduled",
+        "sms_id": "tmpde1f00539c7",
         "price": 0.0261,
         "credit": "215.81380",
         "number": "420777777777"
       },
       {
-        "status": 111,
-        "sms_id": "tmp16363a18128",
+        "status": "scheduled",
+        "sms_id": "tmpde1f0053f0c",
         "price": 0.0261,
         "credit": "215.81380",
         "number": "420608123456"
       },
       {
-        "status": 3,
-        "info": 9,
+        "status": "error",
+        "code": 9,
+        "error": "Bad number",
         "number": "4204206036"
       }
     ]
