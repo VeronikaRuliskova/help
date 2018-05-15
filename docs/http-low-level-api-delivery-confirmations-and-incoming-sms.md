@@ -3,7 +3,7 @@ title: Delivery confirmations and incoming SMS
 ---
 
 ## Delivery confirmations and incoming SMS (answers)
-To receive dlr reports, please contact us with your DELIVERY_URL address of your script or DELIVERY_EMAIL address. Delivery reports are sent to DELIVERY_URL via HTTP method GET. Check the [table of parameters](#delivery-confirmation-parameters) for this command. See also “AppID” in the table [Send Bulk SMS with Same Text: Parameters.](http-low-level-api-send-bulk-sms-same-text.md#send-bulk-sms-with-same-text-parameters)
+To receive dlr reports, please contact us with your DELIVERY_URL address of your script or DELIVERY_EMAIL address. Delivery reports are sent to DELIVERY_URL via HTTP method GET. Check the [table of parameters](#delivery-confirmation-parameters) for this command. See also “AppID” in the [tableof parameters for bulk SMS with same text.](http-low-level-api-send-bulk-sms-same-text.md#send-bulk-sms-with-same-text-parameters)
 
 ## Request URL address
 The URL used to send the HTTP requests: https://api.bulkgate.com/http/
