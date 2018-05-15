@@ -5,13 +5,13 @@ title: Check SMS price
 ## “dost” action
 It allows to check price for each country and operator via HTTP request. 
 
-See [table 5.](#table-5---check-sms-price-parameters)
+Check the [table of parameters](#check-sms-price-parameters) for this command.
 
 ## Request URL address
 The URL used to send the HTTP requests:
 https://api.bulkgate.com/http/
 
-### Table 5 - Check SMS Price: Parameters
+### Check SMS Price: Parameters
 
 | PARAMETER NAME | VALUE | MANDATORY |
 |:--- |:--- |:--- |
@@ -59,11 +59,11 @@ Response to this command may be:
 ```
  - Where _ is the separator of 2 parts. First part defines available SMS gateways, second part defines VAT and credit price in EUR depending on payment amount. For a more detailed explanation of the first part: if we use semicolon as separator we will get various SMS  gateways and operators
  - e.g.:  0|Vodafone|0.75|3|39
- - Where `0` is SMS gateway (see parameter “isms” in [table 1a](send-bulk-sms-same-text.md#table-1a---send-bulk-sms-with-same-text-parameters))
+ - Where `0` is SMS gateway (see the parameter “isms” in the [table of parameters for bulk SMS with same text](http-low-level-api-send-bulk-sms-same-text.md#send-bulk-sms-with-same-text-parameters))
  - **Vodafone** is name of network
  - **0.75** is credit cost per SMS
- - **3** is sender ID support (see [table 6,](#table-6--sender-id-support) and parameter “sender” in [table 1a](send-bulk-sms-same-text.md#table-1a---send-bulk-sms-with-same-text-parameters)) 
- - **39** is Unicode supported (0 is Unicode not supported, see parameter “unicode” in [table 1a](send-bulk-sms-same-text.md#table-1a---send-bulk-sms-with-same-text-parameters))
+ - **3** is sender ID support (see the table [Sender ID support,](#table-6--sender-id-support) and the parameter “sender” in the [table of parameters for bulk SMS with same text](http-low-level-api-send-bulk-sms-same-text.md#send-bulk-sms-with-same-text-parameters)) 
+ - **39** is Unicode supported (0 is Unicode not supported, see the parameter “unicode” in the [table of parameters for bulk SMS with same text](http-low-level-api-send-bulk-sms-same-text.md#send-bulk-sms-with-same-text-parameters))
 
 **In case of error:**
 ``` xml
@@ -73,11 +73,11 @@ Response to this command may be:
  - Where `3` is error status
 
 
-### Table 6 – Sender ID support
+### Sender ID support
 
 |VALUE|	DESCRIPTION|
 |:--- |:--- |
 |1	|Full alphanumeric senderID support (number in international format or text max. 11 characters)|
-|3	|SenderID not supported,  parameter “sender” in [table 1a](send-sms-command-1.md#table-1a---send-sms-command-parameters) will be replaced by system number|
+|3	|SenderID not supported, the parameter “sender” in the [table of parameters for bulk SMS with same text](http-low-level-api-send-bulk-sms-same-text.md#send-bulk-sms-with-same-text-parameters) will be replaced by system number|
 |4	|Alpha senderID supported (text max. 11 characters, e.g. “eshop.com”)|
 |5	|Numeric senderID support (number in international format)|
