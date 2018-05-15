@@ -2,14 +2,16 @@
 title: Check credit balance
 ---
 
-## Check credit command
-It allows to check credit balance via HTTP request. See table 4 for parameters.
+## “info” action
+It allows to check credit balance via HTTP request. 
+
+See table 4 for parameters.
 
 ## Request URL address
 The URL used to send the HTTP requests:
 https://api.bulkgate.com/http/
 
-### TABLE 4 - CHECK CREDIT COMMAND PARAMETERS
+### Table 4 - Check Credit Balance: Parameters
 
 |Parameter name	|Value	|Mandatory|
 |:--- |:--- |:--- |
