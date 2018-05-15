@@ -3,7 +3,7 @@ title: Check credit command
 ---
 
 ## Check credit command
-It allows to check customer credit via HTTP request. See table 4 for parameters.
+It allows to check credit balance via HTTP request. See table 4 for parameters.
 
 ## Request URL address
 The URL used to send the HTTP requests:
@@ -23,7 +23,7 @@ Response to this command may be:
 - In case of success:
   - `<stat>1</stat><info>5430.620</info>`
   - Where `1` is status OK
-  - **5430.620** is customer credit
+  - **5430.620** is credit balance
  
 
 - In case of error:
