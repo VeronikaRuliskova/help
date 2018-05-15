@@ -5,7 +5,7 @@ title: Send (transaction) SMS notification
 ## “sendsms” action
 It allows to send a text short message to one recipients. 
 
-This command has the list of parameters shown in table 1c. 
+This command has the list of parameters shown in [table 1c.](#table-1c---send-sms-notification-parameters)
 
 ## Request URL address
 The URL used to send the HTTP requests:
