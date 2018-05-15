@@ -38,15 +38,17 @@ https://api.bulkgate.com/http/
 Response to this command may be:
 
 **In case of success:**
-```url
-<stat>1</stat><info>2556b1d0-5ced-11e3-8a4f-00000a0a0211</info>
+``` xml
+<stat>1</stat>
+<info>2556b1d0-5ced-11e3-8a4f-00000a0a0211</info>
 ```
  - Where `1` is status (see the [table with response status](#send-bulk-sms-with-same-text-response-status))
  - **2556b1d0-5ced-11e3-8a4f-00000a0a0211** is unique smsID of message
  
 **In case of error:**
-``` url
-<stat>3</stat><info>10</info>
+``` xml
+<stat>3</stat>
+<info>10</info>
 ```
  - Where `3` is status (see the [table with response status](#send-bulk-sms-with-same-text-response-status))
  - 10 is error reason (see the table with [error reasons](#send-bulk-sms-with-same-text-error-reasons))
@@ -56,7 +58,14 @@ If a message was sent to several recipients, each message response is separated 
 
 **Example:**
 ``` url
-<stat>1</stat><info>6b1d01231231231</info>QQQ___QQQ<stat>3</stat><info>9</info>QQQ___QQQ<stat>1</stat><info>36b1d01231231231eSAa</info>
+<stat>1</stat>
+<info>6b1d01231231231</info>
+QQQ___QQQ
+<stat>3</stat>
+<info>9</info>
+QQQ___QQQ
+<stat>1</stat>
+<info>36b1d01231231231eSAa</info>
 ```
 
 
