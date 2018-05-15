@@ -1,5 +1,5 @@
 ---
-title: Check credit command
+title: Check credit balance
 ---
 
 ## Check credit command
@@ -22,7 +22,7 @@ https://api.bulkgate.com/http/
 Response to this command may be:
 - In case of success:
   - `<stat>1</stat><info>5430.620</info>`
-  - Where `1` is status OK
+  - Where `1` is status: OK
   - **5430.620** is credit balance
  
 
