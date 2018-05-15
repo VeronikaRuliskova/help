@@ -1,15 +1,17 @@
 ---
-title: Send SMS command 3
+title: Send (transaction) SMS notification
 ---
 
-## Send SMS command 3 – transactional SMS
-It allows to send a text short message to one recipients. This command has the list of parameters shown in table 1c. 
+## “sendsms” action
+It allows to send a text short message to one recipients. 
+
+This command has the list of parameters shown in table 1c. 
 
 ## Request URL address
 The URL used to send the HTTP requests:
 https://api.bulkgate.com/http/
 
-### TABLE 1c - SEND SMS COMMAND PARAMETERS
+### Table 1c - Send SMS notification: Parameters
 
 |Parameter name	|Value|	Mandatory|	Multiple (separated by semicolon)|
 |:--- |:--- |:--- |:--- |
@@ -34,10 +36,10 @@ https://api.bulkgate.com/http/
 Response to this command may be:
 - In case of success:
   - `<stat>1</stat><info>2556b1d0-5ced-11e3-8a4f-00000a0a0211</info`
-  - Where `1` is status (see [table 2](send-sms-command-1.md#table-2---send-sms-command-response-status))
+  - Where `1` is status (see [table 2](send-bulk-sms-same-text.md#table-2---send-bulk-sms-with-same-text-response-status))
   - **2556b1d0-5ced-11e3-8a4f-00000a0a0211** is unique smsID of message
  
 - In case of error:
   - `<stat>3</stat><info>10</info>`
-  - Where `3` is status (see [table 2](send-sms-command-1.md#table-2---send-sms-command-response-status))
-  - 10 is error reason (see [table 3](send-sms-command-1.md#table-3---send-sms-command-error-reasons))
+  - Where `3` is status (see [table 2](send-bulk-sms-same-text.md#table-2---send-bulk-sms-with-same-text-response-status))
+  - 10 is error reason (see [table 3](send-bulk-sms-same-text.md#table-3---send-bulk-sms-with-same-text-error-reasons))
