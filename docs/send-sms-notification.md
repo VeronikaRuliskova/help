@@ -1,5 +1,5 @@
 ---
-title: Send (transaction) SMS notification
+title: Send SMS notification
 ---
 
 ## “sendsms” action
@@ -15,7 +15,7 @@ https://api.bulkgate.com/http/
 
 ### Table 1c - Send SMS notification: Parameters
 
-|Parameter name	|Value|	Mandatory|	Multiple (separated by semicolon)|
+| PARAMETER NAME | VALUE | MANDATORY | MULTIPLE (separated by semicolon) |
 |:--- |:--- |:--- |:--- |
 |“action”	|“sendsms”|	Yes|	No|
 |“username”|	Wallet username (see wallet credentials after login)|	Yes|	No|
