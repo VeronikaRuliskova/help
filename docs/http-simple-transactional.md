@@ -34,7 +34,7 @@ https://portal.bulkgate.com/api/1.0/simple/transactional
 
 **Example request:**
 ``` url
-https://portal.bulkgate.com/api/1.0/simple/transaction
+https://portal.bulkgate.com/api/1.0/simple/transactional
     ?application_id=<APPLICATION_ID>
     &application_token=<APPLICATION_TOKEN>
     &number=420777777777
