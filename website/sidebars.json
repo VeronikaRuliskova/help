@@ -98,28 +98,28 @@
     ]
    },
    
-   "low-level-api-cat" : {
-    "Low level API": [
-      "low-level-api-description"
+   "http-low-level-api-cat" : {
+    "HTTP low level API": [
+      "http-low-level-api-description"
       ],
     "Transactional SMS" : [
-      "send-sms-notification"
+      "http-low-level-api-send-sms-notification"
       ],
        "Promotional SMS": [
-      "send-bulk-sms-same-text",
-      "send-bulk-sms-different-text"
+      "http-low-level-api-send-bulk-sms-same-text",
+      "http-low-level-api-send-bulk-sms-different-text"
       ],
     "Check credit balance" : [
-      "check-credit-balance"
+      "http-low-level-api-check-credit-balance"
       ],  
      "Check SMS price" : [
-      "check-sms-price"
+      "http-low-level-api-check-sms-price"
       ],  
     "Delivery confirmations and incoming SMS" : [
-      "delivery-confirmations-and-incoming-sms"
+      "http-low-level-api-delivery-confirmations-and-incoming-sms"
       ],
     "HTTP request info" : [
-      "http-request-info"
+      "http-low-level-api-request-info"
        ]
     }
 }
