@@ -109,19 +109,16 @@
       "send-bulk-sms-same-text",
       "send-bulk-sms-different-text"
       ],
-    "Check credit" : [
-      "check-credit-command"
+    "Check credit balance" : [
+      "check-credit-balance"
       ],  
-    "Check credit" : [
-      "check-credit-command"
-      ],  
-    "Check SMS price" : [
+     "Check SMS price" : [
       "check-sms-price"
       ],  
     "Delivery confirmations and incoming SMS" : [
       "delivery-confirmations-and-incoming-sms"
       ],
-    "HTTP Request Info" : [
+    "HTTP request info" : [
       "http-request-info"
        ]
     }
