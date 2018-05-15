@@ -22,6 +22,7 @@ https://api.bulkgate.com/http/
 
 
 Response to this command may be:
+
 **In case of success:**
 ``` url
 <stat>1</stat><info>5430.620</info>
