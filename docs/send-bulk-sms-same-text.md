@@ -1,5 +1,5 @@
 ---
-title: Send Bulk SMS (promotional) - same text
+title: Send Bulk SMS - same text
 ---
 
 ## “sendsmsall” action
@@ -13,7 +13,7 @@ https://api.bulkgate.com/http/
 
 ### Table 1a - Send Bulk SMS with Same Text: Parameters
 
-| Parameter name | Value | Mandatory | Multiple (separated by semicolon) |
+| PARAMETER NAME | VALUE | MANDATORZ | MULTIPLE (separated by semicolon) |
 |:--- |:--- |:--- |:--- |
 | "action" | "sendsmsall" |	Yes |	No |
 | “username” |	Wallet username (see wallet credentials after login) |	Yes	| No |
@@ -54,7 +54,7 @@ e.g.: `<stat>1</stat><info>6b1d01231231231</info>QQQ___QQQ<stat>3</stat><info>9<
 
 ### Table 2 - Send Bulk SMS with Same Text: Response Status
 
-| Status	| Description |
+| STATUS	| DESCRIPTION |
 |:--- |:--- |
 | 1 |	SMS was sent |
 | 11 |	SMS saved to SMS server outbox, possible connection problems between SMS server and SMS operator, the message will be sent again in one minute |
@@ -65,7 +65,7 @@ e.g.: `<stat>1</stat><info>6b1d01231231231</info>QQQ___QQQ<stat>3</stat><info>9<
 
 ### Table 3 - Send Bulk SMS with Same Text: Error Reasons
 
-| Error	| Description |
+| ERROR	| DESCRIPTION |
 |:--- |:--- |
 | “9”	| Wrong number or unavailable network |
 | “10” |	Low credit balance |
