@@ -7,14 +7,14 @@ title: Promotional SMS
 The URL used to send the HTTP requests:
 https://portal.bulkgate.com/api/1.0/simple/promotional
 
-### Paramterers table
+### Parameters table
 
 |Parameter name	|Value|	Mandatory| Default Value
 |:--- |:--- |:--- |:--- |
-|application_id|application indentificator |	Yes|-| 
-|application_token|application authentication token	|Yes|-|
-|number|Recipient number 	|Yes|-|
-|text|Text of SMS message (max. 612 characters, or 268 characters if Unicode is used), UTF-8 enconding	|Yes|-|
+|application_id|application indentificator |**Yes**|-| 
+|application_token|application authentication token	|**Yes**|-|
+|number|Recipient number 	|**Yes**|-|
+|text|Text of SMS message (max. 612 characters, or 268 characters if Unicode is used), UTF-8 enconding	|**Yes**|-|
 |unicode	|yes/true/1 for Unicode SMS, no/false/0 for 7bit SMS|No|false|
 |flash| yes/true/1 for flash SMS|No|false|
 |sender_id|Sender ID viz table|No|gSystem|
