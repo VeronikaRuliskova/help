@@ -5,7 +5,7 @@ title: Send SMS notification
 ## “sendsms” action
 It allows to send a text short message to one recipient. 
 
-This command has the list of parameters shown in [table 1c.](#table-1c---send-sms-notification-parameters)
+Check the [table of parameters](#send-sms-notification-parameters) for this command.
 
 > It is strictly prohibited to exploit SMS notification for promotional uses.
 
@@ -13,7 +13,7 @@ This command has the list of parameters shown in [table 1c.](#table-1c---send-sm
 The URL used to send the HTTP requests:
 https://api.bulkgate.com/http/
 
-### Table 1c - Send SMS notification: Parameters
+### Send SMS notification: Parameters
 
 | PARAMETER NAME | VALUE | MANDATORY | MULTIPLE (separated by semicolon) |
 |:--- |:--- |:--- |:--- |
@@ -44,12 +44,12 @@ Response to this command may be:
 <stat>1</stat><info>2556b1d0-5ced-11e3-8a4f-00000a0a0211</info
 ```
 
- - Where `1` is status (see [table 2](send-bulk-sms-same-text.md#table-2---send-bulk-sms-with-same-text-response-status))
+ - Where `1` is status (see [table 2](http-low-level-api-send-bulk-sms-same-text.md#table-2---send-bulk-sms-with-same-text-response-status))
  - **2556b1d0-5ced-11e3-8a4f-00000a0a0211** is unique smsID of message
  
  **In case of error:**
 ``` url
 <stat>3</stat><info>10</info>
 ```
- - Where `3` is status (see [table 2](send-bulk-sms-same-text.md#table-2---send-bulk-sms-with-same-text-response-status))
- - 10 is error reason (see [table 3](send-bulk-sms-same-text.md#table-3---send-bulk-sms-with-same-text-error-reasons))
+ - Where `3` is status (see [table 2](http-low-level-api-send-bulk-sms-same-text.md#table-2---send-bulk-sms-with-same-text-response-status))
+ - 10 is error reason (see [table 3](http-low-level-api-send-bulk-sms-same-text.md#table-3---send-bulk-sms-with-same-text-error-reasons))
