@@ -13,7 +13,7 @@ https://api.bulkgate.com/http/
 
 ### Table 4 - Check Credit Balance: Parameters
 
-|Parameter name	|Value	|Mandatory|
+| PARAMETER NAME | VALUE | MANDATORY |
 |:--- |:--- |:--- |
 |“action”	| “info” |	Yes|
 |“username”	|User login name|	Yes|
