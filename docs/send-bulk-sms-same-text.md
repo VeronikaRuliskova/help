@@ -1,5 +1,5 @@
 ---
-title: Send Bulk SMS - same text
+title: Send Bulk (promotional) SMS - same text
 ---
 
 ## “sendsmsall” action
