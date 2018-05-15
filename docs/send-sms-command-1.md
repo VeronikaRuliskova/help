@@ -3,7 +3,7 @@ title: Send SMS command 1 - same text
 ---
 
 ## Send SMS command 1 – same text to one or more numbers
-It allows to send a short text message with the same text to one or more telephone number recipients. This command has the list of parameters shown in table 1a. To send the message to several recipients, assign the value of parameter ”number” with telephone numbers separated with semicolon. The maximum number of recipients of each request is unlimited, however, in order to minimize the effects of a potential error in the HTTP protocol, limiting the value around 100 recipients is recommended.
+It allows to send a short text message with the same text to one or more recipients. This command has the list of parameters shown in table 1a. To send the message to several recipients, assign the value of parameter ”number” with telephone numbers separated with semicolon. The maximum number of recipients of each request is unlimited, however, in order to minimize the effects of a potential error in the HTTP protocol, limiting the value around 100 recipients is recommended.
 
 ## Request URL address
 The URL used to send the HTTP requests:
