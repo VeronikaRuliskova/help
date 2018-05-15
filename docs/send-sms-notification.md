@@ -33,15 +33,23 @@ https://api.bulkgate.com/http/
 
 
 **Example request:**
-`action=sendsms&username=testuser&password=test123&number=420606123456&data=Hello`
+``` url
+action=sendsms&username=testuser&password=test123&number=420606123456&data=Hello
+```
 
 Response to this command may be:
-- In case of success:
-  - `<stat>1</stat><info>2556b1d0-5ced-11e3-8a4f-00000a0a0211</info`
-  - Where `1` is status (see [table 2](send-bulk-sms-same-text.md#table-2---send-bulk-sms-with-same-text-response-status))
-  - **2556b1d0-5ced-11e3-8a4f-00000a0a0211** is unique smsID of message
+
+**In case of success:**
+``` url
+<stat>1</stat><info>2556b1d0-5ced-11e3-8a4f-00000a0a0211</info
+```
+
+ - Where `1` is status (see [table 2](send-bulk-sms-same-text.md#table-2---send-bulk-sms-with-same-text-response-status))
+ - **2556b1d0-5ced-11e3-8a4f-00000a0a0211** is unique smsID of message
  
-- In case of error:
-  - `<stat>3</stat><info>10</info>`
-  - Where `3` is status (see [table 2](send-bulk-sms-same-text.md#table-2---send-bulk-sms-with-same-text-response-status))
-  - 10 is error reason (see [table 3](send-bulk-sms-same-text.md#table-3---send-bulk-sms-with-same-text-error-reasons))
+ **In case of error:**
+``` url
+<stat>3</stat><info>10</info>
+```
+ - Where `3` is status (see [table 2](send-bulk-sms-same-text.md#table-2---send-bulk-sms-with-same-text-response-status))
+ - 10 is error reason (see [table 3](send-bulk-sms-same-text.md#table-3---send-bulk-sms-with-same-text-error-reasons))
