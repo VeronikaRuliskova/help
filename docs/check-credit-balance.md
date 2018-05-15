@@ -5,7 +5,7 @@ title: Check credit balance
 ## “info” action
 It allows to check credit balance via HTTP request. 
 
-See table 4 for parameters.
+See [table 4](#table-4---check-credit-balance-parameters) for parameters.
 
 ## Request URL address
 The URL used to send the HTTP requests:
