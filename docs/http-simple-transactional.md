@@ -52,7 +52,7 @@ Response to this command may be:
     "data": {
         "sms_id": "tmpde1bcd4b1d1",
         "price": 0.02,
-        "credit": "215.81380",
+        "credit": 215.81380,
         "number": "420777777777"
     }
 }
