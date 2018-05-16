@@ -7,7 +7,7 @@ Umožňuje zjistit cenu SMS pro každou zemi a operátora pomocí požadavku HTT
 
 Podívejte se na [tabulku parametrů](#odeslání-hromadné-sms-s-rozdílným-textem-parametry) pro tento příkaz.
 
-## URL adresa pro odesílání HTTP požadavků
+## API URL
 https://api.bulkgate.com/http/
 
 ### Zjištění ceny SMS: parametry
