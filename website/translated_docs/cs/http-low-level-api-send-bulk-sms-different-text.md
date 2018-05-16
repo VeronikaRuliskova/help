@@ -7,7 +7,7 @@ Umožňuje poslat krátkou textovou zprávu s rozdílným textem jednomu nebo v�
 
 Podívejte se na [tabulku parametrů](#odeslání-hromadné-sms-s-rozdílným-textem-parametry) pro tento příkaz.
 
-## URL adresa pro odesílání HTTP požadavků
+## API URL
 https://api.bulkgate.com/http/
 
 ### Odeslání hromadné SMS s rozdílným textem: parametry
