@@ -5,7 +5,7 @@ title: Send Bulk SMS - same text
 ## “sendsmsall” action
 It allows to send a short text message with the same text to one or more recipients. 
 
-Check the [table of parameters](#send-bulk-sms-with-same-text-parameters) for this command. To send the message to several recipients, assign the value of parameter ”number” with telephone numbers separated with semicolon. The maximum number of recipients of each request is unlimited, however, in order to minimize the potential error in the HTTP protocol, limiting the value around 100 recipients is recommended.
+See the [table of parameters](#send-bulk-sms-with-same-text-parameters) for this command. To send the message to several recipients, assign the value of parameter ”number” with telephone numbers separated with semicolon. The maximum number of recipients of each request is unlimited, however, in order to minimize the potential error in the HTTP protocol, limiting the value around 100 recipients is recommended.
 
 ## Request URL address
 The URL used to send the HTTP requests:
@@ -33,7 +33,9 @@ https://api.bulkgate.com/http/
 
 
 **Example request:**
-`action=sendsmsall&username=testuser&password=test123&number=420606123456;420607123456&data=Hello`
+``` url
+action=sendsmsall&username=testuser&password=test123&number=420606123456;420607123456&data=Hello
+```
 
 Response to this command may be:
 
@@ -51,7 +53,7 @@ Response to this command may be:
 <info>10</info>
 ```
  - Where `3` is status (see the [table with response status](#send-bulk-sms-with-same-text-response-status))
- - 10 is error reason (see the table with [error reasons](#send-bulk-sms-with-same-text-error-reasons))
+ - Where `10` is error reason (see the table with [error reasons](#send-bulk-sms-with-same-text-error-reasons))
 
 If a message was sent to several recipients, each message response is separated by:
  - **QQQ___QQQ**
