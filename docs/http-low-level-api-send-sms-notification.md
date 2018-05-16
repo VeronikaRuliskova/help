@@ -5,7 +5,7 @@ title: Send SMS notification
 ## “sendsms” action
 It allows to send a text short message to one recipient. 
 
-Check the [table of parameters](#send-sms-notification-parameters) for this command.
+See the [table of parameters](#send-sms-notification-parameters) for this command.
 
 > It is strictly prohibited to exploit SMS notification for promotional uses.
 
