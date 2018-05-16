@@ -8,7 +8,6 @@ It allows to send a short text message with the same text to one or more recipie
 See the [table of parameters](#send-bulk-sms-with-same-text-parameters) for this command. To send the message to several recipients, assign the value of parameter ”number” with telephone numbers separated with semicolon. The maximum number of recipients of each request is unlimited.
 
 ## API URL
-The URL used to send the HTTP requests:
 https://api.bulkgate.com/http/
 
 ### Send Bulk SMS with Same Text: Parameters
