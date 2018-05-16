@@ -7,7 +7,7 @@ It allows to send a short text message with different texts to one or more recip
 
 See the [table of parameters](#send-bulk-sms-with-different-text-parameters) for this command.
 
-## Request URL address
+## API URL
 The URL used to send the HTTP requests:
 https://api.bulkgate.com/http/
 
