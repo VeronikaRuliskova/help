@@ -10,7 +10,6 @@ See the [table of parameters](#send-sms-notification-parameters) for this comman
 > It is strictly prohibited to exploit SMS notification for promotional uses.
 
 ## API URL
-The URL used to send the HTTP requests:
 https://api.bulkgate.com/http/
 
 ### Send SMS notification: Parameters
