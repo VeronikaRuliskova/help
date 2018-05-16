@@ -3,14 +3,13 @@ title: Poslat informační SMS
 ---
 
 ## “sendsms” action
-Umožňuje odeslat krátkou textovou zprávu příjemcům jednoho telefonního čísla.
+Umožňuje odeslat krátkou textovou zprávu jednomu příjemci (na jedno telefonní číslo).
 
 Podívejte se na [tabulku parametrů](#odeslání-informační-sms-parametry) pro tento příkaz.
 
-> Je přísně zakázáno využívat informační SMS pro propagační účely.
+> Zneužití informační SMS pro propagační účely je přísně zakázáno!
 
-## Požadavek adresy URL
-Adresa URL používaná k odeslání požadavků HTTP: 
+## URL adresa pro odesílání HTTP požadavků
 https://api.bulkgate.com/http/
 
 ### Odeslání informační SMS: parametry
