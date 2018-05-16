@@ -12,11 +12,11 @@ https://api.bulkgate.com/http/
 
 | PARAMETER NAME | VALUE | MANDATORY |
 |:--- |:--- |:--- |
-|“status”	|See the [table with delivery confirmation status](#delivery-confirmation-status)|	Yes|
-|“smsID”	|Unique smsID of message	|No|
-|“price”|	Price of SMS in credits	|No|
-|“from”	|Only if status=10, SenderID of incoming SMS in international format|	No|
-|“message”|	Only if status=10, Text of incoming SMS in UTF-8 enconding|	No|
+|status|See the [table with delivery confirmation status](#delivery-confirmation-status)|	Yes|
+|smsID|Unique smsID of message	|No|
+|price|	Price of SMS in credits	|No|
+|from|Only if status=10, SenderID of incoming SMS in international format|	No|
+|message|	Only if status=10, Text of incoming SMS in UTF-8 enconding|	No|
 
 
 ### Delivery confirmation: Status
