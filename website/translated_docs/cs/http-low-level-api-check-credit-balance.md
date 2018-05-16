@@ -13,10 +13,10 @@ https://api.bulkgate.com/http/
 ### Ověření zůstatku kreditu: parametry
 |NÁZEV PARAMETRU|	HODNOTA|	POVINNÝ|
 |:--- |:--- |:--- |
-|“action”	|“info”|	Ano|
-|“username”|	Přihlašovací jméno uživatele|	Ano|
-|“password”|	Heslo uživatele	|Ano|
-|“show_json”|	“1” pro odpověď ve formátu json	|Ne|
+|action|“info”|	Ano|
+|username|	Přihlašovací jméno uživatele|	Ano|
+|password|	Heslo uživatele	|Ano|
+|show_json|	“1” pro odpověď ve formátu json	|Ne|
 
 **Příklad požadavku:**
 ``` xml
