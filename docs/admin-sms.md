@@ -15,6 +15,10 @@ To activate and adjust Admin SMS message template:
 
 `Please note that if you lack any data for the selected variables, the administrator will receive the admin SMS without the selected variable. In other words, if your New order message template for Admin SMS has a text “<customer_firstname> ordered 1x Fender Stratocaster…“, and you lack the customer’s first name, the variable <customer_firstname> will be empty. You, or other admin, will therefore receive message “ ordered 1x Fender Stratocaster...“`
 
+**`Watch video on` [how to adjust Admin SMS templates](https://www.youtube.com/watch?v=Ssr9bnwR8Gs&t=0s&list=PL3m8jKRwlM0txr-UZh7G0Ul4MTD3Wh2Q7&index=1)**
+
+<iframe width="854" height="480" src="https://www.youtube.com/watch?v=mj6Ea3eVOac&list=PL3m8jKRwlM0u6EMb_bYunQuCpiQ_GkI7L&index=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 ## How can I add or activate a new admin for a message template?
 To add or activate a new admin for a message template:
 1.	Go to Admin SMS
