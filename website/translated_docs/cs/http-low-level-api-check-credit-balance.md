@@ -5,7 +5,7 @@ title: Ověření zůstatku kreditu
 ## “info” action
 Umožňuje ověřit zůstatek kreditu prostřednictvím požadavku HTTP. 
 
-Podívejte se na [tabulku parametrů](#odeslání-hromadné-sms-s-rozdílným-textem-parametry) pro tento příkaz.
+Podívejte se na [tabulku parametrů](#ověření-zůstatku-kreditu-parametry) pro tento příkaz.
 
 ## Požadavek adresy URL
 Adresa URL používaná k odeslání požadavků HTTP: 
