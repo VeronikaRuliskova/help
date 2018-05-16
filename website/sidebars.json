@@ -104,44 +104,8 @@
     "Admin & Customer SMS": [
       "admin-sms",
       "customer-sms"
-      ],
-    "Creating SMS campaign": [
-      "creating-sms-campaign"
-      ],
-    "Contacts" : [
-      "importing-contacts-to-campaign-via-address-book",
-      "importing-contacts-to-campaign-via-csv-excel",
-      "importing-contacts-to-campaign-via-vcard",
-      "importing-contacts-to-campaign-via-enter-number"
-    ],
-    "Message" : [
-      "message-personalization",
-      "message-template",
-      "url-shortener",
-      "sender-type",
-      "unicode",
-      "flash-sms",
-      "sending-restrictions",
-      "scheduling-campaign"
-    ],
-      "Review" : [
-      "testing-your-campaign"
-    ],
-	"Records": [
-      "campaigns",
-      "statistics",
-      "history",
-      "reports"
-    ],
-"Payments and billing" : [
-      "purchasing-credit",
-      "transactions",
-      "billing-information",
-      "invoices"
-    ],
-"Price list" : [
-      "using-price-list"
-    ]
+      ]
+    
   },
    
    "http-low-level-api-cat" : {
