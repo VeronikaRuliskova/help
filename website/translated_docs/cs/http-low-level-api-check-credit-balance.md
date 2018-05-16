@@ -7,8 +7,7 @@ Umožňuje ověřit zůstatek kreditu prostřednictvím požadavku HTTP.
 
 Podívejte se na [tabulku parametrů](#ověření-zůstatku-kreditu-parametry) pro tento příkaz.
 
-## Požadavek adresy URL
-Adresa URL používaná k odeslání požadavků HTTP: 
+## URL adresa pro odesílání HTTP požadavků
 https://api.bulkgate.com/http/
 
 ### Ověření zůstatku kreditu: parametry
