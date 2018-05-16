@@ -5,7 +5,7 @@ title: Send Bulk SMS - same text
 ## “sendsmsall” action
 It allows to send a short text message with the same text to one or more recipients. 
 
-See the [table of parameters](#send-bulk-sms-with-same-text-parameters) for this command. To send the message to several recipients, assign the value of parameter ”number” with telephone numbers separated with semicolon. The maximum number of recipients of each request is unlimited, however, in order to minimize the potential error in the HTTP protocol, limiting the value around 100 recipients is recommended.
+See the [table of parameters](#send-bulk-sms-with-same-text-parameters) for this command. To send the message to several recipients, assign the value of parameter ”number” with telephone numbers separated with semicolon. The maximum number of recipients of each request is unlimited.
 
 ## API URL
 The URL used to send the HTTP requests:
