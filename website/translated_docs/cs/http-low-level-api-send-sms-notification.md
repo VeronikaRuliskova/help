@@ -15,19 +15,19 @@ https://api.bulkgate.com/http/
 ### Odeslání informační SMS: parametry
 |NÁZEV PARAMETRU|	HODNOTA|	POVINNÝ|	HROMADNÉ POUŽITÍ (oddělení středníkem)|
 |:--- |:--- |:--- |:--- |
-|“action”|	“sendsms”|	Ano	|Ne|
-|“username”|	Uživatelské jméno peněženky (po přihlášení si zkontrolujte přihlašovací údaje vaší peněženky)	|Ano	|Ne|
-|“password”|	Heslo peněženky (po přihlášení si zkontrolujte přihlašovací údaje vaší peněženky)|	Ano	|Ne|
-|“number”	|Číslo příjemce v mezinárodním formátu, žádná nula v popředí nebo znaménko “+”, například 420772423914	|Ano	|Ne|
-|“data”|	Text SMS zprávy (max. 612 znaků, nebo 268 znaků, jestliže je aktivován Unicode), UTF-8 kódování	|Ano	|Ne|
-|“unicode”|	“1” pro SMS Unicode|	Ne|	Ne|
-|“flash”|	“1” pro Flash SMS|	Ne|	Ne|
-|“sender”|	Odesílatel SMS (číslo v mezinárodním formátu, žádná nula v popředí nebo znaménko “+”, například 420772423914, nebo text s max. počtem 11 znaků, například “eshop.cz”)|	Ne	|Ne|
-|“isms”	|SMS brána (výchozí 0, hodnota 0 – 4) – přihlaste se na BulkGate Portál a podívejte se na tento parametr v ceníku |	Ne|	Ne|
-|“AppID”	|například: 123123, umožňuje použít více účtů pro více aplikací, přijímat potvrzení o doručení na různé adresy DELIVERY_URL nebo DELIVERY_EMAIL|	Ne|	Ne|
-|“show_json”|	“1” pro odpověď ve formátu json	|Ne	|Ne|
-|“coding”	|Jestli “data” není v UTF-8, například.: ISO-8859-1	|Ne	|Ne|
-|“sortkey”|	Textové tlačítko pro třídění historie SMS a SMS odpovědí	|Ne	|Ne|
+|action|	“sendsms”|	Ano	|Ne|
+|username|	Uživatelské jméno peněženky (po přihlášení si zkontrolujte přihlašovací údaje vaší peněženky)	|Ano	|Ne|
+|password|	Heslo peněženky (po přihlášení si zkontrolujte přihlašovací údaje vaší peněženky)|	Ano	|Ne|
+|number|Číslo příjemce v mezinárodním formátu, žádná nula v popředí nebo znaménko “+”, například 420772423914	|Ano	|Ne|
+|data|	Text SMS zprávy (max. 612 znaků, nebo 268 znaků, jestliže je aktivován Unicode), UTF-8 kódování	|Ano	|Ne|
+|unicode|	“1” pro SMS Unicode|	Ne|	Ne|
+|flash|	“1” pro Flash SMS|	Ne|	Ne|
+|sender|	Odesílatel SMS (číslo v mezinárodním formátu, žádná nula v popředí nebo znaménko “+”, například 420772423914, nebo text s max. počtem 11 znaků, například “eshop.cz”)|	Ne	|Ne|
+|isms|SMS brána (výchozí 0, hodnota 0 – 4) – přihlaste se na BulkGate Portál a podívejte se na tento parametr v ceníku |	Ne|	Ne|
+|AppID|například: 123123, umožňuje použít více účtů pro více aplikací, přijímat potvrzení o doručení na různé adresy DELIVERY_URL nebo DELIVERY_EMAIL|	Ne|	Ne|
+|show_json|	“1” pro odpověď ve formátu json	|Ne	|Ne|
+|coding|Jestli “data” není v UTF-8, například.: ISO-8859-1	|Ne	|Ne|
+|sortkey|	Textové tlačítko pro třídění historie SMS a SMS odpovědí	|Ne	|Ne|
 
 **Příklad požadavku:**
 ``` url
