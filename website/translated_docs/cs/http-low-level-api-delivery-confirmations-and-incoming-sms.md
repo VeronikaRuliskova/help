@@ -3,7 +3,7 @@ title: Potvrzení o doručení a příchozích SMS
 ---
 
 ## Potvrzení o doručení a příchozích SMS (odpovědi)
-Chcete-li dostávat dlr záznamy, kontaktujte nás s vaší DELIVERY_URL adresou vašeho skriptu nebo DELIVERY_EMAIL adresou. Záznamy o doručeních jsou odesílány na adresu DELIVERY_URL přes HTTP GET metodou. Podívejte se na tabulku 7. Viz také "AppID" v tabulce 1a.
+Chcete-li dostávat dlr záznamy, kontaktujte nás s vaší DELIVERY_URL adresou vašeho skriptu nebo DELIVERY_EMAIL adresou. Záznamy o doručeních jsou odesílány na adresu DELIVERY_URL přes HTTP GET metodou. Podívejte se na [tabulku parametrů](#potvrzení-o-doručení-parametry) pro tento příkaz. Podívejte se také na "AppID" v [tabulce parametrů pro hromadnou SMS se stejným textem](http-low-level-api-send-bulk-sms-same-text.md#odeslání-hromadné-sms-se-stejným-textem-parametry).
 
 ## Požadavek adresy URL
 Adresa URL používaná k odeslání požadavků HTTP: 
@@ -12,7 +12,7 @@ https://api.bulkgate.com/http/
 ### Potvrzení o doručení: parametry
 |NÁZEV PARAMETRU|	HODNOTA|	POVINNÝ|
 |:--- |:--- |:--- |
-|„status“|	Podívejte se na tabulku 8	|Ano|
+|„status“|	Podívejte se na [tabulku o potvrzení o stavu doručení](#potvrzení-o-doručení-stav)	|Ano|
 |„smsID“|	Unikátní smsID zprávy|	Ne|
 |„price“|	Cena SMS v kreditech	|Ne|
 |„from“	|Pouze pokud je status=10, ID odesílatele v příchozí SMS v mezinárodním formátu|	Ne|
