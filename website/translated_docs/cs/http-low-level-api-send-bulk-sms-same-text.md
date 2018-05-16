@@ -5,10 +5,9 @@ title: Poslat hromadnou SMS - stejný text
 ## “sendsmsall” action
 Umožňuje poslat krátkou textovou zprávu se stejným textem jednomu nebo více příjemcům. 
 
-Podívejte se na [tabulku parametrů](#odeslání-hromadné-sms-se-stejným-textem-parametry) pro tento příkaz. Pro odeslání zprávy několika příjemcům, přiřaďte hodnotu parametru “number” s telefonními čísly oddělenými středníkem. Maximální počet příjemců pro každou žádost je neomezený. Nicméně, pro minimalizování potenciální chyby v protokolu HTTP je doporučeno omezit hodnotu kolem 100 příjemců.
+Podívejte se na [tabulku parametrů](#odeslání-hromadné-sms-se-stejným-textem-parametry) pro tento příkaz. Pro odeslání zprávy několika příjemcům, přiřaďte hodnotu parametru “number” s telefonními čísly oddělenými středníkem. Maximální počet příjemců pro každou žádost je neomezený.
 
-## Požadavek adresy URL
-Adresa URL používaná k odeslání požadavků HTTP: 
+## URL adresa pro odesílání HTTP požadavků
 https://api.bulkgate.com/http/
 
 ### Odeslání hromadné SMS se stejným textem: parametry
