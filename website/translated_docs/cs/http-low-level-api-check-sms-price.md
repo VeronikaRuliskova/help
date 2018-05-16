@@ -61,7 +61,7 @@ Reakce na tento příkaz může být:
 - Kde `0` je SMS brána (podívejte se na parameter “isms”, viz [tabulka parametrů pro hromadnou SMS se stejným textem](http-low-level-api-send-bulk-sms-same-text.md#odeslání-hromadné-sms-se-stejným-textem-parametry))
 - **Vodafone** je název sítě
 - **0.75** je cena v kreditech za SMS
-- **3** je podpora ID odesílatele (podívejte se na tabulku 6,  a parameter “sender”  v [tabulce parametrů pro hromadnou SMS se stejným textem](http-low-level-api-send-bulk-sms-same-text.md#odeslání-hromadné-sms-se-stejným-textem-parametry))
+- **3** je podpora ID odesílatele (podívejte se na tabulku [podpory ID odesílatele,](#podpora-id-odesílatele)  a parameter “sender”  v [tabulce parametrů pro hromadnou SMS se stejným textem](http-low-level-api-send-bulk-sms-same-text.md#odeslání-hromadné-sms-se-stejným-textem-parametry))
 - **39** znamená, že Unicode je podporován (0 znamená, že Unicode není podporován, podívejte se na parameter “unicode” v [tabulce parametrů pro hromadnou SMS se stejným textem](http-low-level-api-send-bulk-sms-same-text.md#odeslání-hromadné-sms-se-stejným-textem-parametry))
 
 **V případě chyby:**
@@ -72,7 +72,6 @@ Reakce na tento příkaz může být:
 - Kde `3` je stav chyby
 
 ### Podpora ID odesílatele
-Hodnota	Popisek
 |	HODNOTA|	POPISEK|
 |:--- |:--- |
 |1	|Plná alfanumerická podpora ID odesílatele (číslo v mezinárodním format, nebo text o max. 11 znacích)|
