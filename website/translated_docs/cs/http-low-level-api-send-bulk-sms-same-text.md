@@ -75,7 +75,7 @@ QQQ___QQQ
 |1	|SMS byla odeslána|
 |11	|SMS byla uložena do schránky SMS serveru, možné problémy s připojením mezi SMS serverem a SMS operátorem, zpráva bude odeslána znovu za minutu|
 |111|	SMS byla uložena, SMS bude odeslána v plánovaném čase dodání nastaveném parametrem "datelater"|
-|3	|Chyba, podívejte se na tabulku 3 pro důvody chyby|
+|3	|Chyba, viz [tabulka s chybami](http-low-level-api-send-bulk-sms-same-text.md#odeslat-hromadnou-sms-se-stejným-textem-důvody-chyby)|
 |4	|Chyba přihlášení|
 
 
