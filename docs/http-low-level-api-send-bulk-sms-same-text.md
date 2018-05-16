@@ -12,7 +12,6 @@ The URL used to send the HTTP requests:
 https://api.bulkgate.com/http/
 
 ### Send Bulk SMS with Same Text: Parameters
-
 | PARAMETER NAME | VALUE | MANDATORY | MULTIPLE (separated by semicolon) |
 |:--- |:--- |:--- |:--- |
 | "action" | "sendsmsall" |	Yes |	No |
@@ -33,7 +32,7 @@ https://api.bulkgate.com/http/
 
 
 **Example request:**
-``` url
+``` xml
 action=sendsmsall&username=testuser&password=test123&number=420606123456;420607123456&data=Hello
 ```
 
@@ -59,7 +58,7 @@ If a message was sent to several recipients, each message response is separated 
  - **QQQ___QQQ**
 
 **Example:**
-``` url
+``` xml
 <stat>1</stat>
 <info>6b1d01231231231</info>
 QQQ___QQQ
@@ -72,7 +71,6 @@ QQQ___QQQ
 
 
 ### Send Bulk SMS with Same Text: Response Status
-
 | STATUS	| DESCRIPTION |
 |:--- |:--- |
 | 1 |	SMS was sent |
@@ -83,7 +81,6 @@ QQQ___QQQ
 
 
 ### Send Bulk SMS with Same Text: Error Reasons
-
 | ERROR	| DESCRIPTION |
 |:--- |:--- |
 | “9”	| Wrong number or unavailable network |
