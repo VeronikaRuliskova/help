@@ -1,0 +1,90 @@
+---
+title: Poslat hromadnou SMS - stejný text
+---
+
+## “sendsmsall” action
+Umožňuje poslat krátkou textovou zprávu se stejným textem jednomu nebo více příjemcům. 
+
+Seznam parametrů pro tento příkaz je zobrazen v tabulce 1a. Pro odeslání zprávy několika příjemcům, přiřaďte hodnotu parametru “number” s telefonními čísly oddělenými středníkem. Maximální počet příjemců pro každou žádost je neomezený. Nicméně, pro minimalizování potenciální chyby v protokolu HTTP je doporučeno omezit hodnotu kolem 100 příjemců.
+
+## Požadavek adresy URL
+Adresa URL používaná k odeslání požadavků HTTP: 
+https://api.bulkgate.com/http/
+
+### Odeslání hromadné SMS se stejným textem: parametry
+|NÁZEV PARAMETRU|	HODNOTA|	POVINNÝ|	HROMADNÉ POUŽITÍ (oddělení středníkem)|
+|:--- |:--- |:--- |:--- |
+|“action”	|“sendsmsall”|	Ano|	Ne|
+|“username”|	Uživatelské jméno peněženky (po přihlášení si zkontrolujte přihlašovací údaje vaší peněženky)	|Ano	|Ne|
+|“password”|	Heslo peněženky (po přihlášení si zkontrolujte přihlašovací údaje vaší peněženky)	|Ano|	Ne|
+|“number”|	Číslo příjemce v mezinárodním formátu, žádná nula v popředí nebo znaménko “+”, například 420772423914 (Pro hromadné použití použijte středník jako separátor)|	Ano|	Ano|
+|“data”|	Text SMS zprávy (max. 612 znaků, nebo 268 znaků, jestliže je aktivován Unicode), UTF-8 kódování	|Ano|	Ne|
+|“unicode”|	“1” pro SMS Unicode	|Ne	|Ne|
+|“flash”|	“1” pro Flash SMS|	Ne|	Ne|
+|“sender”|	Odesílatel SMS (číslo v mezinárodním formátu, žádná nula v popředí nebo znaménko “+”, například 420772423914, nebo text s max. počtem 11 znaků, například “eshop.cz”)	|Ne|	Ano|
+|“isms”	|SMS brána (výchozí 0, hodnota 0 – 4) – přihlaste se na BulkGate Portál a podívejte se na tento parametr v ceníku 	|Ne	|Ano|
+|“datelater”|	Plánovaná SMS – počet sekund od 1. ledna 1970 00:00:00 GMT|	Ne	|Ne|
+|“AppID”	|například: 123123, umožňuje použít více účtů pro více aplikací, přijímat potvrzení o doručení na různé adresy DELIVERY_URL nebo DELIVERY_EMAIL|	Ne	|Ne|
+|“show_json”|	“1” pro odpověď ve formátu json|	Ne	|Ne|
+|“campainID”|	ID kampaně pro třídění SMS v záznamech a SMS historii	|Ne	|Ne|
+|“coding”	|Jestli “data” není v UTF-8, například.: ISO-8859-1|	Ne	|Ne|
+|“sortkey”|	Textové tlačítko pro třídění historie SMS a SMS odpovědí	|Ne	|Ne|
+
+**Příklad požadavku:**
+``` url
+action=sendsmsall&username=testuser&password=test123&number=420606123456;420607123456&data=Ahoj
+```
+
+Reakce na tento příkaz může být:
+
+**V případě úspěchu:**
+``` xml
+<stat>1</stat>
+<info>2556b1d0-5ced-11e3-8a4f-00000a0a0211</info>
+```
+- Kde 1 je stav (podívejte se na tabulku 2)
+-	**2556b1d0-5ced-11e3-8a4f-00000a0a0211** je unikátní smsID zprávy
+
+**V případě chyby:**
+``` xml
+<stat>3</stat>
+<info>10</info>
+```
+- Kde 3 is stav (viz [tabulka s stavem odpovědi]())
+- 10 je důvod chyby (viz [tabulka s chybami]())
+
+Pokud byla zpráva odeslána několika příjemcům, každá odpověď na zprávu je oddělena: 
+ - **QQQ___QQQ**
+ 
+**Například:**
+``` xml
+<stat>1</stat>
+<info>6b1d01231231231</info>
+QQQ___QQQ
+<stat>3</stat>
+<info>9</info>
+QQQ___QQQ
+<stat>1</stat>
+<info>36b1d01231231231eSAa</info>
+```
+
+
+### Odeslat hromadnou SMS se stejným textem: stav odpovědi
+|STAV|	POPIS|
+|:--- |:--- |
+|1	|SMS byla odeslána|
+|11	|SMS byla uložena do schránky SMS serveru, možné problémy s připojením mezi SMS serverem a SMS operátorem, zpráva bude odeslána znovu za minutu|
+|111|	SMS byla uložena, SMS bude odeslána v plánovaném čase dodání nastaveném parametrem "datelater"|
+|3	|Chyba, podívejte se na tabulku 3 pro důvody chyby|
+|4	|Chyba přihlášení|
+
+
+### Odeslat hromadnou SMS se stejným textem: důvody chyby
+|CHYBA|	POPIS|
+|:--- |:--- |
+|“9”	|Špatné číslo, nebo nedostupná síť|
+|“10”	|Nízký kreditní zůstatek|
+|“15”	|Neautorizované ID číselného odesílatele|
+|“22”	|Unicode není podporován|
+|“23”	|Duplicita zprávy|
+|“error”|	Jiná chyba - uživatelské jméno, heslo, text SMS nebo číslo není přitomno|
