@@ -7,7 +7,7 @@ It allows to check credit balance via HTTP request.
 
 See the [table of parameters](#check-credit-balance-parameters) for this command.
 
-## Request URL address
+## API URL
 The URL used to send the HTTP requests:
 https://api.bulkgate.com/http/
 
