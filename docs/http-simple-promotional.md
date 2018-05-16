@@ -66,14 +66,14 @@ Response to this command may be:
         "status": "scheduled",
         "sms_id": "tmpde1f00539c7",
         "price": 0.0261,
-        "credit": "215.81380",
+        "credit": 215.81380,
         "number": "420777777777"
       },
       {
         "status": "scheduled",
         "sms_id": "tmpde1f0053f0c",
         "price": 0.0261,
-        "credit": "215.81380",
+        "credit": 215.81380,
         "number": "420608123456"
       },
       {
