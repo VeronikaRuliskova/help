@@ -11,11 +11,11 @@ https://api.bulkgate.com/http/
 ### Potvrzení o doručení: parametry
 |NÁZEV PARAMETRU|	HODNOTA|	POVINNÝ|
 |:--- |:--- |:--- |
-|„status“|	Podívejte se na [tabulku o potvrzení o stavu doručení](#potvrzení-o-doručení-stav)	|Ano|
-|„smsID“|	Unikátní smsID zprávy|	Ne|
-|„price“|	Cena SMS v kreditech	|Ne|
-|„from“	|Pouze pokud je status=10, ID odesílatele v příchozí SMS v mezinárodním formátu|	Ne|
-|„message“|	Pouze pokud je status=10, Text příchozí SMS v kódování UTF-8 |	Ne|
+|status|	Podívejte se na [tabulku o potvrzení o stavu doručení](#potvrzení-o-doručení-stav)	|Ano|
+|smsID|	Unikátní smsID zprávy|	Ne|
+|price|	Cena SMS v kreditech	|Ne|
+|from|Pouze pokud je status=10, ID odesílatele v příchozí SMS v mezinárodním formátu|	Ne|
+|message|	Pouze pokud je status=10, Text příchozí SMS v kódování UTF-8 |	Ne|
 
 ### Potvrzení o doručení: stav
 |STAV|	POPIS|
