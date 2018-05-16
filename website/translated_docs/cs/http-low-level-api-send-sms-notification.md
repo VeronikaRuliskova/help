@@ -5,7 +5,7 @@ title: Odeslání informační SMS
 ## “sendsms” action
 Umožňuje odeslat krátkou textovou zprávu příjemcům jednoho telefonního čísla.
 
-Podívejte se na [tabulku parametrů]() pro tento příkaz.
+Podívejte se na [tabulku parametrů](#odeslání-informační-sms-parametry) pro tento příkaz.
 
 > Je přísně zakázáno využívat informační SMS pro propagační účely.
 
@@ -41,11 +41,12 @@ Reakce na tento příkaz může být:
 ``` url
 <stat>1</stat><info>2556b1d0-5ced-11e3-8a4f-00000a0a0211</info>
 ```
-o	Kde 1 je stav (podívejte se na tabulku 2)
-o	2556b1d0-5ced-11e3-8a4f-00000a0a0211 je unikátní smsID zprávy
+-	Kde `1` je stav (viz [tabulka s stavem odpovědi]())
+-	2556b1d0-5ced-11e3-8a4f-00000a0a0211 je unikátní smsID zprávy
 
 **V případě chyby:**
 ``` url
 <stat>3</stat><info>error</info>
 ```
-o	Kde 3 is stav chyby
+-	Kde `3` je stav chyby (viz [tabulka s stavem odpovědi]())
+- Kde `10` je důvod chyby (viz [tabulka s chybami]())
