@@ -14,11 +14,11 @@ https://api.bulkgate.com/http/
 
 | PARAMETER NAME | VALUE | MANDATORY |
 |:--- |:--- |:--- |
-|“action”|	“dost”|	Yes|
-|“username”|	User login name|	Yes|
-|“password”|	User password	|Yes|
-|“area”	|Prefix of country (e.g. “44” for UK)|	Yes|
-|“show_json”|	“1” for response in json format|	No|
+|action|	“dost”|	Yes|
+|username|	User login name|	Yes|
+|password|	User password	|Yes|
+|area|Prefix of country (e.g. “44” for UK)|	Yes|
+|show_json|	“1” for response in json format|	No|
 
 
 Response to this command may be:
