@@ -41,7 +41,7 @@ Reakce na tento příkaz může být:
 <stat>1</stat>
 <info>2556b1d0-5ced-11e3-8a4f-00000a0a0211</info>
 ```
-- Kde `1` je stav (viz [tabulka s stavem odpovědi](#odeslat-hromadnou-sms-se-stejným-textem-stav-odpovědi))
+- Kde `1` je stav (viz [tabulka se stavem odpovědi](#odeslat-hromadnou-sms-se-stejným-textem-stav-odpovědi))
 -	**2556b1d0-5ced-11e3-8a4f-00000a0a0211** je unikátní smsID zprávy
 
 **V případě chyby:**
@@ -49,7 +49,7 @@ Reakce na tento příkaz může být:
 <stat>3</stat>
 <info>10</info>
 ```
-- Kde `3` je stav (viz [tabulka s stavem odpovědi](#odeslat-hromadnou-sms-se-stejným-textem-stav-odpovědi))
+- Kde `3` je stav (viz [tabulka se stavem odpovědi](#odeslat-hromadnou-sms-se-stejným-textem-stav-odpovědi))
 - Kde `10` je důvod chyby (viz [tabulka s chybami](#odeslat-hromadnou-sms-se-stejným-textem-důvody-chyby))
 
 Pokud byla zpráva odeslána několika příjemcům, každá odpověď na zprávu je oddělena: 
