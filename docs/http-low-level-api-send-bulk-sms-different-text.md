@@ -5,6 +5,8 @@ title: Send Bulk SMS - different text
 ## “sendsmsall2” action
 It allows to send a short text message with different texts to one or more recipients. 
 
+See the [table of parameters](#send-bulk-sms-with-different-text-parameters) for this command.
+
 ## Request URL address
 The URL used to send the HTTP requests:
 https://api.bulkgate.com/http/
