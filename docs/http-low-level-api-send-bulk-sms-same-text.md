@@ -13,21 +13,21 @@ https://api.bulkgate.com/http/
 ### Send Bulk SMS with Same Text: Parameters
 | PARAMETER NAME | VALUE | MANDATORY | MULTIPLE (separated by semicolon) |
 |:--- |:--- |:--- |:--- |
-| "action" | "sendsmsall" |	Yes |	No |
-| “username” |	Wallet username (see wallet credentials after login) |	Yes	| No |
-| “password” | Wallet password (see wallet credentials after login) |	Yes	| No |
-| “number” |	Recipient number in international format, no leading zeros or a “+” sign, e.g. 447971796595 (For multiple recipients use semicolon as separator) |	Yes |	Yes |
-| “data”	| Text of SMS message (max. 612 characters, or 268 characters if Unicode is used), UTF-8 enconding | Yes |	No |
-| “unicode” |	“1” for Unicode SMS |	No | No |
-| “flash”	| “1” for flash SMS	| No |	No |
-| “sender”	| Sender of SMS (number in international format, no leading zeros or a “+” sign, e.g. 447971796595 or text max. 11 characters, e.g. “eshop.com”) |	No |	Yes |
-| “isms”	| SMS gateway (default 0, value 0 – 4) – login to the BulkGate Portal and see this parameter in the pricelist |	No |	Yes |
-| “datelater”	| Scheduled SMS – number of seconds since January 1 1970 00:00:00 GMT |	No |	No |
-| “AppID” |	e.g.: 123123, it allows to use one account for more applications, to receive delivery confirmations to different  DELIVERY_URL or DELIVERY_EMAIL addresses	| No |	No |
-| “show_json” |	“1” for response in json format |	No |	No |
-| “campainID” |	Campaign  ID for sms sorting in reports and sms history |	No |	No |
-| “coding”	| If “data” is not in UTF-8, e.g.: ISO-8859-1	| No |	No |
-| “sortkey”	| Text key for sorting SMS history and SMS replies	| No |	No |
+|action| "sendsmsall" |	Yes |	No |
+|username|	Wallet username (see wallet credentials after login) |	Yes	| No |
+|password| Wallet password (see wallet credentials after login) |	Yes	| No |
+|number|	Recipient number in international format, no leading zeros or a “+” sign, e.g. 447971796595 (For multiple recipients use semicolon as separator) |	Yes |	Yes |
+|data| Text of SMS message (max. 612 characters, or 268 characters if Unicode is used), UTF-8 enconding | Yes |	No |
+|unicode|	“1” for Unicode SMS |	No | No |
+|flash| “1” for flash SMS	| No |	No |
+|sender| Sender of SMS (number in international format, no leading zeros or a “+” sign, e.g. 447971796595 or text max. 11 characters, e.g. “eshop.com”) |	No |	Yes |
+|isms| SMS gateway (default 0, value 0 – 4) – login to the BulkGate Portal and see this parameter in the pricelist |	No |	Yes |
+|datelater| Scheduled SMS – number of seconds since January 1 1970 00:00:00 GMT |	No |	No |
+|AppID|	e.g.: 123123, it allows to use one account for more applications, to receive delivery confirmations to different  DELIVERY_URL or DELIVERY_EMAIL addresses	| No |	No |
+|show_json|	“1” for response in json format |	No |	No |
+|campainID|	Campaign  ID for sms sorting in reports and sms history |	No |	No |
+|coding| If “data” is not in UTF-8, e.g.: ISO-8859-1	| No |	No |
+|sortkey| Text key for sorting SMS history and SMS replies	| No |	No |
 
 
 **Example request:**
@@ -82,9 +82,9 @@ QQQ___QQQ
 ### Send Bulk SMS with Same Text: Error Reasons
 | ERROR	| DESCRIPTION |
 |:--- |:--- |
-| “9”	| Wrong number or unavailable network |
-| “10” |	Low credit balance |
-| “15”	| Unauthorized numeric sender ID |
-| “22”	| Unicode is not supported |
-| “23”	| Message duplicity |
-| “error”	| Other error – username, password, SMS text or recipient number is not present |
+| 9	| Wrong number or unavailable network |
+| 10 |	Low credit balance |
+| 15	| Unauthorized numeric sender ID |
+| 22	| Unicode is not supported |
+| 23	| Message duplicity |
+| error	| Other error – username, password, SMS text or recipient number is not present |
