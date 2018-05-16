@@ -3,7 +3,7 @@ title: Poslat informační SMS
 ---
 
 ## “sendsms” action
-Umožňuje odeslat krátkou textovou zprávu jednomu příjemci (na jedno telefonní číslo).
+Umožňuje odeslat SMS zprávu jednomu příjemci (na jedno telefonní číslo).
 
 Podívejte se na [tabulku parametrů](#odeslání-informační-sms-parametry) pro tento příkaz.
 
