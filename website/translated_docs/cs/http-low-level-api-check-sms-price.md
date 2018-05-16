@@ -3,7 +3,7 @@ title: Zjištění ceny SMS
 ---
 
 ## “dost” action
-Umožňuje zjistit cenu SMS pro každou zemi a operátora pomocí požadavku HTTP.
+Umožňuje zjistit cenu SMS pro každou zemi a operátora pomocí HTTP požadavku.
 
 Podívejte se na [tabulku parametrů](#odeslání-hromadné-sms-s-rozdílným-textem-parametry) pro tento příkaz.
 
@@ -13,11 +13,11 @@ https://api.bulkgate.com/http/
 ### Zjištění ceny SMS: parametry
 |NÁZEV PARAMETRU|	HODNOTA|	POVINNÝ|
 |:--- |:--- |:--- |
-|“action”|	“dost”|Ano|
-|“username”|	Přihlašovací jméno uživatele|	Ano|
-|“password”|	Heslo uživatele|	Ano|
-|“area”|	Předčíslí země (např. “420” pro Českou republiku)|	Ano|
-|“show_json”|	“1” pro odpověď ve formátu json	|Ne|
+|action|	“dost”|Ano|
+|username|	Přihlašovací jméno uživatele|	Ano|
+|password|	Heslo uživatele|	Ano|
+|area|	Předčíslí země (např. “420” pro Českou republiku)|	Ano|
+|show_json|	“1” pro odpověď ve formátu json	|Ne|
 
 Reakce na tento příkaz může být:
 
