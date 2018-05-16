@@ -61,7 +61,7 @@ Response to this command may be:
  - Where `0` is SMS gateway (see the parameter “isms” in the [table of parameters for bulk SMS with same text](http-low-level-api-send-bulk-sms-same-text.md#send-bulk-sms-with-same-text-parameters))
  - **Vodafone** is name of network
  - **0.75** is credit cost per SMS
- - **3** is sender ID support (see the table [Sender ID support,](#table-6--sender-id-support) and the parameter “sender” in the [table of parameters for bulk SMS with same text](http-low-level-api-send-bulk-sms-same-text.md#send-bulk-sms-with-same-text-parameters)) 
+ - **3** is sender ID support (see the table [Sender ID support](#table-6--sender-id-support) and the parameter “sender” in the [table of parameters for bulk SMS with same text](http-low-level-api-send-bulk-sms-same-text.md#send-bulk-sms-with-same-text-parameters)) 
  - **39** is Unicode supported (0 is Unicode not supported, see the parameter “unicode” in the [table of parameters for bulk SMS with same text](http-low-level-api-send-bulk-sms-same-text.md#send-bulk-sms-with-same-text-parameters))
 
 **In case of error:**
