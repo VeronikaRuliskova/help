@@ -13,21 +13,21 @@ https://api.bulkgate.com/http/
 ### Odeslání hromadné SMS se stejným textem: parametry
 |NÁZEV PARAMETRU|	HODNOTA|	POVINNÝ|	HROMADNÉ POUŽITÍ (oddělení středníkem)|
 |:--- |:--- |:--- |:--- |
-|“action”	|“sendsmsall”|	Ano|	Ne|
-|“username”|	Uživatelské jméno peněženky (po přihlášení si zkontrolujte přihlašovací údaje vaší peněženky)	|Ano	|Ne|
-|“password”|	Heslo peněženky (po přihlášení si zkontrolujte přihlašovací údaje vaší peněženky)	|Ano|	Ne|
-|“number”|	Číslo příjemce v mezinárodním formátu, žádná nula v popředí nebo znaménko “+”, například 420772423914 (Pro hromadné použití použijte středník jako separátor)|	Ano|	Ano|
-|“data”|	Text SMS zprávy (max. 612 znaků, nebo 268 znaků, jestliže je aktivován Unicode), UTF-8 kódování	|Ano|	Ne|
-|“unicode”|	“1” pro SMS Unicode	|Ne	|Ne|
-|“flash”|	“1” pro Flash SMS|	Ne|	Ne|
-|“sender”|	Odesílatel SMS (číslo v mezinárodním formátu, žádná nula v popředí nebo znaménko “+”, například 420772423914, nebo text s max. počtem 11 znaků, například “eshop.cz”)	|Ne|	Ano|
-|“isms”	|SMS brána (výchozí 0, hodnota 0 – 4) – přihlaste se na BulkGate Portál a podívejte se na tento parametr v ceníku 	|Ne	|Ano|
-|“datelater”|	Plánovaná SMS – počet sekund od 1. ledna 1970 00:00:00 GMT|	Ne	|Ne|
-|“AppID”	|například: 123123, umožňuje použít více účtů pro více aplikací, přijímat potvrzení o doručení na různé adresy DELIVERY_URL nebo DELIVERY_EMAIL|	Ne	|Ne|
-|“show_json”|	“1” pro odpověď ve formátu json|	Ne	|Ne|
-|“campainID”|	ID kampaně pro třídění SMS v záznamech a SMS historii	|Ne	|Ne|
-|“coding”	|Jestli “data” není v UTF-8, například.: ISO-8859-1|	Ne	|Ne|
-|“sortkey”|	Textové tlačítko pro třídění historie SMS a SMS odpovědí	|Ne	|Ne|
+|action|“sendsmsall”|	Ano|	Ne|
+|username|	Uživatelské jméno peněženky (po přihlášení si zkontrolujte přihlašovací údaje vaší peněženky)	|Ano	|Ne|
+|password|	Heslo peněženky (po přihlášení si zkontrolujte přihlašovací údaje vaší peněženky)	|Ano|	Ne|
+|number|	Číslo příjemce v mezinárodním formátu, žádná nula v popředí nebo znaménko “+”, například 420772423914 (Pro hromadné použití použijte středník jako separátor)|	Ano|	Ano|
+|data|	Text SMS zprávy (max. 612 znaků, nebo 268 znaků, jestliže je aktivován Unicode), UTF-8 kódování	|Ano|	Ne|
+|unicode|	“1” pro SMS Unicode	|Ne	|Ne|
+|flash|	“1” pro Flash SMS|	Ne|	Ne|
+|sender|	Odesílatel SMS (číslo v mezinárodním formátu, žádná nula v popředí nebo znaménko “+”, například 420772423914, nebo text s max. počtem 11 znaků, například “eshop.cz”)	|Ne|	Ano|
+|isms|SMS brána (výchozí 0, hodnota 0 – 4) – přihlaste se na BulkGate Portál a podívejte se na tento parametr v ceníku 	|Ne	|Ano|
+|datelater|	Plánovaná SMS – počet sekund od 1. ledna 1970 00:00:00 GMT|	Ne	|Ne|
+|AppID|například: 123123, umožňuje použít více účtů pro více aplikací, přijímat potvrzení o doručení na různé adresy DELIVERY_URL nebo DELIVERY_EMAIL|	Ne	|Ne|
+|show_json|	“1” pro odpověď ve formátu json|	Ne	|Ne|
+|campainID|	ID kampaně pro třídění SMS v záznamech a SMS historii	|Ne	|Ne|
+|coding|Jestli “data” není v UTF-8, například.: ISO-8859-1|	Ne	|Ne|
+|sortkey|	Textové tlačítko pro třídění historie SMS a SMS odpovědí	|Ne	|Ne|
 
 **Příklad požadavku:**
 ``` xml
@@ -81,9 +81,9 @@ QQQ___QQQ
 ### Odeslat hromadnou SMS se stejným textem: důvody chyby
 |CHYBA|	POPIS|
 |:--- |:--- |
-|“9”	|Špatné číslo, nebo nedostupná síť|
-|“10”	|Nízký kreditní zůstatek|
-|“15”	|Neautorizované ID číselného odesílatele|
-|“22”	|Unicode není podporován|
-|“23”	|Duplicita zprávy|
-|“error”|	Jiná chyba - uživatelské jméno, heslo, text SMS nebo číslo není přitomno|
+|9|Špatné číslo, nebo nedostupná síť|
+|10|Nízký kreditní zůstatek|
+|15|Neautorizované ID číselného odesílatele|
+|22|Unicode není podporován|
+|23|Duplicita zprávy|
+|error|	Jiná chyba - uživatelské jméno, heslo, text SMS nebo číslo není přitomno|
