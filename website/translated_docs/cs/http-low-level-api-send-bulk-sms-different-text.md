@@ -3,7 +3,7 @@ title: Poslat hromadnou SMS - rozdílný text
 ---
 
 ## “sendsmsall2” action
-Umožňuje poslat krátkou textovou zprávu s rozdílným textem jednomu nebo více příjemcům. 
+Umožňuje poslat SMS zprávu s rozdílným textem jednomu nebo více příjemcům. 
 
 Podívejte se na [tabulku parametrů](#odeslání-hromadné-sms-s-rozdílným-textem-parametry) pro tento příkaz.
 
