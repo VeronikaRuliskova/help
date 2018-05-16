@@ -5,7 +5,7 @@ title: Check SMS price
 ## “dost” action
 It allows to check price for each country and operator via HTTP request. 
 
-Check the [table of parameters](#check-sms-price-parameters) for this command.
+See the [table of parameters](#check-sms-price-parameters) for this command.
 
 ## Request URL address
 The URL used to send the HTTP requests:
