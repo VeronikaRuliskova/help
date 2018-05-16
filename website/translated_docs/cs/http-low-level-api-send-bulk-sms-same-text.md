@@ -31,7 +31,7 @@ https://api.bulkgate.com/http/
 |“sortkey”|	Textové tlačítko pro třídění historie SMS a SMS odpovědí	|Ne	|Ne|
 
 **Příklad požadavku:**
-``` url
+``` xml
 action=sendsmsall&username=testuser&password=test123&number=420606123456;420607123456&data=Ahoj
 ```
 
