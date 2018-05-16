@@ -3,7 +3,7 @@ title: Transactional SMS
 ---
 
 
-## Request URL address
+## API URL
 The URL used to send the HTTP requests:
 https://portal.bulkgate.com/api/1.0/simple/transactional
 
