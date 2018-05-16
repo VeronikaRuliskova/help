@@ -1,12 +1,11 @@
 ---
-title: Info o požadavku HTTP
+title: Info o HTTP požadavku
 ---
 
 ## Požadavek HTTP
-Každý HTTP GET/POST požadevek, který je odeslan, odpovídá příkazu rozhraní API. Tělo každého http požadavku se skládá ze seznamu dvojic [name,value], podle standardní aplikace/x-www-form-encoded. Každá dvojice představuje parametr příkazu. Každý příkaz má jinou sadu parametrů, což bude popsáno níže. Všechny sdílejí první parametr, nazvaný "akce", odkazující na typ příkazu, který se používá.  
+Každý HTTP GET/POST požadavek, který je odeslán, odpovídá příkazu rozhraní API. Tělo každého http požadavku se skládá ze seznamu dvojic [name,value], podle standardní aplikace/x-www-form-encoded. Každá dvojice představuje parametr příkazu. Každý příkaz má jinou sadu parametrů, což bude popsáno níže. Všechny sdílejí první parametr, nazvaný "akce", odkazující na typ příkazu, který se používá.  
 
-## Požadavek adresy URL
-Adresa URL používaná k odeslání požadavků HTTP: 
+## URL adresa pro odesílání HTTP požadavků
 https://api.bulkgate.com/http/
 
 ## Kódování znaků
