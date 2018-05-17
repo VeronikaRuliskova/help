@@ -39,16 +39,14 @@ Response to this command may be:
 
 **In case of success:**
 ``` xml
-<stat>1</stat>
-<info>2556b1d0-5ced-11e3-8a4f-00000a0a0211</info>
+<stat>1</stat><info>2556b1d0-5ced-11e3-8a4f-00000a0a0211</info>
 ```
  - Where `1` is status (see the [table with response status](#send-bulk-sms-with-same-text-response-status))
  - **2556b1d0-5ced-11e3-8a4f-00000a0a0211** is unique smsID of message
  
 **In case of error:**
 ``` xml
-<stat>3</stat>
-<info>10</info>
+<stat>3</stat><info>10</info>
 ```
  - Where `3` is status (see the [table with response status](#send-bulk-sms-with-same-text-response-status))
  - Where `10` is error reason (see the table with [error reasons](#send-bulk-sms-with-same-text-error-reasons))
