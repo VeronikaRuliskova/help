@@ -58,7 +58,7 @@ If a message was sent to several recipients, each message response is separated 
 
 **Example:**
 ``` xml
-<stat>1</stat><info>6b1d01231231231</info>QQQ___QQQ<stat>3</stat><info>9</info>QQQ___QQQ<stat>1</stat><info>36b1d01231231231eSAa</info>
+<stat>1</stat><info>6b1d01231231231</info>QQQ___QQQ<stat>3</stat><info>9</info>
 ```
 
 
