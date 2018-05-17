@@ -24,8 +24,7 @@ Response to this command may be:
 
 **In case of success:**
 ``` url
-<stat>1</stat>
-<info>5430.620</info>
+<stat>1</stat><info>5430.620</info>
 ```
  - Where `1` is status: OK
  - **5430.620** is credit balance
@@ -33,7 +32,6 @@ Response to this command may be:
 
 **In case of error:**
 ``` url
-<stat>3</stat>
-<info>error</info>
+<stat>3</stat><info>error</info>
 ```
  - Where `3` is error status
