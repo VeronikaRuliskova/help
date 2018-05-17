@@ -40,7 +40,7 @@ Response to this command may be:
 
 **In case of success:**
 ``` url
-<stat>1</stat><info>2556b1d0-5ced-11e3-8a4f-00000a0a0211</info
+<stat>1</stat><info>2556b1d0-5ced-11e3-8a4f-00000a0a0211</info>
 ```
 
  - Where `1` is status (see the [table with response status](http-low-level-api-send-bulk-sms-same-text.md#send-bulk-sms-with-same-text-response-status))
