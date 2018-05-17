@@ -26,4 +26,4 @@ To receive dlr reports, please contact us with your DELIVERY_URL address of your
 |3	|SMS not delivered. Unknown/unavailable recipient.|
 |6	|SMS accepted by provider (this status is not enabled by default, contact us for subscribe)|
 |8	|SMS message expired|
-|10	|Incoming SMS or SMS answer (contact us for more details)|
+|10	|Incoming SMS or SMS answer|
