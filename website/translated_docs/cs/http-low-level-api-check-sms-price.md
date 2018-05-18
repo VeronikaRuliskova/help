@@ -2,7 +2,7 @@
 title: Zjištění ceny SMS
 ---
 
-## “dost” action
+## akce “dost”
 Umožňuje zjistit cenu SMS pro každou zemi a operátora pomocí HTTP požadavku.
 
 Podívejte se na [tabulku parametrů](#odeslání-hromadné-sms-s-rozdílným-textem-parametry) pro tento příkaz.
