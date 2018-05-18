@@ -22,15 +22,13 @@ Reakce na tento příkaz může být:
 
 **V případě úspěchu:**
 ``` xml
-<stat>1</stat>
-<info>5430.620</info>
+<stat>1</stat><info>5430.620</info>
 ```
 - Kde `1` je stav: OK
 - **5430.620** je kreditní zůstatek
 
 **V případě chyby:**
 ``` xml
-<stat>3</stat>
-<info>error</info>
+<stat>3</stat><info>error</info>
 ```
 -	Kde `3` is stav 
