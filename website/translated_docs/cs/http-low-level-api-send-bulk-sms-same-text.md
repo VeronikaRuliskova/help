@@ -38,16 +38,14 @@ Reakce na tento příkaz může být:
 
 **V případě úspěchu:**
 ``` xml
-<stat>1</stat>
-<info>2556b1d0-5ced-11e3-8a4f-00000a0a0211</info>
+<stat>1</stat><info>2556b1d0-5ced-11e3-8a4f-00000a0a0211</info>
 ```
 - Kde `1` je stav (viz [tabulka se stavem odpovědi](#odeslat-hromadnou-sms-se-stejným-textem-stav-odpovědi))
 -	**2556b1d0-5ced-11e3-8a4f-00000a0a0211** je unikátní smsID zprávy
 
 **V případě chyby:**
 ``` xml
-<stat>3</stat>
-<info>10</info>
+<stat>3</stat><info>10</info>
 ```
 - Kde `3` je stav (viz [tabulka se stavem odpovědi](#odeslat-hromadnou-sms-se-stejným-textem-stav-odpovědi))
 - Kde `10` je důvod chyby (viz [tabulka s chybami](#odeslat-hromadnou-sms-se-stejným-textem-důvody-chyby))
@@ -57,16 +55,8 @@ Pokud byla zpráva odeslána několika příjemcům, každá odpověď na zpráv
  
 **Například:**
 ``` xml
-<stat>1</stat>
-<info>6b1d01231231231</info>
-QQQ___QQQ
-<stat>3</stat>
-<info>9</info>
-QQQ___QQQ
-<stat>1</stat>
-<info>36b1d01231231231eSAa</info>
+<stat>1</stat><info>6b1d01231231231</info>QQQ___QQQ<stat>3</stat><info>9</info>
 ```
-
 
 ### Odeslat hromadnou SMS se stejným textem: stav odpovědi
 |STAV|	POPIS|
