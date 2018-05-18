@@ -7,7 +7,7 @@ Umožňuje odeslat SMS zprávu jednomu příjemci (na jedno telefonní číslo).
 
 Podívejte se na [tabulku parametrů](#odeslání-informační-sms-parametry) pro tento příkaz.
 
-> Zneužití informační SMS pro propagační účely je přísně zakázáno!
+> Zneužití informační SMS pro propagační/marketingové účely je přísně zakázáno!
 
 ## API URL
 https://api.bulkgate.com/http/
