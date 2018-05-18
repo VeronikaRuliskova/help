@@ -2,7 +2,7 @@
 title: Poslat hromadnou SMS - stejný text
 ---
 
-## “sendsmsall” action
+## akce “sendsmsall”
 Umožňuje poslat SMS zprávu se stejným textem jednomu nebo více příjemcům. 
 
 Podívejte se na [tabulku parametrů](#odeslání-hromadné-sms-se-stejným-textem-parametry) pro tento příkaz. Pro odeslání zprávy několika příjemcům, přiřaďte hodnotu parametru “number” s telefonními čísly oddělenými středníkem. Maximální počet příjemců pro každou žádost je neomezený.
