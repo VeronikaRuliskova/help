@@ -2,7 +2,7 @@
 title: Ověření zůstatku kreditu
 ---
 
-## “info” action
+## akce “info”
 Umožňuje ověřit zůstatek kreditu prostřednictvím HTTP požadavku. 
 
 Podívejte se na [tabulku parametrů](#ověření-zůstatku-kreditu-parametry) pro tento příkaz.
