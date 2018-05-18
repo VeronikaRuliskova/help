@@ -45,7 +45,7 @@ Reakce na tento příkaz může být:
 
 **V případě chyby:**
 ``` url
-<stat>3</stat><info>error</info>
+<stat>3</stat><info>10</info>
 ```
 -	Kde `3` je stav chyby (viz [tabulka se stavem odpovědi](http-low-level-api-send-bulk-sms-same-text.md#odeslat-hromadnou-sms-se-stejným-textem-stav-odpovědi))
 - Kde `10` je důvod chyby (viz [tabulka s chybami](http-low-level-api-send-bulk-sms-same-text.md#odeslat-hromadnou-sms-se-stejným-textem-důvody-chyby))
