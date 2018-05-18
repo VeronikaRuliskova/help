@@ -85,12 +85,12 @@
     "Installation": "Installation",
     "Admin & Customer SMS": "Admin & Customer SMS",
     "HTTP low level API": "HTTP low level API",
+    "HTTP request info": "HTTP request info",
     "Transactional SMS": "Transactional SMS",
     "Promotional SMS": "Promotional SMS",
     "Check credit balance": "Check credit balance",
     "Check SMS price": "Check SMS price",
-    "Delivery confirmations and incoming SMS": "Delivery confirmations and incoming SMS",
-    "HTTP request info": "HTTP request info"
+    "Delivery confirmations and incoming SMS": "Delivery confirmations and incoming SMS"
   },
   "pages-strings": {
     "Helpdesk|no description given": "Helpdesk",
@@ -111,6 +111,9 @@
     "Read how you can pay and manage your billing data.|no description given": "Read how you can pay and manage your billing data.",
     "Price list|no description given": "Price list",
     "Read how you can work with price list and its SMS price calculator.|no description given": "Read how you can work with price list and its SMS price calculator.",
+    "APIs|no description given": "APIs",
+    "HTTP Low Level|no description given": "HTTP Low Level",
+    "Read API documentation|no description given": "Read API documentation",
     "FAQ|no description given": "FAQ",
     "How do I create a new short URL?|no description given": "How do I create a new short URL?",
     "Can I have a two-way communication with a customer?|no description given": "Can I have a two-way communication with a customer?",
