@@ -169,6 +169,22 @@ class HomeSplash extends React.Component {
                             </Col>
                         </Flex>
                     </Row>
+                    <h2>
+                        <translate>APIs</translate>
+                    </h2>
+                    <Row>
+                        <Flex wrap horizontalItems="center">
+                            <Col s12 m4>
+                                <TopicCategory
+                                    name={<translate>HTTP Low Level</translate>}
+                                    url={docUrl("http-low-level-api-description.html", language)}
+                                    ico="http"
+                                    text={<translate>Read API documentation</translate>}
+                                    btnText={<translate>Read topic</translate>}
+                                />
+                            </Col>
+                        </Flex>
+                    </Row>
                 </HomeContainer>
                 <HomeContainer id="questions">
                     <h2>
