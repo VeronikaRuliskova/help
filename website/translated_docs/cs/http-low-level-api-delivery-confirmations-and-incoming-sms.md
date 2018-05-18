@@ -3,7 +3,7 @@ title: Potvrzení o doručení a příchozí SMS
 ---
 
 ## Potvrzení o doručení a příchozí SMS (odpovědi)
-Chcete-li dostávat dlr záznamy do aplikace, zašlete nám DELIVERY_URL adresu vašeho skriptu nebo DELIVERY_EMAIL pro zasílání potvrzení o doručení na email. Potvrzení o doručení jsou zasílány na adresu DELIVERY_URL metodou HTTP GET. Podívejte se na [tabulku parametrů](#potvrzení-o-doručení-parametry) pro tento příkaz. Podívejte se také na "AppID" v [tabulce parametrů pro hromadnou SMS se stejným textem](http-low-level-api-send-bulk-sms-same-text.md#odeslání-hromadné-sms-se-stejným-textem-parametry).
+Chcete-li dostávat dlr záznamy do aplikace, zašlete nám DELIVERY_URL adresu vašeho skriptu. Potvrzení o doručení jsou zasílány na adresu DELIVERY_URL metodou HTTP GET. Podívejte se na [tabulku parametrů](#potvrzení-o-doručení-parametry) pro tento příkaz. Podívejte se také na "AppID" v [tabulce parametrů pro hromadnou SMS se stejným textem](http-low-level-api-send-bulk-sms-same-text.md#odeslání-hromadné-sms-se-stejným-textem-parametry).
 
 ### Potvrzení o doručení: parametry
 |NÁZEV PARAMETRU|	HODNOTA|	POVINNÝ|
