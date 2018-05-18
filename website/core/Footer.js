@@ -46,7 +46,7 @@ class Footer extends React.Component {
                 <section className="sitemap">
                     <div className="logo">
                         <a
-                            href="https://portal.bulkgate.com"
+                            href="https://www.bulkgate.com"
                             target="_blank"
                             className="fbOpenSource">
                             <img
