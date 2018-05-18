@@ -18,11 +18,6 @@ https://api.bulkgate.com/http/
 |password|	Heslo uživatele	|Ano|
 |show_json|	“1” pro odpověď ve formátu json	|Ne|
 
-**Příklad požadavku:**
-``` xml
-action=sendsms&username=testuser&password=test123&number=420606123456&data=Ahoj
-```
-
 Reakce na tento příkaz může být:
 
 **V případě úspěchu:**
