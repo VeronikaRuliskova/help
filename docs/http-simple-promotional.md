@@ -33,17 +33,48 @@ https://portal.bulkgate.com/api/1.0/simple/promotional
 | `<int>` |BulkGate Profile ID| 
 
 
-**Example request:**
+**Full Example request:**
 ``` url
 https://portal.bulkgate.com/api/1.0/simple/promotional
     ?application_id=<APPLICATION_ID>
     &application_token=<APPLICATION_TOKEN>
-    &number=420777777777;420608123456;4206036
+    &number=420777777777;608123456;4206036
     &text=test_sms
     &unicode=yes
     &sender_id=gText
     &sender_id_value=BulkGate
+    &country=cz
     &schedule=2018-05-14T18:30:00-01:00
+```
+
+**Country Example request:**
+``` url
+https://portal.bulkgate.com/api/1.0/simple/promotional
+    ?application_id=<APPLICATION_ID>
+    &application_token=<APPLICATION_TOKEN>
+    &number=777777777;608123456
+    &text=test_sms
+    &country=cz
+```
+
+**Schedule ISO 8601 Example request:**
+``` url
+https://portal.bulkgate.com/api/1.0/simple/promotional
+    ?application_id=<APPLICATION_ID>
+    &application_token=<APPLICATION_TOKEN>
+    &number=420777777777;420608123456
+    &text=test_sms
+    &schedule=2018-05-14T18:30:00-01:00
+```
+
+**Unix timestamp Example request:**
+``` url
+https://portal.bulkgate.com/api/1.0/simple/promotional
+    ?application_id=<APPLICATION_ID>
+    &application_token=<APPLICATION_TOKEN>
+    &number=420777777777;420608123456
+    &text=test_sms
+    &schedule=1526992636
 ```
 
 Response to this command may be:
