@@ -37,26 +37,26 @@ https://portal.bulkgate.com/api/1.0/simple/transactional
 https://portal.bulkgate.com/api/1.0/simple/promotional
     ?application_id=<APPLICATION_ID>
     &application_token=<APPLICATION_TOKEN>
-    &number=420777777777;420775123456;606123456
+    &number=420777777777
     &text=test_sms
     &unicode=yes
+    &flash=no
     &sender_id=gText
     &sender_id_value=BulkGate
-    &country=cz
-    &schedule=2018-05-14T18:30:00-01:00
+    &country=gb
 ```
 
-**Příklad požadavku země:**
+**Příklad požadavku s doplněním prefixu země:**
 ``` url
 https://portal.bulkgate.com/api/1.0/simple/promotional
     ?application_id=<APPLICATION_ID>
     &application_token=<APPLICATION_TOKEN>
-    &number=606123456;420777777777
+    &number=777777777
     &text=test_sms
     &country=gb
 ```
 
-Reakce na tento příkaz může být:
+Odpověď na tento příkaz může být:
 
 
 **V případě úspěchu:**
@@ -66,7 +66,7 @@ Reakce na tento příkaz může být:
         "sms_id": "tmpde1bcd4b1d1",
         "price": 0.02,
         "credit": 215.81380,
-        "number": "420777777777"
+        "number": "44777777777"
     }
 }
 ```
