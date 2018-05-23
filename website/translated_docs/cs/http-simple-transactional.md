@@ -84,7 +84,7 @@ application_id=<APPLICATION_ID>&application_token=<APPLICATION_TOKEN>&number=777
 ## Metoda `POST` - `application/json`
 
 **Příklad úplného požadavku:**
-``` http
+``` http json
 POST /api/1.0/simple/transactional HTTP/1.1
 Host: portal.bulkgate.com
 Content-Type: application/json
