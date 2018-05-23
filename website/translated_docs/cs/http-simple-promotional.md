@@ -1,54 +1,84 @@
 ---
-title: Promotional SMS
+title: Propagační SMS
 ---
 
 
 ## API URL
-The URL used to send the HTTP requests:
-https://portal.bulkgate.com/api/1.0/simple/promotional
+Adresa URL používaná k odeslání požadavků HTTP: https://portal.bulkgate.com/api/1.0/simple/promotional
 
-### Parameters table
+### Tabulka s parametry
 
-|Parameter name	|Value|	Mandatory| Default Value
+| NÁZEV PARAMETRU	| HODNOTA|	POVINNÝ| VÝCHOZÍ HODNOTA
 |:--- |:--- |:--- |:--- |
-|application_id|application indentificator |**Yes**|-| 
-|application_token|application authentication token	|**Yes**|-|
-|number|Recipient number 	|**Yes**|-|
-|text|Text of SMS message (max. 612 characters, or 268 characters if Unicode is used), UTF-8 enconding	|**Yes**|-|
-|unicode	|yes/true/1 for Unicode SMS, no/false/0 for 7bit SMS|No|false|
-|flash| yes/true/1 for flash SMS|No|false|
-|sender_id|Sender ID viz table|No|gSystem|
-|sender_id_value|sender value of gOwn or gText|No|null|
-|country|You can specify country for number and country prefix added (777123456 + cz = 420777123456), ([ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)) In case null, timezone used from user profile.|No|null|
-|schedule| send datetime in [unix timestamp](https://en.wikipedia.org/wiki/Unix_time) or [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) |No|Now|
+|application_id| Aplikační identifikátor |**Ano**|-| 
+|application_token| Aplikační ověřovací token	|** Ano **|-|
+|number| Číslo příjemce	|** Ano **|-|
+|text| Text SMS zprávy (max. 612 znaků, nebo 268 znaků, jestliže je aktivován Unicode), UTF-8 kódování	|** Ano **|-|
+|unicode	|Yes/true/1 pro Unicode SMS, no/false/0 pro 7bit SMS|Ne|false|
+|flash| Yes/true/1 pro Flash SMS| Ne |false|
+|sender_id|ID odesílatele, viz [typ ID odesílatele](#typ-id-odesilatele-sender_id)| Ne |gSystem|
+|sender_id_value| Hodnota odesílatele Own nebo gText| Ne |null|
+|country| Poskytněte čísla příjemců v mezinárodním formátu (s prefixem, např. 420), nebo přidejte [kód země](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) (775123456 + CZ = 420775123456). Podívejte se na příklad požadavku země. Pokud je hodnota **`null,`** poté se použije vaše nastavená časová zóna pro doplnění informace | Ne |null|
+|schedule| Naplánujte čas a datum odesílání v [unix timestamp,](https://en.wikipedia.org/wiki/Unix_time) nebo [ISO 8601.](https://en.wikipedia.org/wiki/ISO_8601) Podívejte se na níže uvedené příklady | Ne |Nyní|
 
-**Sender ID type table `sender_id`** 
+### Typ ID odesílatele `sender_id`** 
 
-|Parameter name	| Default value|
+| NÁZEV PARAMETRU| VÝCHOZÍ HODNOTA
 |:--- |:---|
-|gSystem |System number| 
+|gSystem |Systémové číslo| 
 |gShort |Short Code| 
-|gText |Text sender| 
-|gOwn |Own Number (number verification required)| 
-| `<int>` |BulkGate Profile ID| 
+|gText |Textový odesílatel| 
+|gOwn |Vlastní číslo (vyžaduje ověření čísla)| 
+| `<int>` |BulkGate Profil ID| 
 
 
-**Example request:**
+**Příklad úplného požadavku:**
 ``` url
 https://portal.bulkgate.com/api/1.0/simple/promotional
     ?application_id=<APPLICATION_ID>
     &application_token=<APPLICATION_TOKEN>
-    &number=420777777777;420608123456;4206036
+    &number=420777777777;420775123456;606123456
     &text=test_sms
     &unicode=yes
     &sender_id=gText
     &sender_id_value=BulkGate
+    &country=cz
     &schedule=2018-05-14T18:30:00-01:00
 ```
 
-Response to this command may be:
+**Příklad požadavku země:**
+``` url
+https://portal.bulkgate.com/api/1.0/simple/promotional
+    ?application_id=<APPLICATION_ID>
+    &application_token=<APPLICATION_TOKEN>
+    &number=606123456;420777777777
+    &text=test_sms
+    &country=gb
+```
 
-**In case of success:**
+**Příklad požadavku ISO 8601:**
+``` url
+https://portal.bulkgate.com/api/1.0/simple/promotional
+    ?application_id=<APPLICATION_ID>
+    &application_token=<APPLICATION_TOKEN>
+    &number=420775123456;420606123456
+    &text=test_sms
+    &schedule=2018-05-14T18:30:00-01:00
+```
+
+** Příklad požadavku unix timestamp:**
+``` url
+https://portal.bulkgate.com/api/1.0/simple/promotional
+    ?application_id=<APPLICATION_ID>
+    &application_token=<APPLICATION_TOKEN>
+    &number=420775123456;420606123456
+    &text=test_sms
+    &schedule=1526992636
+```
+
+Reakce na tento příkaz může být:
+
+** V případě úspěchu:**
 ``` json
 {
   "data": {
@@ -67,27 +97,27 @@ Response to this command may be:
         "sms_id": "tmpde1f00539c7",
         "price": 0.0261,
         "credit": 215.81380,
-        "number": "420777777777"
+        "number": "420775123456"
       },
       {
         "status": "scheduled",
         "sms_id": "tmpde1f0053f0c",
         "price": 0.0261,
         "credit": 215.81380,
-        "number": "420608123456"
+        "number": "420606123456"
       },
       {
         "status": "error",
         "code": 9,
         "error": "Bad number",
-        "number": "4204206036"
+        "number": "44771447678"
       }
     ]
   }
 }
 ```
  
-**In case of error:**
+** V případě chyby:**
 ``` json 
 {
   "error": "authentication_failed",
