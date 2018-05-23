@@ -9,7 +9,8 @@ The URL used to send the HTTP requests:
 https://portal.bulkgate.com/api/1.0/simple/transactional
 ```
 
-methods- [GET](#get-method)
+### Supported methods
+- [GET](#get-method)
 - [POST - application/x-www-form-urlencoded](#post-method---applicationx-www-form-urlencoded)
 - [POST - application/json](#post-method---applicationjson)
 
