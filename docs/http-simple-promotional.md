@@ -19,8 +19,8 @@ https://portal.bulkgate.com/api/1.0/simple/promotional
 |flash| Yes/true/1 for flash SMS|No|false|
 |sender_id|Sender ID, viz [sender ID type table](#sender-id-type-sender_id)|No|gSystem|
 |sender_id_value|Sender value of gOwn or gText|No|null|
-|country|Provide the recipients' numbers in an international format (with prefix, e.g. 44) or add the [country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) (7820125799 + uk = 447820125799). See the country example request. If not provided, your set timezone will be used to fill the information|No|null|
-|schedule| Schedule the sending date/time in [unix timestamp,](https://en.wikipedia.org/wiki/Unix_time) or [ISO 8601.] See examples below (https://en.wikipedia.org/wiki/ISO_8601) |No|Now|
+|country|Provide the recipients' numbers in an international format (with prefix, e.g. 44) or add the [country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) (7820125799 + GB = 447820125799). See the country example request. If not provided, your set timezone will be used to fill the information|No|null|
+|schedule| Schedule the sending date/time in [unix timestamp,](https://en.wikipedia.org/wiki/Unix_time) or [ISO 8601.](https://en.wikipedia.org/wiki/ISO_8601) See examples below |No|Now|
 
 ### Sender ID type `sender_id`** 
 
@@ -38,12 +38,12 @@ https://portal.bulkgate.com/api/1.0/simple/promotional
 https://portal.bulkgate.com/api/1.0/simple/promotional
     ?application_id=<APPLICATION_ID>
     &application_token=<APPLICATION_TOKEN>
-    &number=420777777777;608123456;4206036
+    &number=4407700900000;7811901234;447712345678
     &text=test_sms
     &unicode=yes
     &sender_id=gText
     &sender_id_value=BulkGate
-    &country=cz
+    &country=gb
     &schedule=2018-05-14T18:30:00-01:00
 ```
 
@@ -52,9 +52,9 @@ https://portal.bulkgate.com/api/1.0/simple/promotional
 https://portal.bulkgate.com/api/1.0/simple/promotional
     ?application_id=<APPLICATION_ID>
     &application_token=<APPLICATION_TOKEN>
-    &number=777777777;608123456
+    &number=7811901234;447712345678
     &text=test_sms
-    &country=cz
+    &country=gb
 ```
 
 **Schedule ISO 8601 Example request:**
@@ -62,7 +62,7 @@ https://portal.bulkgate.com/api/1.0/simple/promotional
 https://portal.bulkgate.com/api/1.0/simple/promotional
     ?application_id=<APPLICATION_ID>
     &application_token=<APPLICATION_TOKEN>
-    &number=420777777777;420608123456
+    &number=4407700900000;447811901234
     &text=test_sms
     &schedule=2018-05-14T18:30:00-01:00
 ```
@@ -72,7 +72,7 @@ https://portal.bulkgate.com/api/1.0/simple/promotional
 https://portal.bulkgate.com/api/1.0/simple/promotional
     ?application_id=<APPLICATION_ID>
     &application_token=<APPLICATION_TOKEN>
-    &number=420777777777;420608123456
+    &number=4407700900000;447811901234
     &text=test_sms
     &schedule=1526992636
 ```
@@ -98,20 +98,20 @@ Response to this command may be:
         "sms_id": "tmpde1f00539c7",
         "price": 0.0261,
         "credit": 215.81380,
-        "number": "420777777777"
+        "number": "4407700900000"
       },
       {
         "status": "scheduled",
         "sms_id": "tmpde1f0053f0c",
         "price": 0.0261,
         "credit": 215.81380,
-        "number": "420608123456"
+        "number": "447811901234"
       },
       {
         "status": "error",
         "code": 9,
         "error": "Bad number",
-        "number": "4204206036"
+        "number": "44771447678"
       }
     ]
   }
