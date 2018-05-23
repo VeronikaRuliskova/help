@@ -19,7 +19,7 @@ https://portal.bulkgate.com/api/1.0/simple/transactional
 |flash| `yes`/`true`/`1` pro Flash SMS| Ne |`false`|
 |sender_id|ID odesílatele, viz [typ ID odesílatele](#typ-id-odesilatele-sender_id)| Ne |`gSystem`|
 |sender_id_value| Hodnota odesílatele `gOwn` nebo `gText`| Ne |`null`|
-|country| Poskytněte čísla příjemců v mezinárodním formátu (s prefixem, např. `420`), nebo přidejte [kód země ve formátu ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) (`775123456` + `CZ` = `420775123456`). Podívejte se na příklad požadavku země. Pokud je hodnota **`null`**, poté se použije vaše nastavená časová zóna pro doplnění informace | Ne |`null`|
+|country| Poskytněte čísla příjemců v mezinárodním formátu (s prefixem, např. `420`), nebo přidejte [kód země ve formátu ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) (`775123456` + `CZ` = `420775123456`). Podívejte se na příklad požadavku země. Pokud je hodnota **`null`**, je použita země z vašeho uživatelského profilu. | Ne |`null`|
 
 ### Typ ID odesílatele `sender_id`  
 
