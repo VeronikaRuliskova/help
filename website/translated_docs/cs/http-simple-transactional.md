@@ -9,7 +9,7 @@ Adresa URL používaná k odeslání požadavků HTTP:
 https://portal.bulkgate.com/api/1.0/simple/transactional
 ```
 
-### Tabulka s parametry
+## Tabulka s parametry
 
 | NÁZEV PARAMETRU	| HODNOTA|	POVINNÝ| VÝCHOZÍ HODNOTA|
 |:--- |:--- |:--- |:--- |
@@ -33,7 +33,7 @@ https://portal.bulkgate.com/api/1.0/simple/transactional
 |`gOwn` |Vlastní číslo (vyžaduje ověření čísla)| 
 | `<int>` |BulkGate Profil ID| 
 
-### Metoda `GET`
+## Metoda `GET`
 
 **Příklad úplného požadavku:**
 ``` url
@@ -59,7 +59,7 @@ https://portal.bulkgate.com/api/1.0/simple/transactional
     &country=cz
 ```
 
-### Metoda `POST`
+## Metoda `POST`
 
 **Příklad úplného požadavku:**
 ``` http
@@ -81,7 +81,7 @@ Cache-Control: no-cache
 application_id=<APPLICATION_ID>&application_token=<APPLICATION_TOKEN>&number=777777777&text=test_sms&country=cz
 ```
 
-### Odpověď na tento příkaz může být:
+## Odpověď na tento příkaz může být:
 
 
 **V případě úspěchu:**
