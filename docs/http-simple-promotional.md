@@ -38,7 +38,7 @@ https://portal.bulkgate.com/api/1.0/simple/promotional
 https://portal.bulkgate.com/api/1.0/simple/promotional
     ?application_id=<APPLICATION_ID>
     &application_token=<APPLICATION_TOKEN>
-    &number=4407700900000;7811901234;447712345678
+    &number=447700900000;7811901234;447712345678
     &text=test_sms
     &unicode=yes
     &sender_id=gText
@@ -62,7 +62,7 @@ https://portal.bulkgate.com/api/1.0/simple/promotional
 https://portal.bulkgate.com/api/1.0/simple/promotional
     ?application_id=<APPLICATION_ID>
     &application_token=<APPLICATION_TOKEN>
-    &number=4407700900000;447811901234
+    &number=447700900000;447811901234
     &text=test_sms
     &schedule=2018-05-14T18:30:00-01:00
 ```
@@ -72,7 +72,7 @@ https://portal.bulkgate.com/api/1.0/simple/promotional
 https://portal.bulkgate.com/api/1.0/simple/promotional
     ?application_id=<APPLICATION_ID>
     &application_token=<APPLICATION_TOKEN>
-    &number=4407700900000;447811901234
+    &number=447700900000;447811901234
     &text=test_sms
     &schedule=1526992636
 ```
@@ -98,7 +98,7 @@ Response to this command may be:
         "sms_id": "tmpde1f00539c7",
         "price": 0.0261,
         "credit": 215.81380,
-        "number": "4407700900000"
+        "number": "447700900000"
       },
       {
         "status": "scheduled",
