@@ -9,6 +9,11 @@ Adresa URL používaná k odeslání požadavků HTTP:
 https://portal.bulkgate.com/api/1.0/simple/transactional
 ```
 
+### Podporované HTTP metody
+- [GET](#test)
+- [POST - application/x-www-form-urlencoded](#test)
+- [POST - application/json](#test)
+
 ## Tabulka s parametry
 
 | NÁZEV PARAMETRU	| HODNOTA|	POVINNÝ| VÝCHOZÍ HODNOTA|
