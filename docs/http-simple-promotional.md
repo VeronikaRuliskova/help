@@ -57,7 +57,7 @@ https://portal.bulkgate.com/api/1.0/simple/promotional
     &country=gb
 ```
 
-**Example of schedule ISO 8601 request:**
+**Example of ISO 8601 request:**
 ``` url
 https://portal.bulkgate.com/api/1.0/simple/promotional
     ?application_id=<APPLICATION_ID>
