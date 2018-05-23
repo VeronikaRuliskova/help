@@ -11,17 +11,17 @@ https://portal.bulkgate.com/api/1.0/simple/transactional
 
 |Parameter name	|Value|	Mandatory| Default Value
 |:--- |:--- |:--- |:--- |
-|application_id|application indentificator |**Yes**|-| 
-|application_token|application authentication token	|**Yes**|-|
+|application_id|Application indentificator |**Yes**|-| 
+|application_token|Application authentication token	|**Yes**|-|
 |number|Recipient number 	|**Yes**|-|
 |text|Text of SMS message (max. 612 characters, or 268 characters if Unicode is used), UTF-8 enconding	|**Yes**|-|
-|unicode	|yes/true/1 for Unicode SMS, no/false/0 for 7bit SMS|No|false|
-|flash| yes/true/1 for flash SMS|No|false|
-|sender_id|Sender ID viz table|No|gSystem|
-|sender_id_value|sender value of gOwn or gText|No|null|
-|country|You can specify country for number and country prefix added (777123456 + cz = 420777123456), ([ISO_3166-1_alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)) In case null, timezone used from user profile.|No|null|
+|unicode	|Yes/true/1 for Unicode SMS, no/false/0 for 7bit SMS|No|false|
+|flash| Yes/true/1 for flash SMS|No|false|
+|sender_id|Sender ID, viz [sender ID type table](#sender-id-type-sender_id)|No|gSystem|
+|sender_id_value|Sender value of gOwn or gText|No|null|
+|country|Provide the recipients' numbers in an international format (with prefix, e.g. 44) or add the [country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) (7820125799 + GB = 447820125799). See the country example request. If not provided, your set timezone will be used to fill the information|No|null|
 
-**Sender ID type table `sender_id`** 
+### Sender ID type table `sender_id`** 
 
 |Parameter name	| Default value|
 |:--- |:---|
@@ -37,7 +37,7 @@ https://portal.bulkgate.com/api/1.0/simple/transactional
 https://portal.bulkgate.com/api/1.0/simple/transactional
     ?application_id=<APPLICATION_ID>
     &application_token=<APPLICATION_TOKEN>
-    &number=420777777777
+    &number=447700900000
     &text=test_sms
     &unicode=yes
     &sender_id=gText
