@@ -53,7 +53,7 @@ Response to this command may be:
         "sms_id": "tmpde1bcd4b1d1",
         "price": 0.02,
         "credit": 215.81380,
-        "number": "420777777777"
+        "number": "447700900000"
     }
 }
 ```
