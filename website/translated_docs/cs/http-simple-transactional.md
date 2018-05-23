@@ -59,7 +59,7 @@ https://portal.bulkgate.com/api/1.0/simple/transactional
 https://portal.bulkgate.com/api/1.0/simple/transactional
     ?application_id=<APPLICATION_ID>
     &application_token=<APPLICATION_TOKEN>
-    &number=777777777
+    &number=7700900000
     &text=test_sms
     &country=cz
 ```
