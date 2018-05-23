@@ -8,7 +8,7 @@ Adresa URL používaná k odeslání požadavků HTTP: https://portal.bulkgate.c
 
 ### Tabulka s parametry
 
-| NÁZEV PARAMETRU	| HODNOTA|	POVINNÝ| VÝCHOZÍ HODNOTA
+| NÁZEV PARAMETRU	| HODNOTA|	POVINNÝ| VÝCHOZÍ HODNOTA|
 |:--- |:--- |:--- |:--- |
 |application_id| Aplikační identifikátor |**Ano**|-| 
 |application_token| Aplikační ověřovací token	|**Ano**|-|
@@ -66,7 +66,7 @@ https://portal.bulkgate.com/api/1.0/simple/promotional
     &schedule=2018-05-14T18:30:00-01:00
 ```
 
-** Příklad požadavku unix timestamp:**
+**Příklad požadavku unix timestamp:**
 ``` url
 https://portal.bulkgate.com/api/1.0/simple/promotional
     ?application_id=<APPLICATION_ID>
