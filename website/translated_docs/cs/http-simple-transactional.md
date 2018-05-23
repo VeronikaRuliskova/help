@@ -27,16 +27,16 @@ https://portal.bulkgate.com/api/1.0/simple/transactional
 
 | NÁZEV PARAMETRU| VÝCHOZÍ HODNOTA
 |:--- |:---|
-|gSystem |Systémové číslo| 
-|gShort |Short Code| 
-|gText |Textový odesílatel| 
-|gOwn |Vlastní číslo (vyžaduje ověření čísla)| 
+|`gSystem` |Systémové číslo| 
+|`gShort` |Short Code| 
+|`gText` |Textový odesílatel| 
+|`gOwn` |Vlastní číslo (vyžaduje ověření čísla)| 
 | `<int>` |BulkGate Profil ID| 
 
 
 **Příklad úplného požadavku:**
 ``` url
-https://portal.bulkgate.com/api/1.0/simple/promotional
+https://portal.bulkgate.com/api/1.0/simple/transactional
     ?application_id=<APPLICATION_ID>
     &application_token=<APPLICATION_TOKEN>
     &number=420777777777
@@ -50,7 +50,7 @@ https://portal.bulkgate.com/api/1.0/simple/promotional
 
 **Příklad požadavku s doplněním prefixu země:**
 ``` url
-https://portal.bulkgate.com/api/1.0/simple/promotional
+https://portal.bulkgate.com/api/1.0/simple/transactional
     ?application_id=<APPLICATION_ID>
     &application_token=<APPLICATION_TOKEN>
     &number=777777777
