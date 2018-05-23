@@ -10,9 +10,9 @@ https://portal.bulkgate.com/api/1.0/simple/transactional
 ```
 
 ### Podporované HTTP metody
-- [GET](#test)
-- [POST - application/x-www-form-urlencoded](#test)
-- [POST - application/json](#test)
+- [GET](#metoda-get)
+- [POST - application/x-www-form-urlencoded](#metoda-post---applicationx-www-form-urlencoded)
+- [POST - application/json](#metoda-post---applicationjson)
 
 ## Tabulka s parametry
 
