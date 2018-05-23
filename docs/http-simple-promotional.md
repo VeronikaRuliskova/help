@@ -17,9 +17,9 @@ https://portal.bulkgate.com/api/1.0/simple/promotional
 |text|Text of SMS message (max. 612 characters, or 268 characters if Unicode is used), UTF-8 enconding	|**Yes**|-|
 |unicode	|Yes/true/1 for Unicode SMS, no/false/0 for 7bit SMS|No|false|
 |flash| Yes/true/1 for flash SMS|No|false|
-|sender_id|Sender ID viz [sender ID type table](#sender-id-type-sender_id)|No|gSystem|
+|sender_id|Sender ID, viz [sender ID type table](#sender-id-type-sender_id)|No|gSystem|
 |sender_id_value|Sender value of gOwn or gText|No|null|
-|country|Provide the recipitients' numbers in an international format (with prefix, e.g. 44) or add the [country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) (7820125799 + uk = 447820125799). See the country example request. If not provided, your set timezone will be used to fill the information|No|null|
+|country|Provide the recipients' numbers in an international format (with prefix, e.g. 44) or add the [country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) (7820125799 + uk = 447820125799). See the country example request. If not provided, your set timezone will be used to fill the information|No|null|
 |schedule| Schedule the sending date/time in [unix timestamp,](https://en.wikipedia.org/wiki/Unix_time) or [ISO 8601.] See examples below (https://en.wikipedia.org/wiki/ISO_8601) |No|Now|
 
 ### Sender ID type `sender_id`** 
