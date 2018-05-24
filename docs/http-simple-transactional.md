@@ -1,5 +1,5 @@
 ---
-title: Transactional SMS
+title: Info
 ---
 
 
@@ -10,9 +10,9 @@ https://portal.bulkgate.com/api/1.0/simple/transactional
 ```
 
 ### Supported methods
-- [GET](get-http-simple-transactional.md#get-method)
-- [POST - application/x-www-form-urlencoded](post1-http-simple-transactional.md#post-method---applicationx-www-form-urlencoded)
-- [POST - application/json](post2-http-simple-transactional.md#post-method---applicationjson)
+- [GET](http-simple-transactional-get.md#get-method)
+- [POST - application/x-www-form-urlencoded](http-simple-transactional-post-form.md#post-method---applicationx-www-form-urlencoded)
+- [POST - application/json](http-simple-transactional-post-json.md#post-method---applicationjson)
 
 ### Parameters table
 
