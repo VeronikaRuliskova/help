@@ -1,5 +1,5 @@
 ---
-title: Post Method - application/x-www-form-urlencoded
+title: Post Method - Form
 ---
 
 ## `POST` method - `application/x-www-form-urlencoded`
