@@ -1,5 +1,5 @@
 ---
-title: Metoda Get
+title: Metoda GET
 ---
 
 ## Metoda `GET`
