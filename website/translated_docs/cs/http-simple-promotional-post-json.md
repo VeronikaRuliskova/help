@@ -1,8 +1,8 @@
 ---
-title: Method POST - json
+title: Metoda POS - json
 ---
 
-## Method POST - `application/json`
+## Metoda POST - `application/json`
 
 **Příklad úplného požadavku:**
 ``` http
