@@ -1,7 +1,11 @@
 ---
-title: Promotional SMS
+title: Info
 ---
 
+### Supported methods
+- [GET](http-simple-promotional-get.md#get-method)
+- [POST - application/x-www-form-urlencoded](http-simple-promotional-post-form.md#post-method---applicationx-www-form-urlencoded)
+- [POST - application/json](http-simple-promotional-post-json.md#post-method---applicationjson)
 
 ## API URL
 The URL used to send the HTTP requests:
@@ -9,7 +13,7 @@ https://portal.bulkgate.com/api/1.0/simple/promotional
 
 ### Parameters table
 
-|Parameter name	|Value|	Mandatory| Default Value
+|PARAMETER NAME	|VALUE|	MANDATORY| DEFAULT VALUE|
 |:--- |:--- |:--- |:--- |
 |application_id|Application indentificator |**Yes**|-| 
 |application_token|Application authentication token	|**Yes**|-|
@@ -32,164 +36,6 @@ https://portal.bulkgate.com/api/1.0/simple/promotional
 |gOwn |Own Number (number verification required)| 
 | `<int>` |BulkGate Profile ID| 
 
-## GET method
-
-**Full Example request:**
-``` url
-https://portal.bulkgate.com/api/1.0/simple/promotional
-    ?application_id=<APPLICATION_ID>
-    &application_token=<APPLICATION_TOKEN>
-    &number=447700900000;7811901234;447712345678
-    &text=test_sms
-    &unicode=yes
-    &sender_id=gText
-    &sender_id_value=BulkGate
-    &country=gb
-    &schedule=2018-05-14T18:30:00-01:00
-```
-
-**Example of country request:**
-``` url
-https://portal.bulkgate.com/api/1.0/simple/promotional
-    ?application_id=<APPLICATION_ID>
-    &application_token=<APPLICATION_TOKEN>
-    &number=7811901234;447712345678
-    &text=test_sms
-    &country=gb
-```
-
-**Example of ISO 8601 request:**
-``` url
-https://portal.bulkgate.com/api/1.0/simple/promotional
-    ?application_id=<APPLICATION_ID>
-    &application_token=<APPLICATION_TOKEN>
-    &number=447700900000;447811901234
-    &text=test_sms
-    &schedule=2018-05-14T18:30:00-01:00
-```
-
-**Example of unix timestamp request:**
-``` url
-https://portal.bulkgate.com/api/1.0/simple/promotional
-    ?application_id=<APPLICATION_ID>
-    &application_token=<APPLICATION_TOKEN>
-    &number=447700900000;447811901234
-    &text=test_sms
-    &schedule=1526992636
-```
-
-## POST method - `application/x-www-form-urlencoded`
-
-**Full Example request:**
-``` http
-POST /api/1.0/simple/promotional HTTP/1.1
-Host: portal.bulkgate.com
-Content-Type: application/x-www-form-urlencoded
-Cache-Control: no-cache
-
-application_id=<APPLICATION_ID>&application_token=<APPLICATION_TOKEN>&number=447700900000;7811901234;447712345678&text=test_sms&unicode=yes&flash=no&sender_id=gText&sender_id_value=BulkGate&country=gb&schedule=2018-05-14T18:30:00-01:00
-```
-
-**Example of country request:**
-``` http
-POST /api/1.0/simple/promotional HTTP/1.1
-Host: portal.bulkgate.com
-Content-Type: application/x-www-form-urlencoded
-Cache-Control: no-cache
-
-application_id=<APPLICATION_ID>&application_token=<APPLICATION_TOKEN>&number=7811901234;447712345678&text=test_sms&country=gb
-```
-
-**Example of ISO 8601 request:**
-``` http
-POST /api/1.0/simple/promotional HTTP/1.1
-Host: portal.bulkgate.com
-Content-Type: application/x-www-form-urlencoded
-Cache-Control: no-cache
-
-application_id=<APPLICATION_ID>&application_token=<APPLICATION_TOKEN>&number=447700900000;447811901234&text=test_sms&schedule=2018-05-14T18:30:00-01:00
-```
-
-**Example of unix timestamp request:**
-``` http
-POST /api/1.0/simple/promotional HTTP/1.1
-Host: portal.bulkgate.com
-Content-Type: application/x-www-form-urlencoded
-Cache-Control: no-cache
-
-application_id=<APPLICATION_ID>&application_token=<APPLICATION_TOKEN>&number=447700900000;447811901234&text=test_sms&schedule=1526992636
-```
-
-## POST method - `application/json`
-
-**Full Example request:**
-``` http
-POST /api/1.0/simple/promotional HTTP/1.1
-Host: portal.bulkgate.com
-Content-Type: application/json
-Cache-Control: no-cache
-
-{
-    "application_id": "<APPLICATION_ID>",
-    "application_token": "<APPLICATION_TOKEN>",
-    "number": "447700900000;7811901234;447712345678",
-    "text": "test_sms",
-    "unicode": true,
-    "flash": false,
-    "sender_id": "gText",
-    "sender_id_value": "BulkGate",
-    "country": "gb",
-    "schedule": "2018-05-14T18:30:00-01:00"
-}
-```
-
-**Example of country request:**
-``` http
-POST /api/1.0/simple/promotional HTTP/1.1
-Host: portal.bulkgate.com
-Content-Type: application/json
-Cache-Control: no-cache
-
-{
-    "application_id": "<APPLICATION_ID>",
-    "application_token": "<APPLICATION_TOKEN>",
-    "number": "447700900000;7811901234;447712345678",
-    "text": "test_sms",
-    "country": "gb"
-}
-```
-
-**Example of ISO 8601 request:**
-``` http
-POST /api/1.0/simple/promotional HTTP/1.1
-Host: portal.bulkgate.com
-Content-Type: application/json
-Cache-Control: no-cache
-
-{
-    "application_id": "<APPLICATION_ID>",
-    "application_token": "<APPLICATION_TOKEN>",
-    "number": "447700900000;7811901234;447712345678",
-    "text": "test_sms",
-    "schedule": "2018-05-14T18:30:00-01:00"
-}
-```
-
-**Example of unix timestamp request:**
-``` http
-POST /api/1.0/simple/promotional HTTP/1.1
-Host: portal.bulkgate.com
-Content-Type: application/json
-Cache-Control: no-cache
-
-{
-    "application_id": "<APPLICATION_ID>",
-    "application_token": "<APPLICATION_TOKEN>",
-    "number": "447700900000;7811901234;447712345678",
-    "text": "test_sms",
-    "schedule": 1526992636
-}
-```
 
 ## Response to this command may be:
 
