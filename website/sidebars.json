@@ -105,9 +105,30 @@
       "admin-sms",
       "customer-sms"
       ]
-    
-  },
+      },
    
+      "http-simple-api-cat" : {
+    "HTTP Simple API": [
+      "http-simple-promotional.md"
+      ],
+     "Promotional SMS" : [
+       "http-simple-promotional.md"
+      ],
+     "Promotional SMS - Methods" : [
+       "http-simple-promotional-get",
+       "http-simple-promotional-post-form.md",
+       "http-simple-promotional-post-json.md"
+     ],
+     "Transactional SMS" : [
+       "http-simple-transactional.md"
+      ],
+    "Transactional SMS - Methods" : [
+       "http-simple-transactional-get",
+       "http-simple-transactional-post-form.md",
+       "http-simple-transactional-post-json.md"
+     ]
+      },
+         
    "http-low-level-api-cat" : {
     "HTTP low level API": [
       "http-low-level-api-description"
