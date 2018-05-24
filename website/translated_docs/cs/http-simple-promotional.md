@@ -9,7 +9,7 @@ Adresa URL používaná k odeslání požadavků HTTP: https://portal.bulkgate.c
 ### Podporované HTTP metody
 - [GET](http-simple-promotional-get.md#metoda-get)
 - [POST - application/x-www-form-urlencoded](http-simple-promotional-post-form.md#metoda-post---applicationx-www-form-urlencoded)
-- [POST - application/json](http-simple-transactional-post-json.md#metoda-post---applicationjson)
+- [POST - application/json](http-simple-promotional-post-json.md#method-post---applicationjson)
 
 ### Tabulka s parametry
 
