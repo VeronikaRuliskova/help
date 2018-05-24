@@ -10,9 +10,9 @@ https://portal.bulkgate.com/api/1.0/simple/transactional
 ```
 
 ### Podporované HTTP metody
-- [GET](get-http-simple-transactional.md#metoda-get)
-- [POST - application/x-www-form-urlencoded](post1-http-simple-transactional.md#metoda-post---applicationx-www-form-urlencoded)
-- [POST - application/json](post2-http-simple-transactional.md#metoda-post---applicationjson)
+- [GET](http-simple-transactional-get.md#metoda-get)
+- [POST - application/x-www-form-urlencoded](http-simple-transactional-post-form.md#metoda-post---applicationx-www-form-urlencoded)
+- [POST - application/json](http-simple-transactional-post-json.md#metoda-post---applicationjson)
 
 ## Tabulka s parametry
 
@@ -39,7 +39,6 @@ https://portal.bulkgate.com/api/1.0/simple/transactional
 | `<int>` |BulkGate Profil ID| 
 
 ## Odpověď na tento příkaz může být:
-
 
 **V případě úspěchu:**
 ``` json
