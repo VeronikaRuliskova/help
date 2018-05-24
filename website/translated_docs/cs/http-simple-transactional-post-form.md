@@ -1,5 +1,5 @@
 ---
-title: Metoda POST - application/x-www-form-urlencoded
+title: Metoda POST - formulář
 ---
 
 ## Metoda `POST` - `application/x-www-form-urlencoded`
