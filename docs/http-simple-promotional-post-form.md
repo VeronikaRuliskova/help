@@ -4,7 +4,7 @@ title: Post Method - form
 
 ## POST method - `application/x-www-form-urlencoded`
 
-**Full Example request:**
+**Example of full request:**
 ``` http
 POST /api/1.0/simple/promotional HTTP/1.1
 Host: portal.bulkgate.com
