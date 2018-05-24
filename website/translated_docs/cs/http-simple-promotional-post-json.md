@@ -1,5 +1,5 @@
 ---
-title: Metoda POS - json
+title: Metoda POST - json
 ---
 
 ## Metoda POST - `application/json`
