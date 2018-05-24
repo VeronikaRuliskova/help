@@ -2,7 +2,7 @@
 title: Metoda POST - formulář
 ---
 
-## Method POST - `application/x-www-form-urlencoded`
+## Metoda POST - `application/x-www-form-urlencoded`
 
 **Příklad úplného požadavku:**
 ``` http
