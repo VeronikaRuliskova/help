@@ -16,7 +16,7 @@ https://portal.bulkgate.com/api/1.0/simple/transactional
 
 ### Parameters table
 
-|Parameter name	|Value|	Mandatory| Default Value
+| PARAMETER NAME | VALUE | MANDATORY | DEFAULT VALUE |
 |:--- |:--- |:--- |:--- |
 |application_id|Application indentificator |**Yes**|-| 
 |application_token|Application authentication token	|**Yes**|-|
@@ -30,7 +30,7 @@ https://portal.bulkgate.com/api/1.0/simple/transactional
 
 ### Sender ID type `sender_id` 
 
-|Parameter name	| Default value|
+| PARAMETER NAME 	| DEFAULT VALUE |
 |:--- |:---|
 |`gSystem` |System number| 
 |`gShort` |Short Code| 
