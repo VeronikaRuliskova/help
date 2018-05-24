@@ -10,9 +10,9 @@ https://portal.bulkgate.com/api/1.0/simple/transactional
 ```
 
 ### Podporované HTTP metody
-- [GET](#metoda-get)
-- [POST - application/x-www-form-urlencoded](#metoda-post---applicationx-www-form-urlencoded)
-- [POST - application/json](#metoda-post---applicationjson)
+- [GET](get-http-simple-transactional.md#metoda-get)
+- [POST - application/x-www-form-urlencoded](post1-http-simple-transactional.md#metoda-post---applicationx-www-form-urlencoded)
+- [POST - application/json](post2-http-simple-transactional.md#metoda-post---applicationjson)
 
 ## Tabulka s parametry
 
@@ -37,93 +37,6 @@ https://portal.bulkgate.com/api/1.0/simple/transactional
 |`gText` |Textový odesílatel| 
 |`gOwn` |Vlastní číslo (vyžaduje ověření čísla)| 
 | `<int>` |BulkGate Profil ID| 
-
-## Metoda `GET`
-
-**Příklad úplného požadavku:**
-``` url
-https://portal.bulkgate.com/api/1.0/simple/transactional
-    ?application_id=<APPLICATION_ID>
-    &application_token=<APPLICATION_TOKEN>
-    &number=420777777777
-    &text=test_sms
-    &unicode=yes
-    &flash=no
-    &sender_id=gText
-    &sender_id_value=BulkGate
-    &country=cz
-```
-
-**Příklad požadavku s doplněním prefixu země:**
-``` url
-https://portal.bulkgate.com/api/1.0/simple/transactional
-    ?application_id=<APPLICATION_ID>
-    &application_token=<APPLICATION_TOKEN>
-    &number=7700900000
-    &text=test_sms
-    &country=cz
-```
-
-## Metoda `POST` - `application/x-www-form-urlencoded`
-
-**Příklad úplného požadavku:**
-``` http
-POST /api/1.0/simple/transactional HTTP/1.1
-Host: portal.bulkgate.com
-Content-Type: application/x-www-form-urlencoded
-Cache-Control: no-cache
-
-application_id=<APPLICATION_ID>&application_token=<APPLICATION_TOKEN>&number=420777777777&text=test_sms&unicode=yes&flash=no&sender_id=gText&sender_id_value=BulkGate&country=cz
-```
-
-**Příklad požadavku s doplněním prefixu země:**
-``` http
-POST /api/1.0/simple/transactional HTTP/1.1
-Host: portal.bulkgate.com
-Content-Type: application/x-www-form-urlencoded
-Cache-Control: no-cache
-
-application_id=<APPLICATION_ID>&application_token=<APPLICATION_TOKEN>&number=777777777&text=test_sms&country=cz
-```
-
-## Metoda `POST` - `application/json`
-
-**Příklad úplného požadavku:**
-``` http json
-POST /api/1.0/simple/transactional HTTP/1.1
-Host: portal.bulkgate.com
-Content-Type: application/json
-Cache-Control: no-cache
-
-{
-    "application_id": "<APPLICATION_ID>", 
-    "application_token": "<APPLICATION_TOKEN>", 
-    "number": "777777777", 
-    "text": "test_sms", 
-    "unicode": true,
-    "flash": false,
-    "sender_id": "gText",
-    "sender_id_value": "BulkGate",
-    "country": "cz"
-}
-
-```
-
-**Příklad požadavku s doplněním prefixu země:**
-``` http json
-POST /api/1.0/simple/transactional HTTP/1.1
-Host: portal.bulkgate.com
-Content-Type: application/json
-Cache-Control: no-cache
-
-{
-    "application_id": "<APPLICATION_ID>", 
-    "application_token": "<APPLICATION_TOKEN>", 
-    "number": "777777777", 
-    "text": "test_sms", 
-    "country": "cz"
-}
-```
 
 ## Odpověď na tento příkaz může být:
 
