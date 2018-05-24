@@ -108,9 +108,6 @@
       },
    
       "http-simple-api-cat" : {
-    "HTTP Simple API": [
-      "http-simple-promotional.md"
-      ],
      "Promotional SMS" : [
        "http-simple-promotional.md"
       ],
