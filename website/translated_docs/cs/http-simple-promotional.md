@@ -7,7 +7,7 @@ title: Info
 Adresa URL používaná k odeslání požadavků HTTP: https://portal.bulkgate.com/api/1.0/simple/promotional
 
 ### Podporované HTTP metody
-- [GET](http-simple-transactional-get.md#metoda-get)
+- [GET](http-simple-promotional-get.md#metoda-get)
 - [POST - application/x-www-form-urlencoded](http-simple-transactional-post-form.md#metoda-post---applicationx-www-form-urlencoded)
 - [POST - application/json](http-simple-transactional-post-json.md#metoda-post---applicationjson)
 
