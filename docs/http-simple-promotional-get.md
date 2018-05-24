@@ -4,7 +4,7 @@ title: Get Method
 
 ## GET method
 
-**Full Example request:**
+**Example of full request:**
 ``` url
 https://portal.bulkgate.com/api/1.0/simple/promotional
     ?application_id=<APPLICATION_ID>
