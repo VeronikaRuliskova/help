@@ -18,12 +18,13 @@ Pro aktivování nebo upravení šablony zprávy pro Admin SMS:
 ## Jak mohu přidat nebo aktivovat nového administrátora pro šablonu zprávy?
 Pro přidání nebo aktivování nového administrátora pro šablonu zprávy:
 1.	Jděte do Admin SMS
-2.	Vyberte, pro kkteru šablonu chcete přidat nebo aktivovat administrátora, a klikněte na ni
-3.	Klikněte na Správa administrátorů
-4.	Klikněte Přidat administrátora
-5.	Vyplňte formulář
-6.	Klikněte Uložit
-7.	Nový administrátor je nyní k dispozici pro všechny šablony
+2.	Klikněte na Správa administrátorů v pravém horním rohu
+3.	Klikněte Přidat administrátora
+4.	Vyplňte formulář
+5.	Klikněte Uložit
+6.	Nový administrátor je nyní k dispozici pro všechny šablony
+7.	Vyberte, pro kteru šablonu chcete aktivovat administrátora, a klikněte na ni
 8.	Pro aktivaci administrátora jednoduše klikněte na tlačítko vedle jména administrátora 
 9.	Ujistěte se, že je šablona zprávy aktivní, jinak ji aktivujte v pravém horním rohu
 10.	Klikněte Uložit
+
