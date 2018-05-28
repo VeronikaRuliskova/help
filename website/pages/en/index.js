@@ -21,6 +21,7 @@ const videosUrl = {
         sms_campaign : "https://www.youtube.com/playlist?list=PL3m8jKRwlM0sXKJPOldIENxGAUwBhsmvm&disable_polymer=true",
         business_page : "https://www.youtube.com/playlist?list=PL3m8jKRwlM0sBQBzufy3AIATr4YzVRnu3&disable_polymer=true",
         records : "https://www.youtube.com/playlist?list=PL3m8jKRwlM0tQpYeIqKONXSrdIqvkbPem&disable_polymer=true",
+        install_modules : "https://www.youtube.com/playlist?list=PL3m8jKRwlM0uoJEMsTvH3VixlK0jSbqmw&disable_polymer=true",
     },
     en : {
         all : "https://www.youtube.com/playlist?list=PL3m8jKRwlM0sJ_dUF9eRJh0F0lGjkH-7p&disable_polymer=true",
@@ -28,6 +29,7 @@ const videosUrl = {
         sms_campaign : "https://www.youtube.com/playlist?list=PL3m8jKRwlM0ugQ0LwprF68wLmVzdDLASZ&disable_polymer=true",
         business_page : "https://www.youtube.com/playlist?list=PL3m8jKRwlM0tnJNejvh-yoUnl5E084pNB&disable_polymer=true",
         records : "https://www.youtube.com/playlist?list=PL3m8jKRwlM0sQlppoGhclVv5VeLRiFaQH&disable_polymer=true",
+        install_modules : "https://www.youtube.com/playlist?list=PL3m8jKRwlM0u6EMb_bYunQuCpiQ_GkI7L&disable_polymer=true",
     }
 };
 
@@ -165,6 +167,24 @@ class HomeSplash extends React.Component {
                                     ico="price_list"
                                     text={<translate>Read how you can work with price list and its SMS price calculator.</translate>}
                                     btnText={<translate>Read topic</translate>}
+                                />
+                            </Col>
+                        </Flex>
+                    </Row>
+                    <h2>
+                        <translate>SMS Modules</translate>
+                    </h2>
+                    <Row>
+                        <Flex wrap horizontalItems="center">
+                            <Col s12 m4>
+                                <TopicCategory
+                                    name={<translate>SMS Modules</translate>}
+                                    url={docUrl("woosms-module-installation.html", language)}
+                                    videoUrl={videosUrl[language].install_modules}
+                                    ico="install_modules"
+                                    text={<translate>Read how to set up SMS modules</translate>}
+                                    btnText={<translate>Read topic</translate>}
+                                    watchBtnText={<translate>Videos</translate>}
                                 />
                             </Col>
                         </Flex>
