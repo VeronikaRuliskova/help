@@ -5,7 +5,7 @@ title: Instalace WooSMS modulu
 ## How can I install WooSMS module?
 ### 1. Nahrání pluginu
 Můžete:
- * Vyhledat **WooSMS – SMS Module for WooCommerce** ve vyhledávači dostupném na *Pluginy -> Přidat nové* a stiskněte tlačítko *Nainstalovat nyní*
+ * Vyhledat **WooSMS – SMS Modul pro WooCommerce** ve vyhledávači dostupném na *Pluginy -> Přidat nové* a stiskněte tlačítko *Nainstalovat nyní*
  * Nahrajte ` woocommerce-woosms` složku do `/wp-content/plugins/` adresáře přes FTP
  * Nahrajte ZIP soubor přes *Pluginy -> Přidat nové -> Nahrát* na vašem administračním panelu WordPress
 ### 2. Aktivace pluginu
