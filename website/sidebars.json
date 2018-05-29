@@ -101,7 +101,7 @@
     "Installation": [
       "woosms-module-installation"
       ],
-    "Admin & Customer SMS": [
+    "Admin & Customer Notification": [
       "admin-sms",
       "customer-sms"
       ],
