@@ -106,15 +106,9 @@
       "customer-sms"
       ],
     "Creating SMS Campaign": [
-      "creating-campaign"
-       ],
-    "Selecting Contacts": [
-      "contacts"
-       ],
-    "Typing Message": [
-      "message"
-       ],
-    "Campaign Review": [
+      "creating-campaign",
+      "contacts",
+      "message",
       "review"
        ],
     "Records & Statistics": [
