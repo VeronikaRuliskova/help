@@ -6,7 +6,7 @@ title: Message
 
 ## [Using message templates](message-template.md#how-can-i-use-a-message-text-template)
 
-## [Creating URL shortener](url-shortener.md#how-do-i-create-a-new-short-url)
+## [Creating short URL](url-shortener.md#how-do-i-create-a-new-short-url)
 
 ## [Using sender types](sender-type.md#what-is-a-sender-type-and-how-can-i-use-it)
 
