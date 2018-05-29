@@ -104,7 +104,28 @@
     "Admin & Customer SMS": [
       "admin-sms",
       "customer-sms"
-      ]
+      ],
+    "Creating SMS Campaign": [
+      "creating-campaign"
+       ],
+    "Selecting Contacts": [
+      "contacts"
+       ],
+    "Typing Message": [
+      "message"
+       ],
+    "Campaign Review": [
+      "review"
+       ],
+    "Records & Statistics": [
+      "records-statistics"
+       ],
+    "Payments & Billing": [
+      "top-up-and-billing"
+       ],
+    "Pricing": [
+      "price-list"
+       ]
       },
    
       "http-simple-api-cat" : {
