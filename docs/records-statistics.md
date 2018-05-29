@@ -1,11 +1,11 @@
 ---
-title: Campaigns, Statistics, History & Reports
+title: Campaigns, Statistics, History & Reporty
 ---
 
 ## [Campaigns](campaigns.md)
 
-## [Statistics](statistics.md#where-can-i-see-statistics)
+## [Statistics](statistics.html#kde-mohu-vidět-všechny-statistiky)
 
-## [History](history.md#where-can-i-see-my-messaging-history)
+## [History](history.html#kde-mohu-vidět-historii-mých-kampani)
 
-## [Reports](reports.md#what-are-reports)
+## [Reporty](reports.md)
