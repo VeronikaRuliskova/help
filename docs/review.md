@@ -1,5 +1,5 @@
 ---
-title: Review
+title: Přehled
 ---
 
-## [Testing campaign](testing-your-campaign.md#how-can-i-test-my-campaign-before-i-send-it-and-why-should-i-do-it)
+## [Přehled](testing-your-campaign.md#jak-můžu-otestovat-moji-kampaň-předtim-než-ji-odešlu-a-proč-bych-to-měl-a-udělat)
