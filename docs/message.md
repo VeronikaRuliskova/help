@@ -2,18 +2,18 @@
 title: Message
 ---
 
-## [Message personalization](message-personalization.html#how-can-i-personalize-my-campaign)
+## [Message personalization](message-personalization.md#how-can-i-personalize-my-campaign)
 
-## [Using message templates](message-template.html#how-can-i-use-a-message-text-template)
+## [Using message templates](message-template.md#how-can-i-use-a-message-text-template)
 
-## [Creating URL shortener](url-shortener.html#how-do-i-create-a-new-short-url)
+## [Creating URL shortener](url-shortener.md#how-do-i-create-a-new-short-url)
 
-## [Using sender types](sender-type.html#what-is-a-sender-type-and-how-can-i-use-it)
+## [Using sender types](sender-type.md#what-is-a-sender-type-and-how-can-i-use-it)
 
-## [Unicode](unicode.html#what-is-unicode)
+## [Unicode](unicode.md#what-is-unicode)
 
-## [Flash SMS](flash-sms.html#what-is-flash-sms)
+## [Flash SMS](flash-sms.md#what-is-flash-sms)
 
-## [Sending restrictions](sending-restrictions.html#what-are-sending-restrictions)
+## [Sending restrictions](sending-restrictions.md#what-are-sending-restrictions)
 
-## [Scheduling campaign](scheduling-campaign.html#how-to-schedule-my-campaign-and-set-a-correct-time-and-date)
+## [Scheduling campaign](scheduling-campaign.md#how-to-schedule-my-campaign-and-set-a-correct-time-and-date)
