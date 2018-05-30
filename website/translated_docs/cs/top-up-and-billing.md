@@ -1,5 +1,5 @@
 ---
-title: Dobití kreditu, Fakturační údaje a Faktury
+title: Top Up, Billing Information & Invoices
 ---
 
 ## [Dobití kreditu](purchasing-credit.md#what-are-credits-do-they-expire)
