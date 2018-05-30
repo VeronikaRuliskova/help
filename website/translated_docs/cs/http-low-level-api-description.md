@@ -1,5 +1,5 @@
 ---
-title: Popis rozhraní low level API
+title: Low Level API Descritpion
 ---
 
 ## Popis rozhraní low level API
