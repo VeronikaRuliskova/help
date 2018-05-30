@@ -1,5 +1,5 @@
 ---
-title: Vytváření kampaně
+title: Creating Campaign
 ---
 
 ## Jak vytvořím SMS kampaň?
