@@ -1,5 +1,5 @@
 ---
-title: Instalace WooSMS modulu
+title: WooSMS module installation
 ---
 
 ## Jak mohu nainstalovat WooSMS module?
