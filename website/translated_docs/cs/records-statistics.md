@@ -1,5 +1,5 @@
 ---
-title: Kampaně, Statistiky, Historie & Reporty
+title: Campaigns, Statistics, History & Reporty
 ---
 
 ## [Kampaně](campaigns.md)
