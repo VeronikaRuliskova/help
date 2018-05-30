@@ -1,5 +1,5 @@
 ---
-title: Info o HTTP požadavku
+title: HTTP request info
 ---
 
 ## Požadavek HTTP
