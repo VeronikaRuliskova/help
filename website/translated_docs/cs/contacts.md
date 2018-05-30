@@ -1,5 +1,5 @@
 ---
-title: Kontakty
+title: Contacts
 ---
 
 ## [Importování kontaktů do kampaně přes CSV/Excel](importing-contacts-to-campaign-via-csv-excel.md#jak-mohu-importovat-kontakty-do-kampaně-přes-csv-excel) metodu
