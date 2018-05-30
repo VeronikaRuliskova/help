@@ -1,5 +1,5 @@
 ---
-title: Zpráva
+title: Message
 ---
 
 ## [Personalizace zprávy](message-personalization.md#how-can-i-personalize-my-campaign)
