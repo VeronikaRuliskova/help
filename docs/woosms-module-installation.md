@@ -7,7 +7,7 @@ title: WooSMS module installation
 You can:
  * Search **WooSMS – SMS Module for WooCommerce** in the search engine available on *Plugins -> Add New* and press *Install Now* button
  * Upload the ` woocommerce-woosms` folder to `/wp-content/plugins/` directory via FTP
- * Upload the full ZIP file via *Plugins -> Add New -> Upload* on your WordPress Administration Panel
+ * Upload the full ZIP file via **WordPress Admin > Plugins > Add New** and **Upload Plugin** with the file you downloaded with **Choose File**
  
 ### 2. Plugin activation
  * Activate plugin through *Plugins* menu on WordPress Administration Panel
