@@ -123,7 +123,12 @@
         "adding-contacts": "Přidávání kontaktů",
         "Home": "Domů",
         "reports": "Záznamy",
-        "Working with groups": "Práce se skupinami"
+        "Working with groups": "Práce se skupinami",
+        "How can I register text sender ID": "Jak mohu registrovat Textového odesílatele?",
+        "faq-campaign": "Často kladené otázky",
+        "sms-not-delivered": "SMS nebyla doručena",
+        "difference-promotional-transactional-sms": "Jaký je rozdíl mezi propagační a transakční SMS?",
+        "installation-setting-problem": "Mám problém s instalací/nastavením, můžete mi prosím pomoct?"
     },
     "pages-strings": {
         "Bulk SMS gateway help center": "Centrum nápovědy pro BulkGate SMS bránu",
