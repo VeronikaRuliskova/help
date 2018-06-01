@@ -1,5 +1,5 @@
 ---
-title: What’s the difference between promotional and transactional SMS
+title: What’s the difference between promotional and transactional SMS?
 ---
 
 ## TRANSACTIONAL SMS 
