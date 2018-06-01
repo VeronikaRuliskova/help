@@ -3,21 +3,21 @@ title: How can I register text sender ID?
 ---
 
 ## Jak mohu registrovat Textového odesílatele?
-Můžete vybírat z různých [typů odesílatelů,](sender-type.md#co-je-typ-odesílatele-a-jak-ho-můžu-použít) když posíláte vaše [informační SMS notifications](https://www.bulkgate.com/en/solutions/sms/#sms-notification) (transactional SMS) and [bulk SMS](https://www.bulkgate.com/en/solutions/sms/#bulk-sms) (promotional SMS) messages. 
+Můžete vybírat z různých [typů odesílatelů,](sender-type.md#co-je-typ-odesílatele-a-jak-ho-můžu-použít) když posíláte vaše [informační SMS](https://www.bulkgate.com/cs/reseni/sms#informacni-sms) (transakční SMS) a [hromadné SMS](https://www.bulkgate.com/cs/reseni/sms/#hromadna-sms) (propagační SMS) zprávy. 
 
-### DYNAMIC Text Sender ID
-You can change text sender ID directly in the module. Either in the second step of [bulk SMS campaign](creating-sms-campaign.html#how-do-i-create-sms-campaign) or when you send individual SMS from your dashboard. 
+### DYNAMICKÝ textový odesílate
+Textového odesílatele můžete změnit přímo v [modulu](https://www.bulkgate.com/cs/sms-modul/) nebo na [Portálu.](https://www.bulkgate.com/cs/sms-portal-cs/) Buďto ve druhém kroku [SMS kampaně](creating-sms-campaign.md#jak-vytvořim-sms-kampaň) nebo když posíláte individuální zprávy přes nástěnku.
 
-In the SMS campaign:
-1.	Reach the second step of the campaign – Message
-2.	Select Text Sender ID in the right-upper corner
-3.	Enter name of the Text Sender ID
+V SMS kampani:
+1.	Dostaňte se do druhého kroku kampaně - Zpráva
+2.	Vyberte textového odesílatele v pravém horním rohu
+3.	Zadejte jméno textového odesílatele
 
-### Registration of Text Sender ID
-In some countries, some mobile carriers require registration of Text Sender ID (see the [price list;](https://www.bulkgate.com/en/sms-price/) red * symbol), and you therefore can’t use dynamic Text Sender ID unless you register it. 
+### Registrace textového odesílatele
+V některých zemích někteří mobilní operátoři vyžadují registraci textového odesílatele (podívejte se na [ceník;](https://www.bulkgate.com/cs/cena-sms/) symbol červená `*`), a vy tedy nemůžete použít dynamického textového odesílatele, pokud jej nezaregistrujete.
 
-To register your own Text Sender ID:
-1.	Contact us via [contact form](https://www.bulkgate.com/en/contact-us/)
-2.	Select recipient: Text Sender ID registration
-3.	In the text, include the country for which you want to register the Text Sender ID
+Pro registrování vašeho vlastního textového odesílatele:
+1.	Kontaktujte nás přes [kontaktní formulář](https://www.bulkgate.com/cs/kontakt/)
+2.	Vyberte příjemce: Registrace textového odesílatele
+3.	V textu zahrňte zemi, pro kterou chcete registrovat textového odesílatele
 
