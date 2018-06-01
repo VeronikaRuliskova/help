@@ -12,7 +12,7 @@ To import contacts to your address book via CSV/Excel:
 6.	Assign a country to your contacts. This will automatically add a prefix of the selected country to all recipients with numbers in national format only. All internationally formatted numbers (with prefix) stay untouched
 7.	Select if you want to skip or rewrite existing contacts
 8.	Click Upload
-9.	Assign a function to any column you want. Data from these columns can be used in <a href="message-personalization.md#how-can-i-personalize-my-campaign" target="_blank" title="message personalization">message personalization</a> or [offer personalization.](offer-personalization.md#how-can-i-personalize-an-offer) It is mandatory to select which of the column contains mobile phone numbers 
+9.	Assign a function to any column you want. Data from these columns can be used in [message personalization](message-personalization.md#how-can-i-personalize-my-campaign) or [offer personalization.](offer-personalization.md#how-can-i-personalize-an-offer) It is mandatory to select which of the column contains mobile phone numbers 
 10.	Click Save
 
 Read more if you have numbers in [national format only](assigning-country-to-contacts.md#i-have-my-contact-numbers-in-national-format-only), or [both national and international format.](assigning-country-to-contacts.md#i-have-my-contact-numbers-in-both-national-and-international-formats)
