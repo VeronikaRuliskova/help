@@ -2,7 +2,7 @@
 title: How can I register text sender ID?
 ---
 
-## How can I register text sender ID?
+## How can I register Text Sender ID?
 You can choose from different [sender types](sender-type.md#what-is-a-sender-type-and-how-can-i-use-it) when sending your [SMS notifications](https://www.bulkgate.com/en/solutions/sms/#sms-notification) (transactional SMS) and [bulk SMS](https://www.bulkgate.com/en/solutions/sms/#bulk-sms) (promotional SMS) messages. 
 
 ### DYNAMIC Text Sender ID
