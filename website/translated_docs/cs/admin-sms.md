@@ -2,7 +2,7 @@
 title: Admin SMS
 ---
 
-## Jak mohu aktivovat nebo upravit šablonu zprávy pro Admin SMS?
+## Jak mohu aktivovat nebo upravit šablonu zprávy pro [Admin SMS?](https://www.bulkgate.com/cs/sms-modul/#administratorske-informacni-sms)
 Pro aktivování nebo upravení šablony zprávy pro Admin SMS:
 1.	Jděte do Admin SMS
 2.	Vyberte, kterou šablonu chcete aktivovat nebo upravit, a klikněte na ni
