@@ -6,7 +6,7 @@ title: How can I register text sender ID?
 You can choose from different [sender types](sender-type.md#what-is-a-sender-type-and-how-can-i-use-it) when sending your [SMS notifications](https://www.bulkgate.com/en/solutions/sms/#sms-notification) (transactional SMS) and [bulk SMS](https://www.bulkgate.com/en/solutions/sms/#bulk-sms) (promotional SMS) messages. 
 
 ### DYNAMIC Text Sender ID
-You can change text sender ID directly in the module. Either in the second step of [bulk SMS campaign](creating-sms-campaign.html#how-do-i-create-sms-campaign) or when you send individual SMS from your dashboard. 
+You can change text sender ID directly in the module or in the [Portal.](https://www.bulkgate.com/en/sms-portal/) Either in the second step of [bulk SMS campaign](creating-sms-campaign.html#how-do-i-create-sms-campaign) or when you send individual SMS from your dashboard. 
 
 In the SMS campaign:
 1.	Reach the second step of the campaign – Message
