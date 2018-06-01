@@ -2,7 +2,7 @@
 title: Admin SMS
 ---
 
-## How can I activate or adjust Admin SMS message template?
+## How can I activate or adjust [Admin SMS](https://www.bulkgate.com/en/sms-module#admin-sms-notification) message template?
 To activate and adjust Admin SMS message template:
 1.	Go to Admin SMS
 2.	Select which template you want to activate and click on it
