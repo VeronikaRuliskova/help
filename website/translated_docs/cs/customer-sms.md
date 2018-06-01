@@ -2,7 +2,7 @@
 title: Customer SMS
 ---
 
-## Jak mohu aktivovat nebo upravit šablonu zprávy pro Zákaznické SMS?
+## Jak mohu aktivovat nebo upravit šablonu zprávy pro [Zákaznické SMS?](https://www.bulkgate.com/cs/sms-modul/#informacni-sms-zakaznikum)
 Pro aktivování nebo upravení šablony zprávy pro Zákaznické SMS:
 1.	Jděte do Zákaznické SMS
 2.	Vyberte, kterou šablonu chcete aktivovat nebo upravit, a klikněte na ni
