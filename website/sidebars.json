@@ -62,6 +62,9 @@
     ],
       "Review" : [
       "testing-your-campaign"
+    ],
+      "FAQ" :[
+      "faq-campaign"
     ]
   },
    
@@ -119,7 +122,13 @@
        ],
     "Pricing": [
       "price-list"
-       ]
+       ],
+    "FAQ": [
+      "text-sender-id-registration",
+      "sms-not-delivered",
+      "difference-promotional-transactional-sms",
+      "installation-setting-problem"
+      ]
       },
    
       "http-simple-api-cat" : {
