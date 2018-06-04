@@ -10,6 +10,8 @@ const siteConfig = {
     tagline: 'Bulk SMS gateway help center',
     url: 'https://help.bulkgate.com' /* your website url */,
     baseUrl: '/' /* base url for your project */,
+    gaTrackingId : "UA-113481971-3",
+    gaGtag : true,
     projectName: 'test-site',
     disableHeaderTitle : true,
     onPageNav: "separate",
