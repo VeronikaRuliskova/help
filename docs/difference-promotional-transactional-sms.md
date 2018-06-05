@@ -13,8 +13,3 @@ Promotional SMS is [Bulk SMS](https://www.bulkgate.com/en/solutions/sms/#bulk-sm
 It is used to promote or advertise your products, services, events and others. It contains sales and marketing information. 
 
 **Example:** YourGuitars: Hi Mark, get 30% discount on all our electric guitars now! Expires 08/01/2018. Click here: http://ur7.co/1G
-
-### Note for INDIA
-The DND is applicated on promotional SMS messages. They can be sent only from 9 AM to 9 PM and only to numbers which are not registered with the NDNC registry. The Sender ID is delivered with standard numeric Sender ID. 
-
-Transactional SMS messages are delivered immediately with your registered [Text Sender ID.](text-sender-id-registration.md#how-can-i-register-text-sender-id)
