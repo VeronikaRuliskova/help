@@ -9,3 +9,5 @@ title: FAQ
 ## [What’s the difference between promotional and transactional SMS?](difference-promotional-transactional-sms.md)
 
 ## [I have an installation/setting problem, can you please help me?](installation-setting-problem.md)
+
+## [DND](dnd.md)
