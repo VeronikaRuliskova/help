@@ -127,7 +127,8 @@
       "text-sender-id-registration",
       "sms-not-delivered",
       "difference-promotional-transactional-sms",
-      "installation-setting-problem"
+      "installation-setting-problem",
+      "dnd"
       ]
       },
    
