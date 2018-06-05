@@ -24,4 +24,4 @@ If your website is multilingual, you can activate and adjust SMS templates for t
 To adjust multilingual SMS templates:
 1. Go to Customer SMS
 2. In the left-upper corner, select other multilingual website for which you want to adjust and activate SMS template
-3. Activate and adjust Customer SMS message templates you want
+3. [Activate and adjust Customer SMS message template](customer-sms.md#how-can-i-activate-or-adjust-customer-sms-message-template) you want
