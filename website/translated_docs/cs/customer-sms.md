@@ -13,3 +13,15 @@ Pro aktivování nebo upravení šablony zprávy pro Zákaznické SMS:
 7.	Klikněte Uložit
 
 `Buďte si prosím vědomi, že v případě kdy máte nedostatek dat pro danou proměnnou hodnotu, příjemce obdrží Zákaznickou SMS bez dané proměnné.  Jinými slovy, pokud má vaše šablona pro Novou objednávku text zprávy “<shop_name>: Děkujeme vám za vaši objednávku, <customer_firstname>. Vaše objednávka…“, a vy pro zákazníka postrádáte křestní jméno, tak proměnná <customer_firstname> bude prázdná. Váš zákazník tedy obdrží zprávu “VaseKytary: Děkujeme vám za vaši objednávku, . Vaše objednávka…“`
+
+**`Podívejte se na video, jak` [aktivovat a upravit šablonu zákaznické SMS](https://www.youtube.com/watch?v=jNaAtsuYeAk)**
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/jNaAtsuYeAk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+## Jak mohu upravit vícejazyčné šablony SMS?
+Pokud je váš web vícejazyčný, můžete pro tyto jazyky aktivovat a upravovat šablony SMS. Vaši zákazníci proto mohou přijímat SMS oznámení v jejich rodném jazyce nebo v jazyce navštíveného webu.
+
+Nastavení vícejazyčných šablon zákaznických SMS:
+1.	Jděte do Zákaznické SMS
+2. V levém horním rohu vyberte jiný vícejazyčný web, pro který chcete upravit a aktivovat šablonu SMS
+3. [Aktivujte a upravte šablonu zákacnihké SMS]()
