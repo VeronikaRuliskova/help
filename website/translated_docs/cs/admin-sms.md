@@ -15,6 +15,10 @@ Pro aktivování nebo upravení šablony zprávy pro Admin SMS:
 
 `Buďte si prosím vědomi, že v případě kdy máte nedostatek dat pro danou proměnnou hodnotu, administrátor obdrží Admin SMS bez dané proměnné.  Jinými slovy, pokud má vaše šablona pro Novou objednávku text zprávy “<customer_firstname> objednal 1x Fender Stratocaster…“ a vy pro zákazníka postrádáte křestní jméno, tak proměnná <customer_firstname> bude prázdná. Vy, nebo jiný administrátor, tedy obdržíte zprávu “ objednal 1x Fender Stratocaster...“`
 
+**`Podívejte se na video, jak` [aktivovat a upravit šablonu admin SMS](https://youtu.be/I61hEyNwEz4)**
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/I61hEyNwEz4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 ## Jak mohu přidat nebo aktivovat nového administrátora pro šablonu zprávy?
 Pro přidání nebo aktivování nového administrátora pro šablonu zprávy:
 1.	Jděte do Admin SMS
@@ -28,3 +32,6 @@ Pro přidání nebo aktivování nového administrátora pro šablonu zprávy:
 9.	Ujistěte se, že je šablona zprávy aktivní, jinak ji aktivujte v pravém horním rohu
 10.	Klikněte Uložit
 
+**`Podívejte se na video, jak` [aktivovat přidat nového administrátora](https://youtu.be/FrG_sMdnVjw)**
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/FrG_sMdnVjw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
