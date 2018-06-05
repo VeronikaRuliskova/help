@@ -9,3 +9,5 @@ title: FAQ
 ## [Jaký je rozdíl mezi propagační a transakční SMS?](difference-promotional-transactional-sms.md)
 
 ## [Mám problém s instalací/nastavením, můžete mi prosím pomoct?](installation-setting-problem.md)
+
+## [DND](dnd.md)
