@@ -14,6 +14,8 @@ https://portal.bulkgate.com/api/1.0/simple/transactional
 - [POST - application/x-www-form-urlencoded](http-simple-transactional-post-form.md#metoda-post---applicationx-www-form-urlencoded)
 - [POST - application/json](http-simple-transactional-post-json.md#metoda-post---applicationjson)
 
+> Zneužití [transakční SMS](difference-promotional-transactional-sms.md#transakČnÍ-sms) pro propagační/marketingové účely je **přísně zakázáno!** Musí být použito pouze pro informační účely - jako informační SMS.
+
 ## Tabulka s parametry
 
 | NÁZEV PARAMETRU	| HODNOTA|	POVINNÝ| VÝCHOZÍ HODNOTA|
