@@ -4,6 +4,8 @@ title: Get Method
 
 ## `GET` method
 
+> It is **strictly prohibited** to exploit [transactional SMS](difference-promotional-transactional-sms.md#transactional-sms) for promotional/marketing uses. It must be used for notification purposes only - as an SMS notification.
+
 **Example of full request:**
 ``` url
 https://portal.bulkgate.com/api/1.0/simple/transactional
