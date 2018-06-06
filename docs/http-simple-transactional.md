@@ -14,6 +14,8 @@ https://portal.bulkgate.com/api/1.0/simple/transactional
 - [POST - application/x-www-form-urlencoded](http-simple-transactional-post-form.md#post-method---applicationx-www-form-urlencoded)
 - [POST - application/json](http-simple-transactional-post-json.md#post-method---applicationjson)
 
+> It is **strictly prohibited** to exploit [transactional SMS](difference-promotional-transactional-sms.md#transactional-sms) for promotional/marketing uses. It must be used for notification purposes only - as an SMS notification.
+
 ### Parameters table
 
 | PARAMETER NAME | VALUE | MANDATORY | DEFAULT VALUE |
