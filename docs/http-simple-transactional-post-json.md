@@ -4,6 +4,8 @@ title: Post Method - json
 
 ## `POST` method - `application/json`
 
+> It is **strictly prohibited** to exploit [transactional SMS](difference-promotional-transactional-sms.md#transactional-sms) for promotional/marketing uses. It must be used for notification purposes only - as an SMS notification.
+
 **Example of full request:**
 ``` http json
 POST /api/1.0/simple/transactional HTTP/1.1
