@@ -4,6 +4,8 @@ title: Metoda POST - json
 
 ## Metoda `POST` - `application/json`
 
+> Zneužití [transakční SMS](difference-promotional-transactional-sms.md#transakČnÍ-sms) pro propagační/marketingové účely je **přísně zakázáno!** Musí být použito pouze pro informační účely - jako informační SMS.
+
 **Příklad úplného požadavku:**
 ``` http json
 POST /api/1.0/simple/transactional HTTP/1.1
