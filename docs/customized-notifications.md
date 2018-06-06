@@ -9,7 +9,7 @@ As a developer, you can use custom hooks that enable you to send SMS notificatio
 
 **Example of customized hook:**
 
-``` url
+``` xml
 <?php
 
 // Wordpress + WooCommerce + WooSMS
