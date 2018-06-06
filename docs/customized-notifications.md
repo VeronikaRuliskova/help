@@ -25,7 +25,7 @@ do_action(
   array(                // Optional additional settings
     'unicode' => true,  // Unicode SMS
     'flash' => false,   // Flash SMS
-    'country' => 'gb'   // ISO Code 3166 to prefill default country prefix, if the phone number is in national format (UNITED KINGDOM in this case)
+    'country' => 'gb'   // [ISO Code 3166](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) to prefill default country prefix, if the phone number is in national format (UNITED KINGDOM in this case)
     'senderType' => 'gText' // Sender type (gSystem => System number, gShort => Short code, gText => Alfa sender, gOwn => Numeric sender)
     'senderValue' => 'BulkGate' // Sender value
   )
