@@ -8,6 +8,8 @@ It enables you to send timely alerts, updates and notifications to your customer
 
 **Example:** Dear customer, status of your order has changed to Payment accepted. Have a nice day! YourGuitars
 
+> It is **strictly prohibited** to exploit transactional SMS for promotional/marketing uses. It must be used for notification purposes only - as an SMS notification.
+
 ## PROMOTIONAL SMS 
 Promotional SMS is [Bulk SMS](https://www.bulkgate.com/en/solutions/sms/#bulk-sms) sent via [SMS campaign.](creating-sms-campaign.md#how-do-i-create-sms-campaign) 
 It is used to promote or advertise your products, services, events and others. It contains sales and marketing information. 
