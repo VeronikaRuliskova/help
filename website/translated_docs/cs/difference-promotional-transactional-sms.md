@@ -3,7 +3,7 @@ title: What’s the difference between promotional and transactional SMS?
 ---
 
 ## TRANSAKČNÍ SMS 
-Transakční SMS je [informační SMS](https://www.bulkgate.com/cs/reseni/sms#informacni-sms) odeslaná přes [Zákaznickou SMS](customer-sms.md) a [Admin SMS.](admin-sms.md) 
+Transakční SMS je [informační SMS](https://www.bulkgate.com/cs/reseni/sms#informacni-sms) odeslaná například přes [Zákaznickou SMS](customer-sms.md) a [Admin SMS.](admin-sms.md) 
 Umožňuje vám zasílat zákazníkům včasná upozornění, aktualizace a oznámení a přijímat oznámení o různých událostech ve vašem obchodě.
 
 **Příklad:** Drahý zákazníku, stav vaší objednávky se změnil na Platba přijata. Krásný den! VaseKytary
