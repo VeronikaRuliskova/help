@@ -8,6 +8,8 @@ Umožňuje vám zasílat zákazníkům včasná upozornění, aktualizace a ozn�
 
 **Příklad:** Drahý zákazníku, stav vaší objednávky se změnil na Platba přijata. Krásný den! VaseKytary
 
+> Zneužití transakční SMS pro propagační/marketingové účely je **přísně zakázáno!** Musí být použito pouze pro informační účely - jako informační SMS.
+
 ## PROPAGAČNÍ SMS 
 Propagační SMS je [hromadná SMS](https://www.bulkgate.com/cs/reseni/sms#hromadna-sms) odeslaná přes [SMS kampaň.](creating-sms-campaign.html#jak-vytvořim-sms-kampaň) 
 Používá se pro propagování vašich produktů, služev, událostí a dalších. Obsahuje prodejní a marketingové informace.
