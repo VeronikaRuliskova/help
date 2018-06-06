@@ -7,7 +7,9 @@ It allows to send a text short message to one recipient (one phone number).
 
 See the [table of parameters](#send-sms-notification-parameters) for this command.
 
-> It is strictly prohibited to exploit SMS notification for promotional/marketing uses.
+> It is strictly prohibited to exploit  for promotional/marketing uses.
+
+> It is **strictly prohibited** to exploit SMS notification for promotional/marketing uses. It must be used for notification purposes only - as a [transactional SMS.](difference-promotional-transactional-sms.md#transactional-sms)
 
 ## API URL
 https://api.bulkgate.com/http/
