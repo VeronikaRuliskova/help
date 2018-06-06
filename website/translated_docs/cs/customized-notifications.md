@@ -25,8 +25,8 @@ do_action(
   array(                // Další volitelné nastavení
     'unicode' => true,  // Unicode SMS
     'flash' => false,   // Flash SMS
-    'country' => 'gb'   // <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements" target="_blank">ISO kód 3166</a> pro vyplnění předvolby země, pokud je telefonní číslo v národním formátu
-    'senderType' => 'gText' // Sender type (gSystem => System number, gShort => Short code, gText => Alfa sender, gOwn => Numeric sender)
+    'country' => 'gb'   // ISO kód 3166 pro vyplnění předvolby země, pokud je telefonní číslo v národním formátu
+    'senderType' => 'gText' // Typ odesílatele (gSystem => Systémové číslo, gShort => Short code, gText => Alfa sender, gOwn => Numerický odesílatel)
     'senderValue' => 'BulkGate' // Sender value
   )
 );
