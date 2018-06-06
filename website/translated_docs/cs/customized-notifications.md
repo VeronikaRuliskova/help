@@ -9,7 +9,7 @@ Jako vývojář můžete používat vlastní háčky, které vám umožňují po
 
 **Příklad přizpůsobeného háčku:**
 
-``` url
+``` xml
 <?php
 
 // Wordpress + WooCommerce + WooSMS
