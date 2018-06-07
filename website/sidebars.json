@@ -137,7 +137,7 @@
    
       "http-simple-api-cat" : {
      "Promotional SMS" : [
-       "http-simple-promotional.md"
+       "http-simple-promotional"
       ],
      "Promotional SMS - Methods" : [
        "http-simple-promotional-get",
