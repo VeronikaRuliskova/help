@@ -197,7 +197,7 @@ class HomeSplash extends React.Component {
                             <Col s12 m4>
                                 <TopicCategory
                                     name={<translate>HTTP Simple API</translate>}
-                                    url={docUrl("http-simple-promotional.html", language)}
+                                    url={docUrl("http-simple-transactional.html", language)}
                                     ico="http"
                                     text={<translate>Read API documentation</translate>}
                                     btnText={<translate>Read topic</translate>}
