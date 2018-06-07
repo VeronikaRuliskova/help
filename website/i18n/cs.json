@@ -21,6 +21,7 @@
         "order-form": "Objednávkový formulář",
         "creating-campaign": "Vytváření kampaně",
         "http-low-level-api-send-bulk-sms-different-text": "Hromadná SMS - různý text",
+        "Customization (developers)": "Přízpůsobení (vývojáři)",
         "orders": "Objednávky",
         "http-low-level-api-request-info": "HTTP požadavek - info",
         "difference-promotional-transactional-sms": "Jaký je rozdíl mezi propagační a transakční SMS?",
@@ -98,6 +99,7 @@
         "Review": "Přehled",
         "deleting-groups": "Mazání skupin",
         "billing-information": "Fakturační údaje",
+        "dnd": "DND (Do Not Disturb)",
         "sending-restrictions": "Omezení odesílání SMS",
         "Installation": "Instalace",
         "HTTP low level API": "HTTP low level API",
@@ -107,6 +109,7 @@
         "creating-smart-sms-campaign": "Vytváření Smart SMS kampaně",
         "http-simple-promotional-post-form": "Post Method - form",
         "business-page": "Business stránka",
+        "customized-notifications": "Přizpůsobené oznámení",
         "http-simple-transactional-get": "Get Method",
         "flash-sms": "Flash SMS",
         "Offer": "Nabídka",
@@ -123,9 +126,7 @@
         "adding-contacts": "Přidávání kontaktů",
         "Home": "Domů",
         "reports": "Záznamy",
-        "Working with groups": "Práce se skupinami",
-        "customized-notifications": "Přizpůsobené oznámení",
-        "Customization (developers)": "Přízpůsobení (vývojáři)"
+        "Working with groups": "Práce se skupinami"
     },
     "pages-strings": {
         "Read how you can work with your business page.|no description given": "Přečtěte si, jak můžete pracovat s vaší business stránkou.",
@@ -152,6 +153,7 @@
         "What you are asking for?|no description given": "What you are asking for?",
         "Read how you can work with your contacts.|no description given": "Přečtěte si, jak můžete pracovat s vašimi kontakty.",
         "What You Are Asking For?|no description given": "What You Are Asking For?",
+        "HTTP Simple API|no description given": "HTTP Simple API",
         "Read how to set up SMS modules|no description given": "Přečtěte si, jak nastavit SMS moduly",
         "Read how you can work with price list and it's SMS price calculator.|no description given": "Přečtěte si, jak můžete pracovat s ceníkem a jeho SMS kalkulátorem.",
         "Example Link 2|no description given": "Example Link 2",
