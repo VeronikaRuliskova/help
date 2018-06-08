@@ -28,3 +28,5 @@ Nastavení vícejazyčných šablon zákaznických SMS:
 4. Jděte do Zákaznické SMS
 5. V levém horním rohu vyberte jiný vícejazyčný web, pro který chcete upravit a aktivovat šablonu SMS
 6. [Aktivujte a upravte šablonu zákacnihké SMS](customer-sms.md#jak-mohu-aktivovat-nebo-upravit-šablonu-zprávy-pro-zákaznické-sms)
+
+`Je třeba aktivovat konkrétní šablonu zprávy pro každou jednotlivou mutaci, jinak by někteří z vašich zákazníků neobdrželi SMS oznámení. Jinými slovy, řekněme, že máte českou a slovenskou mutaci. Pokud například aktivujete zákaznickou SMS šablonu "Stav - Completed" pro českou mutaci, ale ne pro slovenskou mutaci, tak ti zákazníci, kteří objednali váš produkt prostřednictvím slovenské mutace, neobdrží SMS oznámení.`
