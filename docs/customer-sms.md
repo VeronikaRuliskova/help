@@ -22,6 +22,9 @@ To activate and adjust Customer SMS message template:
 If your website is multilingual, you can activate and adjust SMS templates for those languages. Your customers can therefore receive SMS notifications in their native language, or the language of the visited website.
 
 To adjust multilingual SMS templates:
-1. Go to Customer SMS
-2. In the left-upper corner, select other multilingual website for which you want to adjust and activate SMS template
-3. [Activate and adjust Customer SMS message template](customer-sms.md#how-can-i-activate-or-adjust-customer-sms-message-template) you want
+1. Go to **Settings** 
+2. Click Lokalization
+3. Check "Enable language mutation for Customer SMS"
+4. Go to Customer SMS
+5. In the left-upper corner, select other multilingual website for which you want to adjust and activate SMS template
+6. [Activate and adjust Customer SMS message template](customer-sms.md#how-can-i-activate-or-adjust-customer-sms-message-template) you want
