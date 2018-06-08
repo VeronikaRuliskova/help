@@ -172,24 +172,6 @@ class HomeSplash extends React.Component {
                         </Flex>
                     </Row>
                     <h2>
-                        <translate>SMS Modules</translate>
-                    </h2>
-                    <Row>
-                        <Flex wrap horizontalItems="center">
-                            <Col s12 m4>
-                                <TopicCategory
-                                    name={<translate>SMS Modules</translate>}
-                                    url={docUrl("woosms-module-installation.html", language)}
-                                    videoUrl={videosUrl[language].install_modules}
-                                    ico="install_modules"
-                                    text={<translate>Read how to set up SMS modules</translate>}
-                                    btnText={<translate>Read topic</translate>}
-                                    watchBtnText={<translate>Videos</translate>}
-                                />
-                            </Col>
-                        </Flex>
-                    </Row>
-                    <h2>
                         <translate>APIs</translate>
                     </h2>
                     <Row>
@@ -210,6 +192,24 @@ class HomeSplash extends React.Component {
                                     ico="http"
                                     text={<translate>Read API documentation</translate>}
                                     btnText={<translate>Read topic</translate>}
+                                />
+                            </Col>
+                        </Flex>
+                    </Row>
+                    <h2>
+                        <translate>SMS Modules</translate>
+                    </h2>
+                    <Row>
+                        <Flex wrap horizontalItems="center">
+                            <Col s12 m4>
+                                <TopicCategory
+                                    name={<translate>SMS Modules</translate>}
+                                    url={docUrl("woosms-module-installation.html", language)}
+                                    videoUrl={videosUrl[language].install_modules}
+                                    ico="install_modules"
+                                    text={<translate>Read how to set up SMS modules</translate>}
+                                    btnText={<translate>Read topic</translate>}
+                                    watchBtnText={<translate>Videos</translate>}
                                 />
                             </Col>
                         </Flex>
