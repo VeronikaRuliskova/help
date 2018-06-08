@@ -24,7 +24,9 @@ If your website is multilingual, you can activate and adjust SMS templates for t
 To adjust multilingual SMS templates:
 1. Go to **Settings** 
 2. Click Lokalization
-3. Check "Enable language mutation for Customer SMS"
+3. Check "Enable language mutations for Customer SMS"
 4. Go to Customer SMS
 5. In the left-upper corner, select other multilingual website for which you want to adjust and activate SMS template
-6. [Activate and adjust Customer SMS message template](customer-sms.md#how-can-i-activate-or-adjust-customer-sms-message-template) you want
+6. [Activate and adjust Customer SMS message template](customer-sms.md#how-can-i-activate-or-adjust-customer-sms-message-template) you want. 
+
+`There is a need to activate the specific message template for every single mutation, otherwise, some of your customers would not receive the notification. In other words, let's say you have UK and french mutations. If you, for example, activate Customer SMS template "Status - Completed" for the UK mutation, but not for the french mutation, those customers that ordered your product through the french mutation won't receive SMS notification.`
