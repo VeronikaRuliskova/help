@@ -22,6 +22,9 @@ Pro aktivování nebo upravení šablony zprávy pro Zákaznické SMS:
 Pokud je váš web vícejazyčný, můžete pro tyto jazyky aktivovat a upravovat šablony SMS. Vaši zákazníci proto mohou přijímat SMS oznámení v jejich rodném jazyce nebo v jazyce navštíveného webu.
 
 Nastavení vícejazyčných šablon zákaznických SMS:
-1.	Jděte do Zákaznické SMS
-2. V levém horním rohu vyberte jiný vícejazyčný web, pro který chcete upravit a aktivovat šablonu SMS
-3. [Aktivujte a upravte šablonu zákacnihké SMS](customer-sms.md#jak-mohu-aktivovat-nebo-upravit-šablonu-zprávy-pro-zákaznické-sms)
+1. Jděte do **Nastavení** 
+2. Klikněte Lokalizace
+3. Zaškrtněte "Povolit jazykové mutace pro zákaznické SMS"
+4. Jděte do Zákaznické SMS
+5. V levém horním rohu vyberte jiný vícejazyčný web, pro který chcete upravit a aktivovat šablonu SMS
+6. [Aktivujte a upravte šablonu zákacnihké SMS](customer-sms.md#jak-mohu-aktivovat-nebo-upravit-šablonu-zprávy-pro-zákaznické-sms)
