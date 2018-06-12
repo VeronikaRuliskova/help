@@ -2,6 +2,15 @@
 title: Transaction SMS examples
 ---
 
+See examples of use for different programming languages:
+ - [PHP]()
+ - [PHP cURL]()
+ - [Go]()
+ - [Python]()
+ - [JavaScript]()
+ - [Java OkHttpClient]()
+ - [Bash cURL]()
+
 ## PHP
 - http://php.net/
 ``` php
