@@ -64,7 +64,6 @@ curl_setopt_array($curl, [
         'sender_id_value' => 'BulkGate'
     ]),
     CURLOPT_HTTPHEADER => [
-        'Cache-Control: no-cache',
         'Content-Type: application/json'
     ],
 ]);
@@ -105,7 +104,6 @@ func main() {
 	req, _ := http.NewRequest("POST", url, payload)
 
 	req.Header.Add("Content-Type", "application/json")
-	req.Header.Add("Cache-Control", "no-cache")
 
 	res, _ := http.DefaultClient.Do(req)
 
@@ -132,8 +130,7 @@ connection.request('POST', '/api/1.0/simple/transactional', json.dumps({
     'sender_id_value': 'BulkGate'
 }
 ), {
-    'Content-type': 'application/json',
-    'Cache-Control': "no-cache"
+    'Content-type': 'application/json'
 })
 
 response = connection.getresponse()
@@ -154,7 +151,6 @@ var data = JSON.stringify({
 });
 
 var xhr = new XMLHttpRequest();
-xhr.withCredentials = true;
 
 xhr.addEventListener("readystatechange", function () {
   if (this.readyState === 4) {
@@ -164,7 +160,6 @@ xhr.addEventListener("readystatechange", function () {
 
 xhr.open("POST", "https://portal.bulkgate.com/api/1.0/simple/transactional");
 xhr.setRequestHeader("Content-Type", "application/json");
-xhr.setRequestHeader("Cache-Control", "no-cache");
 
 xhr.send(data);
 ```
@@ -180,7 +175,6 @@ Request request = new Request.Builder()
   .url("https://portal.bulkgate.com/api/1.0/simple/transactional")
   .post(body)
   .addHeader("Content-Type", "application/json")
-  .addHeader("Cache-Control", "no-cache")
   .build();
 
 Response response = client.newCall(request).execute();
@@ -191,7 +185,6 @@ https://curl.haxx.se/
 ``` bash
 curl --request POST \
   --url https://portal.bulkgate.com/api/1.0/simple/transactional \
-  --header 'Cache-Control: no-cache' \
   --header 'Content-Type: application/json' \
   --data '{"application_id": "<APPLICATION_ID>", "application_token": "<APPLICATION_TOKEN>", "number": "420777777777", "text": "Message", "sender_id": "gText", "sender_id_value": "BulkGate"}'
 ```
