@@ -119,7 +119,6 @@ payload = "{\"application_id\": \"<APPLICATION_ID>\", \"application_token\": \"<
 headers = {
     'Content-Type': "application/json",
     'Cache-Control': "no-cache",
-    'Postman-Token': "68d3a2b9-eaf3-8562-88fd-f473a6309b46"
     }
 
 conn.request("POST", "api,1.0,simple,transactional", payload, headers)
