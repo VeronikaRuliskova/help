@@ -7,8 +7,6 @@ It allows to send a text short message to one recipient (one phone number).
 
 See the [table of parameters](#send-sms-notification-parameters) for this command.
 
-> It is strictly prohibited to exploit  for promotional/marketing uses.
-
 > It is **strictly prohibited** to exploit SMS notification for promotional/marketing uses. It must be used for notification purposes only - as a [transactional SMS.](difference-promotional-transactional-sms.md#transactional-sms)
 
 ## API URL
@@ -27,7 +25,7 @@ https://api.bulkgate.com/http/
 |data|Text of SMS message (max. 612 characters, or 268 characters if Unicode is used), UTF-8 enconding	|Yes|	No|
 |unicode|“1” for Unicode SMS	|No|	No|
 |flash|“1” for flash SMS|	No|	No|
-|sender|	Sender of SMS (number in international format, no leading zeros or a “+” sign, e.g. 447971796595 or text max. 11 characters, e.g. “eshop.com”)	|No	|No|
+|sender|	Sender of SMS (number in international format, no leading zeros or a “+” sign, e.g. `447971796595` or text max. 11 characters, e.g. “`eshop.com`”). **`"isms" parameter`** is mandatory for using text sender ID. To choose the right "isms" parameter, log in to the Portal and display the price list. "isms" parameter value is displayed if you hover over the wrench icon for developers	|No	|No|
 |isms|SMS gateway (default 0, value 0 – 4) – login to the BulkGate Portal and see this parameter in the pricelist	|No	|No|
 |AppID|	e.g.: 123123, it allows to use one account for more applications, to receive delivery confirmations to different  DELIVERY_URL or DELIVERY_EMAIL addresses|	No	|No|
 |show_json|“1” for response in json format|	No|	No|
@@ -35,9 +33,9 @@ https://api.bulkgate.com/http/
 |sortkey|	Text key for sorting SMS history and SMS replies|	No|	No|
 
 
-**Example request:**
+**Example request for sending SMS with [Text sender ID](sender-type.md):**
 ``` url
-action=sendsms&username=testuser&password=test123&number=420606123456&data=Hello
+action=sendsms&username=testuser&password=test123&number=420606123456&data=Hello&sender=testSender&isms=2
 ```
 
 Response to this command may be:
