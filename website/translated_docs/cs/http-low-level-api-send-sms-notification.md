@@ -20,20 +20,20 @@ https://api.bulkgate.com/http/
 |action|	“sendsms”|	Ano	|Ne|
 |username|	Uživatelské jméno peněženky (po přihlášení si zkontrolujte přihlašovací údaje vaší peněženky)	|Ano	|Ne|
 |password|	Heslo peněženky (po přihlášení si zkontrolujte přihlašovací údaje vaší peněženky)|	Ano	|Ne|
-|number|Číslo příjemce v mezinárodním formátu, žádná nula v popředí nebo znaménko “+”, například 420772423914	|Ano	|Ne|
+|number|Číslo příjemce v mezinárodním formátu, žádná nula v popředí nebo znaménko “+”, například `420772423914`	|Ano	|Ne|
 |data|	Text SMS zprávy (max. 612 znaků, nebo 268 znaků, jestliže je aktivován Unicode), UTF-8 kódování	|Ano	|Ne|
 |unicode|	“1” pro SMS Unicode|	Ne|	Ne|
 |flash|	“1” pro Flash SMS|	Ne|	Ne|
-|sender|	Odesílatel SMS (číslo v mezinárodním formátu, žádná nula v popředí nebo znaménko “+”, například 420772423914, nebo text s max. počtem 11 znaků, například “eshop.cz”)|	Ne	|Ne|
+|sender|	Odesílatel SMS (číslo v mezinárodním formátu, žádná nula v popředí nebo znaménko “+”, například `420772423914`, nebo text s max. počtem 11 znaků, například “`eshop.cz`”). **`"isms" parametr`** je povinný pro používání textového odesílatele. Pro vybrání správného "isms" parametru se přihlašte do Portálu a zobrazte si ceník. Hodnota "isms" parametr se zobrazí, když najedete na ikonku klíče pro vývojaře|	Ne	|Ne|
 |isms|SMS brána (výchozí 0, hodnota 0 – 4) – přihlaste se na BulkGate Portál a podívejte se na tento parametr v ceníku |	Ne|	Ne|
 |AppID|například: 123123, umožňuje použít více účtů pro více aplikací, přijímat potvrzení o doručení na různé adresy DELIVERY_URL nebo DELIVERY_EMAIL|	Ne|	Ne|
 |show_json|	“1” pro odpověď ve formátu json	|Ne	|Ne|
 |coding|Jestli “data” není v UTF-8, například.: ISO-8859-1	|Ne	|Ne|
 |sortkey|	Textové tlačítko pro třídění historie SMS a SMS odpovědí	|Ne	|Ne|
 
-**Příklad požadavku:**
+**Příklad požadavku pro odesílání SMS s [textovým odesílatelem](sender-type.md):**
 ``` url
-action=sendsms&username=testuser&password=test123&number=420606123456&data=Ahoj
+action=sendsms&username=testuser&password=test123&number=420606123456&data=Ahoj&sender=testSender&isms=2
 ```
 
 Reakce na tento příkaz může být:
