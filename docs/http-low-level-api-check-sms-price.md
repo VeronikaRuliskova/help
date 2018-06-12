@@ -8,7 +8,9 @@ It allows to check price for each country and operator via HTTP request.
 See the [table of parameters](#check-sms-price-parameters) for this command.
 
 ## API URL
+``` url
 https://api.bulkgate.com/http/
+```
 
 ### Check SMS Price: Parameters
 
