@@ -2,14 +2,14 @@
 title: Transaction SMS examples
 ---
 
-See examples of use for different programming languages:
- - [PHP]()
- - [PHP cURL]()
- - [Go]()
- - [Python]()
- - [JavaScript]()
- - [Java OkHttpClient]()
- - [Bash cURL]()
+Below are examples of using the Simple API to send transactional SMS messages with a text sender ID in different programming languages: 
+ - [PHP](#php)
+ - [PHP cURL](#php-curl)
+ - [Go](#go)
+ - [Python](#python)
+ - [JavaScript](#javascript)
+ - [Java OkHttpClient](#java-okhttpclient)
+ - [Bash cURL](#bash-curl)
 
 ## PHP
 - http://php.net/
