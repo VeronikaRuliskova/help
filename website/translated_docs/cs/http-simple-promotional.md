@@ -4,7 +4,10 @@ title: Info
 
 
 ## API URL
-Adresa URL používaná k odeslání požadavků HTTP: https://portal.bulkgate.com/api/1.0/simple/promotional
+Adresa URL používaná k odeslání požadavků HTTP: 
+``` url
+https://portal.bulkgate.com/api/1.0/simple/promotional
+```
 
 ### Podporované HTTP metody
 - [GET](http-simple-promotional-get.md#metoda-get)
@@ -19,21 +22,21 @@ Adresa URL používaná k odeslání požadavků HTTP: https://portal.bulkgate.c
 |application_token| Aplikační ověřovací token	|**Ano**|-|
 |number| Číslo příjemce	|**Ano**|-|
 |text| Text SMS zprávy (max. 612 znaků, nebo 268 znaků, jestliže je aktivován Unicode), UTF-8 kódování	|**Ano**|-|
-|unicode	|Yes/true/1 pro Unicode SMS, no/false/0 pro 7bit SMS|Ne|false|
-|flash| Yes/true/1 pro Flash SMS| Ne |false|
-|sender_id|ID odesílatele, viz [typ ID odesílatele](#typ-id-odesilatele-sender_id)| Ne |gSystem|
-|sender_id_value| Hodnota odesílatele Own nebo gText| Ne |null|
-|country| Poskytněte čísla příjemců v mezinárodním formátu (s prefixem, např. 420), nebo přidejte [kód země](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) (775123456 + CZ = 420775123456). Podívejte se na příklad požadavku země. Pokud je hodnota **`null,`** poté se použije vaše nastavená časová zóna pro doplnění informace | Ne |null|
+|unicode	|`Yes`/`true`/`1` pro Unicode SMS, no/false/0 pro 7bit SMS|Ne|`false`|
+|flash| `Yes`/`true`/`1` pro Flash SMS| Ne |`false`|
+|sender_id|ID odesílatele, viz [typ ID odesílatele](#typ-id-odesilatele-sender_id)| Ne |`gSystem`|
+|sender_id_value| Hodnota odesílatele `gOwn` nebo `gText`| Ne |`null`|
+|country| Poskytněte čísla příjemců v mezinárodním formátu (s prefixem, např. `420`), nebo přidejte [kód země](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) (`775123456` + `CZ` = `420775123456`). Podívejte se na příklad požadavku země. Pokud je hodnota **`null,`** poté se použije vaše nastavená časová zóna pro doplnění informace | Ne |`null`|
 |schedule| Naplánujte čas a datum odesílání v [unix timestamp,](https://en.wikipedia.org/wiki/Unix_time) nebo [ISO 8601.](https://en.wikipedia.org/wiki/ISO_8601) Podívejte se na níže uvedené příklady | Ne |Nyní|
 
 ### Typ ID odesílatele `sender_id` 
 
 | NÁZEV PARAMETRU| VÝCHOZÍ HODNOTA
 |:--- |:---|
-|gSystem |Systémové číslo| 
-|gShort |Short Code| 
-|gText |Textový odesílatel| 
-|gOwn |Vlastní číslo (vyžaduje ověření čísla)| 
+|`gSystem` |Systémové číslo| 
+|`gShort`|Short Code| 
+|`gText` |Textový odesílatel| 
+|`gOwn` |Vlastní číslo (vyžaduje ověření čísla)| 
 | `<int>` |BulkGate Profil ID| 
 
 
