@@ -28,7 +28,7 @@ https://portal.bulkgate.com/api/1.0/simple/transactional
 |flash| `Yes`/`true`/`1` for flash SMS|No|`false`|
 |sender_id|Sender ID, viz [sender ID type](#sender-id-type-sender_id)|No|`gSystem`|
 |sender_id_value|Sender value of `gOwn` or `gText`|No|`null`|
-|country|Provide the recipients' numbers in an international format (with prefix, e.g. 44) or add the [country code in ISO 3166-1 alpha-2 format](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) (`7820125799` + `GB` = `447820125799`). See the country example request. If **`null,`** your set timezone will be used to fill the information|No|`null`|
+|country|Provide the recipients' numbers in an international format (with prefix, e.g. `44`) or add the [country code in ISO 3166-1 alpha-2 format](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) (`7820125799` + `GB` = `447820125799`). See the country example request. If **`null,`** your set timezone will be used to fill the information|No|`null`|
 
 ### Sender ID type `sender_id` 
 
