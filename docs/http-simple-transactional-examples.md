@@ -12,7 +12,7 @@ Below are examples of using the Simple API to send transactional SMS messages wi
  - [Bash cURL](#bash-curl)
 
 ## PHP
-- http://php.net/
+http://php.net/
 ``` php
 $connection = fopen('https://portal.bulkgate.com/api/1.0/simple/transactional', 'r', false,
     stream_context_create(['http' => [
@@ -44,7 +44,7 @@ if($connection)
 ```
 
 ## PHP cURL 
-- http://php.net/manual/en/book.curl.php
+http://php.net/manual/en/book.curl.php
 ``` php
 $curl = curl_init();
 
@@ -85,7 +85,7 @@ curl_close($curl);
 ```
 
 ## Go
-- https://golang.org/
+https://golang.org/
 ``` golang
 package main
 
@@ -117,7 +117,7 @@ func main() {
 ```
 
 ## Python
-- https://www.python.org/
+https://www.python.org/
 ``` Python
 import http.client, json
 
@@ -142,7 +142,7 @@ print(response.read().decode())
 ```
 
 ## JavaScript
-- https://developer.mozilla.org/en-US/docs/Web/JavaScript
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
 ``` JavaScript
 var data = JSON.stringify({
   "application_id": "<APPLICATION_ID>",
@@ -170,7 +170,7 @@ xhr.send(data);
 ```
 
 ## Java OkHttpClient
-- http://square.github.io/okhttp/
+http://square.github.io/okhttp/
 ``` Java
 OkHttpClient client = new OkHttpClient();
 
@@ -187,7 +187,7 @@ Response response = client.newCall(request).execute();
 ```
 
 ## Bash cURL
-- https://curl.haxx.se/
+https://curl.haxx.se/
 ``` bash
 curl --request POST \
   --url https://portal.bulkgate.com/api/1.0/simple/transactional \
