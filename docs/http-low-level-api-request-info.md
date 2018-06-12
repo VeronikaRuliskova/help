@@ -6,7 +6,9 @@ title: HTTP request info
 Each HTTP GET/POST request that is sent corresponds with a command of the API. The body of each HTTP request is composed of a list of pairs [name,value], according to the standard application/x-www-form-encoded. Each pair represents a parameter of the command. Each command has a different set of parameters, as it will be described below. All of them share the first parameter, named “action”, referring to the type of command which is being used.
 
 ## API URL
+``` url
 https://api.bulkgate.com/http/
+```
 
 ## Character encoding
 The parameters that are sent in the body of the HTTP GET/POST request must be codified with the “UTF-8” charset.
