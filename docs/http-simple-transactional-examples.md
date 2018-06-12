@@ -1,5 +1,8 @@
-PHP
-==========
+---
+title: Transaction SMS examples
+---
+
+## PHP
 - http://php.net/
 ``` php
 $connection = fopen('https://portal.bulkgate.com/api/1.0/simple/transactional', 'r', false,
@@ -31,8 +34,7 @@ if($connection)
 }
 ```
 
-PHP cURL
-======== 
+## PHP cURL 
 - http://php.net/manual/en/book.curl.php
 ``` php
 $curl = curl_init();
@@ -73,8 +75,7 @@ else
 curl_close($curl);
 ```
 
-Go
-===
+## Go
 - https://golang.org/
 ``` golang
 package main
@@ -106,8 +107,7 @@ func main() {
 }
 ```
 
-Python
-======
+## Python
 - https://www.python.org/
 ``` Python
 import http.client
@@ -129,8 +129,7 @@ data = res.read()
 print(data.decode("utf-8"))
 ```
 
-JavaScript
-==========
+## JavaScript
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript
 ``` JavaScript
 var data = JSON.stringify({
@@ -158,8 +157,7 @@ xhr.setRequestHeader("Cache-Control", "no-cache");
 xhr.send(data);
 ```
 
-Java OkHttpClient
-================
+## Java OkHttpClient
 - http://square.github.io/okhttp/
 ``` Java
 OkHttpClient client = new OkHttpClient();
@@ -176,8 +174,7 @@ Request request = new Request.Builder()
 Response response = client.newCall(request).execute();
 ```
 
-Bash cURL
-========= 
+## Bash cURL
 - https://curl.haxx.se/
 ``` bash
 curl --request POST \
