@@ -151,7 +151,10 @@
        "http-simple-transactional-get",
        "http-simple-transactional-post-form",
        "http-simple-transactional-post-json"
-     ]
+     ],
+         "Api Administration" : [
+         "api-administration"
+         ]
       },
    
      "http-simple-api-cat" : {
