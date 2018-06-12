@@ -8,7 +8,9 @@ It allows to send a short text message with different texts to one or more recip
 See the [table of parameters](#send-bulk-sms-with-different-text-parameters) for this command.
 
 ## API URL
+``` url
 https://api.bulkgate.com/http/
+```
 
 ### Send Bulk SMS with Different Text: Parameters
 
