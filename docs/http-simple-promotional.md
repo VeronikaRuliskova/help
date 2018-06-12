@@ -23,7 +23,7 @@ https://portal.bulkgate.com/api/1.0/simple/promotional
 |number|Recipient number 	|**Yes**|-|
 |text|Text of SMS message (max. 612 characters, or 268 characters if Unicode is used), UTF-8 enconding	|**Yes**|-|
 |unicode	|`Yes`/`true`/`1` for Unicode SMS, `no`/`false`/`0` for 7bit SMS|No|`false`|
-|flash| Yes/true/1 for flash SMS|No|`false`|
+|flash| `Yes`/`true`/`1` for flash SMS|No|`false`|
 |sender_id|Sender ID, viz [sender ID type](#sender-id-type-sender_id)|No|`gSystem`|
 |sender_id_value|Sender value of gOwn or gText|No|`null`|
 |country|Provide the recipients' numbers in an international format (with prefix, e.g. `44`) or add the [country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) (`7820125799` + `GB` = `447820125799`). See the country example request. If **`null,`** your set timezone will be used to fill the information|No|`null`|
