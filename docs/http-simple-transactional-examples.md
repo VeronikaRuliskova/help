@@ -23,7 +23,7 @@ $connection = fopen('https://portal.bulkgate.com/api/1.0/simple/transactional', 
         'content' => json_encode([
             'application_id' => '<APPLICATION_ID>',
             'application_token' => '<APPLICATION_TOKEN>',
-            'number' => '420777777777',
+            'number' => '447820125799',
             'text' => 'Message text 1',
             'sender_id' => 'gText',
             'sender_id_value' => 'BulkGate'
@@ -58,7 +58,7 @@ curl_setopt_array($curl, [
     CURLOPT_POSTFIELDS => json_encode([
         'application_id' => '<APPLICATION_ID>',
         'application_token' => '<APPLICATION_TOKEN>',
-        'number' => '420777777777',
+        'number' => '447820125799',
         'text' => 'Message text',
         'sender_id' => 'gText',
         'sender_id_value' => 'BulkGate'
@@ -99,7 +99,7 @@ func main() {
 
 	url := "https://portal.bulkgate.com/api/1.0/simple/transactional"
 
-	payload := strings.NewReader("{\"application_id\": \"<APPLICATION_ID>\", \"application_token\": \"<APPLICATION_TOKEN>\", \"number\": \"420777777777\", \"text\": \"Message\", \"sender_id\": \"gText\", \"sender_id_value\": \"BulkGate\"}")
+	payload := strings.NewReader("{\"application_id\": \"<APPLICATION_ID>\", \"application_token\": \"<APPLICATION_TOKEN>\", \"number\": \"447820125799\", \"text\": \"Message\", \"sender_id\": \"gText\", \"sender_id_value\": \"BulkGate\"}")
 
 	req, _ := http.NewRequest("POST", url, payload)
 
@@ -124,7 +124,7 @@ connection = http.client.HTTPSConnection('portal.bulkgate.com')
 connection.request('POST', '/api/1.0/simple/transactional', json.dumps({
     'application_id': '<APPLICATION_ID>',
     'application_token': '<APPLICATION_TOKEN>',
-    'number': '420777777777',
+    'number': '447820125799',
     'text': 'Message',
     'sender_id': 'gText',
     'sender_id_value': 'BulkGate'
@@ -144,7 +144,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript
 var data = JSON.stringify({
   "application_id": "<APPLICATION_ID>",
   "application_token": "<APPLICATION_TOKEN>",
-  "number": "420777777777",
+  "number": "447820125799",
   "text": "Message",
   "sender_id": "gText",
   "sender_id_value": "BulkGate"
@@ -170,7 +170,7 @@ http://square.github.io/okhttp/
 OkHttpClient client = new OkHttpClient();
 
 MediaType mediaType = MediaType.parse("application/json");
-RequestBody body = RequestBody.create(mediaType, "{\"application_id\": \"<APPLICATION_ID>\", \"application_token\": \"<APPLICATION_TOKEN>\", \"number\": \"420777777777\", \"text\": \"Message\", \"sender_id\": \"gText\", \"sender_id_value\": \"BulkGate\"}");
+RequestBody body = RequestBody.create(mediaType, "{\"application_id\": \"<APPLICATION_ID>\", \"application_token\": \"<APPLICATION_TOKEN>\", \"number\": \"447820125799\", \"text\": \"Message\", \"sender_id\": \"gText\", \"sender_id_value\": \"BulkGate\"}");
 Request request = new Request.Builder()
   .url("https://portal.bulkgate.com/api/1.0/simple/transactional")
   .post(body)
