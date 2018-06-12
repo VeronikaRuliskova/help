@@ -119,23 +119,26 @@ func main() {
 ## Python
 - https://www.python.org/
 ``` Python
-import http.client
+import http.client, json
 
-conn = http.client.HTTPConnection("portal,bulkgate,com")
+conn = http.client.HTTPSConnection('portal.bulkgate.com')
 
-payload = "{\"application_id\": \"<APPLICATION_ID>\", \"application_token\": \"<APPLICATION_TOKEN>\", \"number\": \"420777777777\", \"text\": \"Message\", \"sender_id\": \"gText\", \"sender_id_value\": \"BulkGate\"}"
+conn.request('POST', '/api/1.0/simple/transactional', json.dumps({
+    'application_id': '<APPLICATION_ID>',
+    'application_token': '<APPLICATION_TOKEN>',
+    'number': '420777777777',
+    'text': 'Message',
+    'sender_id': 'gText',
+    'sender_id_value': 'BulkGate'
+}
+), {
+    'Content-type': 'application/json',
+    'Cache-Control': "no-cache"
+})
 
-headers = {
-    'Content-Type': "application/json",
-    'Cache-Control': "no-cache",
-    }
+response = conn.getresponse()
 
-conn.request("POST", "api,1.0,simple,transactional", payload, headers)
-
-res = conn.getresponse()
-data = res.read()
-
-print(data.decode("utf-8"))
+print(response.read().decode())
 ```
 
 ## JavaScript
