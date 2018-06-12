@@ -151,6 +151,9 @@
          "API Administration" : [
          "api-administration"
          ]
+        "Examples of use" : [
+        "http-simple-transactional-examples"
+         ]
     },
    
    "http-low-level-api-cat" : {
