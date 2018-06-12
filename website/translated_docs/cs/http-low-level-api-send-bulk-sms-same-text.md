@@ -8,7 +8,9 @@ Umožňuje poslat SMS zprávu se stejným textem jednomu nebo více příjemcům
 Podívejte se na [tabulku parametrů](#odeslání-hromadné-sms-se-stejným-textem-parametry) pro tento příkaz. Pro odeslání zprávy několika příjemcům, zadejte hodnotu parametru “number” s telefonními čísly oddělenými středníkem. Maximální počet příjemců pro každou žádost je neomezený.
 
 ## API URL
+``` url
 https://api.bulkgate.com/http/
+```
 
 ### Odeslání hromadné SMS se stejným textem: parametry
 |NÁZEV PARAMETRU|	HODNOTA|	POVINNÝ|	HROMADNÉ POUŽITÍ (oddělení středníkem)|
