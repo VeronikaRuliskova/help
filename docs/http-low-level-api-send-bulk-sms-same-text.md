@@ -22,7 +22,7 @@ https://api.bulkgate.com/http/
 |data| Text of SMS message (max. 612 characters, or 268 characters if Unicode is used), UTF-8 enconding | Yes |	No |
 |unicode|	“1” for Unicode SMS |	No | No |
 |flash| “1” for flash SMS	| No |	No |
-|sender| Sender of SMS (number in international format, no leading zeros or a “+” sign, e.g. 447971796595 or text max. 11 characters, e.g. “eshop.com”) |	No |	Yes |
+|sender| Sender of SMS (number in international format, no leading zeros or a “+” sign, e.g. `447971796595` or text max. 11 characters, e.g. “`eshop.com`”). **`"isms" parameter`** is mandatory for using text sender ID. To choose the right "isms" parameter, log in to the Portal and display the price list. "isms" parameter value is displayed if you hover over the wrench icon for developers |	No |	Yes |
 |isms| SMS gateway (default 0, value 0 – 4) – login to the BulkGate Portal and see this parameter in the pricelist |	No |	Yes |
 |datelater| Scheduled SMS – number of seconds since January 1 1970 00:00:00 GMT |	No |	No |
 |AppID|	e.g.: 123123, it allows to use one account for more applications, to receive delivery confirmations to different  DELIVERY_URL or DELIVERY_EMAIL addresses	| No |	No |
@@ -32,9 +32,9 @@ https://api.bulkgate.com/http/
 |sortkey| Text key for sorting SMS history and SMS replies	| No |	No |
 
 
-**Example request:**
+**Example request for sending SMS with [Text sender ID](sender-type.md):**
 ``` xml
-action=sendsmsall&username=testuser&password=test123&number=420606123456;420607123456&data=Hello
+action=sendsmsall&username=testuser&password=test123&number=420606123456;420607123456&data=Hello&sender=testSender&isms=2
 ```
 
 Response to this command may be:
