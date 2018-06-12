@@ -45,7 +45,7 @@ const siteConfig = {
     ' Your Name or Your Company Name',
     highlight: {
         // Highlight.js theme to use for syntax highlighting in code blocks
-        theme: 'default',
+        theme: 'androidstudio',
     },
     scripts: ['https://buttons.github.io/buttons.js'],
     // You may provide arbitrary config keys to be used as needed by your template.
