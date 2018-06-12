@@ -10,7 +10,9 @@ Podívejte se na [tabulku parametrů](#odeslání-informační-sms-parametry) pr
 > Zneužití informační SMS pro propagační/marketingové účely je přísně zakázáno!
 
 ## API URL
+``` url
 https://api.bulkgate.com/http/
+```
 
 ### Odeslání informační SMS: parametry
 |NÁZEV PARAMETRU|	HODNOTA|	POVINNÝ|	HROMADNÉ POUŽITÍ (oddělení středníkem)|
