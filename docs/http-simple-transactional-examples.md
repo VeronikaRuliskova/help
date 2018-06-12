@@ -18,7 +18,7 @@ $connection = fopen('https://portal.bulkgate.com/api/1.0/simple/transactional', 
     stream_context_create(['http' => [
         'method' => 'POST',
         'header' => [
-            'Content-type: application/json',
+            'Content-type: application/json'
         ],
         'content' => json_encode([
             'application_id' => '<APPLICATION_ID>',
