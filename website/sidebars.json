@@ -134,29 +134,7 @@
       "dnd"
       ]
       },
-   
-      "http-simple-api-cat" : {
-     "Promotional SMS" : [
-       "http-simple-promotional"
-      ],
-     "Promotional SMS - Methods" : [
-       "http-simple-promotional-get",
-       "http-simple-promotional-post-form",
-       "http-simple-promotional-post-json"
-     ],
-     "Transactional SMS" : [
-       "http-simple-transactional"
-      ],
-    "Transactional SMS - Methods" : [
-       "http-simple-transactional-get",
-       "http-simple-transactional-post-form",
-       "http-simple-transactional-post-json"
-     ],
-         "Api Administration" : [
-         "api-administration"
-         ]
-      },
-   
+      
      "http-simple-api-cat" : {
       "Transactional SMS" : [
       "http-simple-transactional",
@@ -169,7 +147,10 @@
       "http-simple-promotional-get",
       "http-simple-promotional-post-json",
       "http-simple-promotional-post-form"
-      ]
+      ],
+         "Api Administration" : [
+         "api-administration"
+         ]
     },
    
    "http-low-level-api-cat" : {
