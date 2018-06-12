@@ -121,9 +121,9 @@ https://www.python.org/
 ``` Python
 import http.client, json
 
-conn = http.client.HTTPSConnection('portal.bulkgate.com')
+connection = http.client.HTTPSConnection('portal.bulkgate.com')
 
-conn.request('POST', '/api/1.0/simple/transactional', json.dumps({
+connection.request('POST', '/api/1.0/simple/transactional', json.dumps({
     'application_id': '<APPLICATION_ID>',
     'application_token': '<APPLICATION_TOKEN>',
     'number': '420777777777',
@@ -136,7 +136,7 @@ conn.request('POST', '/api/1.0/simple/transactional', json.dumps({
     'Cache-Control': "no-cache"
 })
 
-response = conn.getresponse()
+response = connection.getresponse()
 
 print(response.read().decode())
 ```
