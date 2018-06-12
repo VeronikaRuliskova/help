@@ -1,5 +1,6 @@
 PHP
 ==========
+- http://php.net/
 ``` php
 $connection = fopen('https://portal.bulkgate.com/api/1.0/simple/transactional', 'r', false,
     stream_context_create(['http' => [
@@ -32,7 +33,7 @@ if($connection)
 
 PHP cURL
 ======== 
-
+- http://php.net/manual/en/book.curl.php
 ``` php
 $curl = curl_init();
 
@@ -74,8 +75,8 @@ curl_close($curl);
 
 Go
 ===
-
-``` go
+- https://golang.org/
+``` golang
 package main
 
 import (
@@ -107,8 +108,8 @@ func main() {
 
 Python
 ======
-
-``` python
+- https://www.python.org/
+``` Python
 import http.client
 
 conn = http.client.HTTPConnection("portal,bulkgate,com")
@@ -126,4 +127,62 @@ res = conn.getresponse()
 data = res.read()
 
 print(data.decode("utf-8"))
+```
+
+JavaScript
+==========
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript
+``` JavaScript
+var data = JSON.stringify({
+  "application_id": "<APPLICATION_ID>",
+  "application_token": "<APPLICATION_TOKEN>",
+  "number": "420777777777",
+  "text": "Message",
+  "sender_id": "gText",
+  "sender_id_value": "BulkGate"
+});
+
+var xhr = new XMLHttpRequest();
+xhr.withCredentials = true;
+
+xhr.addEventListener("readystatechange", function () {
+  if (this.readyState === 4) {
+    console.log(this.responseText);
+  }
+});
+
+xhr.open("POST", "https://portal.bulkgate.com/api/1.0/simple/transactional");
+xhr.setRequestHeader("Content-Type", "application/json");
+xhr.setRequestHeader("Cache-Control", "no-cache");
+
+xhr.send(data);
+```
+
+Java OkHttpClient
+================
+- http://square.github.io/okhttp/
+``` Java
+OkHttpClient client = new OkHttpClient();
+
+MediaType mediaType = MediaType.parse("application/json");
+RequestBody body = RequestBody.create(mediaType, "{\"application_id\": \"<APPLICATION_ID>\", \"application_token\": \"<APPLICATION_TOKEN>\", \"number\": \"420777777777\", \"text\": \"Message\", \"sender_id\": \"gText\", \"sender_id_value\": \"BulkGate\"}");
+Request request = new Request.Builder()
+  .url("https://portal.bulkgate.com/api/1.0/simple/transactional")
+  .post(body)
+  .addHeader("Content-Type", "application/json")
+  .addHeader("Cache-Control", "no-cache")
+  .build();
+
+Response response = client.newCall(request).execute();
+```
+
+Bash cURL
+========= 
+- https://curl.haxx.se/
+``` bash
+curl --request POST \
+  --url https://portal.bulkgate.com/api/1.0/simple/transactional \
+  --header 'Cache-Control: no-cache' \
+  --header 'Content-Type: application/json' \
+  --data '{"application_id": "<APPLICATION_ID>", "application_token": "<APPLICATION_TOKEN>", "number": "420777777777", "text": "Message", "sender_id": "gText", "sender_id_value": "BulkGate"}'
 ```
