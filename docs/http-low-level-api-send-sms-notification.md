@@ -12,7 +12,9 @@ See the [table of parameters](#send-sms-notification-parameters) for this comman
 > It is **strictly prohibited** to exploit SMS notification for promotional/marketing uses. It must be used for notification purposes only - as a [transactional SMS.](difference-promotional-transactional-sms.md#transactional-sms)
 
 ## API URL
+``` url
 https://api.bulkgate.com/http/
+```
 
 ### Send SMS notification: Parameters
 
