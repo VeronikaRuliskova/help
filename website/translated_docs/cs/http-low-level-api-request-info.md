@@ -6,7 +6,9 @@ title: HTTP request info
 Každý HTTP GET/POST požadavek, který je odeslán, odpovídá příkazu rozhraní v API. Tělo každého http požadavku se skládá ze seznamu dvojic [name,value], podle standardní aplikace/x-www-form-encoded. Každý příkaz má jinou sadu parametrů. Všechny sdílejí první parametr, nazvaný "action", odkazující na typ příkazu, který se používá.  
 
 ## API URL
+``` url
 https://api.bulkgate.com/http/
+```
 
 ## Kódování znaků
 Parametry odeslané v těle požadavku HTTP GET/POST musí být kodifikovány znakovou sadou "UTF-8".
