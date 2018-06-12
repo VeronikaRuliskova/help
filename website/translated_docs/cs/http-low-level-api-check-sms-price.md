@@ -8,7 +8,9 @@ Umožňuje zjistit cenu SMS pro každou zemi a operátora pomocí HTTP požadavk
 Podívejte se na [tabulku parametrů](#odeslání-hromadné-sms-s-rozdílným-textem-parametry) pro tento příkaz.
 
 ## API URL
+``` url
 https://api.bulkgate.com/http/
+```
 
 ### Zjištění ceny SMS: parametry
 |NÁZEV PARAMETRU|	HODNOTA|	POVINNÝ|
