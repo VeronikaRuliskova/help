@@ -25,7 +25,7 @@ Pro přejmenování vaší API:
 ## Co je API token?
 API token slouží jako bezpečnostní prvek pro vaši API. Neměli byste ho s nikým sdílet. 
 
-Nicméně, pokud si myslíte, že má někdo přístup k vaši API, měli byste váš token [zakázat]() nebo [přidat nový token.]()
+Nicméně, pokud si myslíte, že má někdo přístup k vaši API, měli byste váš token [zakázat](#jak-mohu-zakázat-api-token) nebo [přidat nový token.](#jak-mohu-přidat-nový-token)
 
 ## Jak mohu zakázat API token?
 Pro zakázaní vašeho API tokenu:
@@ -33,7 +33,7 @@ Pro zakázaní vašeho API tokenu:
 2.	Vyberte, pro kterou API chcete zakázat token a klikněte na ni
 3.	Klikněte na Možnosti tokenu (3 svislé tečky) a klikněte zakázat
 
-Možná budete chtít [přidat nový token.]()
+Možná budete chtít [přidat nový token.](#jak-mohu-přidat-nový-token)
 
 ## Jak mohu přidat nový token?
 Pro přidání nového tokenu pro vaši API:
