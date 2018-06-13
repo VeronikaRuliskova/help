@@ -1,5 +1,5 @@
 ---
-title: Specification
+title: Check credit balance
 ---
 
 
