@@ -9,9 +9,15 @@ Kredity jsou virtuální měnou na Bulkgate [SMS Portálu,](https://www.bulkgate
 
 ## Jak mohu koupit kredity?
 Pro koupi kreditů:
-1.	Vyplňte vše fakturační údaje, pokud chcete, abychom vám poskytovali faktury
-2.	Podívejte se v menu na [SMS ceník](using-price-list.md#jak-mohu-používat-ceník) a spočítejte si, kolik bude stát vaše kampaň
-3.	Klikněte v ceníku na Koupit. Položku Koupit můžete také najít v menu pod možností Platby, nebo když myší najedete na stav kreditů v pravém horním rohu
-4.	Zvolte platební metodu a odešlete peníze
-5.	Poté, co obdržíme platbu, bude váš kreditní zůstatek navýšen. Toto závisí na zvolené platební metodě
+1. Buďto:
+- Jděte do **Ceník** (v levém menu) **>** klikněte **Koupit** 
+- Jděte do **Platby > Koupit kredit** 
+- **Najedete myší na stav kreditů** v pravém horním rohu **>** klikněte **Dobít**
+2.	Zvolte platební metodu a odešlete peníze
+3.	Poté, co obdržíme platbu, bude váš kreditní zůstatek navýšen. Toto závisí na zvolené platební metodě
 
+>Vyplňte vše fakturační údaje, pokud chcete, abychom vám poskytovali faktury
+
+A také
+
+>Podívejte se v menu na [SMS ceník](using-price-list.md#jak-mohu-používat-ceník) a spočítejte si, kolik bude stát vaše kampaň
