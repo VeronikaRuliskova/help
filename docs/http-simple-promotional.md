@@ -20,7 +20,7 @@ https://portal.bulkgate.com/api/1.0/simple/promotional
 |:--- |:--- |:--- |:--- |
 |application_id|Application indentificator |**Yes**|-| 
 |application_token|Application authentication token	|**Yes**|-|
-|number|Recipient number 	|**Yes**|-|
+|number|Recipient number separated by `;` (semicolon) 	|**Yes**|-|
 |text|Text of SMS message (max. 612 characters, or 268 characters if Unicode is used), UTF-8 enconding	|**Yes**|-|
 |unicode	|`Yes`/`true`/`1` for Unicode SMS, `no`/`false`/`0` for 7bit SMS|No|`false`|
 |flash| `Yes`/`true`/`1` for flash SMS|No|`false`|
