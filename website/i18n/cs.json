@@ -131,7 +131,8 @@
         "Working with groups": "Práce se skupinami",
         "Examples of implementation": "Příklady implementace",
         "http-simple-transactional-examples": "Příklady transakční SMS",
-        "http-simple-info-get-post": "Požadavky"
+        "http-simple-info-get-post": "Požadavky",
+        "http-simple-check-credit-balance": "Ověření stavu kreditu"
     },
     "pages-strings": {
         "Read how you can work with your business page.|no description given": "Přečtěte si, jak můžete pracovat s vaší business stránkou.",
