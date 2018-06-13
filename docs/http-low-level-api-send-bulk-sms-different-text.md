@@ -32,7 +32,7 @@ https://api.bulkgate.com/http/
 |coding|	If “data” is not in UTF-8, e.g.: ISO-8859-1|	No|	No|
 |sortkey|Text key for sorting SMS history and SMS replies	|No	|No|
 
-**Example request for sending SMS with [Text sender ID](sender-type.md):**
+**Example request for sending SMS with [Text sender ID](sender-type.md#text-sender-id):**
 ``` url
 action=sendsmsall2&username=testuser&password=test123&number=420606123456;420607123456&data0=Hello1&data1=Hello2&sender=testSender&isms=2
 ```
