@@ -32,7 +32,7 @@ https://api.bulkgate.com/http/
 |sortkey| Text key for sorting SMS history and SMS replies	| No |	No |
 
 
-**Example request for sending SMS with [Text sender ID](sender-type.md):**
+**Example request for sending SMS with [Text sender ID](sender-type.md#text-sender-id):**
 ``` xml
 action=sendsmsall&username=testuser&password=test123&number=420606123456;420607123456&data=Hello&sender=testSender&isms=2
 ```
