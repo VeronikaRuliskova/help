@@ -31,7 +31,7 @@ https://api.bulkgate.com/http/
 |coding|Jestli “data” není v UTF-8, například.: ISO-8859-1	|Ne	|Ne|
 |sortkey|	Textové tlačítko pro třídění historie SMS a SMS odpovědí	|Ne	|Ne|
 
-**Příklad požadavku pro odesílání SMS s [textovým odesílatelem](sender-type.md):**
+**Příklad požadavku pro odesílání SMS s [textovým odesílatelem](sender-type.md#textový-odesílatel):**
 ``` url
 action=sendsms&username=testuser&password=test123&number=420606123456&data=Ahoj&sender=testSender&isms=2
 ```
