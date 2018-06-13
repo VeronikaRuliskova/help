@@ -2,7 +2,7 @@
 title: Transaction SMS examples
 ---
 
-Below are examples of using the Simple API to send transactional SMS messages with a text sender ID in different programming languages: 
+Below are examples of Simple API implementations for sending transactional SMS messages with a text sender ID in different programming languages: 
  - [PHP](#php)
  - [PHP cURL](#php-curl)
  - [Go](#go)
