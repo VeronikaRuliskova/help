@@ -132,7 +132,8 @@
         "Examples of implementation": "Příklady implementace",
         "http-simple-transactional-examples": "Příklady transakční SMS",
         "http-simple-info-get-post": "Požadavky",
-        "http-simple-check-credit-balance": "Ověření stavu kreditu"
+        "http-simple-check-credit-balance": "Ověření stavu kreditu",
+        "http-simple-promotional-examples": "Příklady propagační SMS"
     },
     "pages-strings": {
         "Read how you can work with your business page.|no description given": "Přečtěte si, jak můžete pracovat s vaší business stránkou.",
