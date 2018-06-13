@@ -2,7 +2,7 @@
 title: Promotional SMS examples
 ---
 
-Below are examples of Simple API implementations for sending promotional SMS messages with a text sender ID in different programming languages:
+Níže uvádíme příklady implementace Simple API pro odeslání [propagačních (hromadných) SMS](difference-promotional-transactional-sms.md#propagaČnÍ-sms) s textovým odesílatelem v různých programovacích jazycích:
  - [PHP](#php)
  - [PHP cURL](#php-curl)
  - [Go](#go)
@@ -24,11 +24,11 @@ $connection = fopen('https://portal.bulkgate.com/api/1.0/simple/promotional', 'r
             'application_id' => '<APPLICATION_ID>',
             'application_token' => '<APPLICATION_TOKEN>',
             'number' => implode(';', [
-                '447820125799',
-                '447820125733',
-                '447820125789'
+                '420777777777',
+                '420606606234',
+                '420601992992'
             ]),
-            'text' => 'Message text 1',
+            'text' => 'Text zprávy 1',
             'sender_id' => 'gText',
             'sender_id_value' => 'BulkGate'
         ]),
@@ -63,11 +63,11 @@ curl_setopt_array($curl, [
         'application_id' => '<APPLICATION_ID>',
         'application_token' => '<APPLICATION_TOKEN>',
         'number' => implode(';', [
-            '447820125799',
-            '447820125733',
-            '447820125789'
+                '420777777777',
+                '420606606234',
+                '420601992992'
         ]),
-        'text' => 'Message text',
+        'text' => 'Text zprávy',
         'sender_id' => 'gText',
         'sender_id_value' => 'BulkGate'
     ]),
@@ -107,7 +107,7 @@ func main() {
 
 	url := "https://portal.bulkgate.com/api/1.0/simple/promotional"
 
-	payload := strings.NewReader("{\"application_id\": \"<APPLICATION_ID>\", \"application_token\": \"<APPLICATION_TOKEN>\", \"number\": \"447820125799;447820125733;447820125789\", \"text\": \"Message\", \"sender_id\": \"gText\", \"sender_id_value\": \"BulkGate\"}")
+	payload := strings.NewReader("{\"application_id\": \"<APPLICATION_ID>\", \"application_token\": \"<APPLICATION_TOKEN>\", \"number\": \"420777777777;420606606234;420601992992\", \"text\": \"Zpráva\", \"sender_id\": \"gText\", \"sender_id_value\": \"BulkGate\"}")
 
 	req, _ := http.NewRequest("POST", url, payload)
 
@@ -132,8 +132,8 @@ connection = http.client.HTTPSConnection('portal.bulkgate.com')
 connection.request('POST', '/api/1.0/simple/promotional', json.dumps({
     'application_id': '<APPLICATION_ID>',
     'application_token': '<APPLICATION_TOKEN>',
-    'number': '447820125799;447820125733;447820125789',
-    'text': 'Message',
+    'number': '420777777777;420606606234;420601992992',
+    'text': 'Zpráva',
     'sender_id': 'gText',
     'sender_id_value': 'BulkGate'
 }
@@ -152,8 +152,8 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript
 var data = JSON.stringify({
   "application_id": "<APPLICATION_ID>",
   "application_token": "<APPLICATION_TOKEN>",
-  "number": "447820125799;447820125733;447820125789",
-  "text": "Message",
+  "number": "420777777777;420606606234;420601992992",
+  "text": "Zpráva",
   "sender_id": "gText",
   "sender_id_value": "BulkGate"
 });
@@ -178,7 +178,7 @@ http://square.github.io/okhttp/
 OkHttpClient client = new OkHttpClient();
 
 MediaType mediaType = MediaType.parse("application/json");
-RequestBody body = RequestBody.create(mediaType, "{\"application_id\": \"<APPLICATION_ID>\", \"application_token\": \"<APPLICATION_TOKEN>\", \"number\": \"447820125799;447820125733;447820125789\", \"text\": \"Message\", \"sender_id\": \"gText\", \"sender_id_value\": \"BulkGate\"}");
+RequestBody body = RequestBody.create(mediaType, "{\"application_id\": \"<APPLICATION_ID>\", \"application_token\": \"<APPLICATION_TOKEN>\", \"number\": \"420777777777;420606606234;420601992992\", \"text\": \"Zpráva\", \"sender_id\": \"gText\", \"sender_id_value\": \"BulkGate\"}");
 Request request = new Request.Builder()
   .url("https://portal.bulkgate.com/api/1.0/simple/promotional")
   .post(body)
@@ -194,5 +194,5 @@ https://curl.haxx.se/
 curl --request POST \
   --url https://portal.bulkgate.com/api/1.0/simple/promotional \
   --header 'Content-Type: application/json' \
-  --data '{"application_id": "<APPLICATION_ID>", "application_token": "<APPLICATION_TOKEN>", "number": "447820125799;447820125733;447820125789", "text": "Message", "sender_id": "gText", "sender_id_value": "BulkGate"}'
+  --data '{"application_id": "<APPLICATION_ID>", "application_token": "<APPLICATION_TOKEN>", "number": "420777777777;420606606234;420601992992", "text": "Zpráva", "sender_id": "gText", "sender_id_value": "BulkGate"}'
 ```
