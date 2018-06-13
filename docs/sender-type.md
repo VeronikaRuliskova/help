@@ -18,7 +18,7 @@ BulkGate has 4 types of sender, however `some of them might not be available in 
 
 ### Own Number Sender ID
 **`Own Number Sender ID`** allows you to use your own phone number which is subsequently displayed in the delivered SMS. Recipient can text you or call you directly on this number.
->- to use Own Number, you first need to verify your number in your **user profile.**
+>- to use Own Number, you first need to verify your number in your **user profile**
 
 See how you can use [two-way communication](inbox.md#can-i-communicate-directly-with-a-customer) with your customers and where you can see your [customers' messages.](inbox.md#where-can-i-see-a-response-from-my-customer)
 
