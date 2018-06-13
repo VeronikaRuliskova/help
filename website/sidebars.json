@@ -148,6 +148,10 @@
       "http-simple-promotional-post-json",
       "http-simple-promotional-post-form"
       ],
+         "Check credit balance": [
+      "http-simple-check-credit-balance",
+      "http-simple-info-get-post"
+       ],
          "API Administration" : [
          "api-administration"
          ],
