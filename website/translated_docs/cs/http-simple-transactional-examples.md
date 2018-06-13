@@ -2,7 +2,7 @@
 title: Transactional SMS examples
 ---
 
-Níže uvádíme příklady implementace Simple API pro odeslání [transakčních (informačních SMS](difference-promotional-transactional-sms.md#transakČnÍ-sms) s textovým odesílatelem v různých programovacích jazycích:
+Níže uvádíme příklady implementace Simple API pro odeslání [transakčních (informačních) SMS](difference-promotional-transactional-sms.md#transakČnÍ-sms) s textovým odesílatelem v různých programovacích jazycích:
  - [PHP](#php)
  - [PHP cURL](#php-curl)
  - [Go](#go)
