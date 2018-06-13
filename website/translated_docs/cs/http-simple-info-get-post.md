@@ -3,9 +3,9 @@ title: Requests
 ---
 
 Metody:
-- [Metoda GET]()
-- [Metoda Post - form]()
-- [Metoda Post - json]()
+- [Metoda GET](#metoda-get)
+- [Metoda Post - form](#metoda-post---applicationx-www-form-urlencoded)
+- [Metoda Post - json](#metoda-post---applicationjson)
 
 ## Metoda GET
 
