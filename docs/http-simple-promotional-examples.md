@@ -23,7 +23,11 @@ $connection = fopen('https://portal.bulkgate.com/api/1.0/simple/promotional', 'r
         'content' => json_encode([
             'application_id' => '<APPLICATION_ID>',
             'application_token' => '<APPLICATION_TOKEN>',
-            'number' => '447820125799;447820125733;447820125789',
+            'number' => implode(';', [
+                '447820125799',
+                '447820125733',
+                '447820125789'
+            ]),
             'text' => 'Message text 1',
             'sender_id' => 'gText',
             'sender_id_value' => 'BulkGate'
@@ -58,7 +62,11 @@ curl_setopt_array($curl, [
     CURLOPT_POSTFIELDS => json_encode([
         'application_id' => '<APPLICATION_ID>',
         'application_token' => '<APPLICATION_TOKEN>',
-        'number' => '447820125799;447820125733;447820125789',
+        'number' => implode(';', [
+            '447820125799',
+            '447820125733',
+            '447820125789'
+        ]),
         'text' => 'Message text',
         'sender_id' => 'gText',
         'sender_id_value' => 'BulkGate'
