@@ -1,8 +1,8 @@
 ---
-title: Transaction SMS examples
+title: Promotional SMS examples
 ---
 
-Below are examples of using the Simple API to send [promotional (bulk) SMS](difference-promotional-transactional-sms.md#promotional-sms) messages with a text sender ID in different programming languages: 
+Below are examples of Simple API implementations for sending promotional SMS messages with a text sender ID in different programming languages:
  - [PHP](#php)
  - [PHP cURL](#php-curl)
  - [Go](#go)
