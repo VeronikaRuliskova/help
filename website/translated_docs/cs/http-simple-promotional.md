@@ -20,7 +20,7 @@ https://portal.bulkgate.com/api/1.0/simple/promotional
 |:--- |:--- |:--- |:--- |
 |application_id| Aplikační identifikátor |**Ano**|-| 
 |application_token| Aplikační ověřovací token	|**Ano**|-|
-|number| Číslo příjemce	|**Ano**|-|
+|number| Čísla příjemců oddělená `;` (středníkem)	|**Ano**|-|
 |text| Text SMS zprávy (max. 612 znaků, nebo 268 znaků, jestliže je aktivován Unicode), UTF-8 kódování	|**Ano**|-|
 |unicode	|`Yes`/`true`/`1` pro Unicode SMS, no/false/0 pro 7bit SMS|Ne|`false`|
 |flash| `Yes`/`true`/`1` pro Flash SMS| Ne |`false`|
