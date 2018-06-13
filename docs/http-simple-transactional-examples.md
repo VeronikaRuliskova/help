@@ -1,5 +1,5 @@
 ---
-title: Transaction SMS examples
+title: Transactional SMS examples
 ---
 
 Below are examples of Simple API implementations for sending transactional SMS messages with a text sender ID in different programming languages: 
