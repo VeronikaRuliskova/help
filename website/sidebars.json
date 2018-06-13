@@ -156,7 +156,8 @@
          "api-administration"
          ],
         "Examples of implementation" : [
-        "http-simple-transactional-examples"
+        "http-simple-transactional-examples",
+        "http-simple-promotional-examples"
          ]
     },
    
