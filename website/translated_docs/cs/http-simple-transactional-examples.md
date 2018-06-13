@@ -1,5 +1,5 @@
 ---
-title: Transaction SMS examples
+title: Transactional SMS examples
 ---
 
 Níže uvádíme příklady implementace Simple API pro odeslání transakční SMS s textovým odesílatelem v různých programovacích jazycích:
