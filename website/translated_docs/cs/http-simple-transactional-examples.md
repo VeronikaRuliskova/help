@@ -2,7 +2,7 @@
 title: Transaction SMS examples
 ---
 
-Níže uvádíme příklady použití Simple API pro odeslání transakční SMS s textovým odesílatelem v různých programovacích jazycích:
+Níže uvádíme příklady implementace Simple API pro odeslání transakční SMS s textovým odesílatelem v různých programovacích jazycích:
  - [PHP](#php)
  - [PHP cURL](#php-curl)
  - [Go](#go)
