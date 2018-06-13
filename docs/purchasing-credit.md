@@ -16,6 +16,6 @@ To buy credits:
 2.	Choose a payment method and send money
 3.	After we receive your payment your credit balance will be topped up. This depends on the selected payment option
 
->Fill in your billing information first if you want us to generate invoices for you.>
+>Fill in your billing information first if you want us to generate invoices for you.<
 Also
->See the [SMS price list](using-price-list.md#how-to-use-price-list) first in the left side menu and calculate how much money  your campaign will cost>
+>See the [SMS price list](using-price-list.md#how-to-use-price-list) first in the left side menu and calculate how much money  your campaign will cost<
