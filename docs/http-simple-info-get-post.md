@@ -2,6 +2,11 @@
 title: Requests
 ---
 
+Methods:
+- [GET method](#metoda-get)
+- [POST  method - form](#metoda-post---applicationx-www-form-urlencoded)
+- [POST method - json](#metoda-post---applicationjson)
+
 ## GET method
 
 ``` url
