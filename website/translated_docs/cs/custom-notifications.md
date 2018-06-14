@@ -1,13 +1,13 @@
 ---
-title: Customized notifications
+title: Custom notifications
 ---
 
-## Mohu si vytvořit vlastní informační SMS na míru?
-Jako vývojář můžete používat vlastní háčky, které vám umožňují posílat informační SMS, které si sami nadefinujete. Tuto funkci můžete vyvolat z jiného místa (např. z jiného pluginu).
+## Mohu si vytvořit vlastní informační SMS oznámení na míru?
+Jako vývojář můžete používat custom hooks, které vám umožňují posílat informační SMS, které si sami nadefinujete. Tuto funkci můžete vyvolat z jiného místa (např. z jiného pluginu).
 
 > Zneužití informační SMS pro propagační/marketingové účely je **přísně zakázáno!** Musí být použito pouze pro [transakční SMS.](difference-promotional-transactional-sms.md#transakČnÍ-sms)
 
-**Příklad přizpůsobeného háčku:**
+**Příklad custom hook:**
 
 ``` xml
 <?php
