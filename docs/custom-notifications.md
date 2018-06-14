@@ -2,7 +2,7 @@
 title: Custom notifications
 ---
 
-## Can I create my own custom SMS notificiation?
+## Can I create my own custom notificiation?
 As a developer, you can use custom hooks that enable you to send SMS notification that you define yourself. You can request this function from a different place (e.g. different plugin).
 
 > It is **strictly prohibited** to exploit SMS notification for promotional/marketing uses. It must be used for [transactional sms](difference-promotional-transactional-sms.md#transactional-sms) only.
