@@ -1,5 +1,5 @@
 ---
-title: Message
+title: Zpráva
 ---
 
 Třída `BulkGate\Sms\Message` reprezentuje objekt SMS zprávy, která se skládá z obsahu zprávy a příjemce.
