@@ -22,16 +22,14 @@ Druhý parametr je nutný v případě, že zadáváte telefonní číslo v nár
 Změnit telefonní číslo lze i po vytvoření instance.
 
 ``` php
-$phone_number = new PhoneNumber();
-
+/** @var BulkGate\Sms\Message\PhoneNumber $phone_number */
 $phone_number->phoneNumber('420777777777');
 ``` 
 
 Stejně lze nastavit i ISO kód.
 
 ``` php
-$phone_number = new PhoneNumber();
-
+/** @var BulkGate\Sms\Message\PhoneNumber $phone_number */
 $phone_number->iso(BulkGate\Sms\Country::CZECH_REPUBLIC);
 
 // nebo
