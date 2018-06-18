@@ -40,4 +40,4 @@ class FooPresenter extends ReactAdminPresenter
 ## Tracy
 
 Součástí toho získáme rozšíření pro [Tracy](https://tracy.nette.org) panel
-
+![bulkgate-sdk-tracy](https://github.com/BulkGate/help/raw/master/website/static/img/sdk-tracy.png)
