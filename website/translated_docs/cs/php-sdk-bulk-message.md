@@ -63,7 +63,6 @@ Objekt `BulkGate\Sms\BulkMessage` implementuje rozhran√≠ `\JsonSerializable` co≈
 
 ``` php
 /** @var BulkGate\Sms\BulkMessage $bulk_message */
-
 echo json_encode($bulk_message);
 ```
 
