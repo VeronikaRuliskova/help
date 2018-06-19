@@ -23,7 +23,7 @@ $sender = new BulkGate\Sms\Sender($connection);
  
 ## Odeslání zprávy
  
-Pro odeslání zprávy se ppužívá metoda `send()`, která přijímá zprávy typu `BulkGate\Sms\IMesssage`.
+Pro odeslání zprávy se používá metoda `send()`, která přijímá zprávy typu `BulkGate\Sms\IMesssage`.
  
 ``` php
 /** 
