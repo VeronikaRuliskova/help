@@ -32,7 +32,7 @@ https://portal.bulkgate.com/api/1.0/simple/transactional
 
 ### Sender ID type `sender_id` 
 
-| PARAMETER NAME 	| DEFAULT VALUE |
+| VALUE 	| DESCRIPTION |
 |:--- |:---|
 |`gSystem` |System number| 
 |`gShort` |Short Code| 
