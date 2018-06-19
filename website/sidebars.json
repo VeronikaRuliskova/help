@@ -198,11 +198,15 @@
        "php-sdk-message-phone-number"
      ],
     "Sender type" : [
-      "php-sdk-sender-settings",
-      "php-sdk-country"
+      "php-sdk-sender-settings"
     ],           
-    "Sender" : [
+    "Sender service" : [
       "php-sdk-sender"
+      ]
+    }
+    ,           
+    "Other" : [
+      "php-sdk-country"
       ]
     }
 }
