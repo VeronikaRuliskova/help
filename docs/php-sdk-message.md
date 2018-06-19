@@ -16,7 +16,7 @@ Třída přijímá jako první agrument telefonní číslo, které může být z
 $message = new Message('420777777777', 'test message');
 ```
 
-nebo přijímá instanci objektu `Message\PhoneNumber`:
+nebo přijímá instanci objektu [`Message\PhoneNumber`](php-sdk-message-phone-number.md):
 
 ``` php
 $message = new Sms\Message(new Message\PhoneNumber('420777777777'), 'test message');
@@ -32,7 +32,7 @@ $message->phoneNumber('777777777', BulkGate\Sms\Country::CZECH_REPUBLIC);  // Va
 $message->phoneNumber(new Message\PhoneNumber('420777777777')); 
 ```
 
-Pro získání telefonního čísla lze použít metodu `getPhoneNumber()`, která vrací vždy instanci objektu `Message\PhoneNumber`.
+Pro získání telefonního čísla lze použít metodu `getPhoneNumber()`, která vrací vždy instanci objektu [`Message\PhoneNumber`](php-sdk-message-phone-number.md).
 
 ``` php
 /** @var Message\PhoneNumber $phone_number */
@@ -41,7 +41,7 @@ $phone_number = $message->getPhoneNumber();
 
 ## Text zprávy
 
-Druhým parametrem je zadání textu zprávy, jsou také 2 možnosti, kde první je zadání textu pomocí řetězce a druhou variantou je instance třídy `BulkGateSms\Message\Text`.
+Druhým parametrem je zadání textu zprávy, jsou také 2 možnosti, kde první je zadání textu pomocí řetězce a druhou variantou je instance třídy [`Message\Text`](php-sdk-message-text.md).
 
 ``` php
 $message = new Message(
@@ -67,7 +67,7 @@ $message->text(
     ]); // doplnění proměnných; výsledný text je "Hello John Doe"
 ```
 
-Pro získání textu zprávy lze použít metodu `getText()`, která vrací vždy instanci objektu `Message\Text`.
+Pro získání textu zprávy lze použít metodu `getText()`, která vrací vždy instanci objektu [`Message\Text`](php-sdk-message-text.md).
 
 ``` php
 /** @var Message\Text $text */
@@ -76,7 +76,7 @@ $text = $message->getText();
 
 ## JSON Podpora
 
-Objekt `BulkGate\Sms\Message` implementuje rozhraní `\JsonSerializable` což dovoluje převést pomocí funkce `json_encode()` do formátu JSON.
+Objekt `BulkGate\Sms\Message` implementuje rozhraní [`\JsonSerializable`](http://php.net/manual/en/class.jsonserializable.php) což dovoluje převést pomocí funkce [`json_encode()`](http://php.net/manual/en/function.json-encode.php) do formátu JSON.
 
 ``` php
 /** @var BulkGate\Sms\Message $message */
@@ -99,7 +99,7 @@ Výstupem je:
 
 ## Převod na řetězec
 
-Objekt `BulkGate\Sms\Message` implementuje magickou metodu `__string()`
+Objekt `BulkGate\Sms\Message` implementuje magickou metodu [`__string()`](http://php.net/manual/en/language.oop5.magic.php#object.tostring)
 
 ``` php
 /** @var BulkGate\Sms\Message $message */

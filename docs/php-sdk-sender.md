@@ -1,5 +1,5 @@
 ---
-title: Sender
+title: Služba Sender
 ---
 
 ``` php
@@ -8,7 +8,7 @@ use BulkGate\Sms\Sender;
 
 Abychom mohli vytvořenou zprávu typu `BulkGate\Sms\IMesssage`
 
- - [`BulkGate\Sms\Message`](php-sdk-message.md)
+ - [`BulkGate\Sms\Message`](php-sdk-messsage.md)
  - [`BulkGate\Sms\BulkMessage`](php-sdk-bulk-message.md)
 
 musíme vytvořit sender, což můžeme udělat dvěma způsoby:
@@ -23,7 +23,7 @@ $sender = new BulkGate\Sms\Sender($connection);
  
 ## Odeslání zprávy
  
-Pro odeslání zprávy se používá metoda `send()`, která přijímá zprávy typu `BulkGate\Sms\IMesssage`.
+Pro odeslání zprávy se ppužívá metoda `send()`, která přijímá zprávy typu `BulkGate\Sms\IMesssage`.
  
 ``` php
 /** 
@@ -138,7 +138,7 @@ Kde `$numbers` může být:
 - pole telefonních čísel `['420777777777','420777777778','420777777779']`
 - pole telefonních čísel typu `BulkGate\Sms\Message\PhoneNumber`
 
-`$iso` má stejný význam jako [Výchozí země](#výchozi-země)
+`$iso` má stejný význam jako [Výchozí země](#výchozí-země)
 
 Výsledkem je potom `BulkGate\Message\Response`
 
