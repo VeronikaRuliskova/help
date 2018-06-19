@@ -2,13 +2,13 @@
 title: Hromadná zpráva (Kampaň)
 ---
 
-Třída `BulkGate\Sms\BulkMessage` reprezentuje objekt, který spojuje zprávy typu `BulkGate\Sms\Message` do hromadné zprávy(kampaně).
+Třída `BulkGate\Sms\BulkMessage` reprezentuje objekt, který spojuje zprávy typu [`BulkGate\Sms\Message`](php-sdk-message.md) do hromadné zprávy(kampaně).
 
 ``` php
 use BulkGate\Sms\BulkMessage;
 ```
 
-Konstruktor má jeden volitelný parametr typu `array`, který musí obsahovat položky typu `BulkGate\Sms\Message`.
+Konstruktor má jeden volitelný parametr typu [`array`](http://php.net/manual/en/language.types.array.php), který musí obsahovat položky typu [`BulkGate\Sms\Message`](php-sdk-message.md).
 
 ``` php
 $array = [
@@ -37,7 +37,7 @@ $bulk_message->addMessage(
 
 ## Iterátor
 
-Zprávami lze procházet pomocí cyklu `foreach`
+Zprávami lze procházet pomocí cyklu [`foreach`](http://php.net/manual/en/control-structures.foreach.php)
 
 ``` php 
 /** 
@@ -59,7 +59,7 @@ $bulk_message->count();
 
 ## JSON Podpora
 
-Objekt `BulkGate\Sms\BulkMessage` implementuje rozhraní `\JsonSerializable` což dovoluje převést pomocí funkce `json_encode()` do formátu JSON.
+Objekt `BulkGate\Sms\BulkMessage` implementuje rozhraní [`\JsonSerializable`](http://php.net/manual/en/class.jsonserializable.php) což dovoluje převést pomocí funkce [`json_encode()`](http://php.net/manual/en/function.json-encode.php) do formátu JSON.
 
 ``` php
 /** @var BulkGate\Sms\BulkMessage $bulk_message */
@@ -110,7 +110,7 @@ Výstupem je:
 
 ## Převod na řetězec
 
-Objekt `BulkGate\Sms\BulkMessage` implementuje magickou metodu `__string()`
+Objekt `BulkGate\Sms\BulkMessage` implementuje magickou metodu [`__string()`](http://php.net/manual/en/language.oop5.magic.php#object.tostring).
 
 ``` php
 /** @var BulkGate\Sms\BulkMessage $bulk_message */
