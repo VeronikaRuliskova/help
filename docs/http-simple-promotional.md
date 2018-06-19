@@ -31,7 +31,7 @@ https://portal.bulkgate.com/api/1.0/simple/promotional
 
 ### Sender ID type `sender_id` 
 
-|Parameter name	| Default value|
+|VALUE	| DESCRIPTION|
 |:--- |:---|
 |`gSystem` |System number| 
 |`gShort` |Short Code| 

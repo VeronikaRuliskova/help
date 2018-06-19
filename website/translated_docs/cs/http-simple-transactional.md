@@ -32,7 +32,7 @@ https://portal.bulkgate.com/api/1.0/simple/transactional
 
 ### Typ ID odesílatele `sender_id`
 
-| NÁZEV PARAMETRU| VÝCHOZÍ HODNOTA
+| HODNOTA| VÝZNAM|
 |:--- |:---|
 |`gSystem` |Systémové číslo| 
 |`gShort` |Short Code| 
