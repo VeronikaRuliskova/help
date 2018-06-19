@@ -184,5 +184,25 @@
     "Delivery confirmations and incoming SMS" : [
       "http-low-level-api-delivery-confirmations-and-incoming-sms"
       ]
+    },
+    
+    "php-sdk-cat" : {
+    "Instalation": [
+      "php-sdk-instalation",
+      "php-sdk-nette"
+     ],
+     "Message" : [
+       "php-sdk-message",
+       "php-sdk-bulk-message",
+       "php-sdk-message-text",
+       "php-sdk-message-phone-number"
+     ],
+    "Sender type" : [
+      "php-sdk-sender-settings",
+      "php-sdk-country"
+    ],           
+    "Sender" : [
+      "php-sdk-sender"
+      ]
     }
 }
