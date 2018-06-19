@@ -7,7 +7,7 @@ Nejsnadnější cestou nainstalovat [bulkgate/sms](https://packagist.org/package
 ```
 composer require bulkgate/sms
 ```
-Balíček obsahuje rozšíření pro [Nette framework](https://nette.org) DI kontejner.
+Balíček obsahuje rozšíření pro [Nette framework](https://nette.org) [DI kontejner](https://doc.nette.org/cs/2.4/dependency-injection).
 
 ## DI Extension
 
@@ -21,7 +21,7 @@ bulkgate:
 	application_token: <APPLICATION_TOKEN>
 ```
 
-čímž získáme třídu `BulkGate\Sms\Sender` jako službu, kterou si můžeme vyžádat.
+čímž získáme třídu [`BulkGate\Sms\Sender`](php-sdk-sender.md) jako službu, kterou si můžeme vyžádat.
 
 ``` php
 <?php declare(strict_types=1);
