@@ -8,7 +8,7 @@ Třída `BulkGate\Sms\BulkMessage` reprezentuje objekt, který spojuje zprávy t
 use BulkGate\Sms\BulkMessage;
 ```
 
-Konstruktor má jeden volitelný parametr typu `array`, který musí obsahovat položky typu `BulkGate\Sms\Message.
+Konstruktor má jeden volitelný parametr typu `array`, který musí obsahovat položky typu `BulkGate\Sms\Message`.
 
 ``` php
 $array = [
