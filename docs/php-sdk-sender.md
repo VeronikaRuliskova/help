@@ -8,7 +8,7 @@ use BulkGate\Sms\Sender;
 
 Abychom mohli vytvořenou zprávu typu `BulkGate\Sms\IMesssage`
 
- - [`BulkGate\Sms\Message`](php-sdk-messsage.md)
+ - [`BulkGate\Sms\Message`](php-sdk-message.md)
  - [`BulkGate\Sms\BulkMessage`](php-sdk-bulk-message.md)
 
 musíme vytvořit sender, což můžeme udělat dvěma způsoby:
