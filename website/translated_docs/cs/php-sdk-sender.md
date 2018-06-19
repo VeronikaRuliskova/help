@@ -138,7 +138,7 @@ Kde `$numbers` může být:
 - pole telefonních čísel `['420777777777','420777777778','420777777779']`
 - pole telefonních čísel typu `BulkGate\Sms\Message\PhoneNumber`
 
-`$iso` má stejný význam jako [Výchozí země](#vychozi-zeme)
+`$iso` má stejný význam jako [Výchozí země](#výchozí-země)
 
 Výsledkem je potom `BulkGate\Message\Response`
 
