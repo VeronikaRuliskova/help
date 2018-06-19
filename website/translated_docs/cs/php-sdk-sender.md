@@ -1,5 +1,5 @@
 ---
-title: Sender
+title: Služba Sender
 ---
 
 ``` php
