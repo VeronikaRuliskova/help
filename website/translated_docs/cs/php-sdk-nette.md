@@ -1,8 +1,13 @@
 ---
-title: Podpora Nette framework
+title: Instalace do Nette framework
 ---
 
-Balíček [bulkgate/sms](https://packagist.org/packages/bulkgate/sms) obsahuje rozšíření pro [Nette framework](https://nette.org) DI kontejner.
+Nejsnadnější cestou nainstalovat [bulkgate/sms](https://packagist.org/packages/bulkgate/sms) do projektu je pomocí nástroje [Composer](https://getcomposer.org/) přes příkazovou řádku.
+
+```
+composer require bulkgate/sms
+```
+Balíček obsahuje rozšíření pro [Nette framework](https://nette.org) DI kontejner.
 
 ## DI Extension
 
@@ -42,3 +47,10 @@ class SdkPresenter extends ReactAdminPresenter
 Současně s tím získáme rozšíření pro [Tracy](https://tracy.nette.org) panel
 
 ![bulkgate-sdk-tracy](https://github.com/BulkGate/help/raw/master/website/static/img/sdk-tracy.png)
+
+Manuálně rozšíření připojíme následovně.
+
+``` php
+/** @var BulkGate\Message\Connection $connection */
+Tracy\Debugger::getBar()->addPanel(new BulkGate\Message\Bridges\MessageTracy\MessagePanel($connection));
+```
