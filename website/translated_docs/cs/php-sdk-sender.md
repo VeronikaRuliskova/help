@@ -33,8 +33,21 @@ Pro odeslání zprávy se ppužívá metoda `send()`, která přijímá zprávy 
 $response = $sender->send($message);
 ```
 
-Odpověď `$response` pro odeslání `BulkGate\Sms\BulkMesssage` vypadá následovně.
+### Odpověď na `BulkGate\Sms\Messsage`
+``` php
+BulkGate\Message\Response Object
+(
+    [data:BulkGate\Message\Response:private] => Array
+    (
+        [sms_id] => tmpde8f0dca011
+        [price] => 0.033
+        [credit] => 215.8138
+        [number] => 420777777777
+    )
+)
+```
 
+### Odpověď na `BulkGate\Sms\BulkMesssage`
 ``` php
 BulkGate\Message\Response Object
 (
@@ -130,44 +143,30 @@ Kde `$numbers` může být:
 Výsledkem je potom `BulkGate\Message\Response`
 
 ``` php
-class BulkGate\Message\Response#430 (1) {
-  private $data =>
-  array(2) {
-    '420777777777' =>
-    array(6) {
-      'number' =>
-      string(12) "420777777777"
-      'iso' =>
-      string(2) "cz"
-      'prefix' =>
-      string(3) "420"
-      'area' =>
-      int(420)
-      'length' =>
-      int(12)
-      'area_found' =>
-      bool(true)
-    }
-    [77777777] =>
-    array(6) {
-      'number' =>
-      string(11) "42177777777"
-      'iso' =>
-      string(2) "sk"
-      'prefix' =>
-      string(3) "421"
-      'area' =>
-      int(421)
-      'length' =>
-      int(8)
-      'area_found' =>
-      bool(false)
-    }
-  }
-}
+BulkGate\Message\Response Object
+(
+    [data:BulkGate\Message\Response:private] => Array
+    (
+        [420777777777] => Array
+        (
+            [number] => 420777777777
+            [iso] => cz
+            [prefix] => 420
+            [area] => 420
+            [length] => 12
+            [area_found] => true
+        )
+        [77777777] => Array
+        (
+            [number] => 42177777777 
+            [iso] => sk
+            [prefix] => 421
+            [area] => 421
+            [length] => 8
+            [area_found] => false
+        )
+    )
+)
 ```
 
 Hodnota `area_found` udává platnost formátu čísla pro konkrétní zemi.
-
-
- 
