@@ -6,14 +6,14 @@ title: Služba Sender
 use BulkGate\Sms\Sender;
 ```
 
-Abychom mohli vytvořenou zprávu typu `BulkGate\Sms\IMesssage`
+Abyste mohli vytvořenou zprávu typu `BulkGate\Sms\IMesssage` odeslat
 
  - [`BulkGate\Sms\Message`](php-sdk-messsage.md)
  - [`BulkGate\Sms\BulkMessage`](php-sdk-bulk-message.md)
 
-musíme vytvořit sender, což můžeme udělat dvěma způsoby:
+musíte vytvořit sender, což můžeme udělat dvěma způsoby:
 
- - [Nette framework](php-sdk-nette.md) - pokud používáme [Nette framework](https://nette.org/)
+ - [Nette framework](php-sdk-nette.md) - pokud používáte [Nette framework](https://nette.org/)
  - [PHP](php-sdk-instalation.md) - v ostaních případech
  
 ``` php
@@ -23,7 +23,7 @@ $sender = new BulkGate\Sms\Sender($connection);
  
 ## Odeslání zprávy
  
-Pro odeslání zprávy se ppužívá metoda `send()`, která přijímá zprávy typu `BulkGate\Sms\IMesssage`.
+Pro odeslání zprávy se používá metoda `send()`, která přijímá zprávy typu `BulkGate\Sms\IMesssage`.
  
 ``` php
 /** 
@@ -81,7 +81,7 @@ BulkGate\Message\Response Object
 
 ## Unicode
 
-Pro nastavení [Unicode](unicode.md) zavoláme metodu `unicode()`.
+Pro nastavení [Unicode](unicode.md) zavolejte metodu `unicode()`.
 
 ``` php
 /** @var BulkGate\Sms\Sender $sender */
@@ -92,7 +92,7 @@ $sender->unicode(false); // Vypnout
  
  ## Flash SMS
  
- Pro nastavení [Flash SMS](flash-sms.md) zavoláme metodu `flash()`.
+ Pro nastavení [Flash SMS](flash-sms.md) zavolejte metodu `flash()`.
  
  ``` php
  /** @var BulkGate\Sms\Sender $sender */
@@ -115,7 +115,7 @@ $sender->setSenderSettings($settings);
 
 ## Výchozí země
 
-Pokud zadáváme telefonní čísla v národním formátu, systém neví kam na světě má zprávu poslat. Proto pokud není explicitně vyplněna mezinározdní předvolba, je možno senderu zadefinovat výchozí zemi, kam má zprávy směrovat.
+Pokud zadáváte telefonní čísla v národním formátu, systém neví kam do světa má zprávy poslat. Proto pokud není explicitně vyplněna mezinározdní předvolba, je možno senderu zadefinovat výchozí zemi, kam má zprávy směrovat.
 
  ``` php
  /** @var BulkGate\Sms\Sender $sender */
@@ -125,7 +125,7 @@ Pokud zadáváme telefonní čísla v národním formátu, systém neví kam na 
  
  ## Ověření platnosti čísel
  
- Pokud potřebujeme ověřit zda telefonní číslo odpovídá formátu příslušné země, používáme metodu `checkPhoneNumbers()`.
+ Pokud potřebujete ověřit zda telefonní číslo odpovídá formátu příslušné země, použijte metodu `checkPhoneNumbers()`.
  
  ``` php
  /** @var BulkGate\Sms\Sender $sender */
