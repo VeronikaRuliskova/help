@@ -8,7 +8,7 @@ Nejsnadnější cestou nainstalovat [bulkgate/sms](https://packagist.org/package
 composer require bulkgate/sms
 ```
 
-Balíček obsahuje rozšíření pro [Nette framework](https://nette.org) [DI kontejner](https://doc.nette.org/cs/2.4/dependency-injection).
+Balíček obsahuje rozšíření pro [Nette framework](https://nette.org/cs/) [DI kontejner](https://doc.nette.org/cs/2.4/dependency-injection).
 
 ## DI Extension
 
@@ -45,7 +45,7 @@ class SdkPresenter extends Nette\Application\UI\Presenter
 
 ## Tracy
 
-Současně s tím získáte rozšíření pro [Tracy](https://tracy.nette.org) panel
+Současně s tím získáte rozšíření pro [Tracy](https://tracy.nette.org/cs/) panel
 
 ![bulkgate-sdk-tracy](https://github.com/BulkGate/help/raw/master/website/static/img/sdk-tracy.png)
 
