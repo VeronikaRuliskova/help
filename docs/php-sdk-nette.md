@@ -1,5 +1,5 @@
 ---
-title: Instalace do Nette framework
+title: Installation to Nette framework
 ---
 
 The easiest way to install [bulkgate/sms](https://packagist.org/packages/bulkgate/sms) into a project is by using [Composer](https://getcomposer.org/) via the command line.
