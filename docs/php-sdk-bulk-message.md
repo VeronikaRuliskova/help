@@ -1,33 +1,33 @@
 ---
-title: Hromadná zpráva (Kampaň)
+title: Bulk SMS (Kampaň)
 ---
 
-Třída `BulkGate\Sms\BulkMessage` reprezentuje objekt, který spojuje zprávy typu [`BulkGate\Sms\Message`](php-sdk-message.md) do hromadné zprávy(kampaně).
+The class `BulkGate\Sms\BulkMessage` represents the object, which connects [`BulkGate\Sms\Message`](php-sdk-message.md) type of messages to a bulk message (campaign).
 
 ``` php
 use BulkGate\Sms\BulkMessage;
 ```
 
-Konstruktor má jeden volitelný parametr typu [`array`](http://php.net/manual/en/language.types.array.php), který musí obsahovat položky typu [`BulkGate\Sms\Message`](php-sdk-message.md).
+The constructor has one optional [`array`](http://php.net/manual/en/language.types.array.php) type parameter that must contain [`BulkGate\Sms\Message`](php-sdk-message.md) items.
 
 ``` php
 $array = [
-    new BulkGate\Sms\Message("420777777777", "test1"),
-    new BulkGate\Sms\Message("420777777778", "test2"),
-    new BulkGate\Sms\Message("420777777779", "test3"),
-    new BulkGate\Sms\Message("420777777780", "test4"),
+    new BulkGate\Sms\Message("447971700001", "test1"),
+    new BulkGate\Sms\Message("447971700002", "test2"),
+    new BulkGate\Sms\Message("447971700003", "test3"),
+    new BulkGate\Sms\Message("447971700004", "test4"),
 ];
 
 $bulk_message = new BulkMessage($array);
 ```
 
-Zprávy lze přidávat i po jedné:
+Messages can be added one at a time:
 
 ``` php 
 /** @var BulkGate\Sms\BulkMessage $bulk_message */
 $bulk_message->addMessage(
     new BulkGate\Sms\Message(
-        new BulkGate\Sms\Message\PhoneNumber("777777781", BulkGate\Sms\Country::CZECH_REPUBLIC),
+        new BulkGate\Sms\Message\PhoneNumber("7971700001", BulkGate\Sms\Country::GREAT_BRITAIN),
         new BulkGate\Sms\Message\Text("test<number>", [
             'number' => '5'
         ])
@@ -35,9 +35,9 @@ $bulk_message->addMessage(
 );
 ```
 
-## Iterátor
+## Iterator
 
-Zprávami lze procházet pomocí cyklu [`foreach`](http://php.net/manual/en/control-structures.foreach.php)
+You can browse through messages using the [`foreach`](http://php.net/manual/en/control-structures.foreach.php) cycle 
 
 ``` php 
 /** 
@@ -50,84 +50,84 @@ foreach($bulk_message as $message)
 }
 ```
 
-Počet zpráv zjistíme metodou `count()`
+You can find out the number of messages using `count()`
 
 ``` php 
 /** @var BulkGate\Sms\BulkMessage $bulk_message */
 $bulk_message->count();
 ```
 
-## JSON Podpora
+## JSON Support
 
-Objekt `BulkGate\Sms\BulkMessage` implementuje rozhraní [`\JsonSerializable`](http://php.net/manual/en/class.jsonserializable.php) což dovoluje převést pomocí funkce [`json_encode()`](http://php.net/manual/en/function.json-encode.php) do formátu JSON.
+The `BulkGate\Sms\BulkMessage` object implements the [`\JsonSerializable`](http://php.net/manual/en/class.jsonserializable.php) interface that lets you convert it via the [`json_encode()`](http://php.net/manual/en/function.json-encode.php) function to JSON format.
 
 ``` php
 /** @var BulkGate\Sms\BulkMessage $bulk_message */
 echo json_encode($bulk_message);
 ```
 
-Výstupem je:
+The output is:
 
 ``` json
 [
   {
     "number": {
-      "number": "420777777777",
+      "number": "447971700001",
       "iso": null
     },
     "text": "test1"
   },
   {
     "number": {
-      "number": "420777777778",
+      "number": "447971700002",
       "iso": null
     },
     "text": "test2"
   },
   {
     "number": {
-      "number": "420777777779",
+      "number": "447971700003",
       "iso": null
     },
     "text": "test3"
   },
   {
     "number": {
-      "number": "420777777780",
+      "number": "447971700004",
       "iso": null
     },
     "text": "test4"
   },
   {
     "number": {
-      "number": "777777781",
-      "iso": "cz"
+      "number": "7971700005",
+      "iso": "gb"
     },
     "text": "test5"
   }
 ]
 ```
 
-## Převod na řetězec
+## Convert to string
 
-Objekt `BulkGate\Sms\BulkMessage` implementuje magickou metodu [`__string()`](http://php.net/manual/en/language.oop5.magic.php#object.tostring).
+The `BulkGate\Sms\BulkMessage` object implements the magic method [`__string()`](http://php.net/manual/en/language.oop5.magic.php#object.tostring).
 
 ``` php
 /** @var BulkGate\Sms\BulkMessage $bulk_message */
-$message = (string) $bulk_message; // do proměnné
-echo $bulk_message; // na výstup
+$message = (string) $bulk_message; // into the variable
+echo $bulk_message; // to the output
 ```
 
 Výstupem je:
 ```
-420777777777: test1
-420777777778: test2
-420777777779: test3
-420777777780: test4
-777777781: test5
+447971700001: test1
+447971700002: test2
+447971700003: test3
+447971700004: test4
+797170000ř: test5
 ```
 
-## Převod na pole 
+## Transfer to fields
 
 ``` php
 /** @var BulkGate\Sms\BulkMessage $bulk_message */
