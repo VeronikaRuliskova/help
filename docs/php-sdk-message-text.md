@@ -1,42 +1,42 @@
 ---
-title: Text zprávy
+title: Message of the Text
 ---
 
-Třída `BulkGate\Sms\Message\Text` reprezentuje objekt textu zprávy.
+The `BulkGate\Sms\Message\Text` class represents the object of the message text.
 
 ``` php
 use BulkGate\Sms\Message\Text;
 ```
 
-Konstruktor přijímá dva nepovinné parametry. Prvním je samotná šablona zprávy `$text`. Druhým je pole `$variables`, které předává proměnné pro šablonu zprávy.
+The constructor accepts two optional parameters. The first is the `$text` message template itself. The second is the field `$variables`  that passes variables for the message template.
 
 ``` php
-$text = 'Ahoj <name>, přejeme ti vše nejlepší k tvým <age>. narozeninám.';
+$text = 'Hi <name>, we wish you all the best to your <age> birthday!';
 
 $variables = [
-    'name' => 'Johne',
+    'name' => 'John',
     'age' => '29'
 ];
 
 $message_text = new Text($text, $variables);
 ``` 
 
-Třída text podporuje dopňování proměnných do textu, jak je vidět na předchozím příkladu. Zástupné symboly `<name>` a `<age>` jsou nahrazeny za příslušné hodnoty (`<name>` na `Johne` a `<age>` na `29`) z pole `$variables`.
+The text class supports adding of variables to the text, as seen in the previous example. The symbols `<name>` and `<age>` are replaced by appropriate values (`<name>` by `John` and `<age>` by `29`) from the `$variables` field.
 
-Text lze nastavit i pomocí metody `text($text, array $variables)`, která přijímá stejné parametry jako konstruktor.
+You can also set up the text using the `text($text, array $variables)` method, which accepts the same parameters as constructor.
 
 ``` php
 $message_text->text($text, $variables);
 ``` 
 
-## Získání zprávy
+## Obtaining message
 
 ``` php 
 /** @var BulkGate\Sms\Message\Text $message_text */
 
-echo json_encode($message_text); // výstup: "Ahoj Johne, přejeme ti vše nejlepší k tvým 29. narozeninám."
+echo json_encode($message_text); // output: "Hi Johne, we wish you all the best to your 29 birthday!"
 
-$message_text->getText();  // výstup: Ahoj Johne, přejeme ti vše nejlepší k tvým 29. narozeninám.
+$message_text->getText();  // output: Hi Johne, we wish you all the best to your 29 birthday!
 
 $text = (string) $message_text; 
 
