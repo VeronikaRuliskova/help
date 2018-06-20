@@ -30,7 +30,7 @@ namespace BulkGate\Presenters;
 
 use BulkGate, Nette;
 
-class SdkPresenter extends ReactAdminPresenter
+class SdkPresenter extends Nette\Application\UI\Presenter
 {
     /** @var BulkGate\Sms\ISender @inject */
     public $sender;
