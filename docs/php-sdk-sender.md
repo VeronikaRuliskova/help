@@ -1,29 +1,29 @@
 ---
-title: Služba Sender
+title: Sender Service
 ---
 
 ``` php
 use BulkGate\Sms\Sender;
 ```
 
-Abychom mohli vytvořenou zprávu typu `BulkGate\Sms\IMesssage`
+In order to send a message like `BulkGate\Sms\IMesssage`
 
  - [`BulkGate\Sms\Message`](php-sdk-messsage.md)
  - [`BulkGate\Sms\BulkMessage`](php-sdk-bulk-message.md)
 
-musíme vytvořit sender, což můžeme udělat dvěma způsoby:
+you need to create a sender, which can be done in two ways:
 
- - [Nette framework](php-sdk-nette.md) - pokud používáme [Nette framework](https://nette.org/)
- - [PHP](php-sdk-instalation.md) - v ostaních případech
+ - [Nette framework](php-sdk-nette.md) - if you use [Nette framework](https://nette.org/)
+ - [PHP](php-sdk-instalation.md) - in other cases
  
 ``` php
 /** @var BulkGate\Message\Connection $connection */
 $sender = new BulkGate\Sms\Sender($connection);
 ```
  
-## Odeslání zprávy
+## Sending messages
  
-Pro odeslání zprávy se ppužívá metoda `send()`, která přijímá zprávy typu `BulkGate\Sms\IMesssage`.
+To send the message, use the `send()` method, which receives messages of the `BulkGate\Sms\IMesssage` type.
  
 ``` php
 /** 
@@ -33,7 +33,7 @@ Pro odeslání zprávy se ppužívá metoda `send()`, která přijímá zprávy 
 $response = $sender->send($message);
 ```
 
-### Odpověď na `BulkGate\Sms\Messsage`
+### Response to `BulkGate\Sms\Messsage`
 ``` php
 BulkGate\Message\Response Object
 (
@@ -42,12 +42,12 @@ BulkGate\Message\Response Object
         [sms_id] => tmpde8f0dca011
         [price] => 0.033
         [credit] => 215.8138
-        [number] => 420777777777
+        [number] => 447971700001
     )
 )
 ```
 
-### Odpověď na `BulkGate\Sms\BulkMesssage`
+### Response to `BulkGate\Sms\BulkMesssage`
 ``` php
 BulkGate\Message\Response Object
 (
@@ -72,7 +72,7 @@ BulkGate\Message\Response Object
                 [sms_id] => tmpde8f0b47b12
                 [price] => 0.033
                 [credit] => 215.8138
-                [number] => 420777777777
+                [number] => 447971700001
             )
         )
     )
@@ -81,29 +81,29 @@ BulkGate\Message\Response Object
 
 ## Unicode
 
-Pro nastavení [Unicode](unicode.md) zavoláme metodu `unicode()`.
+To set up [Unicode,](unicode.md) call the method `unicode()`.
 
 ``` php
 /** @var BulkGate\Sms\Sender $sender */
-$sender->unicode(); // Zapnout
-$sender->unicode(true); // Zapnout
-$sender->unicode(false); // Vypnout
+$sender->unicode(); // Turn on
+$sender->unicode(true); // Turn on
+$sender->unicode(false); // Turn off
 ```
  
  ## Flash SMS
  
- Pro nastavení [Flash SMS](flash-sms.md) zavoláme metodu `flash()`.
+ To set up [Flash SMS,](flash-sms.md) call the method `flash()`.
  
  ``` php
  /** @var BulkGate\Sms\Sender $sender */
- $sender->flash(); // Zapnout
- $sender->flash(true); // Zapnout
- $sender->flash(false); // Vypnout
+ $sender->flash(); // Turn on
+ $sender->flash(true); // Turn on
+ $sender->flash(false); // Turn off
  ``` 
  
- ## Nastavení odesilatele
+ ## Setting of the Sender
  
- Nastavení typu odesilatele je popsáno v příslušné [kapitole](php-sdk-sender-settings.md).
+Setting of the sender type is described in the [chapter](php-sdk-sender-settings.md).
  
  ``` php
 /** 
@@ -113,55 +113,55 @@ $sender->unicode(false); // Vypnout
 $sender->setSenderSettings($settings);
 ```
 
-## Výchozí země
+## Default country
 
-Pokud zadáváme telefonní čísla v národním formátu, systém neví kam na světě má zprávu poslat. Proto pokud není explicitně vyplněna mezinározdní předvolba, je možno senderu zadefinovat výchozí zemi, kam má zprávy směrovat.
+If you enter phone numbers in a national format, the system does not know where to send the messages. Hence, unless the international prefix is explicitly filled in, you can defined the default country for the sender type to which the messages will be routed.
 
  ``` php
  /** @var BulkGate\Sms\Sender $sender */
- $sender->setDefaultCountry(BulkGate\Sms\Country::CZECH_REPUBLIC); // pomocí BulkGate\Sms\Country
- $sender->setDefaultCountry('cz'); // ISO 3166-1 alpha-2 
+ $sender->setDefaultCountry(BulkGate\Sms\Country::UNITED_KINGDOM); // via BulkGate\Sms\Country
+ $sender->setDefaultCountry('gb'); // ISO 3166-1 alpha-2 
  ``` 
  
- ## Ověření platnosti čísel
+ ## Validation of Numbers
  
- Pokud potřebujeme ověřit zda telefonní číslo odpovídá formátu příslušné země, používáme metodu `checkPhoneNumbers()`.
+ If you need to verify whether a phone number matches the country format, use the method `checkPhoneNumbers()`.
  
  ``` php
  /** @var BulkGate\Sms\Sender $sender */
  $sender->checkPhoneNumbers($numbers, $iso);
  ``` 
  
-Kde `$numbers` může být:
-- telefonní číslo v řetězci `"420777777777"`
-- telefonní číslo typu `BulkGate\Sms\Message\PhoneNumber`
-- pole telefonních čísel `['420777777777','420777777778','420777777779']`
-- pole telefonních čísel typu `BulkGate\Sms\Message\PhoneNumber`
+Where `$numbers` can be:
+- phone number in a string `"447971700001"`
+- phone number of the `BulkGate\Sms\Message\PhoneNumber` type
+- arrays of phone numbers `['447971700001','447971700002','447971700003']`
+- arrays of phone numbers of the `BulkGate\Sms\Message\PhoneNumber` type
 
-`$iso` má stejný význam jako [Výchozí země](#výchozí-země)
+`$iso` has the same meaning as [default country](#default-country)
 
-Výsledkem je potom `BulkGate\Message\Response`
+The output is then `BulkGate\Message\Response`
 
 ``` php
 BulkGate\Message\Response Object
 (
     [data:BulkGate\Message\Response:private] => Array
     (
-        [420777777777] => Array
+        [447971700001] => Array
         (
-            [number] => 420777777777
-            [iso] => cz
-            [prefix] => 420
-            [area] => 420
+            [number] => 447971700001
+            [iso] => gb
+            [prefix] => 44
+            [area] => 44
             [length] => 12
             [area_found] => true
         )
         [77777777] => Array
         (
-            [number] => 42177777777 
+            [number] => 420777777777 
             [iso] => sk
-            [prefix] => 421
-            [area] => 421
+            [prefix] => 420
+            [area] => 420
             [length] => 8
             [area_found] => false
         )
@@ -169,4 +169,4 @@ BulkGate\Message\Response Object
 )
 ```
 
-Hodnota `area_found` udává platnost formátu čísla pro konkrétní zemi.
+The `area_found` value indicates the validity of the country-specific number format.
