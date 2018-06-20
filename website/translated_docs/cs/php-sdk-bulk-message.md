@@ -24,15 +24,15 @@ $bulk_message = new BulkMessage($array);
 Zprávy lze přidávat i po jedné:
 
 ``` php 
-/** @var BulkGate\Sms\BulkMessage $bulk_message */
-$bulk_message->addMessage(
-    new BulkGate\Sms\Message(
-        new BulkGate\Sms\Message\PhoneNumber("777777781", BulkGate\Sms\Country::CZECH_REPUBLIC),
-        new BulkGate\Sms\Message\Text("test<number>", [
-            'number' => '5'
-        ])
-    )
+$message = new BulkGate\Sms\Message(
+    new BulkGate\Sms\Message\PhoneNumber("777777781", BulkGate\Sms\Country::CZECH_REPUBLIC),
+    new BulkGate\Sms\Message\Text("test<number>", [
+        'number' => '5'
+    ])
 );
+
+/** @var BulkGate\Sms\BulkMessage $bulk_message */
+$bulk_message->addMessage(message);
 ```
 
 ## Iterátor
