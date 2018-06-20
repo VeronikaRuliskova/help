@@ -8,7 +8,7 @@ The easiest way to install [bulkgate/sms](https://packagist.org/packages/bulkgat
 composer require bulkgate/sms
 ```
 
-The package includes extensions for [Nette framework](https://nette.org) [DI kontejner](https://doc.nette.org/cs/2.4/dependency-injection).
+The package includes extensions for [Nette framework](https://nette.org) [DI container](https://doc.nette.org/en/2.4/dependency-injection).
 
 ## DI Extension
 
