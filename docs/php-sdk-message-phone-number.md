@@ -1,63 +1,63 @@
 ---
-title: Telefonní číslo
+title: Phone Number
 ---
 
-Třída `BulkGate\Sms\Message\PhoneNumber` reprezentuje objekt telefonního čísla.
+The `BulkGate\Sms\Message\PhoneNumber` class represents the phone number object.
 
 ``` php
 use BulkGate\Sms\Message\PhoneNumber;
 ```
 
-Konstruktor přijímá povinný parametr telefonní číslo a volitelný parametr ISO kódu země.
+The constructor accepts the required parameter phone number and optional country ISO code.
 
 ``` php
 $phone_number = new PhoneNumber(
     "420777777777", 
-    BulkGate\Sms\Country::CZECH_REPUBLIC
+    BulkGate\Sms\Country::UNITED_KINGDOM
 );
 ``` 
 
-Druhý parametr je nutný v případě, že zadáváte telefonní číslo v národním formátu. Pokud zadáte telefonní číslo v národním formátu a nevyplníte [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) kód, pokusí se BulkGate doplnit mezinárodní telefonní předvolbu podle země uvedenou u vašeho uživatelského účtu.
+The second parameter is required if you enter a number in the national format. If you enter a phone number in the national format and don't enter the [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) code, BulkGate will fill the international prefix according to the country listed in your user account.
 
-Změnit telefonní číslo lze i po vytvoření instance.
+You can also change the phone number after creating an instance.
 
 ``` php
 /** @var BulkGate\Sms\Message\PhoneNumber $phone_number */
-$phone_number->phoneNumber('420777777777');
+$phone_number->phoneNumber('447971700001');
 ``` 
 
-Stejně lze nastavit i ISO kód.
+You can also set the ISO code.
 
 ``` php
 /** @var BulkGate\Sms\Message\PhoneNumber $phone_number */
-$phone_number->iso(BulkGate\Sms\Country::CZECH_REPUBLIC);
+$phone_number->iso(BulkGate\Sms\Country::UNITED_KINGDOM);
 
 // nebo
 
-$phone_number->iso('cz');
+$phone_number->iso('gb');
 ``` 
-V případě neplatného ISO kódu je vyvolána výjimka `BulkGate\Sms\Message\InvalidPhoneNumberException`
+In case of invalid ISO code, an exception `BulkGate\Sms\Message\InvalidPhoneNumberException` is called 
 
 
-## Převedení na JSON
+## Convert to JSON
 
 ``` php 
 /** @var BulkGate\Sms\Message\PhoneNumber $phone_number */
 echo json_encode($phone_number);
 ``` 
 
-Výstupem je:
+The output is:
 
 ``` json 
 {
-    "number": "420777777777",
+    "number": "447971700001",
     "iso": null
 }
 ``` 
 
-## Ostatní
+## Other
 
-Získání zformátovaného telefonního čísla v řetězci
+Obtain a formatted phone number in a string
 
 ``` php
 /** @var BulkGate\Sms\Message\PhoneNumber $phone_number */
@@ -66,17 +66,17 @@ $number = (string) $phone_number;
 echo $phone_number;
 ```
 
-Získání ISO kódu
+Obtaining an ISO code
 ``` php 
 /** @var BulkGate\Sms\Message\PhoneNumber $phone_number */
-$phone_number->getIso(); // vrátí řetězec nebo null
+$phone_number->getIso(); // returns a string or null
 ``` 
 
-Podporuje také fluentní rozhraní (anglicky [fluent interface](https://en.wikipedia.org/wiki/Fluent_interface))
+It also supports [fluent interface](https://en.wikipedia.org/wiki/Fluent_interface)
 
 ``` php
 /** @var BulkGate\Sms\Message\PhoneNumber $phone_number */
 $phone_number
-    ->phoneNumber('777777777')
-    ->iso(BulkGate\Sms\Country::CZECH_REPUBLIC);
+    ->phoneNumber('7971700001')
+    ->iso(BulkGate\Sms\Country::UNITED_KINGDOM);
 ```
