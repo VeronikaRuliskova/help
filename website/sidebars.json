@@ -202,8 +202,7 @@
     ],           
     "Sender service" : [
       "php-sdk-sender"
-      ]
-    ,           
+      ],           
     "Other" : [
       "php-sdk-country"
       ]
