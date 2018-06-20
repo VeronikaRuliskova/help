@@ -147,7 +147,11 @@
         "Sender type": "Typ odesílatele",
         "Sender service": "Služba sender",
         "Other": "Další",
-        "php-sdk-administration": "API administrace"
+        "php-sdk-administration": "API administrace a tokeny",
+        "api-tokens": "Tokeny API",
+        "API tokens": "Tokeny API",
+        "http-simple-api-administration": "API administrace a tokeny"
+        
     },
     "pages-strings": {
         "Read how you can work with your business page.|no description given": "Přečtěte si, jak můžete pracovat s vaší business stránkou.",
