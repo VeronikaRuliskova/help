@@ -38,7 +38,7 @@ echo json_encode($message_text); // výstup: "Ahoj Honzo, přejeme ti vše nejle
 
 $message_text->getText();  // výstup: Ahoj Honzo, přejeme ti vše nejlepší k tvým 29. narozeninám.
 
-$text = (string) $message_text; 
+$text = (string) $message_text; // výstup: Ahoj Honzo, přejeme ti vše nejlepší k tvým 29. narozeninám.
 
-echo $message_text;
+echo $message_text; // výstup: Ahoj Honzo, přejeme ti vše nejlepší k tvým 29. narozeninám.
 ```
