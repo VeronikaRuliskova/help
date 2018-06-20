@@ -2,7 +2,7 @@
 title: Hromadná zpráva (Kampaň)
 ---
 
-Třída `BulkGate\Sms\BulkMessage` reprezentuje objekt, který spojuje zprávy typu [`BulkGate\Sms\Message`](php-sdk-message.md) do hromadné zprávy(kampaně).
+Třída `BulkGate\Sms\BulkMessage` reprezentuje objekt, který spojuje zprávy typu [`BulkGate\Sms\Message`](php-sdk-message.md) do hromadné zprávy (kampaně).
 
 ``` php
 use BulkGate\Sms\BulkMessage;
@@ -59,7 +59,7 @@ $bulk_message->count();
 
 ## JSON Podpora
 
-Objekt `BulkGate\Sms\BulkMessage` implementuje rozhraní [`\JsonSerializable`](http://php.net/manual/en/class.jsonserializable.php) což dovoluje převést pomocí funkce [`json_encode()`](http://php.net/manual/en/function.json-encode.php) do formátu JSON.
+Objekt `BulkGate\Sms\BulkMessage` implementuje rozhraní [`\JsonSerializable,`](http://php.net/manual/en/class.jsonserializable.php) díky kterému ho můžete převést pomocí funkce [`json_encode()`](http://php.net/manual/en/function.json-encode.php) do formátu JSON.
 
 ``` php
 /** @var BulkGate\Sms\BulkMessage $bulk_message */
