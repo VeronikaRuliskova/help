@@ -189,7 +189,8 @@
    "api-administration-tokens-cat" : {
     "API administration": [
       "api-administration"
-     "API tokens": [
+       ],
+     "API tokens" : [
       "api-tokens"
         ]
    },
