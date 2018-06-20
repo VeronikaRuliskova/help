@@ -14,7 +14,7 @@ Konstruktor přijímá dva nepovinné parametry. Prvním je samotná šablona zp
 $text = 'Ahoj <name>, přejeme ti vše nejlepší k tvým <age>. narozeninám.';
 
 $variables = [
-    'name' => 'Johne',
+    'name' => 'Jan',
     'age' => '29'
 ];
 
