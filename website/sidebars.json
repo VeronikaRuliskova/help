@@ -152,8 +152,8 @@
       "http-simple-check-credit-balance",
       "http-simple-info-get-post"
        ],
-         "API Administration" : [
-         "api-administration"
+         "API Administration & Tokens" : [
+         "http-simple-api-administration"
          ],
         "Examples of implementation" : [
         "http-simple-transactional-examples",
@@ -186,6 +186,14 @@
       ]
     },
     
+   "api-administration-tokens-cat" : {
+    "API administration": [
+      "api-administration"
+     "API tokens": [
+      "api-tokens"
+        ]
+   },
+   
     "php-sdk-cat" : {
     "Instalation": [
       "php-sdk-instalation",
