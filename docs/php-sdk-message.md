@@ -1,5 +1,5 @@
 ---
-title: Zpráva
+title: Message
 ---
 
 The `BulkGate\Sms\Message` class represents the object of the SMS message, which consists of the content of the message and the recipient.
