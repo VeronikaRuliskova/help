@@ -1,5 +1,5 @@
 ---
-title: Bulk SMS (Kampaň)
+title: Bulk SMS (Campaign)
 ---
 
 The class `BulkGate\Sms\BulkMessage` represents the object, which connects [`BulkGate\Sms\Message`](php-sdk-message.md) type of messages to a bulk message (campaign).
