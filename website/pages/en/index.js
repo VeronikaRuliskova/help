@@ -187,6 +187,15 @@ class HomeSplash extends React.Component {
                             </Col>
                             <Col s12 m4>
                                 <TopicCategory
+                                    name={<translate>PHP SDK</translate>}
+                                    url={docUrl("php-sdk-instalation.html", language)}
+                                    ico="http"
+                                    text={<translate>Read SDK documentation</translate>}
+                                    btnText={<translate>Read topic</translate>}
+                                />
+                            </Col>
+                            <Col s12 m4>
+                                <TopicCategory
                                     name={<translate>HTTP Low Level</translate>}
                                     url={docUrl("http-low-level-api-description.html", language)}
                                     ico="http"
