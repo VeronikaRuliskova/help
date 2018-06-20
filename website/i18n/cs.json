@@ -133,7 +133,16 @@
         "http-simple-transactional-examples": "Příklady transakční SMS",
         "http-simple-info-get-post": "Požadavky",
         "http-simple-check-credit-balance": "Ověření stavu kreditu",
-        "http-simple-promotional-examples": "Příklady propagační SMS"
+        "http-simple-promotional-examples": "Příklady propagační SMS",
+        "php-sdk-bulk-message": "Hromadná zpráva (Kampaň)",
+        "php-sdk-country", "Země",
+        "php-sdk-instalation", "Instalace",
+        "php-sdk-message-phone-number", "Telefonní číslo",
+        "php-sdk-message-text", "Text zprávy",
+        "php-sdk-message", "Zpráva",
+        "php-sdk-nette", "Instalace do Nette framework",
+        "php-sdk-sender-settings", "Nastavení typu odesilatele",
+        "php-sdk-sender", "Služba Sender"
     },
     "pages-strings": {
         "Read how you can work with your business page.|no description given": "Přečtěte si, jak můžete pracovat s vaší business stránkou.",
