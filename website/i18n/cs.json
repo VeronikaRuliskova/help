@@ -146,7 +146,8 @@
         "Instalation": "Instalace",
         "Sender type": "Typ odesílatele",
         "Sender service": "Služba sender",
-        "Other": "Další"
+        "Other": "Další",
+        "php-sdk-administration": "API administrace"
     },
     "pages-strings": {
         "Read how you can work with your business page.|no description given": "Přečtěte si, jak můžete pracovat s vaší business stránkou.",
