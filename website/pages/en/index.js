@@ -187,7 +187,7 @@ class HomeSplash extends React.Component {
                             </Col>
                             <Col s12 m4>
                                 <TopicCategory
-                                    name={<translate>PHP SDK</translate>}
+                                    name={<translate>PHP/Nette SDK</translate>}
                                     url={docUrl("php-sdk-instalation.html", language)}
                                     ico="http"
                                     text={<translate>Read SDK documentation</translate>}
