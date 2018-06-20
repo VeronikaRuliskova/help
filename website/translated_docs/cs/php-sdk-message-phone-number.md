@@ -17,7 +17,7 @@ $phone_number = new PhoneNumber(
 );
 ``` 
 
-Druhý parametr je nutný v případě, že zadáváte telefonní číslo v národním formátu. Pokud zadáte telefonní číslo v národním formátu a nevyplníte [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) kód, pokusí se BulkGate doplnit mezinárodní telefonní předvolbu podle země uvedenou u vašeho uživatelského účtu.
+Druhý parametr je nutný v případě, že zadáváte telefonní číslo v národním formátu. Pokud zadáte telefonní číslo v národním formátu a nevyplníte [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) kód, pak se BulkGate pokusí doplnit mezinárodní telefonní předvolbu podle země uvedenou ve vašem uživatelském účtu.
 
 Změnit telefonní číslo lze i po vytvoření instance.
 
