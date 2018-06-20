@@ -1,16 +1,16 @@
 ---
-title: Nastavení typu odesilatele
+title: Setting sender type
 ---
 
 ``` php
 use BulkGate\Sms\SenderSettings
 ```
 
-Pokud chceme odeslat SMS můžeme si vybrat z několika typů odesilatele, kteří jsou popsáni [zde](sender-type.md).
+If you want to send SMS you can choose from several sender types that are described [here](sender-type.md).
 
-## Varianta 1: Typ odesilatele
+## Option 1: Sender Type
 
-Jednoduší variantou je pomocí `BulkGate\Sms\SenderSettings\StaticSenderSettings`, kde si nastavíme jaký typ odesilatele chceme a pokud je podporován v dané zemi, je s tímto senderem SMS odeslána.
+The simpler option is to set up with `BulkGate\Sms\SenderSettings\StaticSenderSettings` what type of sender type you want to use , and if it is supported in the given country, the SMS is sent with the sender type.
 
 ``` php
 $type = SenderSettings\Gate::GATE_TEXT_SENDER;
@@ -18,36 +18,36 @@ $value = 'BulkGate';
 
 $settings = new SenderSettings\StaticSenderSettings($type, $value); 
 ```
-Proměnná `$type` může nabývat následujících hodnot.
+The `$type`  variable can gain the following values.
 
-| HODNOTA| VÝZNAM|
+| HODNOTA| MEANING|
 |:--- |:---|
-|`SenderSettings\Gate::GATE_SYSTEM_SENDER` |Systémové číslo| 
+|`SenderSettings\Gate::GATE_SYSTEM_SENDER` |System number| 
 |`SenderSettings\Gate::GATE_SHORT_SENDER`|Short Code| 
-|`SenderSettings\Gate::GATE_TEXT_SENDER` |Textový odesílatel| 
-|`SenderSettings\Gate::GATE_OWN_SENDER` |Vlastní číslo (vyžaduje ověření čísla)| 
+|`SenderSettings\Gate::GATE_TEXT_SENDER` |Text sender ID| 
+|`SenderSettings\Gate::GATE_OWN_SENDER` |Own Number (requires number verification)| 
 
-Proměnná `$value` se vyplňuje pokud je `$type` nastaveni na textový odesilatel nebo vlastní číslo.
+The `$value`variable is filled when `$type` is set to a text sender ID or a own number.
 
-> Maximální délka `$value` v případě textového odesilatele je **11 znaků anglické abecedy**.
+> The maximal length of `$value` in case of the text sender ID is **11 characters of the English alphabet.**
 
-> Pokud je vybrán typ vlastního čísla, je **nutné** zadané číslo mít **ověřené na portále BulkGate**.
+> If you choose own number sender type it is **necessary to verify on BulkGate Portal** the number first.
 
-Alternativně lze nastavit typ u již vytvořeného objektu.
+Alternatively, you can set the sender type for an already created object.
 
 ``` php
 /** @var SenderSettings\StaticSenderSettings $settings */
 $settings->systemNumber();
 $settings->shortCode();
 $settings->textSender('BulkGate');
-$settings->ownNumber('420777777777');
+$settings->ownNumber('447971700001');
 ```
 
-## Varianta 2: Nastavení podle země
+## Option 2: Setting According to a Country
 
-Tato varianta je trochu složitější na nastavení, ale dovoluje vytvořit přesné nastavení pro jednotlivé země, do kterých chcete posílat.
+This option is a bit more complicated to set up, but it allows you to create the exact settings for each country you want to send messages to.
 
-K tomu slouží třída `SenderSettings\CountrySenderSettings`.
+This is done by the `SenderSettings\CountrySenderSettings`.
 
 ``` php
 $settings = SenderSettings\CountrySenderSettings();
@@ -57,13 +57,13 @@ $settings->add(BulkGate\Sms\Country::CZECH_REPUBLIC, SenderSettings\Gate::GATE2)
          ->add(BulkGate\Sms\Country::GERMANY, SenderSettings\Gate::GATE3, 'BulkGate');
 ```
 
-Kde druhý parametr výběr konkrétní brány v konkrétní zemi. Příslušné nastavení nalezneme v [ceníku](https://portal.bulkgate.com/sms-price/list) na portále.
+Where the second parameter is the selection of a particular gateway in a particular country. You find the appropriate settings in [price list](https://portal.bulkgate.com/sms-price/list) on the Portal.
 
 ![bulkgate-sdk-gate](https://github.com/BulkGate/help/raw/master/website/static/img/sdk-gate.png)
 
-## Předání nastavení senderu
+## Forwarding Settings of Sender Type
 
-Aby vše fungovalo, je potřeba takto nastavený objekt předat do `BulkGate\Sms\Sender`.
+To make it works, there is a need to forward everything to `BulkGate\Sms\Sender`.
 
 ``` php
 /** 
