@@ -1,5 +1,5 @@
 ---
-title: Země
+title: Country
 ---
 
 The `BulkGate\Sms\Country` class is a static class that contains constants with [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) codes.
