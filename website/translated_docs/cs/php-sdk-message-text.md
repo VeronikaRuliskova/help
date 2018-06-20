@@ -14,14 +14,14 @@ Konstruktor přijímá dva nepovinné parametry. Prvním je samotná šablona zp
 $text = 'Ahoj <name>, přejeme ti vše nejlepší k tvým <age>. narozeninám.';
 
 $variables = [
-    'name' => 'Jan',
+    'name' => 'Jane',
     'age' => '29'
 ];
 
 $message_text = new Text($text, $variables);
 ``` 
 
-Třída text podporuje dopňování proměnných do textu, jak je vidět na předchozím příkladu. Zástupné symboly `<name>` a `<age>` jsou nahrazeny za příslušné hodnoty (`<name>` na `Johne` a `<age>` na `29`) z pole `$variables`.
+Třída text podporuje dopňování proměnných do textu, jak je vidět na předchozím příkladu. Zástupné symboly `<name>` a `<age>` jsou nahrazeny za příslušné hodnoty (`<name>` na `Jane` a `<age>` na `29`) z pole `$variables`.
 
 Text lze nastavit i pomocí metody `text($text, array $variables)`, která přijímá stejné parametry jako konstruktor.
 
@@ -34,9 +34,9 @@ $message_text->text($text, $variables);
 ``` php 
 /** @var BulkGate\Sms\Message\Text $message_text */
 
-echo json_encode($message_text); // výstup: "Ahoj Johne, přejeme ti vše nejlepší k tvým 29. narozeninám."
+echo json_encode($message_text); // výstup: "Ahoj Jane, přejeme ti vše nejlepší k tvým 29. narozeninám."
 
-$message_text->getText();  // výstup: Ahoj Johne, přejeme ti vše nejlepší k tvým 29. narozeninám.
+$message_text->getText();  // výstup: Ahoj Jane, přejeme ti vše nejlepší k tvým 29. narozeninám.
 
 $text = (string) $message_text; 
 
