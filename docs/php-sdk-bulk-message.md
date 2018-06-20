@@ -27,7 +27,7 @@ Messages can be added one at a time:
 /** @var BulkGate\Sms\BulkMessage $bulk_message */
 $bulk_message->addMessage(
     new BulkGate\Sms\Message(
-        new BulkGate\Sms\Message\PhoneNumber("7971700001", BulkGate\Sms\Country::GREAT_BRITAIN),
+        new BulkGate\Sms\Message\PhoneNumber("7971700001", BulkGate\Sms\Country::UNITED_KINGDOM),
         new BulkGate\Sms\Message\Text("test<number>", [
             'number' => '5'
         ])
