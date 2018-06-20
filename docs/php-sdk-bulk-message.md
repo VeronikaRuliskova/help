@@ -118,7 +118,7 @@ $message = (string) $bulk_message; // into the variable
 echo $bulk_message; // to the output
 ```
 
-Výstupem je:
+Output is:
 ```
 447971700001: test1
 447971700002: test2
