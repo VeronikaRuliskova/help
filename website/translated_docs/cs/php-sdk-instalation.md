@@ -4,7 +4,7 @@ title: Instalace
 
 ## Composer
 
-Nejsnadnější cestou nainstalovat [bulkgate/sms](https://packagist.org/packages/bulkgate/sms) do projektu je pomocí nástroje [Composer](https://getcomposer.org/) přes příkazovou řádku.
+Nejsnadnější cestou, jak nainstalovat [bulkgate/sms](https://packagist.org/packages/bulkgate/sms) do projektu, je pomocí nástroje [Composer](https://getcomposer.org/) přes příkazovou řádku.
 
 ```
 composer require bulkgate/sms
@@ -16,7 +16,7 @@ Pokud máte balíček nainstalovaný stačí jen připojit autoloader.
 require_once __DIR__ . '/vendor/autoload.php';
 ```
 
-Abychom mohli odesílat zprávy potřebujeme instanci třídy `BulkGate\Sms\Sender`, který vyžaduje zavislost na instanci třídy `BulkGate\Message\Connection`.
+Abyste mohli odesílat zprávy, potřebujete instanci třídy `BulkGate\Sms\Sender`, která vyžaduje zavislost na instanci třídy `BulkGate\Message\Connection`.
 
 ``` php
 $connection = new BulkGate\Message\Connection('APPLICATION_ID', 'APPLICATION_TOKEN');
@@ -24,10 +24,10 @@ $connection = new BulkGate\Message\Connection('APPLICATION_ID', 'APPLICATION_TOK
 $sender = new BulkGate\Sms\Sender($connection);
 ```
 
-V tuto chvíli máme již vše připraveno na odeslání zprávy.
+V tuto chvíli máte již vše připraveno na odeslání zprávy.
 
 ``` php
-$message = new BulkGate\Sms\Message('420777777777', 'test message');
+$message = new BulkGate\Sms\Message('420777777777', 'test zprávy');
 
 $sender->send($message);
 ```
