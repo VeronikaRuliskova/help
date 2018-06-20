@@ -2,61 +2,61 @@
 title: Zpráva
 ---
 
-Třída `BulkGate\Sms\Message` reprezentuje objekt SMS zprávy, která se skládá z obsahu zprávy a příjemce.
+The `BulkGate\Sms\Message` class represents the object of the SMS message, which consists of the content of the message and the recipient.
 
 ``` php
 use BulkGate\Sms\Message;
 ```
 
-## Příjemce
+## Recipient
 
-Třída přijímá jako první agrument telefonní číslo, které může být zadáno řetězcem:
-
-``` php
-$message = new Message('420777777777', 'test message');
-```
-
-nebo přijímá instanci objektu [`Message\PhoneNumber`](php-sdk-message-phone-number.md):
+The class accepts as the first argument a phone number that can be entered by a string:
 
 ``` php
-$message = new Sms\Message(new Message\PhoneNumber('420777777777'), 'test message');
+$message = new Message('447971700001', 'test message');
 ```
 
-Telefonní číslo můžeme zadat i po vytvoření instance objektu pomocí metody `phoneNumber($phone_number, $iso = null)`:
+or accepts an instance of the object [`Message\PhoneNumber`](php-sdk-message-phone-number.md):
+
+``` php
+$message = new Sms\Message(new Message\PhoneNumber('447971700001'), 'test message');
+```
+
+You can also enter the phone number after creating an instance of the object using the method `phoneNumber($phone_number, $iso = null)`:
 
 ``` php
 $message = new Sms\Message();
 
-$message->phoneNumber('420777777777');  // řetězec
-$message->phoneNumber('777777777', BulkGate\Sms\Country::CZECH_REPUBLIC);  // Varianta s doplněním mezinárodní telefonní předvolby
-$message->phoneNumber(new Message\PhoneNumber('420777777777')); 
+$message->phoneNumber('447971700001');  // řetězec
+$message->phoneNumber('7971700001', BulkGate\Sms\Country::UNITED_KINGDOM);  // The option with filling international prefix
+$message->phoneNumber(new Message\PhoneNumber('447971700001')); 
 ```
 
-Pro získání telefonního čísla lze použít metodu `getPhoneNumber()`, která vrací vždy instanci objektu [`Message\PhoneNumber`](php-sdk-message-phone-number.md).
+To obtain a phone number, you can use the method `getPhoneNumber()`, which always returns an instance of the [`Message\PhoneNumber`](php-sdk-message-phone-number.md) object.
 
 ``` php
 /** @var Message\PhoneNumber $phone_number */
 $phone_number = $message->getPhoneNumber();
 ```
 
-## Text zprávy
+## Text of the message 
 
-Druhým parametrem je zadání textu zprávy, jsou také 2 možnosti, kde první je zadání textu pomocí řetězce a druhou variantou je instance třídy [`Message\Text`](php-sdk-message-text.md).
+The second parameter is the input of the text of the message. There are also 2 options where the first is to enter text using a string, and the other is an instance of the class [`Message\Text`](php-sdk-message-text.md).
 
 ``` php
 $message = new Message(
-        new Message\PhoneNumber('420777777777'), 
-        new Message\Text('test Message')
+        new Message\PhoneNumber('447971700001'), 
+        new Message\Text('test message')
 );
 ```
 
-Samozřejmě i zde můžeme definovat text i po vytvoření instance objektu pomocí metody `text($text, array $variables = [])`
+Of course, you can define text even after creating an instance of an object using the method `text($text, array $variables = [])`
 
 ``` php
 $message = new Sms\Message();
-$message->phoneNumber('420777777777');  // řetězec
+$message->phoneNumber('447971700001');  // string
 
-$message->text('test message'); // řetězec
+$message->text('test message'); // string
 
 $message->text(new Message\Text('test message')); 
 
@@ -64,69 +64,69 @@ $message->text(
     'Hello <first_name> <last_name>', [
         'first_name' => 'John', 
         'last_name' => 'Doe'
-    ]); // doplnění proměnných; výsledný text je "Hello John Doe"
+    ]); // filling variables; the output is "Hello John Doe"
 ```
 
-Pro získání textu zprávy lze použít metodu `getText()`, která vrací vždy instanci objektu [`Message\Text`](php-sdk-message-text.md).
+You can use the `getText()` method, to retrieve the message text, which always returns an instance of the [`Message\Text`](php-sdk-message-text.md) object.
 
 ``` php
 /** @var Message\Text $text */
 $text = $message->getText();
 ```
 
-## JSON Podpora
+## JSON Support
 
-Objekt `BulkGate\Sms\Message` implementuje rozhraní [`\JsonSerializable`](http://php.net/manual/en/class.jsonserializable.php) což dovoluje převést pomocí funkce [`json_encode()`](http://php.net/manual/en/function.json-encode.php) do formátu JSON.
+The `BulkGate\Sms\Message` object implements the [`\JsonSerializable`](http://php.net/manual/en/class.jsonserializable.php) interface that lets you convert it via the [`json_encode()`](http://php.net/manual/en/function.json-encode.php) to JSON format.
 
 ``` php
 /** @var BulkGate\Sms\Message $message */
-$message = new Message('420777777777', 'test message');
+$message = new Message('447971700001', 'test message');
 
 echo json_encode($message);
 ```
 
-Výstupem je:
+The output is:
 
 ``` json
 {
   "number": {
-    "number": "420777777777",
+    "number": "447971700001",
     "iso": null
   },
   "text": "test message"
 }
 ```
 
-## Převod na řetězec
+## Convert to string
 
-Objekt `BulkGate\Sms\Message` implementuje magickou metodu [`__string()`](http://php.net/manual/en/language.oop5.magic.php#object.tostring)
+The `BulkGate\Sms\Message` object implements the magic method [`__string()`](http://php.net/manual/en/language.oop5.magic.php#object.tostring)
 
 ``` php
 /** @var BulkGate\Sms\Message $message */
-$message = (string) $message; // do proměnné
-echo $message; // na výstup
+$message = (string) $message; // into the variable
+echo $message; // to the output
 ```
 
-Výstupem je:
+The output is:
 
 ```
-420777777777: test message
+447971700001: test message
 ```
 
-## Převod na pole 
+## Convert to array
 
 ``` php
 /** @var BulkGate\Sms\Message $message */
 $array = $message->toArray();
 ```
 
-## Fluentní rozhraní
+## Fluent interface
 
-Fluentní rozhraní (anglicky [fluent interface](https://en.wikipedia.org/wiki/Fluent_interface)) je technika řetězení metod.
+[Fluent interface](https://en.wikipedia.org/wiki/Fluent_interface)) is the technique of chaining methods.
 
 ``` php
 $message = new Sms\Message();
 
-$message->phoneNumber('420777777777')
+$message->phoneNumber('447971700001')
         ->text('test message');
 ```
