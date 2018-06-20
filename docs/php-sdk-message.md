@@ -122,7 +122,7 @@ $array = $message->toArray();
 
 ## Fluent interface
 
-[Fluent interface](https://en.wikipedia.org/wiki/Fluent_interface)) is the technique of chaining methods.
+[Fluent interface](https://en.wikipedia.org/wiki/Fluent_interface) is the technique of chaining methods.
 
 ``` php
 $message = new Sms\Message();
