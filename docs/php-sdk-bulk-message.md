@@ -127,7 +127,7 @@ Výstupem je:
 797170000ř: test5
 ```
 
-## Transfer array
+## Transfer to array
 
 ``` php
 /** @var BulkGate\Sms\BulkMessage $bulk_message */
