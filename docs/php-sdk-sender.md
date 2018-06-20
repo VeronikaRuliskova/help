@@ -158,8 +158,8 @@ BulkGate\Message\Response Object
         )
         [77777777] => Array
         (
-            [number] => 420777777777 
-            [iso] => sk
+            [number] => 42077777777 
+            [iso] => cz
             [prefix] => 420
             [area] => 420
             [length] => 8
