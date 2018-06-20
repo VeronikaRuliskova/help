@@ -9,15 +9,17 @@ Nicméně, pokud si myslíte, že má někdo přístup k vaši API, měli byste 
 
 ## Jak mohu zakázat API token?
 Pro zakázaní vašeho API tokenu:
-1.	Jděte to Moduly a API
-2.	Vyberte, pro kterou API chcete zakázat token a klikněte na ni
-3.	Klikněte na Možnosti tokenu (3 svislé tečky) a klikněte zakázat
+1.  Přihlaste se do [BulkGate Portálu](https://portal.bulkgate.com)
+2.	Jděte to Moduly a API
+3.	Vyberte, pro kterou API chcete zakázat token a klikněte na ni
+4.	Klikněte na Možnosti tokenu (3 svislé tečky) a klikněte zakázat
 
 Možná budete chtít [přidat nový token.](#jak-mohu-přidat-nový-token)
 
 ## Jak mohu přidat nový token?
 Pro přidání nového tokenu pro vaši API:
-1.	Jděte to Moduly a API
-2.	Vyberte, pro kterou API chcete přidat nový token a klikněte na ni
-3.	Klikněte Přidat token
-4.	Nový token byl vygenerován
+1.  Přihlaste se do [BulkGate Portálu](https://portal.bulkgate.com)
+2.	Jděte to Moduly a API
+3.	Vyberte, pro kterou API chcete přidat nový token a klikněte na ni
+4.	Klikněte Přidat token
+5.	Nový token byl vygenerován
