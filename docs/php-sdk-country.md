@@ -2,13 +2,13 @@
 title: Země
 ---
 
-Třída `BulkGate\Sms\Country` je statická třída, která obsahuje konstanty s [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) kódy.
+The `BulkGate\Sms\Country` class is a static class that contains constants with [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) codes.
 
 ``` php
 use BulkGate\Sms\Country;
 ```
 
-Použití:
+Use:
 
 ``` php
 echo Country::CZECH_REPUBLIC; // 'CZ'
