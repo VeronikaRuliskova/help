@@ -34,11 +34,11 @@ $message_text->text($text, $variables);
 ``` php 
 /** @var BulkGate\Sms\Message\Text $message_text */
 
-echo json_encode($message_text); // output: "Hi Johne, we wish you all the best to your 29 birthday!"
+echo json_encode($message_text); // output: "Hi John, we wish you all the best to your 29 birthday!"
 
-$message_text->getText();  // output: Hi Johne, we wish you all the best to your 29 birthday!
+$message_text->getText();  // output: Hi John, we wish you all the best to your 29 birthday!
 
-$text = (string) $message_text; 
+$text = (string) $message_text; // output: Hi John, we wish you all the best to your 29 birthday!
 
-echo $message_text;
+echo $message_text; // output: Hi John, we wish you all the best to your 29 birthday!
 ```
