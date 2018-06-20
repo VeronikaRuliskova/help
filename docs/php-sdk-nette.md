@@ -2,16 +2,18 @@
 title: Instalace do Nette framework
 ---
 
-Nejsnadnější cestou nainstalovat [bulkgate/sms](https://packagist.org/packages/bulkgate/sms) do projektu je pomocí nástroje [Composer](https://getcomposer.org/) přes příkazovou řádku.
+The easiest way to install [bulkgate/sms](https://packagist.org/packages/bulkgate/sms) into a project is by using [Composer](https://getcomposer.org/) via the command line.
 
 ```
 composer require bulkgate/sms
 ```
-Balíček obsahuje rozšíření pro [Nette framework](https://nette.org) [DI kontejner](https://doc.nette.org/cs/2.4/dependency-injection).
+
+The package includes extensions for [Nette framework](https://nette.org) [DI kontejner](https://doc.nette.org/cs/2.4/dependency-injection).
 
 ## DI Extension
 
-Rozšíření stačí zaregistrovat do DI kontejneru přes NEON
+Register the extension to the DI container via NEON
+
 ``` neon
 extensions:
 	bulkgate: BulkGate\Message\Bridges\MessageDI\MessageExtension
@@ -21,7 +23,7 @@ bulkgate:
 	application_token: <APPLICATION_TOKEN>
 ```
 
-čímž získáme třídu [`BulkGate\Sms\Sender`](php-sdk-sender.md) jako službu, kterou si můžeme vyžádat.
+which gives you the class [`BulkGate\Sms\Sender`](php-sdk-sender.md) as a service you can request.
 
 ``` php
 <?php declare(strict_types=1);
@@ -37,18 +39,18 @@ class SdkPresenter extends Nette\Application\UI\Presenter
 
     public function actionDefault()
     {
-        $this->sender->send(new BulkGate\Sms\Message('420777777777', 'test message'));
+        $this->sender->send(new BulkGate\Sms\Message('447971700001', 'test message'));
     }
 }
 ```
 
 ## Tracy
 
-Současně s tím získáme rozšíření pro [Tracy](https://tracy.nette.org) panel
+At the same time, you'll get the extension for [Tracy](https://tracy.nette.org) panel
 
 ![bulkgate-sdk-tracy](https://github.com/BulkGate/help/raw/master/website/static/img/sdk-tracy.png)
 
-Manuálně rozšíření připojíme následovně.
+To manually add the extension, follow these steps.
 
 ``` php
 /** @var BulkGate\Message\Connection $connection */
