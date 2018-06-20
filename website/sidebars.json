@@ -190,7 +190,10 @@
     "Instalation": [
       "php-sdk-instalation",
       "php-sdk-nette"
-     ],
+        ],
+       "API Administration" : [
+    "php-sdk-administration"
+          ],
      "Message" : [
        "php-sdk-message",
        "php-sdk-bulk-message",
