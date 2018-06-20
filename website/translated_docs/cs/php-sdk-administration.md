@@ -1,5 +1,5 @@
 ---
-title: API administration
+title: API administration & tokens
 ---
 
 ## Přejděte do sekce [API administrace](api-administration.md)
