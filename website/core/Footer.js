@@ -13,11 +13,11 @@ const links = {
     },
     privacy : {
         en : ["privacy", "Privacy"],
-        cs : ["ochrana-soukromi", "Ochrana soukromí"]
+        cs : ["ochrana-soukromi", "Zásady ochrany osobních údajů"]
     },
     terms : {
-        en : ["terms", "Terms"],
-        cs : ["podminky-pouziti", "Podmínky použití"]
+        en : ["terms", "Terms and Conditions"],
+        cs : ["podminky-pouziti", "Obchodní podmínky"]
     }
 };
 
