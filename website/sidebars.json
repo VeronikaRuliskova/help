@@ -124,7 +124,8 @@
       "price-list"
        ],
      "Customization (developers)": [
-      "custom-notifications"
+      "custom-notifications",
+       "customization-simple-api"
        ],
      "FAQ": [
       "text-sender-id-registration",
