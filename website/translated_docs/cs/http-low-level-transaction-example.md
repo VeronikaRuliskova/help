@@ -2,7 +2,7 @@
 title: Transactional SMS examples
 ---
 
-Below are examples of Simple API implementations for sending [transactional SMS (notification)](difference-promotional-transactional-sms.md#transactional-sms) messages with a text sender ID in different programming languages: 
+Níže uvádíme příklady implementace Low Level API pro odeslání [transakčních (informačních) SMS](difference-promotional-transactional-sms.md#transakČnÍ-sms) s [textovým odesílatelem](sender-type.md#textový-odesílatel) v různých programovacích jazycích:
  - [PHP](#php)
  - [PHP cURL](#php-curl)
  - [Go](#go)
@@ -23,12 +23,12 @@ $connection = fopen('https://api.bulkgate.com/http/', 'r', false,
         'content' => http_build_query([
             'action' => 'sendsms', 
             'username' => 'bg1805142032xyze',
-            'password' => 'secret_password',
+            'password' => 'tajne_heslo',
             'number' => '420777777777',
-            'data' => 'Your verification code for GuitarShop is 071118',
+            'data' => 'Vas overovaci kod pro VaseKytary je 071118',
             'isms' => '2',
             'unicode' => '1',
-            'sender' => 'GuitarShop'
+            'sender' => 'VaseKytary'
         ]),
         'ignore_errors' => true
     ]])
@@ -60,12 +60,12 @@ curl_setopt_array($curl, [
     CURLOPT_POSTFIELDS => http_build_query([
             'action' => 'sendsms', 
             'username' => 'bg1805142032xyze',
-            'password' => 'secret_password',
+            'password' => 'tajne_heslo',
             'number' => '420777777777',
-            'data' => 'Your verification code for GuitarShop is 071118',
+            'data' => 'Vas overovaci kod pro VaseKytary je 071118',
             'isms' => '2',
             'unicode' => '1',
-            'sender' => 'GuitarShop'
+            'sender' => 'VaseKytary'
     ]),
     CURLOPT_HTTPHEADER => [
         'Content-Type: application/x-www-form-urlencoded'
@@ -101,7 +101,7 @@ func main() {
 
 	url := "https://api.bulkgate.com/http/"
 
-	payload := strings.NewReader("action=sendsms&username=bg1805142032xyze&password=secret_password&number=420777777777&data=Your+verification+code+for+GuitarShop+is+071118&isms=2&unicode=1&sender=GuitarShop")
+	payload := strings.NewReader("action=sendsms&username=bg1805142032xyze&password=tajne_heslo&number=420777777777&data=Vas+overovaci+kod+pro+VaseKytary+je+071118&isms=2&unicode=1&sender=VaseKytary")
 
 	req, _ := http.NewRequest("POST", url, payload)
 
@@ -123,7 +123,7 @@ import http.client, json
 
 connection = http.client.HTTPSConnection('api.bulkgate.com')
 
-connection.request('POST', '/http/', 'action=sendsms&username=bg1805142032xyze&password=secret_password&number=420777777777&data=Your+verification+code+for+GuitarShop+is+071118&isms=2&unicode=1&sender=GuitarShop', {
+connection.request('POST', '/http/', 'action=sendsms&username=bg1805142032xyze&password=tajne_heslo&number=420777777777&data=Vas+overovaci+kod+pro+VaseKytary+je+071118&isms=2&unicode=1&sender=VaseKytary', {
     'Content-type': 'application/x-www-form-urlencoded'
 })
 
@@ -135,7 +135,7 @@ print(response.read().decode())
 ## JavaScript
 https://developer.mozilla.org/en-US/docs/Web/JavaScript
 ``` JavaScript
-var data = "action=sendsms&username=bg1805142032xyze&password=secret_password&number=420777777777&data=Your+verification+code+for+GuitarShop+is+071118&isms=2&unicode=1&sender=GuitarShop";
+var data = "action=sendsms&username=bg1805142032xyze&password=tajne_heslo&number=420777777777&data=Vas+overovaci+kod+pro+VaseKytary+je+071118&isms=2&unicode=1&sender=VaseKytary";
 
 var xhr = new XMLHttpRequest();
 
@@ -156,7 +156,7 @@ http://square.github.io/okhttp/
 ``` Java
 OkHttpClient client = new OkHttpClient();
 
-RequestBody body = RequestBody.create(mediaType, "action=sendsms&username=bg1805142032xyze&password=secret_password&number=420777777777&data=Your+verification+code+for+GuitarShop+is+071118&isms=2&unicode=1&sender=GuitarShop");
+RequestBody body = RequestBody.create(mediaType, "action=sendsms&username=bg1805142032xyze&password=tajne_heslo&number=420777777777&data=Vas+overovaci+kod+pro+VaseKytary+je+071118&isms=2&unicode=1&sender=VaseKytary");
 
 MediaType mediaType = MediaType.parse("application/x-www-form-urlencoded");
 Request request = new Request.Builder()
@@ -174,6 +174,6 @@ https://curl.haxx.se/
 curl --request POST \
   --url https://api.bulkgate.com/http/ \
   --header 'Content-Type: application/x-www-form-urlencoded' \
-  --data 'RequestBody body = RequestBody.create(mediaType, "action=sendsms&username=bg1805142032xyze&password=secret_password&number=420777777777&data=Your+verification+code+for+GuitarShop+is+071118&isms=2&unicode=1&sender=GuitarShop");
+  --data 'RequestBody body = RequestBody.create(mediaType, "action=sendsms&username=bg1805142032xyze&password=tajne_heslo&number=420777777777&data=Vas+overovaci+kod+pro+VaseKytary+je+071118&isms=2&unicode=1&sender=VaseKytary");
 '
 ```
