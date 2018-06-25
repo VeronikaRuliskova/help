@@ -186,7 +186,6 @@
       "http-low-level-api-delivery-confirmations-and-incoming-sms"
       ],
      "Examples of implementation" : [
-        "http-low-level-transactional-examples",
         "http-low-level-transaction-example"
          ]
     },
