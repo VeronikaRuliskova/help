@@ -8,7 +8,7 @@ title: API administration
 3.	Choose the API you want to create and click on it
 4.	Click Create API
 5.	Your API has been created
-6.	You can now see important information such as `Application ID (APPLICATION_ID)` and `Application token (APPLICATION_TOKEN)` which are needed for the further work with your API
+6.	You can now see important information such as `[Application ID]() (APPLICATION_ID)` and `[Application token](api-tokens.md#what-is-an-api-token) (APPLICATION_TOKEN)` which are needed for the further work with your API
 
 ## How can I create new API?
 To create an API:
@@ -32,3 +32,6 @@ To rename your API:
 3.	Select which API you want to rename and click on it
 4.	Click on the Settings button and click Rename
 5.	Change the name and click Save
+
+## What is Application ID?
+Application ID `(APPLICATION_ID)` is a unique identification number which you need to access your API together with [Application token](api-tokens.md#what-is-an-api-token) (APPLICATION_TOKEN)`
