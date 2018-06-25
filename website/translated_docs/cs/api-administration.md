@@ -2,6 +2,14 @@
 title: API administration
 ---
 
+## Jak získám přístupová data do API?
+1.	Přihlaste se do [BulkGate Portálu](https://portal.bulkgate.com)
+2.	Jděte to Moduly a API
+3.	Vyberte, kterou API chcete vytvořit a klikněte na ni
+4.	Klikněte na Vytvořit API
+5.	Vaše API byla vytvořena
+6.	Nyní můžete vidět důležité informace jako [Application ID](#) **`(APPLICATION_ID)`** a [Application token]() **`(APPLICATION_TOKEN)`**, které jsou potřebné pro další práci s vaší API
+
 ## Jak mohu vytvořit novou API?
 Pro vytvoření API:
 1.  Přihlaste se do [BulkGate Portálu](https://portal.bulkgate.com)
@@ -24,3 +32,6 @@ Pro přejmenování vaší API:
 3.	Vyberte, kterou API chcete přejmenovat a klikněte na ni
 4.	Klikněte na tlačítko Nastavení a klikněte přejmenovat
 5.	Změňte název a klikněte Uložit
+
+## Co je Application ID?
+Application ID **`(APPLICATION_ID)`** je unikátní identifikační číslo, které potřebujete pro zpřístupnění vaší API spolu s [Application tokenm]() **`(APPLICATION_TOKEN)`**.
