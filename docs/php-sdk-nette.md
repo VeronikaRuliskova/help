@@ -12,7 +12,7 @@ The package includes extensions for [Nette framework](https://nette.org) [DI con
 
 ## DI Extension
 
-Register the extension to the DI container via NEON
+Register the extension to the DI container via NEON 
 
 ``` neon
 extensions:
@@ -23,7 +23,7 @@ bulkgate:
 	application_token: <APPLICATION_TOKEN>
 ```
 
-which gives you the class [`BulkGate\Sms\Sender`](php-sdk-sender.md) as a service you can request.
+which gives you the class [`BulkGate\Sms\Sender`](php-sdk-sender.md) as a service you can request. See [how to get API accesss data.](api-administration.md#how-do-i-get-api-access-data)
 
 ``` php
 <?php declare(strict_types=1);
