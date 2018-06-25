@@ -10,6 +10,8 @@ title: API administration
 5.	Your API has been created
 6.	You can now see important information such as [Application ID](#what-is-application-id) **`(APPLICATION_ID)`** and [Application token](api-tokens.md#what-is-an-api-token) **`(APPLICATION_TOKEN)`** which are needed for the further work with your API
 
+![api_en](https://raw.githubusercontent.com/BulkGate/help/master/website/static/img/api_en.png)
+
 ## How can I create new API?
 To create an API:
 1.	Log in to [BulkGate Portal](https://portal.bulkgate.com)
