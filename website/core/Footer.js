@@ -79,7 +79,7 @@ class Footer extends React.Component {
                             YouTube
                         </a>
                         <a
-                            href="https://www.facebook.com/topefekt/"
+                            href="https://www.facebook.com/bulkgate"
                             rel="nofollow"
                             target="_blank"
                         >
