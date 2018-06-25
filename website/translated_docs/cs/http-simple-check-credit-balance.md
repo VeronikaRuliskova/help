@@ -13,8 +13,8 @@ https://portal.bulkgate.com/api/1.0/simple/info
 
 | NÁZEV PARAMETRU	| HODNOTA|	POVINNÝ| VÝCHOZÍ HODNOTA|
 |:--- |:--- |:--- |:--- |
-|application_id|Aplikační identifikátor |**Ano**|-| 
-|application_token|Aplikační ověřovací token	|**Ano**|-|
+|application_id|[Aplikační identifikátor](api-administration.md#co-je-application-id) |**Ano**|-| 
+|application_token|[Aplikační ověřovací token](api-tokens.md#co-je-api-token)	|**Ano**|-|
 
 ## Odpověď na tento příkaz může být:
 
