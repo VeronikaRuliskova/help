@@ -18,8 +18,8 @@ https://portal.bulkgate.com/api/1.0/simple/promotional
 
 | NÁZEV PARAMETRU	| HODNOTA|	POVINNÝ| VÝCHOZÍ HODNOTA|
 |:--- |:--- |:--- |:--- |
-|application_id| Aplikační identifikátor |**Ano**|-| 
-|application_token| Aplikační ověřovací token	|**Ano**|-|
+|application_id| [Aplikační identifikátor](api-administration.md#co-je-application-id) |**Ano**|-| 
+|application_token| [Aplikační ověřovací token](api-tokens.md#co-je-api-token)	|**Ano**|-|
 |number| Čísla příjemců oddělená `;` (středníkem)	|**Ano**|-|
 |text| Text SMS zprávy (max. 612 znaků, nebo 268 znaků, jestliže je aktivován Unicode), UTF-8 kódování	|**Ano**|-|
 |unicode	|`Yes`/`true`/`1` pro Unicode SMS, no/false/0 pro 7bit SMS|Ne|`false`|
