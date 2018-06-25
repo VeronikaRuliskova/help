@@ -62,7 +62,7 @@ else
 
 ### PHP 7.1 objetkově orientovaný příklad
 ``` php
-<?php declare(strict_types=1);
+declare(strict_types=1);
 
 new class ()
 {
