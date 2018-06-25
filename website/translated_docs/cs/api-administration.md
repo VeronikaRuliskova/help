@@ -8,7 +8,7 @@ title: API administration
 3.	Vyberte, kterou API chcete vytvořit a klikněte na ni
 4.	Klikněte na Vytvořit API
 5.	Vaše API byla vytvořena
-6.	Nyní můžete vidět důležité informace jako [Application ID](#) **`(APPLICATION_ID)`** a [Application token]() **`(APPLICATION_TOKEN)`**, které jsou potřebné pro další práci s vaší API
+6.	Nyní můžete vidět důležité informace jako [Application ID](#co-je-application-id) **`(APPLICATION_ID)`** a [Application token](api-tokens.md#co-je-api-token) **`(APPLICATION_TOKEN)`**, které jsou potřebné pro další práci s vaší API
 
 ## Jak mohu vytvořit novou API?
 Pro vytvoření API:
@@ -34,4 +34,4 @@ Pro přejmenování vaší API:
 5.	Změňte název a klikněte Uložit
 
 ## Co je Application ID?
-Application ID **`(APPLICATION_ID)`** je unikátní identifikační číslo, které potřebujete pro zpřístupnění vaší API spolu s [Application tokenm]() **`(APPLICATION_TOKEN)`**.
+Application ID **`(APPLICATION_ID)`** je unikátní identifikační číslo, které potřebujete pro zpřístupnění vaší API spolu s [Application tokenem](api-tokens.md#co-je-api-token) **`(APPLICATION_TOKEN).`**
