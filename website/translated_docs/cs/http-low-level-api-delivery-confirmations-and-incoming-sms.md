@@ -23,3 +23,119 @@ Chcete-li dostávat dlr záznamy do aplikace, zašlete nám DELIVERY_URL adresu 
 |6	|SMS přijatá poskytovatelem (tento stav není ve výchozím nastavení povolen, kontaktujte nás pro odběr)|
 |8	|Platnost SMS zprávy vypršela|
 |10|	Příchozí SMS nebo SMS odpověď (kontaktujte nás pro více informací)|
+
+### PHP 5.4 procedurální příklad
+``` php
+<?php
+$status_list = [
+    1 => 'doručeno',
+    2 => 'nedostupné',
+    3 => 'nedoručeno',
+    6 => 'přijato',
+    8 => 'expirováno'
+];
+
+$status = filter_input(INPUT_GET, 'status', FILTER_SANITIZE_NUMBER_INT);
+
+if($status && (int) $status === 10)
+{
+    $from    = filter_input(INPUT_GET, 'from', FILTER_SANITIZE_STRING);
+    $message = filter_input(INPUT_GET, 'message', FILTER_SANITIZE_STRING);
+
+    file_put_contents(__DIR__."/inbox.log", '['.date('Y-m-d H-i-s').'] ' .sprintf('Od: [%s] Zpráva: [%s]', $from, $message) . PHP_EOL,FILE_APPEND);
+}
+elseif($status && in_array((int)$status, array_keys($status_list)))
+{
+    $price  = filter_input(INPUT_GET, 'price', FILTER_SANITIZE_NUMBER_FLOAT);
+    $sms_id = filter_input(INPUT_GET, 'smsID', FILTER_SANITIZE_STRING);
+
+    file_put_contents(__DIR__."/delivery.log", '['.date('Y-m-d H-i-s').'] ' .sprintf('Zpráva s ID [%s] je ve stavu [%s], Cena: [%f]', $sms_id, $status_list[$status], $price) . PHP_EOL,FILE_APPEND);
+}
+else
+{
+    echo "neplatný stav";
+    exit(1);
+}
+```
+
+### PHP 7.1 objetkově orientovaný příklad
+``` php
+<?php declare(strict_types=1);
+
+new class ()
+{
+    const STATUS_LIST = [
+        1 => 'doručeno',
+        2 => 'nedostupné',
+        3 => 'nedoručeno',
+        6 => 'přijato',
+        8 => 'expirováno'
+    ];
+
+    public function __construct()
+    {
+        $status = $this->input('status', 'int');
+
+        if($status === 10 /** INBOX */)
+        {
+            $this->inbox();
+        }
+        elseif(in_array($status, array_keys(self::STATUS_LIST)))
+        {
+            $this->delivery(self::STATUS_LIST[$status]);
+        }
+        else
+        {
+            $this->log('Neplatný stav: '.(string) $status, 'error');
+        }
+    }
+
+    public function inbox(): void
+    {
+        $from    = $this->input('from');
+        $message = $this->input('message');
+
+        $this->log(sprintf('Od: [%s] Zpráva: [%s]', $from, $message), 'inbox');
+
+    }
+
+    public function delivery(string $status): void
+    {
+        $price  = $this->input('price', 'float');
+        $sms_id = $this->input('smsID');
+
+        $this->log(sprintf('Zpráva s ID [%s] je ve stavu [%s], Cena: [%f]', $sms_id, $status, $price), 'delivery');
+    }
+
+    private function log(string $message, string $type): void
+    {
+        $message = '['.date('Y-m-d H-i-s').'] ' . $message . PHP_EOL;
+
+        echo $message;
+        file_put_contents(__DIR__."/$type.log", $message,FILE_APPEND);
+
+        exit((int) $type === 'error');
+    }
+
+    private function input(string $name, string $type = 'string')
+    {
+        if($type === 'string')
+        {
+            $value = filter_input(INPUT_GET, $name, FILTER_SANITIZE_STRING);
+            return $value ? (string) $value : '';
+        }
+        else if($type === 'int')
+        {
+            $value = filter_input(INPUT_GET, $name, FILTER_SANITIZE_NUMBER_INT);
+            return $value ? (int) $value : 0;
+        }
+        else if($type === 'float')
+        {
+            $value = filter_input(INPUT_GET, $name, FILTER_SANITIZE_NUMBER_FLOAT);
+            return $value ? (float) $value : 0.0;
+        }
+
+        return null;
+    }
+};
+```
