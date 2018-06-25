@@ -35,3 +35,5 @@ To rename your API:
 
 ## What is Application ID?
 Application ID **`(APPLICATION_ID)`** is a unique identification number which you need to access your API together with [Application token](api-tokens.md#what-is-an-api-token) **`(APPLICATION_TOKEN).`**
+
+Read [how to obtain API access data.](api-administration.md#how-do-i-get-api-access-data) 
