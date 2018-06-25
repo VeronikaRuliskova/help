@@ -2,7 +2,7 @@
 title: Transactional SMS examples
 ---
 
-Below are examples of Simple API implementations for sending [transactional SMS (notification)](difference-promotional-transactional-sms.md#transactional-sms) messages with a text sender ID in different programming languages: 
+Below are examples of Simple API implementations for sending [transactional SMS (notification)](difference-promotional-transactional-sms.md#transactional-sms) messages with a [text sender ID](sender-type.md#text-sender-id) in different programming languages: 
  - [PHP](#php)
  - [PHP cURL](#php-curl)
  - [Go](#go)

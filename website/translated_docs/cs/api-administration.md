@@ -10,6 +10,8 @@ title: API administration
 5.	Vaše API byla vytvořena
 6.	Nyní můžete vidět důležité informace jako [Application ID](#co-je-application-id) **`(APPLICATION_ID)`** a [Application token](api-tokens.md#co-je-api-token) **`(APPLICATION_TOKEN)`**, které jsou potřebné pro další práci s vaší API
 
+![api_cz](https://raw.githubusercontent.com/BulkGate/help/master/website/static/img/api_cz.png)
+
 ## Jak mohu vytvořit novou API?
 Pro vytvoření API:
 1.  Přihlaste se do [BulkGate Portálu](https://portal.bulkgate.com)
