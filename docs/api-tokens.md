@@ -3,7 +3,7 @@ title: API tokens
 ---
 
 ## What is an API token?
-API token serves as a security measure for your API. You should never provide it to anyone. 
+API token `(APPLICATION_TOKEN)` serves as a security measure for your API. It is a key that you need to access your API. You should never provide it to anyone. 
 
 However, if you are in doubts and think someone may have an access to your API, you should [disable the token](https://github.com/BulkGate/help/blob/master/docs/api-administration.md#how-can-i-disable-my-api-token) or [add a new token.](#how-can-i-add-a-new-token) 
 
