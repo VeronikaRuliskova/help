@@ -43,6 +43,7 @@ if($status && (int) $status === 10)
     $message = filter_input(INPUT_GET, 'message', FILTER_SANITIZE_STRING);
 
     file_put_contents(__DIR__."/inbox.log", '['.date('Y-m-d H-i-s').'] ' .sprintf('Od: [%s] Zpráva: [%s]', $from, $message) . PHP_EOL,FILE_APPEND);
+    exit(0);
 }
 elseif($status && in_array((int)$status, array_keys($status_list)))
 {
@@ -50,6 +51,7 @@ elseif($status && in_array((int)$status, array_keys($status_list)))
     $sms_id = filter_input(INPUT_GET, 'smsID', FILTER_SANITIZE_STRING);
 
     file_put_contents(__DIR__."/delivery.log", '['.date('Y-m-d H-i-s').'] ' .sprintf('Zpráva s ID [%s] je ve stavu [%s], Cena: [%f]', $sms_id, $status_list[$status], $price) . PHP_EOL,FILE_APPEND);
+    exit(0);
 }
 else
 {
@@ -96,7 +98,6 @@ new class ()
         $message = $this->input('message');
 
         $this->log(sprintf('Od: [%s] Zpráva: [%s]', $from, $message), 'inbox');
-
     }
 
     public function delivery(string $status): void
