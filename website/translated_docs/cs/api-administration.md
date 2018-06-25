@@ -35,3 +35,5 @@ Pro přejmenování vaší API:
 
 ## Co je Application ID?
 Application ID **`(APPLICATION_ID)`** je unikátní identifikační číslo, které potřebujete pro zpřístupnění vaší API spolu s [Application tokenem](api-tokens.md#co-je-api-token) **`(APPLICATION_TOKEN).`**
+
+Přečtěte si, [jak získat přístupová data pro API.](api-administration.md#jak-získám-přístupová-data-do-api)
