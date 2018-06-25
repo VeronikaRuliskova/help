@@ -3,9 +3,11 @@ title: API tokens
 ---
 
 ## Co je API token?
-API token slouží jako bezpečnostní prvek pro vaši API. Neměli byste ho s nikým sdílet. 
+API token **`(APPLICATION_TOKEN)`** slouží jako bezpečnostní prvek pro vaši API. Je to klíč, který potřebujete pro zpřístupnění vaší API spolu s [Application ID](api-administration.md#co-je-application-id) **`(APPLICATION_ID).`** Neměli byste ho s nikým sdílet. 
 
 Nicméně, pokud si myslíte, že má někdo přístup k vaši API, měli byste váš token [zakázat](#jak-mohu-zakázat-api-token) nebo [přidat nový token.](#jak-mohu-přidat-nový-token)
+
+Přečtěte si, [jak získat přístupová data pro API.](api-administration.md#jak-získám-přístupová-data-do-api)
 
 ## Jak mohu zakázat API token?
 Pro zakázaní vašeho API tokenu:

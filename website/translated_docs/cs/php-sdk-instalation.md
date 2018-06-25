@@ -16,7 +16,7 @@ Pokud máte balíček nainstalovaný stačí jen připojit autoloader.
 require_once __DIR__ . '/vendor/autoload.php';
 ```
 
-Abyste mohli odesílat zprávy, potřebujete instanci třídy `BulkGate\Sms\Sender`, která vyžaduje zavislost na instanci třídy `BulkGate\Message\Connection`.
+Abyste mohli odesílat zprávy, potřebujete instanci třídy `BulkGate\Sms\Sender`, která vyžaduje zavislost na instanci třídy `BulkGate\Message\Connection`. Podívejte se, [jak získat přístupová data do API.](api-administration.md#jak-získám-přístupová-data-do-api)
 
 ``` php
 $connection = new BulkGate\Message\Connection('APPLICATION_ID', 'APPLICATION_TOKEN');

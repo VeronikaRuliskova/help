@@ -13,8 +13,8 @@ https://portal.bulkgate.com/api/1.0/simple/info
 
 | PARAMETER NAME | VALUE | MANDATORY | DEFAULT VALUE |
 |:--- |:--- |:--- |:--- |
-|application_id|Application indentificator |**Yes**|-| 
-|application_token|Application authentication token	|**Yes**|-|
+|application_id|[Application indentificator](api-administration.md#what-is-application-id) |**Yes**|-| 
+|application_token|[Application authentication token](api-tokens.md#what-is-an-api-token)	|**Yes**|-|
 
 ## Response to this command may be:
 

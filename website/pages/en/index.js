@@ -176,6 +176,15 @@ class HomeSplash extends React.Component {
                     </h2>
                     <Row>
                         <Flex wrap horizontalItems="center">
+                          <Col s12 m4>
+                                <TopicCategory
+                                    name={<translate>API administration & tokens</translate>}
+                                    url={docUrl("api-administration.html", language)}
+                                    ico="api_keys"
+                                    text={<translate>Read how to administrate APIs and create tokens</translate>}
+                                    btnText={<translate>Read topic</translate>}
+                                />
+                            </Col>
                             <Col s12 m4>
                                 <TopicCategory
                                     name={<translate>HTTP Simple API</translate>}
