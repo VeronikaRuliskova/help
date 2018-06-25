@@ -18,8 +18,8 @@ https://portal.bulkgate.com/api/1.0/simple/promotional
 
 |PARAMETER NAME	|VALUE|	MANDATORY| DEFAULT VALUE|
 |:--- |:--- |:--- |:--- |
-|application_id|Application indentificator |**Yes**|-| 
-|application_token|Application authentication token	|**Yes**|-|
+|application_id| [Application indentificator](api-administration.md#what-is-application-id) |**Yes**|-| 
+|application_token|[Application authentication token](api-tokens.md#what-is-an-api-token) |**Yes**|-|
 |number|Recipient number separated by `;` (semicolon) 	|**Yes**|-|
 |text|Text of SMS message (max. 612 characters, or 268 characters if Unicode is used), UTF-8 enconding	|**Yes**|-|
 |unicode	|`Yes`/`true`/`1` for Unicode SMS, `no`/`false`/`0` for 7bit SMS|No|`false`|
