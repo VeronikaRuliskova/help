@@ -16,7 +16,7 @@ If you have the package installed just plug in the autoloader.
 require_once __DIR__ . '/vendor/autoload.php';
 ```
 
-In order to send messages, you need an instance of the `BulkGate\Sms\Sender` class that requires instance dependency on the `BulkGate\Message\Connection` class.
+In order to send messages, you need an instance of the `BulkGate\Sms\Sender` class that requires instance dependency on the `BulkGate\Message\Connection` class. See [how to get API accesss data.](api-administration.md#how-do-i-get-api-access-data)
 
 ``` php
 $connection = new BulkGate\Message\Connection('APPLICATION_ID', 'APPLICATION_TOKEN');

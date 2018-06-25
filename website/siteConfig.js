@@ -47,7 +47,7 @@ const siteConfig = {
         // Highlight.js theme to use for syntax highlighting in code blocks
         theme: 'androidstudio',
     },
-    scripts: ['https://buttons.github.io/buttons.js'],
+    scripts: ['https://buttons.github.io/buttons.js', 'https://www.bulkgate.com/wp-content/themes/bulkgate.com/js/cookies.js'],
     // You may provide arbitrary config keys to be used as needed by your template.
     repoUrl: 'https://github.com/facebook/test-site',
 };

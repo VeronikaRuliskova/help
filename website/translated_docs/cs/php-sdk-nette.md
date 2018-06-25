@@ -22,7 +22,7 @@ bulkgate:
 	application_token: <APPLICATION_TOKEN>
 ```
 
-čímž získáte třídu [`BulkGate\Sms\Sender`](php-sdk-sender.md) jako službu, kterou si můžete vyžádat.
+čímž získáte třídu [`BulkGate\Sms\Sender`](php-sdk-sender.md) jako službu, kterou si můžete vyžádat. Podívejte se, [jak získat přístupová data do API.](api-administration.md#jak-získám-přístupová-data-do-api)
 
 ``` php
 <?php declare(strict_types=1);
