@@ -66,7 +66,7 @@ else
 
 ### PHP 7.1 object-oriented
 ``` php
-<?php declare(strict_types=1);
+declare(strict_types=1);
 
 new class ()
 {
