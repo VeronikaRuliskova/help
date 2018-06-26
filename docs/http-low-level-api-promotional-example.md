@@ -1,5 +1,5 @@
 ---
-title: Promotional SMS examples
+title: Promoční SMS příklady
 ---
 
 Below are examples of Low Level API implementations for sending [promotional SMS (marketing)](difference-promotional-transactional-sms.md#promotional-sms) messages with a [text sender ID](sender-type.md#text-sender-id) in different programming languages: 
