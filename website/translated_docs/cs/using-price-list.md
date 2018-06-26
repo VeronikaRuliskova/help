@@ -11,7 +11,7 @@ Také vám umožňuje vypočítat, kolik budete platit za vaše nadcházející 
 ## Jak mohu použít kalkulátor ceny?
 Kalkulátor ceny vám pomůže zjistit, kolik SMS zpráv budete moci poslat po zadání částky, kterou chcete investovat, nebo kolik potřebujete investovat poté, co zadáte počet SMS zpráv, které chcete odeslat.
 
-Kalkulátor ceny vám také může nabídnout bonusové nabídky, které se odráží od míry dobytí částky. Díky tomu utratíte méně peněž za vaše zprávy.
+Kalkulátor ceny vám také může nabídnout bonusové nabídky, které se odráží od míry dobití částky. Díky tomu utratíte méně peněž za vaše zprávy.
 
 Pro použití kalkulátoru ceny:
 1.	Zvolte [typ odesílatele](sender-type.md#co-je-typ-odesílatele-a-jak-ho-můžu-použít)
