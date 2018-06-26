@@ -2,7 +2,7 @@
 title: Promotional SMS examples
 ---
 
-Below are examples of Low Level API implementations for sending [promotional SMS (marketing)](difference-promotional-transactional-sms.md#promotional-sms) messages with a [text sender ID](sender-type.md#text-sender-id) in different programming languages: 
+Níže uvádíme příklady implementace Low Level API pro odeslání [propagační SMS (hromadné)](difference-promotional-transactional-sms.md#promotional-sms) SMS s [textovým odesílatelem](sender-type.md#text-sender-id) v různých programovacích jazycích: 
  - [PHP](#php)
  - [PHP cURL](#php-curl)
  - [Go](#go)
