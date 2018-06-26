@@ -14,7 +14,7 @@ V SMS kampani:
 3.	Zadejte jméno textového odesílatele
 
 ### Registrace textového odesílatele
-V některých zemích mobilní operátoři vyžadují registraci textového odesílatele (podívejte se na [ceník;](https://www.bulkgate.com/cs/cena-sms/) symbol červená `*`). Bez této registrace není možné textového odesílatele využívat.
+V některých zemích mobilní operátoři vyžadují registraci textového odesílatele (podívejte se na [ceník;](https://www.bulkgate.com/cs/cena-sms/) symbol červená `*`). Bez této registrace není možné tento typ odesílatele využívat.
 
 Pro registrování vašeho vlastního textového odesílatele:
 1.	Kontaktujte nás přes [kontaktní formulář](https://www.bulkgate.com/cs/kontakt/)
