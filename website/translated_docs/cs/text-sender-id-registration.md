@@ -6,7 +6,7 @@ title: How can I register text sender ID?
 Můžete vybírat z různých [typů odesílatelů,](sender-type.md#co-je-typ-odesílatele-a-jak-ho-můžu-použít) když posíláte vaše [informační SMS](https://www.bulkgate.com/cs/reseni/sms#informacni-sms) (transakční SMS) a [hromadné SMS](https://www.bulkgate.com/cs/reseni/sms/#hromadna-sms) (propagační SMS) zprávy. 
 
 ### DYNAMICKÝ textový odesílatel
-Textového odesílatele můžete změnit přímo v [modulu](https://www.bulkgate.com/cs/sms-modul/) nebo na [Portálu.](https://www.bulkgate.com/cs/sms-portal-cs/) Buďto ve druhém kroku [SMS kampaně](creating-sms-campaign.md#jak-vytvořim-sms-kampaň) nebo když posíláte individuální zprávy přes nástěnku.
+Textového odesílatele můžete změnit přímo v [modulu](https://www.bulkgate.com/cs/sms-modul/) nebo na [Portálu.](https://www.bulkgate.com/cs/sms-portal-cs/) Buď ve druhém kroku [SMS kampaně,](creating-sms-campaign.md#jak-vytvořim-sms-kampaň) nebo když posíláte individuální zprávy přes nástěnku.
 
 V SMS kampani:
 1.	Dostaňte se do druhého kroku kampaně - Zpráva
