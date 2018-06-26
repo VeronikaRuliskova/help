@@ -155,7 +155,9 @@
         "Home": "Domů",
         "reports": "Záznamy",
         "Working with groups": "Práce se skupinami",
-        "http-low-level-transaction-example": "Příklady transakční SMS"
+        "http-low-level-transaction-example": "Příklady transakční SMS",
+        "http-low-level-api-transaction-example": "Příklady transakční SMS",
+        "http-low-level-api-promotional-example": "Příklady propagační SMS"
     },
     "pages-strings": {
         "Read how you can work with your business page.|no description given": "Přečtěte si, jak můžete pracovat s vaší business stránkou.",
