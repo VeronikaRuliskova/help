@@ -16,7 +16,7 @@ Pro koupi kreditů:
 2.	Zvolte platební metodu a odešlete peníze
 3.	Poté, co obdržíme platbu, bude váš kreditní zůstatek navýšen. Toto závisí na zvolené platební metodě
 
->Vyplňte vše fakturační údaje, pokud chcete, abychom vám poskytovali faktury
+>Vyplňte vaše fakturační údaje, pokud chcete, abychom vám poskytovali faktury
 
 A také
 
