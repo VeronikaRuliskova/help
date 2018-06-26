@@ -1,5 +1,5 @@
 ---
-title: Transactional SMS examples
+title: Informační SMS příklady
 ---
 
 Níže uvádíme příklady implementace Low Level API pro odeslání [transakčních (informačních) SMS](difference-promotional-transactional-sms.md#transakČnÍ-sms) s [textovým odesílatelem](sender-type.md#textový-odesílatel) v různých programovacích jazycích:
