@@ -2,7 +2,7 @@
 title: Promotional SMS examples
 ---
 
-Níže uvádíme příklady implementace Low Level API pro odeslání [propagační SMS (hromadné)](difference-promotional-transactional-sms.md#promotional-sms) SMS s [textovým odesílatelem](sender-type.md#text-sender-id) v různých programovacích jazycích: 
+Níže uvádíme příklady implementace Low Level API pro odeslání [propagační SMS (hromadné)](difference-promotional-transactional-sms.md#promotional-sms) s [textovým odesílatelem](sender-type.md#text-sender-id) v různých programovacích jazycích: 
  - [PHP](#php)
  - [PHP cURL](#php-curl)
  - [Go](#go)
@@ -25,7 +25,7 @@ $connection = fopen('https://api.bulkgate.com/http/', 'r', false,
             'username' => 'bg1805142032xyze',
             'password' => 'secret_password',
             'number' => '447971700001;447971700002',
-            'data' => 'Hello, this is marketing campaign example.',
+            'data' => 'Ahoj, tohle je testovaci marketingova kampan.',
             'isms' => '2;2',
             'unicode' => '1',
             'sender' => 'GuitarShop;GuitarShop'
@@ -62,7 +62,7 @@ curl_setopt_array($curl, [
             'username' => 'bg1805142032xyze',
             'password' => 'secret_password',
             'number' => '447971700001;447971700002',
-            'data' => 'Hello, this is marketing campaign example.',
+            'data' => 'Ahoj, tohle je testovaci marketingova kampan.',
             'isms' => '2;2',
             'unicode' => '1',
             'sender' => 'GuitarShop;GuitarShop'
@@ -101,7 +101,7 @@ func main() {
 
 	url := "https://api.bulkgate.com/http/"
 
-	payload := strings.NewReader("action=sendsmsall&username=bg1805142032xyze&password=secret_password&number=447971700001;447971700002&data=Hello+this+is+marketing+campaign+example&isms=2;2&unicode=1&sender=GuitarShop;GuitarShop")
+	payload := strings.NewReader("action=sendsmsall&username=bg1805142032xyze&password=secret_password&number=447971700001;447971700002&data=Ahoj+tohle+je+testovaci+marketingova+kampan&isms=2;2&unicode=1&sender=GuitarShop;GuitarShop")
 
 	req, _ := http.NewRequest("POST", url, payload)
 
@@ -123,7 +123,7 @@ import http.client, json
 
 connection = http.client.HTTPSConnection('api.bulkgate.com')
 
-connection.request('POST', '/http/', 'action=sendsmsall&username=bg1805142032xyze&password=secret_password&number=447971700001;447971700002&data=Hello+this+is+marketing+campaign+example&isms=2;2&unicode=1&sender=GuitarShop;GuitarShop', {
+connection.request('POST', '/http/', 'action=sendsmsall&username=bg1805142032xyze&password=secret_password&number=447971700001;447971700002&data=Ahoj+tohle+je+testovaci+marketingova+kampan&isms=2;2&unicode=1&sender=GuitarShop;GuitarShop', {
     'Content-type': 'application/x-www-form-urlencoded'
 })
 
@@ -135,7 +135,7 @@ print(response.read().decode())
 ## JavaScript
 https://developer.mozilla.org/en-US/docs/Web/JavaScript
 ``` JavaScript
-var data = "action=sendsmsall&username=bg1805142032xyze&password=secret_password&number=447971700001;447971700002&data=Hello+this+is+marketing+campaign+example&isms=2;2&unicode=1&sender=GuitarShop;GuitarShop";
+var data = "action=sendsmsall&username=bg1805142032xyze&password=secret_password&number=447971700001;447971700002&data=Ahoj+tohle+je+testovaci+marketingova+kampan&isms=2;2&unicode=1&sender=GuitarShop;GuitarShop";
 
 var xhr = new XMLHttpRequest();
 
@@ -156,7 +156,7 @@ http://square.github.io/okhttp/
 ``` Java
 OkHttpClient client = new OkHttpClient();
 
-RequestBody body = RequestBody.create(mediaType, "action=sendsmsall&username=bg1805142032xyze&password=secret_password&number=447971700001;447971700002&data=Hello+this+is+marketing+campaign+example&isms=2;2&unicode=1&sender=GuitarShop;GuitarShop");
+RequestBody body = RequestBody.create(mediaType, "action=sendsmsall&username=bg1805142032xyze&password=secret_password&number=447971700001;447971700002&data=Ahoj+tohle+je+testovaci+marketingova+kampan&isms=2;2&unicode=1&sender=GuitarShop;GuitarShop");
 
 MediaType mediaType = MediaType.parse("application/x-www-form-urlencoded");
 Request request = new Request.Builder()
@@ -174,6 +174,6 @@ https://curl.haxx.se/
 curl --request POST \
   --url https://api.bulkgate.com/http/ \
   --header 'Content-Type: application/x-www-form-urlencoded' \
-  --data 'RequestBody body = RequestBody.create(mediaType, "action=sendsmsall&username=bg1805142032xyze&password=secret_password&number=447971700001;447971700002&data=Hello+this+is+marketing+campaign+example&isms=2;2&unicode=1&sender=GuitarShop;GuitarShop");
+  --data 'RequestBody body = RequestBody.create(mediaType, "action=sendsmsall&username=bg1805142032xyze&password=secret_password&number=447971700001;447971700002&data=Ahoj+tohle+je+testovaci+marketingova+kampan&isms=2;2&unicode=1&sender=GuitarShop;GuitarShop");
 '
 ```
