@@ -5,7 +5,7 @@ title: Purchasing credit
 ## Co jsou kredity? Mají datum platnosti?
 Kredity jsou virtuální měnou na Bulkgate [SMS Portálu,](https://www.bulkgate.com/cs/sms-portal-cs/) [SMS modulech](https://www.bulkgate.com/cs/sms-modul/) a BulkGate [SMS API.](https://www.bulkgate.com/cs/vyvojari/sms-api/) Pokud chcete například vytvořit SMS kampaň, tak nejprve musíte na vašem účtu mít dostatečný počet kreditů. Podívejte se, [jak koupit kredity.](#jak-mohu-koupit-kredity) Předtím, než koupíte kredity, podívejte se na [SMS ceník](using-price-list.md#jak-mohu-používat-ceník) a spočítejte si náklady na vaši další kampaň.
 
-**`Upozorňujeme, že kredity nemají žádné datum vypršení platnosti. Zmizí pouze tehdy, když je vyčerpáte.`**
+**`Upozorňujeme, že kredity nemají žádné datum vypršení platnosti. Zmizí pouze tehdy, pokud je vyčerpáte.`**
 
 ## Jak mohu koupit kredity?
 Pro koupi kreditů:
