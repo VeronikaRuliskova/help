@@ -17,6 +17,6 @@ Pro použití kalkulátoru ceny:
 1.	Zvolte [typ odesílatele](sender-type.md#co-je-typ-odesílatele-a-jak-ho-můžu-použít)
 2.	Buď zadejte částku, kterou chcete investovat, nebo počet zpráv SMS, které chcete odeslat
 3.	Nyní můžete vidět, kolik zpráv můžete odeslat za danou částku, nebo kolik peněz je třeba investovat, abyste mohli poslat požadované množství SMS zpráv
-4.	Podle výše dobyté částky bude kalkulátor zobrazovat bonusové nabídky, kterých můžete dosáhnout, pokud zaplatíte něco málo navíc
+4.	Podle výše dobité částky bude kalkulátor zobrazovat bonusové nabídky, kterých můžete dosáhnout, pokud zaplatíte něco málo navíc
 5.	Klikněte na Všichni operátoři, abyste viděli cenu SMS pro všechny operátory
 
